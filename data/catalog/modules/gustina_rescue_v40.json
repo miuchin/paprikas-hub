@@ -1,0 +1,84 @@
+{
+  "id": "gustina_rescue",
+  "version": "1.0",
+  "schema": "paprikas-hub-module-v1",
+  "title": "🥣 Gustina Rescue (JSON modul v4.0)",
+  "slug": "texture-json",
+  "summary": "Data-first vodič za pregusto ili preretko jelo. Fokus: kontrolisano razređivanje ili zgušnjavanje bez kvarenja ukusa.",
+  "intro": {
+    "title": "Gustina je deo ukusa",
+    "text": "Isti ukus deluje drugačije kada je jelo preretko ili pregusto. Korekcija gustine često popravi i subjektivni doživljaj slanoće, kiselosti i ljutine."
+  },
+  "badges": [
+    "data-first",
+    "gustina rescue",
+    "pregusto/preretko",
+    "kontrola teksture"
+  ],
+  "goals": [
+    "Vratiti prijatnu teksturu",
+    "Sačuvati ukus pri korekciji",
+    "Izbeći grudvice i prekuvavanje"
+  ],
+  "warning": "Kod zgušnjavanja radi postepeno. Velika količina brašna/skroba odjednom pravi grudvice i mutan ukus.",
+  "diagnostics": [
+    {
+      "symptom": "Jelo teče kao supa, a treba da veže",
+      "likely": "preretko — treba redukcija ili blago zgušnjavanje"
+    },
+    {
+      "symptom": "Kašika stoji, teško se meša",
+      "likely": "pregusto — razređuj toplom neutralnom tečnošću"
+    },
+    {
+      "symptom": "Brašnjav ukus",
+      "likely": "zgušnjivač nije dovoljno termički obrađen"
+    },
+    {
+      "symptom": "Grudvice",
+      "likely": "zgušnjivač dodat prebrzo ili bez mešanja"
+    }
+  ],
+  "protocol": [
+    "Proceni ciljnu teksturu (supa / paprikaš / sos)",
+    "Za preretko: redukuj na laganoj vatri ili dodaj blagi zgušnjivač postepeno",
+    "Za pregusto: dodaj toplu neutralnu tečnost u malim porcijama",
+    "Posle svake korekcije kuvaj 2–3 min i probaj",
+    "Na kraju proveri balans soli/kiseline jer se utisak menja sa gustinom"
+  ],
+  "mistakes": [
+    "Hladna voda naglo u vruć lonac",
+    "Puno zgušnjivača odjednom",
+    "Korekcija bez dodatnog kratkog kuvanja",
+    "Ignorisanje balansa ukusa posle promene gustine"
+  ],
+  "a4_card": {
+    "title": "A4 podsjetnik — Gustina (redosled)",
+    "do": [
+      "Mali koraci",
+      "Topla neutralna tečnost",
+      "Kratko dokuvavanje",
+      "Probaj između koraka"
+    ],
+    "dont": [
+      "Ne sipaj puno odjednom",
+      "Ne kuvaj prejako",
+      "Ne ostavljaj grudvice",
+      "Ne zaboravi rebalans ukusa"
+    ]
+  },
+  "links": [
+    {
+      "tab": "texture",
+      "label": "Klasični Gustina Rescue"
+    },
+    {
+      "tab": "sourjson",
+      "label": "Prekiselo JSON modul"
+    },
+    {
+      "tab": "atlas",
+      "label": "Rescue Atlas"
+    }
+  ]
+}

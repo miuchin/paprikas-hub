@@ -1,0 +1,52 @@
+{
+  "version": "recipes-chunks-v1",
+  "generated_utc": "2026-02-28T09:26:20Z",
+  "count": 1706,
+  "part_size": 200,
+  "parts": [
+    {
+      "file": "recipes-part-001.json",
+      "count": 200
+    },
+    {
+      "file": "recipes-part-002.json",
+      "count": 200
+    },
+    {
+      "file": "recipes-part-003.json",
+      "count": 200
+    },
+    {
+      "file": "recipes-part-004.json",
+      "count": 200
+    },
+    {
+      "file": "recipes-part-005.json",
+      "count": 200
+    },
+    {
+      "file": "recipes-part-006.json",
+      "count": 200
+    },
+    {
+      "file": "recipes-part-007.json",
+      "count": 200
+    },
+    {
+      "file": "recipes-part-008.json",
+      "count": 200
+    },
+    {
+      "file": "recipes-part-009.json",
+      "count": 106
+    }
+  ],
+  "source_counts": {
+    "base_files": 909,
+    "user_db": 835
+  },
+  "dedup_report": {
+    "total_in": 1744,
+    "total_out": 1706
+  }
+}

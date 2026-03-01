@@ -1,0 +1,3074 @@
+{
+  "generated_at": "2026-02-28T00:00:00Z",
+  "source_pdf": "kalorijska-tabela_compress.pdf",
+  "note": "Sirovo/normalizovano izdvajanje nutritivnih vrednosti po 100 g iz PDF tabele.",
+  "fields": [
+    "kcal",
+    "p_g",
+    "m_g",
+    "uh_g",
+    "holesterol_mg"
+  ],
+  "items": [
+    {
+      "id": "hleb_psenicni_beli",
+      "naziv": "HLEB - pšenični beli",
+      "grupa": "ŽITARICE I PROIZVODI OD ŽITA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 234.0,
+        "p_g": 8.0,
+        "m_g": 2.0,
+        "uh_g": 46.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "hleb_psenicni_crni",
+      "naziv": "HLEB - pšenični crni",
+      "grupa": "ŽITARICE I PROIZVODI OD ŽITA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 222.0,
+        "p_g": 8.0,
+        "m_g": 2.0,
+        "uh_g": 43.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "hleb_graham",
+      "naziv": "HLEB - graham",
+      "grupa": "ŽITARICE I PROIZVODI OD ŽITA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 206.0,
+        "p_g": 7.0,
+        "m_g": 2.0,
+        "uh_g": 40.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "pecivo_od_psenicnog_brasna",
+      "naziv": "PECIVO od pšeničnog brašna",
+      "grupa": "ŽITARICE I PROIZVODI OD ŽITA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 256.0,
+        "p_g": 8.0,
+        "m_g": 4.0,
+        "uh_g": 47.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "tost",
+      "naziv": "TOST",
+      "grupa": "ŽITARICE I PROIZVODI OD ŽITA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 297.0,
+        "p_g": 9.6,
+        "m_g": 1.7,
+        "uh_g": 64.9,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "testenina_bez_jaja",
+      "naziv": "TESTENINA bez jaja",
+      "grupa": "ŽITARICE I PROIZVODI OD ŽITA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 336.0,
+        "p_g": 10.8,
+        "m_g": 0.3,
+        "uh_g": 77.4,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "testenina_sa_jajima",
+      "naziv": "TESTENINA sa jajima",
+      "grupa": "ŽITARICE I PROIZVODI OD ŽITA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 368.0,
+        "p_g": 13.0,
+        "m_g": 2.4,
+        "uh_g": 78.6,
+        "holesterol_mg": null
+      }
+    },
+    {
+      "id": "pirinac_polirani",
+      "naziv": "PIRINAČ - polirani",
+      "grupa": "ŽITARICE I PROIZVODI OD ŽITA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 349.0,
+        "p_g": 7.0,
+        "m_g": 1.0,
+        "uh_g": 78.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "cheerios_honey_nut_pahuljice",
+      "naziv": "Cheerios Honey Nut PAHULJICE",
+      "grupa": "ŽITARICE I PROIZVODI OD ŽITA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 374.0,
+        "p_g": 7.0,
+        "m_g": 3.7,
+        "uh_g": 78.2,
+        "holesterol_mg": null
+      }
+    },
+    {
+      "id": "zobene_pahuljice",
+      "naziv": "ZOBENE PAHULJICE",
+      "grupa": "ŽITARICE I PROIZVODI OD ŽITA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 372.0,
+        "p_g": 8.0,
+        "m_g": 7.5,
+        "uh_g": 72.8,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "psenicne_klice",
+      "naziv": "PŠENIČNE KLICE",
+      "grupa": "ŽITARICE I PROIZVODI OD ŽITA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 287.0,
+        "p_g": 27.0,
+        "m_g": 11.0,
+        "uh_g": 20.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "psenicni_griz",
+      "naziv": "PŠENIČNI GRIZ",
+      "grupa": "ŽITARICE I PROIZVODI OD ŽITA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 333.0,
+        "p_g": 11.0,
+        "m_g": 1.0,
+        "uh_g": 70.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "kukuruzni_griz",
+      "naziv": "KUKURUZNI GRIZ",
+      "grupa": "ŽITARICE I PROIZVODI OD ŽITA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 368.0,
+        "p_g": 7.8,
+        "m_g": 2.6,
+        "uh_g": 76.8,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "psenicno_brasno_belo",
+      "naziv": "PŠENIČNO BRAŠNO - belo",
+      "grupa": "ŽITARICE I PROIZVODI OD ŽITA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 350.0,
+        "p_g": 9.8,
+        "m_g": 1.2,
+        "uh_g": 80.1,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "psenicno_brasno_polubelo",
+      "naziv": "PŠENIČNO BRAŠNO - polubelo",
+      "grupa": "ŽITARICE I PROIZVODI OD ŽITA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 337.0,
+        "p_g": 11.3,
+        "m_g": 1.2,
+        "uh_g": 74.8,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "psenicno_brasno_crno",
+      "naziv": "PŠENIČNO BRAŠNO - crno",
+      "grupa": "ŽITARICE I PROIZVODI OD ŽITA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 327.0,
+        "p_g": 12.8,
+        "m_g": 2.0,
+        "uh_g": 68.8,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "kukuruzno_brasno",
+      "naziv": "KUKURUZNO BRAŠNO",
+      "grupa": "ŽITARICE I PROIZVODI OD ŽITA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 362.0,
+        "p_g": 8.7,
+        "m_g": 0.8,
+        "uh_g": 78.1,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "sojino_brasno_punomasno",
+      "naziv": "SOJINO BRAŠNO - punomasno",
+      "grupa": "ŽITARICE I PROIZVODI OD ŽITA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 460.0,
+        "p_g": 37.0,
+        "m_g": 24.0,
+        "uh_g": 24.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "govedina_mrsava",
+      "naziv": "GOVEDINA - mršava",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 131.2,
+        "p_g": 19.0,
+        "m_g": 4.0,
+        "uh_g": 0.0,
+        "holesterol_mg": 68.0
+      }
+    },
+    {
+      "id": "govedina_srednje_masna",
+      "naziv": "GOVEDINA - srednje masna",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 218.0,
+        "p_g": 18.8,
+        "m_g": 15.4,
+        "uh_g": 0.0,
+        "holesterol_mg": 68.0
+      }
+    },
+    {
+      "id": "govedina_masna",
+      "naziv": "GOVEDINA - masna",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 332.7,
+        "p_g": 15.8,
+        "m_g": 29.2,
+        "uh_g": 0.0,
+        "holesterol_mg": 65.0
+      }
+    },
+    {
+      "id": "svinjetina_mrsava",
+      "naziv": "SVINJETINA - mršava",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 181.7,
+        "p_g": 20.0,
+        "m_g": 9.0,
+        "uh_g": 0.0,
+        "holesterol_mg": 60.0
+      }
+    },
+    {
+      "id": "svinjetina_masna",
+      "naziv": "SVINJETINA - masna",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 459.3,
+        "p_g": 12.0,
+        "m_g": 42.0,
+        "uh_g": 0.0,
+        "holesterol_mg": 60.0
+      }
+    },
+    {
+      "id": "teletina_mrsava",
+      "naziv": "TELETINA - mršava",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 115.4,
+        "p_g": 21.3,
+        "m_g": 3.1,
+        "uh_g": 0.0,
+        "holesterol_mg": 68.0
+      }
+    },
+    {
+      "id": "teletina_srednje_masna",
+      "naziv": "TELETINA - srednje masna",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 163.4,
+        "p_g": 17.0,
+        "m_g": 6.0,
+        "uh_g": 0.0,
+        "holesterol_mg": 68.0
+      }
+    },
+    {
+      "id": "jagnjetina_mrsava_file",
+      "naziv": "JAGNJETINA - mršava (file)",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 123.9,
+        "p_g": 20.0,
+        "m_g": 4.6,
+        "uh_g": 0.0,
+        "holesterol_mg": 71.0
+      }
+    },
+    {
+      "id": "jagnjece_grudi",
+      "naziv": "JAGNJEĆE GRUDI",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 245.4,
+        "p_g": 18.0,
+        "m_g": 18.0,
+        "uh_g": 0.0,
+        "holesterol_mg": 71.0
+      }
+    },
+    {
+      "id": "ovcetina",
+      "naziv": "OVČETINA",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 299.0,
+        "p_g": 17.0,
+        "m_g": 25.0,
+        "uh_g": 0.0,
+        "holesterol_mg": 78.0
+      }
+    },
+    {
+      "id": "kokosje_belo_meso",
+      "naziv": "KOKOŠJE - belo meso",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 118.3,
+        "p_g": 21.8,
+        "m_g": 3.2,
+        "uh_g": 0.0,
+        "holesterol_mg": 69.0
+      }
+    },
+    {
+      "id": "kokosje_crno_meso_batak",
+      "naziv": "KOKOŠJE - crno meso (batak)",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 128.5,
+        "p_g": 19.1,
+        "m_g": 5.5,
+        "uh_g": 0.0,
+        "holesterol_mg": 110.0
+      }
+    },
+    {
+      "id": "guscje_srednjemasno_meso",
+      "naziv": "GUŠČJE - srednjemasno meso",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 201.9,
+        "p_g": 21.8,
+        "m_g": 12.3,
+        "uh_g": 0.0,
+        "holesterol_mg": 75.0
+      }
+    },
+    {
+      "id": "pacje_bez_koze",
+      "naziv": "PAČJE - bez kože",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 124.4,
+        "p_g": 19.7,
+        "m_g": 4.8,
+        "uh_g": 0.0,
+        "holesterol_mg": 110.0
+      }
+    },
+    {
+      "id": "pacje_srednjemasno_meso",
+      "naziv": "PAČJE - srednjemasno meso",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 348.0,
+        "p_g": 20.0,
+        "m_g": 29.0,
+        "uh_g": 0.0,
+        "holesterol_mg": 80.0
+      }
+    },
+    {
+      "id": "curece_belo_meso",
+      "naziv": "ĆUREĆE - belo meso",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 136.3,
+        "p_g": 22.0,
+        "m_g": 4.9,
+        "uh_g": 0.0,
+        "holesterol_mg": 82.0
+      }
+    },
+    {
+      "id": "curece_crno_meso_batak",
+      "naziv": "ĆUREĆE - crno meso (batak)",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 189.7,
+        "p_g": 20.0,
+        "m_g": 11.2,
+        "uh_g": 0.0,
+        "holesterol_mg": 82.0
+      }
+    },
+    {
+      "id": "svinjska_jetra",
+      "naziv": "SVINJSKA JETRA",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 157.1,
+        "p_g": 21.3,
+        "m_g": 6.8,
+        "uh_g": 2.1,
+        "holesterol_mg": 260.0
+      }
+    },
+    {
+      "id": "govedja_jetra",
+      "naziv": "GOVEĐA JETRA",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 166.6,
+        "p_g": 21.1,
+        "m_g": 7.8,
+        "uh_g": 2.2,
+        "holesterol_mg": 270.0
+      }
+    },
+    {
+      "id": "kokosja_jetra",
+      "naziv": "KOKOŠJA JETRA",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 130.7,
+        "p_g": 22.0,
+        "m_g": 4.0,
+        "uh_g": 1.0,
+        "holesterol_mg": 500.0
+      }
+    },
+    {
+      "id": "teleci_svinjski_mozak",
+      "naziv": "TELEĆI, SVINJSKI MOZAK",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 120.0,
+        "p_g": 10.5,
+        "m_g": 8.0,
+        "uh_g": 0.0,
+        "holesterol_mg": 2000.0
+      }
+    },
+    {
+      "id": "virsle_od_mesanog_mesa",
+      "naziv": "VIRŠLE od mešanog mesa",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 326.6,
+        "p_g": 11.1,
+        "m_g": 28.9,
+        "uh_g": 2.2,
+        "holesterol_mg": 50.0
+      }
+    },
+    {
+      "id": "virsle_od_pileceg_mesa",
+      "naziv": "VIRŠLE od pilećeg mesa",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 263.2,
+        "p_g": 12.9,
+        "m_g": 19.6,
+        "uh_g": 6.8,
+        "holesterol_mg": 100.0
+      }
+    },
+    {
+      "id": "mesni_narezak_od_svinjskog_mesa",
+      "naziv": "MESNI NAREZAK od svinjskog mesa",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 344.9,
+        "p_g": 12.0,
+        "m_g": 40.0,
+        "uh_g": 4.0,
+        "holesterol_mg": 92.0
+      }
+    },
+    {
+      "id": "trajna_salama_od_svinjskog_mesa",
+      "naziv": "TRAJNA SALAMA od svinjskog mesa",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 474.1,
+        "p_g": 34.5,
+        "m_g": 36.3,
+        "uh_g": 0.0,
+        "holesterol_mg": 76.0
+      }
+    },
+    {
+      "id": "jetrena_pasteta",
+      "naziv": "JETRENA PAŠTETA",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 331.7,
+        "p_g": 14.0,
+        "m_g": 29.0,
+        "uh_g": 2.0,
+        "holesterol_mg": 50.0
+      }
+    },
+    {
+      "id": "kobasica_susena_dimljena",
+      "naziv": "KOBASICA - sušena, dimljena",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 1,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 523.4,
+        "p_g": 21.3,
+        "m_g": 47.5,
+        "uh_g": 0.0,
+        "holesterol_mg": 60.0
+      }
+    },
+    {
+      "id": "slanina_suva_masna",
+      "naziv": "SLANINA - suva, masna",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 797.1,
+        "p_g": 4.0,
+        "m_g": 85.0,
+        "uh_g": 0.0,
+        "holesterol_mg": 50.0
+      }
+    },
+    {
+      "id": "sardine_u_ulju",
+      "naziv": "SARDINE U ULJU",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 337.1,
+        "p_g": 19.7,
+        "m_g": 28.3,
+        "uh_g": 0.0,
+        "holesterol_mg": 80.0
+      }
+    },
+    {
+      "id": "tunjevina_u_ulju",
+      "naziv": "TUNJEVINA U ULJU",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 293.2,
+        "p_g": 22.8,
+        "m_g": 22.0,
+        "uh_g": 0.0,
+        "holesterol_mg": 65.0
+      }
+    },
+    {
+      "id": "belance_kokosjeg_jajeta",
+      "naziv": "BELANCE kokošjeg jajeta",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 44.8,
+        "p_g": 11.0,
+        "m_g": 0.0,
+        "uh_g": 0.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "zumance_kokosjeg_jajeta",
+      "naziv": "ŽUMANCE kokošjeg jajeta",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 368.3,
+        "p_g": 16.0,
+        "m_g": 33.0,
+        "uh_g": 1.0,
+        "holesterol_mg": 1300.0
+      }
+    },
+    {
+      "id": "jaje_celo_kokosje",
+      "naziv": "JAJE - celo, kokošje",
+      "grupa": "MESO, RIBA, JAJA",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 154.1,
+        "p_g": 16.0,
+        "m_g": 33.0,
+        "uh_g": 1.0,
+        "holesterol_mg": 520.0
+      }
+    },
+    {
+      "id": "kravlje_mleko_1_8_m_m",
+      "naziv": "KRAVLJE MLEKO 1,8% M.M.",
+      "grupa": "MLEKO I MLEČNI PROIZVODI",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 50.0,
+        "p_g": 3.5,
+        "m_g": 1.8,
+        "uh_g": 5.0,
+        "holesterol_mg": 3.0
+      }
+    },
+    {
+      "id": "kravlje_mleko_2_2_m_m",
+      "naziv": "KRAVLJE MLEKO 2,2% M.M.",
+      "grupa": "MLEKO I MLEČNI PROIZVODI",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 51.0,
+        "p_g": 2.9,
+        "m_g": 2.2,
+        "uh_g": 4.5,
+        "holesterol_mg": null
+      }
+    },
+    {
+      "id": "kravlje_mleko_2_8_m_m",
+      "naziv": "KRAVLJE MLEKO 2,8% M.M.",
+      "grupa": "MLEKO I MLEČNI PROIZVODI",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 58.5,
+        "p_g": 3.3,
+        "m_g": 2.8,
+        "uh_g": 4.7,
+        "holesterol_mg": 13.0
+      }
+    },
+    {
+      "id": "kravlje_mleko_3_2_m_m",
+      "naziv": "KRAVLJE MLEKO 3,2% M.M",
+      "grupa": "MLEKO I MLEČNI PROIZVODI",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 62.2,
+        "p_g": 3.3,
+        "m_g": 3.3,
+        "uh_g": 4.7,
+        "holesterol_mg": 13.0
+      }
+    },
+    {
+      "id": "jogurt_3_2_m_m",
+      "naziv": "JOGURT 3,2% M.M.",
+      "grupa": "MLEKO I MLEČNI PROIZVODI",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 62.2,
+        "p_g": 3.5,
+        "m_g": 3.2,
+        "uh_g": 4.7,
+        "holesterol_mg": 13.0
+      }
+    },
+    {
+      "id": "jogurt_ella_0_9_m_m",
+      "naziv": "JOGURT ELLA 0,9% M.M.",
+      "grupa": "MLEKO I MLEČNI PROIZVODI",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 40.0,
+        "p_g": 3.2,
+        "m_g": 0.9,
+        "uh_g": 3.8,
+        "holesterol_mg": null
+      }
+    },
+    {
+      "id": "sojino_mleko",
+      "naziv": "SOJINO MLEKO",
+      "grupa": "MLEKO I MLEČNI PROIZVODI",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 528.0,
+        "p_g": 2.72,
+        "m_g": 27.1,
+        "uh_g": 65.7,
+        "holesterol_mg": 5.0
+      }
+    },
+    {
+      "id": "kefir",
+      "naziv": "KEFIR",
+      "grupa": "MLEKO I MLEČNI PROIZVODI",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 61.2,
+        "p_g": 3.0,
+        "m_g": 4.0,
+        "uh_g": 3.0,
+        "holesterol_mg": 10.0
+      }
+    },
+    {
+      "id": "mleko_u_prahu_punomasno",
+      "naziv": "MLEKO U PRAHU - punomasno",
+      "grupa": "MLEKO I MLEČNI PROIZVODI",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 490.0,
+        "p_g": 26.3,
+        "m_g": 25.1,
+        "uh_g": 39.8,
+        "holesterol_mg": 109.0
+      }
+    },
+    {
+      "id": "kisela_pavlaka_20_m_m",
+      "naziv": "KISELA PAVLAKA 20% M.M.",
+      "grupa": "MLEKO I MLEČNI PROIZVODI",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 210.2,
+        "p_g": 2.8,
+        "m_g": 20.0,
+        "uh_g": 3.9,
+        "holesterol_mg": 66.0
+      }
+    },
+    {
+      "id": "kisela_pavl_mileram_21_5_m_m",
+      "naziv": "KISELA PAVL. Mileram 21,5% M.M.",
+      "grupa": "MLEKO I MLEČNI PROIZVODI",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 217.0,
+        "p_g": 3.0,
+        "m_g": 21.5,
+        "uh_g": 2.9,
+        "holesterol_mg": null
+      }
+    },
+    {
+      "id": "svez_kravlji_sir_kvark",
+      "naziv": "SVEŽ KRAVLJI SIR - kvark",
+      "grupa": "MLEKO I MLEČNI PROIZVODI",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 73.4,
+        "p_g": 12.4,
+        "m_g": 1.0,
+        "uh_g": 2.7,
+        "holesterol_mg": 4.0
+      }
+    },
+    {
+      "id": "sirni_namaz_30_m_m",
+      "naziv": "SIRNI NAMAZ 30% M.M.",
+      "grupa": "SIR BILJNOG POREKLA",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 223.4,
+        "p_g": 20.0,
+        "m_g": 15.0,
+        "uh_g": 1.0,
+        "holesterol_mg": 50.0
+      }
+    },
+    {
+      "id": "edamer_sir_40_m_m",
+      "naziv": "EDAMER SIR 40% M.M.",
+      "grupa": "SIR BILJNOG POREKLA",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 345.0,
+        "p_g": 30.0,
+        "m_g": 25.0,
+        "uh_g": 0.0,
+        "holesterol_mg": 83.0
+      }
+    },
+    {
+      "id": "grozze_belo",
+      "naziv": "GROŽžE belo",
+      "grupa": "VOĆE I VOĆNI PROIZVOD",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 60.0,
+        "p_g": 0.6,
+        "m_g": 0.0,
+        "uh_g": 15.3,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "grozze_crno",
+      "naziv": "GROŽžE crno",
+      "grupa": "VOĆE I VOĆNI PROIZVOD",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 54.0,
+        "p_g": 0.5,
+        "m_g": 0.1,
+        "uh_g": 13.5,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "grozzice",
+      "naziv": "GROŽžICE",
+      "grupa": "VOĆE I VOĆNI PROIZVOD",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 246.0,
+        "p_g": 1.1,
+        "m_g": 0.0,
+        "uh_g": 64.4,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "narandza_sveza",
+      "naziv": "NARANDŽA - sveža",
+      "grupa": "VOĆE I VOĆNI PROIZVOD",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 48.0,
+        "p_g": 0.7,
+        "m_g": 0.2,
+        "uh_g": 11.0,
+        "holesterol_mg": null
+      }
+    },
+    {
+      "id": "limun_svez",
+      "naziv": "LIMUN - svež",
+      "grupa": "VOĆE I VOĆNI PROIZVOD",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 43.0,
+        "p_g": 0.7,
+        "m_g": 0.5,
+        "uh_g": 9.0,
+        "holesterol_mg": null
+      }
+    },
+    {
+      "id": "jagode",
+      "naziv": "JAGODE",
+      "grupa": "VOĆE I VOĆNI PROIZVOD",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 26.0,
+        "p_g": 0.6,
+        "m_g": 0.0,
+        "uh_g": 6.2,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "kupine",
+      "naziv": "KUPINE",
+      "grupa": "VOĆE I VOĆNI PROIZVOD",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 29.0,
+        "p_g": 1.3,
+        "m_g": 0.0,
+        "uh_g": 6.4,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "maline",
+      "naziv": "MALINE",
+      "grupa": "VOĆE I VOĆNI PROIZVOD",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 25.0,
+        "p_g": 0.9,
+        "m_g": 0.0,
+        "uh_g": 5.6,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "ribizle",
+      "naziv": "RIBIZLE",
+      "grupa": "VOĆE I VOĆNI PROIZVOD",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 21.0,
+        "p_g": 1.1,
+        "m_g": 0.0,
+        "uh_g": 4.4,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "jabuka",
+      "naziv": "JABUKA",
+      "grupa": "VOĆE I VOĆNI PROIZVOD",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 40.0,
+        "p_g": 0.0,
+        "m_g": 0.0,
+        "uh_g": 10.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "kruska",
+      "naziv": "KRUŠKA",
+      "grupa": "VOĆE I VOĆNI PROIZVOD",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 29.0,
+        "p_g": 0.2,
+        "m_g": 0.0,
+        "uh_g": 7.6,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "breskva",
+      "naziv": "BRESKVA",
+      "grupa": "VOĆE I VOĆNI PROIZVOD",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 37.0,
+        "p_g": 0.6,
+        "m_g": 0.0,
+        "uh_g": 9.1,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "breskva_nektarina_glatka",
+      "naziv": "BRESKVA - NEKTARINA (glatka)",
+      "grupa": "VOĆE I VOĆNI PROIZVOD",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 50.0,
+        "p_g": 0.9,
+        "m_g": 0.0,
+        "uh_g": 12.4,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "sljive",
+      "naziv": "ŠLJIVE",
+      "grupa": "VOĆE I VOĆNI PROIZVOD",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 38.0,
+        "p_g": 0.6,
+        "m_g": 0.0,
+        "uh_g": 9.6,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "tresnje",
+      "naziv": "TREŠNJE",
+      "grupa": "VOĆE I VOĆNI PROIZVOD",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 48.0,
+        "p_g": 0.8,
+        "m_g": 0.1,
+        "uh_g": 11.7,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "visnje",
+      "naziv": "VIŠNJE",
+      "grupa": "VOĆE I VOĆNI PROIZVOD",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 41.0,
+        "p_g": 0.8,
+        "m_g": 0.0,
+        "uh_g": 10.2,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "banana",
+      "naziv": "BANANA",
+      "grupa": "VOĆE I VOĆNI PROIZVOD",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 79.0,
+        "p_g": 1.1,
+        "m_g": 0.3,
+        "uh_g": 19.2,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "kiwi",
+      "naziv": "KIWI",
+      "grupa": "VOĆE I VOĆNI PROIZVOD",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 40.0,
+        "p_g": 1.0,
+        "m_g": 0.0,
+        "uh_g": 9.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "dinja",
+      "naziv": "DINJA",
+      "grupa": "VOĆE I VOĆNI PROIZVOD",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 24.0,
+        "p_g": 1.0,
+        "m_g": 0.0,
+        "uh_g": 5.3,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "lubenica",
+      "naziv": "LUBENICA",
+      "grupa": "VOĆE I VOĆNI PROIZVOD",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 21.0,
+        "p_g": 0.4,
+        "m_g": 0.0,
+        "uh_g": 5.3,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "smokve_sveze",
+      "naziv": "SMOKVE - sveže",
+      "grupa": "VOĆE I VOĆNI PROIZVOD",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 41.0,
+        "p_g": 1.3,
+        "m_g": 0.0,
+        "uh_g": 9.5,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "smokve_susene",
+      "naziv": "SMOKVE - sušene",
+      "grupa": "VOĆE I VOĆNI PROIZVOD",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 213.0,
+        "p_g": 3.6,
+        "m_g": 0.0,
+        "uh_g": 52.9,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "masline_iz_konzerve",
+      "naziv": "MASLINE iz konzerve",
+      "grupa": "VOĆE I VOĆNI PROIZVOD",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 103.0,
+        "p_g": 0.9,
+        "m_g": 11.0,
+        "uh_g": 0.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "kikiriki_przeni",
+      "naziv": "KIKIRIKI prženi",
+      "grupa": "VOĆE I VOĆNI PROIZVOD",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 570.0,
+        "p_g": 24.3,
+        "m_g": 49.0,
+        "uh_g": 8.6,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "kesten_sirov",
+      "naziv": "KESTEN sirov",
+      "grupa": "VOĆE I VOĆNI PROIZVOD",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 170.0,
+        "p_g": 2.0,
+        "m_g": 2.7,
+        "uh_g": 36.6,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "lesnik_suvi",
+      "naziv": "LEŠNIK suvi",
+      "grupa": "VOĆE I VOĆNI PROIZVOD",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 701.0,
+        "p_g": 14.0,
+        "m_g": 69.0,
+        "uh_g": 6.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "orah_suvi",
+      "naziv": "ORAH suvi",
+      "grupa": "VOĆE I VOĆNI PROIZVOD",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 649.0,
+        "p_g": 15.8,
+        "m_g": 61.4,
+        "uh_g": 8.8,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "semenke_od_bundeve",
+      "naziv": "SEMENKE OD BUNDEVE",
+      "grupa": "VOĆE I VOĆNI PROIZVOD",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 554.0,
+        "p_g": 29.0,
+        "m_g": 46.0,
+        "uh_g": 15.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "semenke_od_suncokreta",
+      "naziv": "SEMENKE OD SUNCOKRETA",
+      "grupa": "VOĆE I VOĆNI PROIZVOD",
+      "page": 2,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 560.0,
+        "p_g": 24.0,
+        "m_g": 47.0,
+        "uh_g": 20.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "mak_suseni",
+      "naziv": "MAK sušeni",
+      "grupa": "VOĆE I VOĆNI PROIZVOD",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 547.0,
+        "p_g": 16.7,
+        "m_g": 43.0,
+        "uh_g": 23.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "blitva",
+      "naziv": "BLITVA",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 12.0,
+        "p_g": 1.3,
+        "m_g": 0.1,
+        "uh_g": 1.5,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "kelj_lisnati",
+      "naziv": "KELJ lisnati",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 41.0,
+        "p_g": 4.0,
+        "m_g": 1.0,
+        "uh_g": 4.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "kupus_beli_svez",
+      "naziv": "KUPUS - beli, svež",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 22.0,
+        "p_g": 1.9,
+        "m_g": 0.1,
+        "uh_g": 3.8,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "kiseli_kupus",
+      "naziv": "KISELI KUPUS",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 12.0,
+        "p_g": 2.0,
+        "m_g": 0.0,
+        "uh_g": 1.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "persun",
+      "naziv": "PERŠUN",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 49.0,
+        "p_g": 1.7,
+        "m_g": 0.0,
+        "uh_g": 11.3,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "persunov_list",
+      "naziv": "PERŠUNOV LIST",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 20.0,
+        "p_g": 4.0,
+        "m_g": 0.0,
+        "uh_g": 1.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "zelena_salata",
+      "naziv": "ZELENA SALATA",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 14.0,
+        "p_g": 1.1,
+        "m_g": 0.1,
+        "uh_g": 2.2,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "spanac",
+      "naziv": "SPANAč",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 12.0,
+        "p_g": 2.0,
+        "m_g": 0.0,
+        "uh_g": 1.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "karfiol",
+      "naziv": "KARFIOL",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 25.0,
+        "p_g": 3.2,
+        "m_g": 0.2,
+        "uh_g": 2.7,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "grasak_mladi",
+      "naziv": "GRAŠAK mladi",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 67.0,
+        "p_g": 5.8,
+        "m_g": 0.4,
+        "uh_g": 10.6,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "grasak_smrznuti",
+      "naziv": "GRAŠAK smrznuti",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 53.0,
+        "p_g": 5.7,
+        "m_g": 0.4,
+        "uh_g": 7.5,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "boranija_zelena_zuta",
+      "naziv": "BORANIJA - zelena, žuta",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 28.0,
+        "p_g": 2.0,
+        "m_g": 0.0,
+        "uh_g": 5.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "pasulj",
+      "naziv": "PASULJ",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 52.0,
+        "p_g": 4.1,
+        "m_g": 0.0,
+        "uh_g": 7.7,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "kukuruz_secerac",
+      "naziv": "KUKURUZ ŠEĆERAC",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 127.0,
+        "p_g": 4.1,
+        "m_g": 2.4,
+        "uh_g": 23.7,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "krastavac_svez",
+      "naziv": "KRASTAVAC - svež",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 14.0,
+        "p_g": 0.7,
+        "m_g": 0.5,
+        "uh_g": 1.8,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "krastavac_kiseli",
+      "naziv": "KRASTAVAC - kiseli",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 10.0,
+        "p_g": 0.5,
+        "m_g": 0.2,
+        "uh_g": 2.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "paprika_zuta_slatka",
+      "naziv": "PAPRIKA - žuta, slatka",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 22.0,
+        "p_g": 0.5,
+        "m_g": 0.3,
+        "uh_g": 3.1,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "kisela_paprika",
+      "naziv": "KISELA PAPRIKA",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 15.0,
+        "p_g": 0.8,
+        "m_g": 0.6,
+        "uh_g": 1.7,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "patlidzan",
+      "naziv": "PATLIDŽAN",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 16.0,
+        "p_g": 1.1,
+        "m_g": 0.1,
+        "uh_g": 2.9,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "bundeva_zuta",
+      "naziv": "BUNDEVA žuta",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 15.0,
+        "p_g": 0.6,
+        "m_g": 0.0,
+        "uh_g": 3.4,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "tikvice",
+      "naziv": "TIKVICE",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 15.0,
+        "p_g": 1.3,
+        "m_g": 0.1,
+        "uh_g": 2.3,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "keleraba",
+      "naziv": "KELERABA",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 24.0,
+        "p_g": 2.0,
+        "m_g": 0.0,
+        "uh_g": 4.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "luk_beli_svez",
+      "naziv": "LUK - beli, svež",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 136.0,
+        "p_g": 6.0,
+        "m_g": 0.0,
+        "uh_g": 28.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "luk_crveni_svez",
+      "naziv": "LUK - crveni, svež",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 24.0,
+        "p_g": 0.9,
+        "m_g": 0.0,
+        "uh_g": 5.2,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "poriluk_celi",
+      "naziv": "PORILUK celi",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 28.0,
+        "p_g": 2.0,
+        "m_g": 0.0,
+        "uh_g": 5.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "celer_koren",
+      "naziv": "CELER koren",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 23.0,
+        "p_g": 1.9,
+        "m_g": 0.1,
+        "uh_g": 3.8,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "cvekla",
+      "naziv": "CVEKLA",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 36.0,
+        "p_g": 2.0,
+        "m_g": 0.0,
+        "uh_g": 7.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "salata_od_cvekle",
+      "naziv": "SALATA OD CVEKLE",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 32.0,
+        "p_g": 1.1,
+        "m_g": 0.1,
+        "uh_g": 7.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "ren",
+      "naziv": "REN",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 59.0,
+        "p_g": 4.5,
+        "m_g": 0.0,
+        "uh_g": 11.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "sargarepa",
+      "naziv": "ŠARGAREPA",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 36.0,
+        "p_g": 1.0,
+        "m_g": 0.0,
+        "uh_g": 8.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "rotkvica_crvena",
+      "naziv": "ROTKVICA - crvena",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 15.0,
+        "p_g": 1.0,
+        "m_g": 0.0,
+        "uh_g": 2.8,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "krompir_mladi",
+      "naziv": "KROMPIR mladi",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 71.0,
+        "p_g": 0.9,
+        "m_g": 0.2,
+        "uh_g": 17.6,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "krompir_zreli",
+      "naziv": "KROMPIR zreli",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 87.0,
+        "p_g": 2.1,
+        "m_g": 0.2,
+        "uh_g": 17.6,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "sampinjoni_svezi",
+      "naziv": "ŠAMPINJONI sveži",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 16.0,
+        "p_g": 2.3,
+        "m_g": 0.4,
+        "uh_g": 1.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "kecap",
+      "naziv": "KEćAP",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 140.0,
+        "p_g": 1.0,
+        "m_g": 0.0,
+        "uh_g": 34.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "kuvani_paradajz",
+      "naziv": "KUVANI PARADAJZ",
+      "grupa": "POVRĆE I PROIZVODI OD POVRĆA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 39.0,
+        "p_g": 1.7,
+        "m_g": 0.0,
+        "uh_g": 7.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "maslac_neslani",
+      "naziv": "MASLAC - neslani",
+      "grupa": "MASTI I ULJA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 751.0,
+        "p_g": 1.0,
+        "m_g": 83.0,
+        "uh_g": 0.0,
+        "holesterol_mg": 225.0
+      }
+    },
+    {
+      "id": "svinjska_mast",
+      "naziv": "SVINJSKA MAST",
+      "grupa": "MASTI I ULJA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 891.0,
+        "p_g": null,
+        "m_g": 99.0,
+        "uh_g": 0.0,
+        "holesterol_mg": 70.0
+      }
+    },
+    {
+      "id": "kokosja_mast",
+      "naziv": "KOKOŠJA MAST",
+      "grupa": "MASTI I ULJA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 885.0,
+        "p_g": 0.0,
+        "m_g": 98.5,
+        "uh_g": 0.0,
+        "holesterol_mg": 85.0
+      }
+    },
+    {
+      "id": "slanina_svinjska_sirova_soljena",
+      "naziv": "SLANINA - svinjska; sirova, soljena",
+      "grupa": "MASTI I ULJA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 782.0,
+        "p_g": 3.9,
+        "m_g": 85.0,
+        "uh_g": 0.0,
+        "holesterol_mg": null
+      }
+    },
+    {
+      "id": "ulje_kukuruzno",
+      "naziv": "ULJE - kukuruzno",
+      "grupa": "MASTI I ULJA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 900.0,
+        "p_g": 0.0,
+        "m_g": 99.9,
+        "uh_g": 0.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "ulje_maslinovo",
+      "naziv": "ULJE - maslinovo",
+      "grupa": "MASTI I ULJA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 900.0,
+        "p_g": 0.0,
+        "m_g": 99.9,
+        "uh_g": 0.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "ulje_suncokretovo",
+      "naziv": "ULJE - suncokretovo",
+      "grupa": "MASTI I ULJA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 900.0,
+        "p_g": 0.0,
+        "m_g": 99.9,
+        "uh_g": 0.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "margarin_soft",
+      "naziv": "MARGARIN Soft",
+      "grupa": "MASTI I ULJA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 730.0,
+        "p_g": 0.1,
+        "m_g": 81.0,
+        "uh_g": 0.0,
+        "holesterol_mg": null
+      }
+    },
+    {
+      "id": "philadelphia_fitness",
+      "naziv": "PHILADELPHIA Fitness",
+      "grupa": "MASTI I ULJA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 190.0,
+        "p_g": 7.6,
+        "m_g": 16.0,
+        "uh_g": 3.4,
+        "holesterol_mg": null
+      }
+    },
+    {
+      "id": "philadelphia_doppelrahmstufe",
+      "naziv": "PHILADELPHIA Doppelrahmstufe",
+      "grupa": "MASTI I ULJA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 290.0,
+        "p_g": 6.5,
+        "m_g": 28.0,
+        "uh_g": 3.1,
+        "holesterol_mg": null
+      }
+    },
+    {
+      "id": "majonez_delikates",
+      "naziv": "MAJONEZ Delikates",
+      "grupa": "MASTI I ULJA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 729.0,
+        "p_g": 0.96,
+        "m_g": 75.0,
+        "uh_g": 2.03,
+        "holesterol_mg": null
+      }
+    },
+    {
+      "id": "majonez",
+      "naziv": "MAJONEZ",
+      "grupa": "MASTI I ULJA",
+      "page": 3,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 732.0,
+        "p_g": 1.0,
+        "m_g": 80.0,
+        "uh_g": 2.0,
+        "holesterol_mg": null
+      }
+    },
+    {
+      "id": "secer_kristal",
+      "naziv": "ŠEčER - kristal",
+      "grupa": "ŠEĆER, MED I SLATKIŠI",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 400.0,
+        "p_g": 0.0,
+        "m_g": 0.0,
+        "uh_g": 99.9,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "secer_smedji",
+      "naziv": "ŠEčER - smeđi",
+      "grupa": "ŠEĆER, MED I SLATKIŠI",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 380.0,
+        "p_g": 0.0,
+        "m_g": 0.0,
+        "uh_g": 95.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "med_vrcani",
+      "naziv": "MED vrcani",
+      "grupa": "ŠEĆER, MED I SLATKIŠI",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 320.0,
+        "p_g": 0.4,
+        "m_g": 0.0,
+        "uh_g": 80.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "bomboni_tvrdi_obicni",
+      "naziv": "BOMBONI tvrdi obični",
+      "grupa": "ŠEĆER, MED I SLATKIŠI",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 386.0,
+        "p_g": 0.0,
+        "m_g": 0.0,
+        "uh_g": 97.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "keks_bevita",
+      "naziv": "KEKS Bevita",
+      "grupa": "ŠEĆER, MED I SLATKIŠI",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 422.0,
+        "p_g": 12.0,
+        "m_g": 10.0,
+        "uh_g": 71.0,
+        "holesterol_mg": null
+      }
+    },
+    {
+      "id": "keks_bambi",
+      "naziv": "KEKS Bambi",
+      "grupa": "ŠEĆER, MED I SLATKIŠI",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 437.2,
+        "p_g": 11.9,
+        "m_g": 12.0,
+        "uh_g": 70.4,
+        "holesterol_mg": null
+      }
+    },
+    {
+      "id": "keks_jaffa",
+      "naziv": "KEKS Jaffa",
+      "grupa": "ŠEĆER, MED I SLATKIŠI",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 397.7,
+        "p_g": 4.0,
+        "m_g": 10.8,
+        "uh_g": 70.1,
+        "holesterol_mg": null
+      }
+    },
+    {
+      "id": "slani_pereci_pardon",
+      "naziv": "SLANI PERECI Pardon",
+      "grupa": "ŠEĆER, MED I SLATKIŠI",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 299.1,
+        "p_g": 6.99,
+        "m_g": 8.4,
+        "uh_g": 48.82,
+        "holesterol_mg": null
+      }
+    },
+    {
+      "id": "smoki_stark",
+      "naziv": "SMOKI (Stark)",
+      "grupa": "ŠEĆER, MED I SLATKIŠI",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 548.0,
+        "p_g": 14.0,
+        "m_g": 30.0,
+        "uh_g": 53.0,
+        "holesterol_mg": null
+      }
+    },
+    {
+      "id": "zvakaca_guma",
+      "naziv": "ŽVAKAčA GUMA",
+      "grupa": "ŠEĆER, MED I SLATKIŠI",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 280.0,
+        "p_g": 0.0,
+        "m_g": 0.0,
+        "uh_g": 70.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "mlecna_cokolada",
+      "naziv": "MLEČNA ćOKOLADA",
+      "grupa": "ŠEĆER, MED I SLATKIŠI",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 528.0,
+        "p_g": 9.0,
+        "m_g": 32.0,
+        "uh_g": 51.0,
+        "holesterol_mg": 10.0
+      }
+    },
+    {
+      "id": "cokoladni_namaz",
+      "naziv": "ćOKOLADNI NAMAZ",
+      "grupa": "ŠEĆER, MED I SLATKIŠI",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 534.0,
+        "p_g": 7.0,
+        "m_g": 30.0,
+        "uh_g": 59.0,
+        "holesterol_mg": 2.0
+      }
+    },
+    {
+      "id": "kakao_instant",
+      "naziv": "KAKAO instant",
+      "grupa": "ŠEĆER, MED I SLATKIŠI",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 375.0,
+        "p_g": 5.0,
+        "m_g": 3.0,
+        "uh_g": 82.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "dzem",
+      "naziv": "DŽEM",
+      "grupa": "ŠEĆER, MED I SLATKIŠI",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 261.0,
+        "p_g": 0.6,
+        "m_g": 0.0,
+        "uh_g": 69.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "mesana_marmelada",
+      "naziv": "MEŠANA MARMELADA",
+      "grupa": "ŠEĆER, MED I SLATKIŠI",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 261.0,
+        "p_g": 0.1,
+        "m_g": 0.0,
+        "uh_g": 69.5,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "mlecni_sladoled",
+      "naziv": "MLEČNI SLADOLED",
+      "grupa": "ŠEĆER, MED I SLATKIŠI",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 157.1,
+        "p_g": 3.0,
+        "m_g": 6.0,
+        "uh_g": 22.0,
+        "holesterol_mg": 10.0
+      }
+    },
+    {
+      "id": "sok_od_paradajza_konzervirani",
+      "naziv": "SOK OD PARADAJZA (konzervirani)",
+      "grupa": "PIĆA, NAPICI I OSTALO",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 20.0,
+        "p_g": 1.0,
+        "m_g": 0.0,
+        "uh_g": 4.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "sok_od_borovnice",
+      "naziv": "SOK OD BOROVNICE",
+      "grupa": "PIĆA, NAPICI I OSTALO",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 45.0,
+        "p_g": 0.1,
+        "m_g": 0.0,
+        "uh_g": 11.1,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "sok_od_breskve",
+      "naziv": "SOK OD BRESKVE",
+      "grupa": "PIĆA, NAPICI I OSTALO",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 48.0,
+        "p_g": 0.3,
+        "m_g": 0.0,
+        "uh_g": 11.7,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "sok_od_grozza_konzervirani",
+      "naziv": "SOK OD GROŽžA (konzervirani)",
+      "grupa": "PIĆA, NAPICI I OSTALO",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 63.0,
+        "p_g": 0.6,
+        "m_g": 0.1,
+        "uh_g": 15.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "sok_od_jabuke_konzervirani",
+      "naziv": "SOK OD JABUKE (konzervirani)",
+      "grupa": "PIĆA, NAPICI I OSTALO",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 47.0,
+        "p_g": 0.1,
+        "m_g": 0.1,
+        "uh_g": 11.7,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "sok_od_kruske_konzervirani",
+      "naziv": "SOK OD KRUŠKE (konzervirani)",
+      "grupa": "PIĆA, NAPICI I OSTALO",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 50.0,
+        "p_g": 0.4,
+        "m_g": 0.1,
+        "uh_g": 12.9,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "sok_od_limuna",
+      "naziv": "SOK OD LIMUNA",
+      "grupa": "PIĆA, NAPICI I OSTALO",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 34.0,
+        "p_g": 0.4,
+        "m_g": 0.0,
+        "uh_g": 8.3,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "sok_od_narandze",
+      "naziv": "SOK OD NARANDŽE",
+      "grupa": "PIĆA, NAPICI I OSTALO",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 45.0,
+        "p_g": 0.7,
+        "m_g": 0.2,
+        "uh_g": 10.4,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "bravo_multivitamin",
+      "naziv": "BRAVO Multivitamin",
+      "grupa": "PIĆA, NAPICI I OSTALO",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 27.8,
+        "p_g": 0.27,
+        "m_g": 0.1,
+        "uh_g": 5.97,
+        "holesterol_mg": null
+      }
+    },
+    {
+      "id": "multivita",
+      "naziv": "MULTIVITA",
+      "grupa": "PIĆA, NAPICI I OSTALO",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 357.0,
+        "p_g": null,
+        "m_g": null,
+        "uh_g": 81.1,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "cedevita",
+      "naziv": "CEDEVITA",
+      "grupa": "PIĆA, NAPICI I OSTALO",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 370.0,
+        "p_g": 0.0,
+        "m_g": 0.0,
+        "uh_g": 84.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "sirup_od_visnje",
+      "naziv": "SIRUP OD VIŠNJE",
+      "grupa": "PIĆA, NAPICI I OSTALO",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 248.0,
+        "p_g": 0.0,
+        "m_g": 0.0,
+        "uh_g": 62.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "sirup_od_borovnice",
+      "naziv": "SIRUP OD BOROVNICE",
+      "grupa": "PIĆA, NAPICI I OSTALO",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 254.0,
+        "p_g": 0.0,
+        "m_g": 0.0,
+        "uh_g": 63.4,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "biter_lemon",
+      "naziv": "BITER LEMON",
+      "grupa": "PIĆA, NAPICI I OSTALO",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 52.0,
+        "p_g": 0.0,
+        "m_g": 0.0,
+        "uh_g": 13.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "coca_cola",
+      "naziv": "COCA COLA",
+      "grupa": "PIĆA, NAPICI I OSTALO",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 39.0,
+        "p_g": 0.0,
+        "m_g": 0.0,
+        "uh_g": 10.5,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "pivo",
+      "naziv": "PIVO",
+      "grupa": "PIĆA, NAPICI I OSTALO",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 43.0,
+        "p_g": 0.3,
+        "m_g": 0.0,
+        "uh_g": 3.6,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "vino_belo_stono",
+      "naziv": "VINO belo, stono",
+      "grupa": "PIĆA, NAPICI I OSTALO",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 85.0,
+        "p_g": 0.1,
+        "m_g": 0.0,
+        "uh_g": 3.4,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "vino_crveno_stono",
+      "naziv": "VINO crveno, stono",
+      "grupa": "PIĆA, NAPICI I OSTALO",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 80.0,
+        "p_g": 0.2,
+        "m_g": 0.0,
+        "uh_g": 2.5,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "likeri",
+      "naziv": "LIKERI",
+      "grupa": "PIĆA, NAPICI I OSTALO",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 242.0,
+        "p_g": 0.0,
+        "m_g": 0.0,
+        "uh_g": 29.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "brendi_dzin_rum_40vol_alkoh",
+      "naziv": "BRENDI, DŽIN, RUM (40vol% alkoh)",
+      "grupa": "PIĆA, NAPICI I OSTALO",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 231.0,
+        "p_g": 0.0,
+        "m_g": 0.0,
+        "uh_g": 0.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "konjak_38_vol_alkohola",
+      "naziv": "KONJAK (38 vol % alkohola)",
+      "grupa": "PIĆA, NAPICI I OSTALO",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 228.0,
+        "p_g": 0.0,
+        "m_g": 0.0,
+        "uh_g": 1.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "rakija_33_vol_alkohola",
+      "naziv": "RAKIJA (33 vol % alkohola)",
+      "grupa": "PIĆA, NAPICI I OSTALO",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 193.0,
+        "p_g": 0.0,
+        "m_g": 0.0,
+        "uh_g": 1.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "indijski_caj",
+      "naziv": "INDIJSKI ćAJ",
+      "grupa": "PIĆA, NAPICI I OSTALO",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 108.0,
+        "p_g": 19.6,
+        "m_g": 2.0,
+        "uh_g": 3.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "kakao_u_prahu",
+      "naziv": "KAKAO U PRAHU",
+      "grupa": "PIĆA, NAPICI I OSTALO",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 312.0,
+        "p_g": 17.0,
+        "m_g": 20.0,
+        "uh_g": 16.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "nesquik",
+      "naziv": "NESQUIK",
+      "grupa": "PIĆA, NAPICI I OSTALO",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 360.0,
+        "p_g": 4.2,
+        "m_g": 2.7,
+        "uh_g": 79.0,
+        "holesterol_mg": null
+      }
+    },
+    {
+      "id": "kafa_u_zrnu",
+      "naziv": "KAFA u zrnu",
+      "grupa": "PIĆA, NAPICI I OSTALO",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 287.0,
+        "p_g": 10.4,
+        "m_g": 15.4,
+        "uh_g": 28.5,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "kafa_instant",
+      "naziv": "KAFA instant",
+      "grupa": "PIĆA, NAPICI I OSTALO",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 100.0,
+        "p_g": 14.6,
+        "m_g": 0.0,
+        "uh_g": 11.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "mineralna_voda",
+      "naziv": "MINERALNA VODA",
+      "grupa": "PIĆA, NAPICI I OSTALO",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 0.0,
+        "p_g": 0.0,
+        "m_g": 0.0,
+        "uh_g": 0.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "sirce_destilovano",
+      "naziv": "SIRčE destilovano",
+      "grupa": "ZAČINI I INDUSTRIJSKE SUPE",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 12.0,
+        "p_g": 0.0,
+        "m_g": 0.0,
+        "uh_g": 5.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "sirce_jabukovo",
+      "naziv": "SIRčE jabukovo",
+      "grupa": "ZAČINI I INDUSTRIJSKE SUPE",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 13.0,
+        "p_g": 0.0,
+        "m_g": 0.0,
+        "uh_g": 5.3,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "sirce_vinsko",
+      "naziv": "SIRčE vinsko",
+      "grupa": "ZAČINI I INDUSTRIJSKE SUPE",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 14.0,
+        "p_g": 0.0,
+        "m_g": 0.0,
+        "uh_g": 5.6,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "so_morska_i_stona",
+      "naziv": "SO - morska i stona",
+      "grupa": "ZAČINI I INDUSTRIJSKE SUPE",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 0.0,
+        "p_g": 0.0,
+        "m_g": 0.0,
+        "uh_g": 0.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "cimet",
+      "naziv": "CIMET",
+      "grupa": "ZAČINI I INDUSTRIJSKE SUPE",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 307.0,
+        "p_g": 14.0,
+        "m_g": 3.0,
+        "uh_g": 56.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "origano",
+      "naziv": "ORIGANO",
+      "grupa": "ZAČINI I INDUSTRIJSKE SUPE",
+      "page": 4,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 330.0,
+        "p_g": 11.0,
+        "m_g": 10.0,
+        "uh_g": 49.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "biber_crni",
+      "naziv": "BIBER crni",
+      "grupa": "ZAČINI I INDUSTRIJSKE SUPE",
+      "page": 5,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 279.0,
+        "p_g": 11.0,
+        "m_g": 3.0,
+        "uh_g": 52.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "paprika_crvena_mlevena",
+      "naziv": "PAPRIKA crvena mlevena",
+      "grupa": "ZAČINI I INDUSTRIJSKE SUPE",
+      "page": 5,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 300.0,
+        "p_g": 15.0,
+        "m_g": 15.0,
+        "uh_g": 70.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "persunov_list_suseni",
+      "naziv": "PERŠUNOV LIST sušeni",
+      "grupa": "ZAČINI I INDUSTRIJSKE SUPE",
+      "page": 5,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 400.0,
+        "p_g": 30.0,
+        "m_g": 10.0,
+        "uh_g": 70.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "kvasac_pekarski",
+      "naziv": "KVASAC pekarski",
+      "grupa": "ZAČINI I INDUSTRIJSKE SUPE",
+      "page": 5,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 53.0,
+        "p_g": 11.4,
+        "m_g": 0.4,
+        "uh_g": 1.0,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "kvasac_suvi",
+      "naziv": "KVASAC suvi",
+      "grupa": "ZAČINI I INDUSTRIJSKE SUPE",
+      "page": 5,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 282.0,
+        "p_g": 36.9,
+        "m_g": 1.6,
+        "uh_g": 38.9,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "prasak_za_pecivo",
+      "naziv": "PRAŠAK ZA PECIVO",
+      "grupa": "ZAČINI I INDUSTRIJSKE SUPE",
+      "page": 5,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 76.0,
+        "p_g": 0.1,
+        "m_g": null,
+        "uh_g": 18.9,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "senf",
+      "naziv": "SENF",
+      "grupa": "ZAČINI I INDUSTRIJSKE SUPE",
+      "page": 5,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 75.0,
+        "p_g": 4.7,
+        "m_g": 4.4,
+        "uh_g": 6.4,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "senf_delikates_c",
+      "naziv": "SENF delikates C",
+      "grupa": "ZAČINI I INDUSTRIJSKE SUPE",
+      "page": 5,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 106.0,
+        "p_g": 5.4,
+        "m_g": 4.4,
+        "uh_g": 10.6,
+        "holesterol_mg": null
+      }
+    },
+    {
+      "id": "vegeta_i_slicno",
+      "naziv": "VEGETA i slično",
+      "grupa": "ZAČINI I INDUSTRIJSKE SUPE",
+      "page": 5,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": null,
+        "p_g": null,
+        "m_g": 0.3,
+        "uh_g": null,
+        "holesterol_mg": 0.0
+      }
+    },
+    {
+      "id": "kokosja_supa_sa_testom_dehidr",
+      "naziv": "KOKOŠJA SUPA sa testom - dehidr.",
+      "grupa": "ZAČINI I INDUSTRIJSKE SUPE",
+      "page": 5,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 329.0,
+        "p_g": 13.8,
+        "m_g": 3.0,
+        "uh_g": 60.9,
+        "holesterol_mg": null
+      }
+    },
+    {
+      "id": "krem_supa_od_povrca_konc",
+      "naziv": "KREM SUPA OD POVRĆA - konc.",
+      "grupa": "ZAČINI I INDUSTRIJSKE SUPE",
+      "page": 5,
+      "source_pdf": "kalorijska-tabela_compress.pdf",
+      "source_type": "kalorijska_tabela_100g",
+      "nutri_per_100g": {
+        "kcal": 361.0,
+        "p_g": 11.2,
+        "m_g": 9.0,
+        "uh_g": 56.5,
+        "holesterol_mg": null
+      }
+    }
+  ]
+}

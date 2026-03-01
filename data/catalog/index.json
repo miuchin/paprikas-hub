@@ -1,0 +1,48 @@
+{
+  "schema": "paprikas-hub-catalog-index-v1",
+  "version": "v4.8",
+  "modules": [
+    {
+      "id": "bljutavo_rescue",
+      "file": "data/catalog/modules/bljutavo_rescue_v39.json",
+      "type": "knowledge-tab",
+      "status": "active-v39-demo"
+    },
+    {
+      "id": "prekiselo_rescue",
+      "file": "data/catalog/modules/prekiselo_rescue_v40.json",
+      "type": "knowledge-tab",
+      "status": "active-v40"
+    },
+    {
+      "id": "gustina_rescue",
+      "file": "data/catalog/modules/gustina_rescue_v40.json",
+      "type": "knowledge-tab",
+      "status": "active-v40"
+    },
+    {
+      "id": "gorko_rescue",
+      "file": "data/catalog/modules/gorko_rescue_v40.json",
+      "type": "knowledge-tab",
+      "status": "active-v40"
+    },
+    {
+      "id": "kitchen_tricks",
+      "file": "data/catalog/modules/kitchen_tricks_v48.json",
+      "type": "knowledge-tab",
+      "status": "active-v48"
+    },
+    {
+      "id": "home_tricks",
+      "file": "data/catalog/modules/home_tricks_v48.json",
+      "type": "knowledge-tab",
+      "status": "active-v48"
+    },
+    {
+      "id": "stains_odors_rescue",
+      "file": "data/catalog/modules/stains_odors_rescue_v48.json",
+      "type": "knowledge-tab",
+      "status": "active-v48"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "prekiselo_rescue",
+  "version": "1.0",
+  "schema": "paprikas-hub-module-v1",
+  "title": "🍋 Prekiselo Rescue (JSON modul v4.0)",
+  "slug": "sour-json",
+  "summary": "Data-first vodič za balansiranje prekiselog jela: neutralna baza, punoća, tekstura, šećer samo mikro i po stilu jela.",
+  "intro": {
+    "title": "Kako prepoznati prekiselost",
+    "text": "Prekiselost se oseća kao oštar završetak u ustima, stezanje jezika ili dominacija limuna/sirćeta/paradajza nad osnovnim ukusom jela."
+  },
+  "badges": [
+    "data-first",
+    "prekiselo rescue",
+    "mikro korekcije",
+    "neutralna baza"
+  ],
+  "goals": [
+    "Smanjiti oštrinu kiseline",
+    "Vratiti punoću ukusa",
+    "Ne preći u preslatko"
+  ],
+  "warning": "Ne 'gasi' kiselinu velikom količinom šećera. To često napravi preslatko + i dalje kiselo.",
+  "diagnostics": [
+    {
+      "symptom": "Oštro udara odmah",
+      "likely": "limun/sirće previše"
+    },
+    {
+      "symptom": "Paradajz dominira i steže",
+      "likely": "treba neutralna baza + masnoća"
+    },
+    {
+      "symptom": "Kiselo + retko",
+      "likely": "gustina pojačava utisak kiseline kad je premalo"
+    },
+    {
+      "symptom": "Kiselo ali prazno",
+      "likely": "punoća/masnoća nedostaje"
+    }
+  ],
+  "protocol": [
+    "Stop dodatnu kiselinu (limun/sirće/pasata)",
+    "Dodaj neutralnu bazu istog jela (najsigurnije)",
+    "Vrati punoću: malo masnoće po stilu jela",
+    "Po potrebi koriguj gustinu (gušće jelo deluje manje kiselo)",
+    "Šećer samo mikro i tek na kraju (ako stil jela trpi)"
+  ],
+  "mistakes": [
+    "Velika doza šećera odjednom",
+    "Još limuna 'da se zaokruži'",
+    "Korekcija bez probe između koraka",
+    "Maskiranje jakim začinima"
+  ],
+  "a4_card": {
+    "title": "A4 podsjetnik — Prekiselo (redosled)",
+    "do": [
+      "Stop kiselina",
+      "Neutralna baza",
+      "Masnoća/punoća",
+      "Gustina",
+      "Mikro šećer tek na kraju"
+    ],
+    "dont": [
+      "Ne sipaj šećer puno",
+      "Ne dodaj novu kiselinu",
+      "Ne preskači probu",
+      "Ne menjaj sve odjednom"
+    ]
+  },
+  "links": [
+    {
+      "tab": "sour",
+      "label": "Klasični Prekiselo Rescue"
+    },
+    {
+      "tab": "texturejson",
+      "label": "Gustina JSON modul"
+    },
+    {
+      "tab": "atlas",
+      "label": "Rescue Atlas"
+    }
+  ]
+}

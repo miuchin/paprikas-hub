@@ -1,0 +1,85 @@
+{
+  "id": "bljutavo_rescue",
+  "version": "1.0",
+  "schema": "paprikas-hub-module-v1",
+  "title": "😶 Bljutavo Rescue (JSON modul v3.9 demo)",
+  "slug": "bland-json",
+  "summary": "Prvi data-first demo tab: znanje i vodič se učitavaju iz JSON fajla, dok kalkulator ostaje u glavnom HTML-u.",
+  "intro": {
+    "title": "Šta znači 'bljutavo' u praksi",
+    "text": "Najčešće ne fali samo jedan sastojak, već balans: so, kiselina, masnoća, aroma i dubina (umami). Cilj je mikro-korekcija u slojevima, uz probu posle svakog koraka."
+  },
+  "badges": [
+    "data-first demo",
+    "JSON učitavanje",
+    "slojeviti balans",
+    "čitljiv vodič"
+  ],
+  "goals": [
+    "Vratiti ukus bez preslanjivanja",
+    "Pojačati aromu bez prezačinjenosti",
+    "Sačuvati stil jela (paprikaš ostaje paprikaš)"
+  ],
+  "warning": "Ne dodavati so + kiselinu + začine odjednom. Radi jedan sloj, probaj, pa tek onda sledeći korak.",
+  "diagnostics": [
+    {
+      "symptom": "Ravno i bezizražajno",
+      "likely": "so (mikro korekcija)"
+    },
+    {
+      "symptom": "Slano je, ali ukus 'mrtav'",
+      "likely": "kiselina / svežina"
+    },
+    {
+      "symptom": "Tanak ukus",
+      "likely": "masnoća ili umami"
+    },
+    {
+      "symptom": "Slab miris",
+      "likely": "završna aroma / bilje"
+    }
+  ],
+  "protocol": [
+    "Probaj i opiši sebi šta fali (so / svežina / punoća / miris)",
+    "Dodaj mikro dozu soli (ako smeš), promešaj i probaj",
+    "Dodaj mikro dozu kiseline (limun/sirće/pasata), probaj",
+    "Dodaj malo masnoće za punoću (puter/ulje/pavlaka po stilu jela)",
+    "Dodaj završnu aromu (bilje, lukovinu, svež začin)"
+  ],
+  "mistakes": [
+    "Dosoljavanje napamet bez probe",
+    "Jaka kiselina odjednom",
+    "Previše suvih začina (mutan ukus)",
+    "Ignorisanje gustine — retko jelo često deluje bljutavo"
+  ],
+  "a4_card": {
+    "title": "A4 podsjetnik — Bljutavo (redosled)",
+    "do": [
+      "So (mikro)",
+      "Kiselina (mikro)",
+      "Masnoća (malo)",
+      "Aroma / bilje",
+      "Probaj između koraka"
+    ],
+    "dont": [
+      "Ne dodaj sve odjednom",
+      "Ne preskači batch test za veliki lonac",
+      "Ne rešavaj samo začinima",
+      "Ne ignoriši gustinu"
+    ]
+  },
+  "links": [
+    {
+      "tab": "bland",
+      "label": "Klasični Bljutavo Rescue (kalkulator)"
+    },
+    {
+      "tab": "texture",
+      "label": "Gustina Rescue"
+    },
+    {
+      "tab": "atlas",
+      "label": "Kuhinjski Rescue Atlas"
+    }
+  ]
+}

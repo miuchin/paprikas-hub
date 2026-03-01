@@ -1,0 +1,151 @@
+{
+  "id": "home_tricks_v48",
+  "version": "v4.8",
+  "schema": "paprikas-json-module-v1",
+  "title": "🏠 Kućni trikovi",
+  "slug": "home_tricks_v48",
+  "summary": "Kućni trikovi: higijena, kamenac, mirisi, održavanje.",
+  "intro": {
+    "why": "Brze, proverene prečice da popraviš ukus / miris / stanje — bez komplikovanja.",
+    "how_to_use": [
+      "Izaberi problem.",
+      "Kreni od najbezbednijih koraka (1–2 minuta).",
+      "Posle svake izmene: probaj i odluči da li ideš dalje."
+    ]
+  },
+  "badges": [
+    {
+      "label": "SINET Light",
+      "kind": "info"
+    },
+    {
+      "label": "Praktično",
+      "kind": "ok"
+    },
+    {
+      "label": "v4.8",
+      "kind": "info"
+    }
+  ],
+  "goals": [
+    "Brzo rešenje (1–10 min)",
+    "Minimalno bacanja hrane",
+    "Manje nerviranja 🙂"
+  ],
+  "warning": {
+    "title": "Bezbednost",
+    "items": [
+      "Ako sumnjaš da je hrana pokvarena (neprijatan miris, sluz, gas, buđ) — ne spašavaj, baci.",
+      "Kod fleka: prvo testiraj na neupadljivom mestu."
+    ]
+  },
+  "diagnostics": {
+    "questions": [
+      "Šta tačno smeta (ukus, miris, tekstura, izgled)?",
+      "Kolika je količina (malo / srednje / mnogo)?",
+      "Da li je već dodato mlečno, sirće, limun, šećer?"
+    ]
+  },
+  "protocol": {
+    "title": "Protokol (korak-po-korak)",
+    "steps": [
+      {
+        "h": "1) Brzi kućni trikovi (opšte)",
+        "items": [
+          {
+            "t": "Miris u frižideru",
+            "d": "Posuda sa sodom bikarbonom + aktivni ugalj. Operi gume na vratima."
+          },
+          {
+            "t": "Kamenac",
+            "d": "Sirće + topla voda, ostavi 15–30 min, isperi. Ne na prirodnom kamenu."
+          },
+          {
+            "t": "Stakla bez tragova",
+            "d": "Mikrofiber + rastvor voda:alkohol 1:1. Briši u jednom smeru."
+          },
+          {
+            "t": "Brzo sušenje patika",
+            "d": "Papir (novine) unutra + sobna temperatura. Ne direktno na radijator."
+          }
+        ]
+      },
+      {
+        "h": "2) Kuhinja & higijena",
+        "items": [
+          {
+            "t": "Daska za sečenje miris luka",
+            "d": "Istrljaj limunom ili solju, isperi i osuši uspravno."
+          },
+          {
+            "t": "Sudopera miris",
+            "d": "Soda + malo sirćeta, pa vrela voda (oprez)."
+          }
+        ]
+      },
+      {
+        "h": "1) Kućni trikovi (red, održavanje)",
+        "items": [
+          {
+            "t": "Brzi reset kuhinje 5 min",
+            "d": "(1) sud u sudoperu, (2) obriši radnu površinu, (3) bacanje otpada, (4) prozrači."
+          },
+          {
+            "t": "Frižider: 3 zone",
+            "d": "Gore gotovo, sredina mlečno, dole sirovo meso (u posudi). Manje prosipanja i mirisa."
+          },
+          {
+            "t": "Plan za sutra u 60 sek",
+            "d": "Pre spavanja upiši šta da odmrzneš i šta prvo da kuvaš; štedi vreme."
+          },
+          {
+            "t": "Oznake na tegli",
+            "d": "Marker: datum otvaranja na tegli/posudi. Manje bacanja."
+          }
+        ]
+      },
+      {
+        "h": "2) Pametna kupovina (bez bacanja)",
+        "items": [
+          {
+            "t": "Lista po kategorijama",
+            "d": "Podeli: osnovno / povrće / proteini / začini. Manje lutanja."
+          },
+          {
+            "t": "„Jedan ulaz – dva obroka“",
+            "d": "Biraj namirnice koje rade i za ručak i za večeru (npr. piletina + salata)."
+          }
+        ]
+      }
+    ]
+  },
+  "mistakes": {
+    "title": "Česte greške",
+    "items": [
+      "Prevelike promene odjednom (dodaj malo, pa probaj).",
+      "Dodavanje nove ljutine/kiseline pre nego što se balansira postojeća.",
+      "Spašavanje hrane kojoj je istekao rok / sumnjiva je."
+    ]
+  },
+  "a4_card": {
+    "title": "A4 kartica (brzi podsetnik)",
+    "bullets": [
+      "1) Najbezbedniji korak → probaj",
+      "2) Korekcija teksture → probaj",
+      "3) Fini balans (so/kiselina/šećer/masnoća) → probaj"
+    ]
+  },
+  "links": [
+    {
+      "label": "NutriTable Pro (otvori)",
+      "href": "extras/nutri/index.html",
+      "kind": "external"
+    }
+  ],
+  "tags": [
+    "home",
+    "trikovi",
+    "higijena",
+    "odrzavanje"
+  ]
+}

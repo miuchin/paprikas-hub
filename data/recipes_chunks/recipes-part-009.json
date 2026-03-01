@@ -1,0 +1,7172 @@
+{
+  "part": 9,
+  "count": 106,
+  "recipes": [
+    {
+      "id": "sutlijas_sa_cokoladom",
+      "naziv": "Sutlijaš sa čokoladom",
+      "kategorija": [
+        "desert",
+        "poslastica"
+      ],
+      "tags": [
+        "cokolada",
+        "desert",
+        "pirinac",
+        "poslastica",
+        "sutlijas"
+      ],
+      "porcije": 6,
+      "vreme_min": 55,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "pirinač",
+          "kolicina": "160 g"
+        },
+        {
+          "item": "mleko",
+          "kolicina": "1.2 l"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "110 g"
+        },
+        {
+          "item": "čokolada za kuvanje",
+          "kolicina": "120 g"
+        },
+        {
+          "item": "vanilin šećer",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "Isperi pirinač.",
+        "Skuvaj pirinač u 300 ml vode 10 minuta.",
+        "Dodaj mleko i so, kuvaj 25 minuta uz mešanje.",
+        "Dodaj šećer i vanilu, kuvaj 5 minuta.",
+        "Dodaj izlomljenu čokoladu.",
+        "Mešaj 1 minut da se otopi.",
+        "Kuvaj još 2 minuta.",
+        "Sipaj u činije i ohladi 30 minuta."
+      ],
+      "napomene": "Mešaj često da se mleko ne uhvati za dno.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "sutlijas_sa_jabukom_i_cimetom",
+      "naziv": "Sutlijaš sa jabukom i cimetom",
+      "kategorija": [
+        "desert",
+        "poslastica"
+      ],
+      "tags": [
+        "cimet",
+        "desert",
+        "jabuka",
+        "poslastica",
+        "sutlijas"
+      ],
+      "porcije": 6,
+      "vreme_min": 55,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "pirinač",
+          "kolicina": "160 g"
+        },
+        {
+          "item": "mleko",
+          "kolicina": "1.2 l"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "110 g"
+        },
+        {
+          "item": "jabuka",
+          "kolicina": "350 g"
+        },
+        {
+          "item": "cimet mleveni",
+          "kolicina": "2 g"
+        },
+        {
+          "item": "vanilin šećer",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Isperi pirinač.",
+        "2) Skuvaj u 300 ml vode 10 min.",
+        "3) Dodaj mleko i so, kuvaj 25 min uz mešanje.",
+        "4) Dodaj šećer i vanilu, kuvaj 5 min.",
+        "5) Dodaj jabuku na kocke i cimet 4 min.",
+        "6) Sipaj u činije.",
+        "7) Ohladi 30 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Jabuku dodaj pred kraj da ostane u komadićima.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "sutlijas_sa_jagodama_i_vanilom",
+      "naziv": "Sutlijaš sa jagodama i vanilom",
+      "kategorija": [
+        "desert",
+        "poslastica"
+      ],
+      "tags": [
+        "desert",
+        "jagode",
+        "poslastica",
+        "sutlijas",
+        "vanila"
+      ],
+      "porcije": 6,
+      "vreme_min": 55,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "pirinač",
+          "kolicina": "160 g"
+        },
+        {
+          "item": "mleko",
+          "kolicina": "1.2 l"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "110 g"
+        },
+        {
+          "item": "vanilin šećer",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "jagode",
+          "kolicina": "350 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Isperi pirinač.",
+        "2) Skuvaj pirinač u 300 ml vode 10 minuta.",
+        "3) Dodaj mleko i so, kuvaj 25 minuta uz mešanje.",
+        "4) Dodaj šećer i vanilu, kuvaj 5 minuta.",
+        "5) Sipaj u činije.",
+        "6) Ohladi 20 minuta.",
+        "7) Dodaj jagode na kriške.",
+        "8) Rashladi 1 sat i serviraj."
+      ],
+      "napomene": "Jagode dodaj tek kad se sutlijaš prohladi da ne puste previše soka.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "sutlijas_sa_kokosom",
+      "naziv": "Sutlijaš sa kokosom",
+      "kategorija": [
+        "desert",
+        "poslastica"
+      ],
+      "tags": [
+        "desert",
+        "kokos",
+        "pirinac",
+        "poslastica",
+        "sutlijas"
+      ],
+      "porcije": 6,
+      "vreme_min": 55,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "pirinač",
+          "kolicina": "160 g"
+        },
+        {
+          "item": "mleko",
+          "kolicina": "1.2 l"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "110 g"
+        },
+        {
+          "item": "kokos brašno",
+          "kolicina": "60 g"
+        },
+        {
+          "item": "vanilin šećer",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "Isperi pirinač.",
+        "Skuvaj pirinač u 300 ml vode 10 minuta.",
+        "Dodaj mleko i so, kuvaj 25 minuta uz mešanje.",
+        "Dodaj šećer i vanilu, kuvaj 5 minuta.",
+        "Dodaj kokos.",
+        "Kuvaj još 2 minuta.",
+        "Sipaj u činije.",
+        "Ohladi 30 minuta i serviraj."
+      ],
+      "napomene": "Kokos dodaj pri kraju da zadrži miris.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "sutlijas_sa_kruskom",
+      "naziv": "Sutlijaš sa kruškom",
+      "kategorija": [
+        "desert",
+        "poslastica"
+      ],
+      "tags": [
+        "desert",
+        "kruska",
+        "pirinac",
+        "poslastica",
+        "sutlijas"
+      ],
+      "porcije": 6,
+      "vreme_min": 55,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "pirinač",
+          "kolicina": "160 g"
+        },
+        {
+          "item": "mleko",
+          "kolicina": "1.2 l"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "110 g"
+        },
+        {
+          "item": "kruška",
+          "kolicina": "300 g"
+        },
+        {
+          "item": "vanilin šećer",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Isperi pirinač.",
+        "2) Skuvaj ga u 300 ml vode 10 min.",
+        "3) Dodaj mleko i so, kuvaj 25 min.",
+        "4) Dodaj šećer i vanilu 5 min.",
+        "5) Dodaj krušku na kocke 3 min.",
+        "6) Sipaj u činije.",
+        "7) Ohladi 30 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Krušku dodaj pred kraj da ostane u komadićima.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "sutlijas_sa_malinama",
+      "naziv": "Sutlijaš sa malinama",
+      "kategorija": [
+        "desert",
+        "poslastica"
+      ],
+      "tags": [
+        "desert",
+        "maline",
+        "pirinac",
+        "poslastica",
+        "sutlijas"
+      ],
+      "porcije": 6,
+      "vreme_min": 55,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "pirinač",
+          "kolicina": "160 g"
+        },
+        {
+          "item": "mleko",
+          "kolicina": "1.2 l"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "110 g"
+        },
+        {
+          "item": "maline",
+          "kolicina": "220 g"
+        },
+        {
+          "item": "vanilin šećer",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Isperi pirinač.",
+        "2) Skuvaj ga u 300 ml vode 10 min.",
+        "3) Dodaj mleko i so, kuvaj 25 min.",
+        "4) Dodaj šećer i vanilu 5 min.",
+        "5) Sipaj u činije.",
+        "6) Dodaj maline preko.",
+        "7) Ohladi 30 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Maline dodaj nakon kuvanja da ostanu cele.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "sutlijas_sa_narandzom",
+      "naziv": "Sutlijaš sa narandžom",
+      "kategorija": [
+        "desert",
+        "poslastica"
+      ],
+      "tags": [
+        "desert",
+        "narandza",
+        "pirinac",
+        "poslastica",
+        "sutlijas"
+      ],
+      "porcije": 6,
+      "vreme_min": 55,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "pirinač",
+          "kolicina": "160 g"
+        },
+        {
+          "item": "mleko",
+          "kolicina": "1.2 l"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "110 g"
+        },
+        {
+          "item": "narandžina kora rendana",
+          "kolicina": "2 g"
+        },
+        {
+          "item": "narandžin sok",
+          "kolicina": "60 ml"
+        },
+        {
+          "item": "vanilin šećer",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Isperi pirinač.",
+        "2) Skuvaj pirinač u 300 ml vode 10 minuta.",
+        "3) Dodaj mleko i so, kuvaj 25 minuta uz mešanje.",
+        "4) Dodaj šećer i vanilu, kuvaj 5 minuta.",
+        "5) Dodaj narandžinu koru i sok.",
+        "6) Kuvaj još 2 minuta.",
+        "7) Sipaj u činije.",
+        "8) Ohladi 30 minuta i serviraj."
+      ],
+      "napomene": "Koru rendaj samo sa narandžastog dela, bez belog sloja.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "sutlijas_sa_suvim_kajsijama",
+      "naziv": "Sutlijaš sa suvim kajsijama",
+      "kategorija": [
+        "desert",
+        "poslastica"
+      ],
+      "tags": [
+        "desert",
+        "pirinac",
+        "poslastica",
+        "sutlijas",
+        "suvekajsije"
+      ],
+      "porcije": 6,
+      "vreme_min": 55,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "pirinač",
+          "kolicina": "160 g"
+        },
+        {
+          "item": "mleko",
+          "kolicina": "1.2 l"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "110 g"
+        },
+        {
+          "item": "suve kajsije",
+          "kolicina": "120 g"
+        },
+        {
+          "item": "vanilin šećer",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Isperi pirinač.",
+        "2) Skuvaj pirinač u 300 ml vode 10 minuta.",
+        "3) Dodaj mleko i so, kuvaj 25 minuta uz mešanje.",
+        "4) Dodaj šećer i vanilu, kuvaj 5 minuta.",
+        "5) Dodaj seckane suve kajsije, kuvaj 2 minuta.",
+        "6) Sipaj u činije.",
+        "7) Ohladi 30 minuta.",
+        "8) Serviraj."
+      ],
+      "napomene": "Kajsije dodaj na kraju da ostanu meke, ali ne kašaste.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "svarcvald_torta",
+      "naziv": "Švarcvald torta",
+      "kategorija": [
+        "poslastice"
+      ],
+      "tags": [
+        "dijabetes",
+        "poslastice",
+        "svarcvald",
+        "torta"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "(za pleh 26 x 18 cm)",
+          "kolicina": ""
+        },
+        {
+          "item": "za kore",
+          "kolicina": ""
+        },
+        {
+          "item": "4 jaja",
+          "kolicina": ""
+        },
+        {
+          "item": "kakao praha",
+          "kolicina": "20 g"
+        },
+        {
+          "item": "kokosovog šećera",
+          "kolicina": "50 g"
+        },
+        {
+          "item": "ovsenog brašna",
+          "kolicina": "100 g"
+        },
+        {
+          "item": "tečnog zaslađivača",
+          "kolicina": "1/2 kašičice"
+        },
+        {
+          "item": "za preliv",
+          "kolicina": ""
+        },
+        {
+          "item": "zamrznutih višanja",
+          "kolicina": "400 g"
+        },
+        {
+          "item": "gustina",
+          "kolicina": "40 g"
+        },
+        {
+          "item": "cimeta",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "za fil",
+          "kolicina": ""
+        },
+        {
+          "item": "slatke pavlake",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "krem sira (0% m. m.)",
+          "kolicina": "100 g"
+        },
+        {
+          "item": "1 kesica običnog šlaga",
+          "kolicina": ""
+        },
+        {
+          "item": "mleka (1.6% m. m.)",
+          "kolicina": "100 g"
+        },
+        {
+          "item": "čokolade za kuvanje",
+          "kolicina": "40 g"
+        }
+      ],
+      "koraci": [
+        "Kore: Penasto umutiti žumanca sa kokosovim šećerom, tečnim zaslađivačem i 1 supenom kašikom vrele vode.",
+        "Dodati brašno i kakao i na kraju kašikom lagano umešati čvrst sneg od belanaca.",
+        "Peći dve kore u plehu 26 x 18 cm ili ispeći jednu koru u plehu 26 x 40 cm, pa je preseći na dva dela.",
+        "Testo staviti u rernu zagrejanu na 200 0C i peći oko 10 minuta.",
+        "Preliv: Gustin razmutititi u 60 g vode (bez grudvica) i dodati višnjama, pomešanim sa 70 g vode, tečnim zaslađivačem i cimetom.",
+        "Pustiti da lagano provri i kad počne da se zgušnjava sipati preko prve kore koja je stavljena u pleh ili odgovarajući kalup.Fil: Mutiti slatku pavlaku i čim počne da se zgušnjava dodati šlag u prahu i mleko.",
+        "Mutiti dok se smesa ne ujednači, pa dodati krem sir i tečni zaslađivač.",
+        "Polovinu fila naneti preko preliva od višanja, zatim staviti drugu koru i premazati drugom polovinom fila.",
+        "Posuti krupno rendanom čokoladom, iseći na kocke i svaku kocku kolača ukrasiti višnjom."
+      ],
+      "napomene": "",
+      "izvor": {
+        "naziv": "carobna-kuhinja-100-recepata-2",
+        "napomena": "Ekstraktovano iz PDF (best-effort)",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "svinjska_rebra_u_pivu_sa_krompirom",
+      "naziv": "Svinjska rebra u pivu sa krompirom",
+      "kategorija": [
+        "glavno",
+        "rerna"
+      ],
+      "tags": [
+        "glavno",
+        "krompir",
+        "pivo",
+        "rebra",
+        "rerna"
+      ],
+      "porcije": 4,
+      "vreme_min": 120,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "svinjska rebra",
+          "kolicina": "1.3 kg"
+        },
+        {
+          "item": "krompir",
+          "kolicina": "1.1 kg"
+        },
+        {
+          "item": "pivo svetlo",
+          "kolicina": "500 ml"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "200 g"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "20 ml"
+        },
+        {
+          "item": "slatka mlevena paprika",
+          "kolicina": "2 kašičice"
+        },
+        {
+          "item": "so",
+          "kolicina": "18 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "Zagrej rernu na 200°C.",
+        "Posoli i pobiberi rebra, pospi paprikom.",
+        "U pekač stavi luk na rebarca i krompir na komade.",
+        "Poređaj rebra preko.",
+        "Nalij pivom i dodaj ulje.",
+        "Poklopi i peci 80 minuta.",
+        "Otklopi i peci još 25 minuta da porumeni.",
+        "Odstoj 10 minuta.",
+        "Serviraj."
+      ],
+      "napomene": "Ako krompir upije previše tečnosti, dodaj još 150 ml vode tokom pečenja.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "svinjski_gulas_jednostavan",
+      "naziv": "Svinjski gulaš (jednostavan)",
+      "kategorija": [
+        "glavno",
+        "sporo kuvanje"
+      ],
+      "tags": [
+        "glavno",
+        "gulas",
+        "luk",
+        "sporo_kuvanje",
+        "svinjetina"
+      ],
+      "porcije": 4,
+      "vreme_min": 110,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "svinjska plećka",
+          "kolicina": "1 kg"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "650 g"
+        },
+        {
+          "item": "slatka mlevena paprika",
+          "kolicina": "2.5 kašike"
+        },
+        {
+          "item": "voda",
+          "kolicina": "1.2 l"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "30 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "24 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Dinstaj luk na ulju 25 minuta.",
+        "2) Dodaj meso i zapeči 12 minuta.",
+        "3) Skloni sa vatre, dodaj papriku i promešaj 10 sekundi.",
+        "4) Dodaj vodu.",
+        "5) Kuvaj 70 minuta na tihoj vatri.",
+        "6) Posoli i pobiberi.",
+        "7) Otklopi 8 minuta da redukuje.",
+        "8) Odstoj 10 minuta i serviraj."
+      ],
+      "napomene": "Dužim dinstanjem luka gulaš dobija prirodnu gustinu.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "svinjski_gulas_sa_krompirom_i_paprikom",
+      "naziv": "Svinjski gulaš sa krompirom i paprikom",
+      "kategorija": [
+        "glavno",
+        "porodično"
+      ],
+      "tags": [
+        "glavno",
+        "gulas",
+        "krompir",
+        "porodicno",
+        "svinjetina"
+      ],
+      "porcije": 4,
+      "vreme_min": 100,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "svinjska plećka",
+          "kolicina": "1 kg"
+        },
+        {
+          "item": "krompir",
+          "kolicina": "700 g"
+        },
+        {
+          "item": "crvena paprika",
+          "kolicina": "300 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "520 g"
+        },
+        {
+          "item": "slatka mlevena paprika",
+          "kolicina": "2.5 kašike"
+        },
+        {
+          "item": "voda",
+          "kolicina": "1.35 l"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "30 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "24 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Dinstaj luk 18 min.",
+        "2) Dodaj meso i zapeči 12 min.",
+        "3) Dodaj papriku 4 min.",
+        "4) Skloni, dodaj papriku u prahu 10 sek.",
+        "5) Nalij vodom i kuvaj 55 min.",
+        "6) Dodaj krompir 18 min.",
+        "7) Posoli i pobiberi 2 min.",
+        "8) Odstoj 8 min i serviraj."
+      ],
+      "napomene": "Krompir dodaj kada je meso već skoro kuvano.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "svinjski_gulas_sa_paprikom_i_rezancima",
+      "naziv": "Svinjski gulaš sa paprikom i rezancima",
+      "kategorija": [
+        "glavno",
+        "tradicionalno"
+      ],
+      "tags": [
+        "glavno",
+        "gulas",
+        "rezanci",
+        "svinjetina",
+        "tradicionalno"
+      ],
+      "porcije": 4,
+      "vreme_min": 95,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "svinjska plećka",
+          "kolicina": "900 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "450 g"
+        },
+        {
+          "item": "slatka mlevena paprika",
+          "kolicina": "2.5 kašike"
+        },
+        {
+          "item": "paradajz pire",
+          "kolicina": "40 g"
+        },
+        {
+          "item": "voda",
+          "kolicina": "1 l"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "30 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "18 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        },
+        {
+          "item": "rezanci",
+          "kolicina": "320 g"
+        },
+        {
+          "item": "so (za rezance)",
+          "kolicina": "6 g"
+        }
+      ],
+      "koraci": [
+        "Iseci meso na kocke 3 cm.",
+        "Dinstaj luk na ulju 18 minuta.",
+        "Dodaj meso i zapeči 10 minuta.",
+        "Skloni sa vatre, dodaj papriku i promešaj.",
+        "Dodaj paradajz pire i vodu.",
+        "Kuvaj 65 minuta na tihoj vatri.",
+        "Posoli i pobiberi.",
+        "Skuvaj rezance u slanoj vodi i serviraj uz gulaš."
+      ],
+      "napomene": "Rezance kuvaj posebno da sos ostane gust.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "svinjski_paprikas_sa_krompirom",
+      "naziv": "Svinjski paprikaš sa krompirom",
+      "kategorija": [
+        "glavno",
+        "srpska kuhinja"
+      ],
+      "tags": [
+        "glavno",
+        "krompir",
+        "paprikas",
+        "srpska_kuhinja",
+        "svinjetina"
+      ],
+      "porcije": 4,
+      "vreme_min": 90,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "svinjska plećka",
+          "kolicina": "900 g"
+        },
+        {
+          "item": "krompir",
+          "kolicina": "700 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "350 g"
+        },
+        {
+          "item": "slatka mlevena paprika",
+          "kolicina": "2 kašike"
+        },
+        {
+          "item": "kim mleveni",
+          "kolicina": "1/2 kašičice"
+        },
+        {
+          "item": "paradajz pire",
+          "kolicina": "40 g"
+        },
+        {
+          "item": "voda",
+          "kolicina": "900 ml"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "30 ml"
+        },
+        {
+          "item": "lovorov list",
+          "kolicina": "2 kom"
+        },
+        {
+          "item": "so",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "Iseci meso na kocke 3 cm.",
+        "Iseci luk sitno i dinstaj na ulju 15 minuta.",
+        "Dodaj meso i zapeči 8 minuta.",
+        "Skloni sa vatre, ubaci papriku i kim, promešaj.",
+        "Dodaj paradajz pire i vodu.",
+        "Kuvaj 50 minuta na tihoj vatri.",
+        "Dodaj krompir na kocke i kuvaj još 20 minuta.",
+        "Začini solju i biberom, prokuvaj 3 minuta."
+      ],
+      "napomene": "Krompir dodaj tek kad meso omekša da se ne raspadne.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "svinjski_perkelt_sa_testeninom",
+      "naziv": "Svinjski perkelt sa testeninom",
+      "kategorija": [
+        "glavno",
+        "srednjoevropsko"
+      ],
+      "tags": [
+        "glavno",
+        "paprika",
+        "perkelt",
+        "srednjoevropsko",
+        "svinjetina"
+      ],
+      "porcije": 4,
+      "vreme_min": 85,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "svinjski but",
+          "kolicina": "900 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "400 g"
+        },
+        {
+          "item": "slatka mlevena paprika",
+          "kolicina": "2.5 kašike"
+        },
+        {
+          "item": "paradajz pire",
+          "kolicina": "30 g"
+        },
+        {
+          "item": "voda",
+          "kolicina": "850 ml"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "25 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "12 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "1 g"
+        },
+        {
+          "item": "testenina (široki rezanci)",
+          "kolicina": "320 g"
+        },
+        {
+          "item": "so (za testeninu)",
+          "kolicina": "6 g"
+        }
+      ],
+      "koraci": [
+        "Iseci meso na kocke 3 cm.",
+        "Dinstaj luk na ulju 18 minuta.",
+        "Dodaj meso i zapeči 10 minuta.",
+        "Skloni sa vatre, dodaj papriku i promešaj.",
+        "Dodaj paradajz pire i vodu.",
+        "Kuvaj 55 minuta na tihoj vatri.",
+        "Posoli i pobiberi.",
+        "Skuvaj testeninu 8–10 minuta i serviraj uz perkelt."
+      ],
+      "napomene": "Testeninu kuvaj posebno da sos ostane gust i aromatičan.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "tahini_corba",
+      "naziv": "Tahini čorba",
+      "kategorija": [
+        "supe_corbe"
+      ],
+      "tags": [
+        "corba",
+        "dijabetes",
+        "supe_corbe",
+        "supecorbe",
+        "tahini"
+      ],
+      "porcije": 5,
+      "vreme_min": 0,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "integralnih makarona",
+          "kolicina": "60 g"
+        },
+        {
+          "item": "susama",
+          "kolicina": "30 g"
+        },
+        {
+          "item": "susamovog ulja ili",
+          "kolicina": "40 g"
+        },
+        {
+          "item": "putera (maslaca)",
+          "kolicina": "50 g"
+        },
+        {
+          "item": "2 supene kašike limunovog soka",
+          "kolicina": ""
+        },
+        {
+          "item": "kašika seckanog peršuna",
+          "kolicina": "1 supena"
+        },
+        {
+          "item": "so, biber, začini po ukusu",
+          "kolicina": ""
+        }
+      ],
+      "koraci": [
+        "U 1 litar ključale vode dodati so, biber i začine, staviti makarone i kuvati na laganoj vatri oko 5 minuta.",
+        "U suvom tiganju, bez masnoće, malo prepeći susam, pa ga usitniti u seckalici ili blenderu, dodati susamovo ulje ili puter, sjediniti i dodati u čorbu.",
+        "Kuvati još oko 5 minuta, dodati limunov sok i servirati.",
+        "Posuti seckanim peršunovim listom i služiti toplo!"
+      ],
+      "napomene": "",
+      "izvor": {
+        "naziv": "carobna-kuhinja-100-recepata-2",
+        "napomena": "Ekstraktovano iz PDF (best-effort)",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "tarana_supa_sa_povrcem",
+      "naziv": "Tarana supa sa povrćem",
+      "kategorija": [
+        "supa",
+        "srpska kuhinja"
+      ],
+      "tags": [
+        "domace",
+        "srpska_kuhinja",
+        "supa",
+        "tarana"
+      ],
+      "porcije": 4,
+      "vreme_min": 35,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "tarana testenina",
+          "kolicina": "120 g"
+        },
+        {
+          "item": "šargarepa",
+          "kolicina": "120 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "100 g"
+        },
+        {
+          "item": "celer stabljika",
+          "kolicina": "80 g"
+        },
+        {
+          "item": "pileći bujon ili voda",
+          "kolicina": "1.2 l"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "15 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "8 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "1 g"
+        },
+        {
+          "item": "peršun",
+          "kolicina": "10 g"
+        }
+      ],
+      "koraci": [
+        "Sitno iseckaj luk, šargarepu i celer.",
+        "Dinstaj povrće na ulju 5 minuta.",
+        "Nalij bujon i kuvaj 12 minuta.",
+        "Dodaj taranu i kuvaj 8 minuta.",
+        "Posoli i pobiberi.",
+        "Dodaj seckan peršun.",
+        "Odstoj 5 minuta pre serviranja.",
+        "Serviraj toplo."
+      ],
+      "napomene": "Tarana brzo omekša; ne prekuvaj.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "tarator_hladna_supa_od_krastavca",
+      "naziv": "Tarator (hladna supa od krastavca)",
+      "kategorija": [
+        "supa",
+        "hladno"
+      ],
+      "tags": [
+        "hladno",
+        "krastavac",
+        "letnje",
+        "supa",
+        "tarator"
+      ],
+      "porcije": 4,
+      "vreme_min": 15,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "krastavac",
+          "kolicina": "600 g"
+        },
+        {
+          "item": "jogurt",
+          "kolicina": "700 ml"
+        },
+        {
+          "item": "voda",
+          "kolicina": "200 ml"
+        },
+        {
+          "item": "beli luk",
+          "kolicina": "8 g"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "20 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "8 g"
+        },
+        {
+          "item": "kopar suvi",
+          "kolicina": "3 g"
+        }
+      ],
+      "koraci": [
+        "Izrendi krastavac krupno.",
+        "Dodaj jogurt i vodu, promešaj.",
+        "Dodaj sitno seckan beli luk.",
+        "Dodaj ulje, so i kopar.",
+        "Dobro promešaj 30 sekundi.",
+        "Rashladi 20 minuta.",
+        "Ponovo promešaj.",
+        "Serviraj hladno."
+      ],
+      "napomene": "Ako je krastavac voden, kratko ga ocedi pre mešanja.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "tavce_gravce",
+      "naziv": "Tavče gravče",
+      "kategorija": [
+        "glavno",
+        "balkanska kuhinja"
+      ],
+      "tags": [
+        "balkanska_kuhinja",
+        "glavno",
+        "pasulj",
+        "rerna",
+        "tavcegravce"
+      ],
+      "porcije": 6,
+      "vreme_min": 190,
+      "tezina": "teško",
+      "sastojci": [
+        {
+          "item": "pasulj tetovac suvi",
+          "kolicina": "500 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "450 g"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "70 ml"
+        },
+        {
+          "item": "slatka mlevena paprika",
+          "kolicina": "2 kašike"
+        },
+        {
+          "item": "peršun",
+          "kolicina": "15 g"
+        },
+        {
+          "item": "lovorov list",
+          "kolicina": "2 kom"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "16 g"
+        },
+        {
+          "item": "voda",
+          "kolicina": "900 ml"
+        }
+      ],
+      "koraci": [
+        "Potopi pasulj 8 sati, ocedi.",
+        "Skuvaj pasulj 70 minuta, ocedi i sačuvaj 900 ml tečnosti.",
+        "Dinstaj luk na ulju 18 minuta.",
+        "Skloni sa vatre, dodaj papriku i promešaj.",
+        "U zemljani sud pomešaj pasulj i luk.",
+        "Dodaj lovor, biber, so i seckan peršun.",
+        "Nalij sačuvanom tečnošću od pasulja.",
+        "Peci 70 minuta na 190°C do korice."
+      ],
+      "napomene": "Korica na vrhu je ključna; poslednjih 10 minuta pojačaj na 210°C ako treba.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "teleca_corba_sa_knedlama_od_griza",
+      "naziv": "Teleća čorba sa knedlama od griza",
+      "kategorija": [
+        "supa",
+        "čorba"
+      ],
+      "tags": [
+        "corba",
+        "knedle",
+        "supa",
+        "teletina"
+      ],
+      "porcije": 4,
+      "vreme_min": 105,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "teleće meso (plećka)",
+          "kolicina": "600 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "150 g"
+        },
+        {
+          "item": "šargarepa",
+          "kolicina": "200 g"
+        },
+        {
+          "item": "celer koren",
+          "kolicina": "100 g"
+        },
+        {
+          "item": "voda",
+          "kolicina": "2 l"
+        },
+        {
+          "item": "so",
+          "kolicina": "14 g"
+        },
+        {
+          "item": "crni biber u zrnu",
+          "kolicina": "2 g"
+        },
+        {
+          "item": "jaje",
+          "kolicina": "1 kom"
+        },
+        {
+          "item": "griz",
+          "kolicina": "75 g"
+        },
+        {
+          "item": "puter",
+          "kolicina": "25 g"
+        }
+      ],
+      "koraci": [
+        "Stavi teletinu u hladnu vodu i zagrej do ključanja.",
+        "Skini penu i smanji vatru.",
+        "Dodaj luk, šargarepu i celer.",
+        "Kuvaj 80 minuta na tihoj vatri.",
+        "Procedi čorbu i vrati na ringlu.",
+        "Umuti jaje sa puterom, dodaj griz.",
+        "Kašičicom spuštaj knedle u čorbu.",
+        "Kuvaj 8 minuta i serviraj."
+      ],
+      "napomene": "Knedle narastu; pravi ih male.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "teleci_paprikas_sa_krompirom_i_lovorom",
+      "naziv": "Teleći paprikaš sa krompirom i lovorom",
+      "kategorija": [
+        "glavno",
+        "tradicionalno"
+      ],
+      "tags": [
+        "glavno",
+        "krompir",
+        "paprikas",
+        "teletina",
+        "tradicionalno"
+      ],
+      "porcije": 4,
+      "vreme_min": 120,
+      "tezina": "teško",
+      "sastojci": [
+        {
+          "item": "teletina (plećka)",
+          "kolicina": "900 g"
+        },
+        {
+          "item": "krompir",
+          "kolicina": "700 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "450 g"
+        },
+        {
+          "item": "slatka mlevena paprika",
+          "kolicina": "3 kašike"
+        },
+        {
+          "item": "voda",
+          "kolicina": "1.3 l"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "30 ml"
+        },
+        {
+          "item": "lovorov list",
+          "kolicina": "2 kom"
+        },
+        {
+          "item": "so",
+          "kolicina": "22 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "Dinstaj luk na ulju 18 minuta.",
+        "Dodaj teletinu na kocke i zapeči 12 minuta.",
+        "Skloni sa vatre, dodaj papriku i promešaj.",
+        "Dodaj vodu i lovor.",
+        "Kuvaj 70 minuta na tihoj vatri.",
+        "Dodaj krompir na kocke.",
+        "Kuvaj 25 minuta.",
+        "Posoli, pobiberi i odstoj 10 minuta."
+      ],
+      "napomene": "Teletina traži tiho kuvanje da ostane mekana.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "teleci_paprikas_sa_limunovom_korom",
+      "naziv": "Teleći paprikaš sa limunovom korom",
+      "kategorija": [
+        "glavno",
+        "srpska kuhinja"
+      ],
+      "tags": [
+        "citrus",
+        "glavno",
+        "paprikas",
+        "srpska_kuhinja",
+        "teletina"
+      ],
+      "porcije": 4,
+      "vreme_min": 120,
+      "tezina": "teško",
+      "sastojci": [
+        {
+          "item": "teletina (plećka)",
+          "kolicina": "900 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "420 g"
+        },
+        {
+          "item": "slatka mlevena paprika",
+          "kolicina": "2.5 kašike"
+        },
+        {
+          "item": "paradajz pire",
+          "kolicina": "40 g"
+        },
+        {
+          "item": "limun (kora rendana)",
+          "kolicina": "2 g"
+        },
+        {
+          "item": "voda",
+          "kolicina": "1.1 l"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "30 ml"
+        },
+        {
+          "item": "lovorov list",
+          "kolicina": "2 kom"
+        },
+        {
+          "item": "so",
+          "kolicina": "16 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "Iseci teletinu na kocke 3 cm.",
+        "Dinstaj luk na ulju 18 minuta.",
+        "Dodaj meso i zapeči 10 minuta.",
+        "Skloni sa vatre, dodaj papriku i promešaj.",
+        "Dodaj paradajz pire, vodu i lovor.",
+        "Kuvaj 85 minuta na tihoj vatri.",
+        "Dodaj rendanu koru limuna.",
+        "Posoli, pobiberi i prokuvaj 3 minuta."
+      ],
+      "napomene": "Koru limuna dodaj pred kraj da miris ostane svež.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "teleci_paprikas_sa_noklicama",
+      "naziv": "Teleći paprikaš sa noklicama",
+      "kategorija": [
+        "glavno",
+        "srpska kuhinja"
+      ],
+      "tags": [
+        "glavno",
+        "noklice",
+        "paprikas",
+        "srpska_kuhinja",
+        "teletina"
+      ],
+      "porcije": 4,
+      "vreme_min": 120,
+      "tezina": "teško",
+      "sastojci": [
+        {
+          "item": "teleće meso (but ili plećka)",
+          "kolicina": "900 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "400 g"
+        },
+        {
+          "item": "šargarepa",
+          "kolicina": "150 g"
+        },
+        {
+          "item": "slatka mlevena paprika",
+          "kolicina": "2 kašike"
+        },
+        {
+          "item": "paradajz pire",
+          "kolicina": "40 g"
+        },
+        {
+          "item": "goveđi bujon ili voda",
+          "kolicina": "1 l"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "30 ml"
+        },
+        {
+          "item": "lovorov list",
+          "kolicina": "2 kom"
+        },
+        {
+          "item": "so",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "1 g"
+        },
+        {
+          "item": "brašno",
+          "kolicina": "160 g"
+        },
+        {
+          "item": "jaja",
+          "kolicina": "2 kom"
+        },
+        {
+          "item": "voda (za noklice)",
+          "kolicina": "60 ml"
+        },
+        {
+          "item": "so (za noklice)",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "Iseci teletinu na kocke 3 cm.",
+        "Dinstaj luk na ulju 15 minuta.",
+        "Dodaj rendanu šargarepu i dinstaj 3 minuta.",
+        "Ubaci meso i zapeči 8 minuta.",
+        "Skloni sa vatre, dodaj papriku i promešaj.",
+        "Dodaj paradajz pire, bujon i lovor.",
+        "Kuvaj 80 minuta na tihoj vatri.",
+        "Umuti jaja, dodaj vodu, so i brašno za noklice.",
+        "Kašičicom spuštaj noklice u paprikaš i kuvaj 6 minuta.",
+        "Začini biberom i po potrebi dosoli."
+      ],
+      "napomene": "Noklice ubaci pred kraj da ostanu mekane.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "teletina_sa_graskom_varivo",
+      "naziv": "Teletina sa graškom (varivo)",
+      "kategorija": [
+        "glavno",
+        "porodično"
+      ],
+      "tags": [
+        "glavno",
+        "grasak",
+        "porodicno",
+        "teletina",
+        "varivo"
+      ],
+      "porcije": 6,
+      "vreme_min": 95,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "teletina (plećka)",
+          "kolicina": "900 g"
+        },
+        {
+          "item": "grašak zamrznut",
+          "kolicina": "700 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "350 g"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "25 ml"
+        },
+        {
+          "item": "voda",
+          "kolicina": "1.6 l"
+        },
+        {
+          "item": "slatka mlevena paprika",
+          "kolicina": "1 kašika"
+        },
+        {
+          "item": "so",
+          "kolicina": "24 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Dinstaj luk na ulju 10 minuta.",
+        "2) Dodaj teletinu na kocke i zapeči 10 minuta.",
+        "3) Skloni sa vatre, dodaj papriku i promešaj 10 sekundi.",
+        "4) Nalij vodom i kuvaj 60 minuta.",
+        "5) Dodaj grašak i kuvaj 15 minuta.",
+        "6) Posoli i pobiberi, kuvaj 5 minuta.",
+        "7) Odstoj 10 minuta.",
+        "8) Serviraj."
+      ],
+      "napomene": "Grašak dodaj pri kraju da ostane zelen i čvrst.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "testenina_sa_povrcem_i_piletinom",
+      "naziv": "Testenina sa povrćem i piletinom",
+      "kategorija": [
+        "pite_testa"
+      ],
+      "tags": [
+        "dijabetes",
+        "piletinom",
+        "pite_testa",
+        "pitetesta",
+        "povrcem",
+        "testenina"
+      ],
+      "porcije": 4,
+      "vreme_min": 0,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "Morski plodovi su odličan izvor proteina, a sadrže i sve bitne",
+          "kolicina": ""
+        },
+        {
+          "item": "aminokiseline. U svojoj masnoći sadrže omega-3 masne kiseline koje štite",
+          "kolicina": ""
+        },
+        {
+          "item": "krvne sudove smanjenjem lošeg LDL holesterola i triglicerida",
+          "kolicina": ""
+        },
+        {
+          "item": "i utiču na normalizaciju krvnog pritiska.",
+          "kolicina": ""
+        },
+        {
+          "item": "Potrebno je za 6 osoba",
+          "kolicina": ""
+        },
+        {
+          "item": "ulja od grožđanih koštica",
+          "kolicina": "60 g"
+        },
+        {
+          "item": "ćurećeg belog mesa",
+          "kolicina": "140 g"
+        },
+        {
+          "item": "(može i pileće)",
+          "kolicina": ""
+        },
+        {
+          "item": "crnog luka, 2 čena belog luka",
+          "kolicina": "160 g"
+        },
+        {
+          "item": "basmati pirinča",
+          "kolicina": "100 g"
+        },
+        {
+          "item": "crvene paprike",
+          "kolicina": "160 g"
+        },
+        {
+          "item": "paradajza",
+          "kolicina": "140 g"
+        },
+        {
+          "item": "graška",
+          "kolicina": "100 g"
+        },
+        {
+          "item": "zelene boranije",
+          "kolicina": "60 g"
+        },
+        {
+          "item": "celerovih stabljika",
+          "kolicina": "50 g"
+        },
+        {
+          "item": "plodova mora (odleđenih)",
+          "kolicina": "200 g"
+        },
+        {
+          "item": "dagnji",
+          "kolicina": "100 g"
+        },
+        {
+          "item": "belog vina",
+          "kolicina": "1 dl"
+        },
+        {
+          "item": "kašika seckanog peršuna",
+          "kolicina": "1 supena"
+        },
+        {
+          "item": "so, biber, začini po ukusu",
+          "kolicina": ""
+        }
+      ],
+      "koraci": [
+        "Na jednoj polovini ulja propržiti ćuretinu iseckanu na komadiće i izvaditi je na tanjir.",
+        "Dodati ostatak ulja i propržiti sitno iseckan crni i beli luk, papriku i celerove stabljike iseckane na štapiće, paradajz oljušten i iseckan na kockice.",
+        "Podlivati vodom i prodinstati desetak minuta.",
+        "Boraniju i grašak skuvati posebno, do pola, a zatim dodati ostalom povrću.",
+        "Dodati morske plodove i dagnje, doliti belo vino, posoliti, pobiberiti, začiniti po ukusu, poklopiti posudu i kuvati na tihoj vatri oko 15 minuta.",
+        "Basmati pirinač skuvati odvojeno i na kraju ga dodati zajedno sa sitno seckanim listom peršuna, sve pažljivo izmešati i prodinstati još 5 do 10 minuta.",
+        "Služiti toplo!",
+        "Može se posuti sa malo parmezana."
+      ],
+      "napomene": "",
+      "izvor": {
+        "naziv": "carobna-kuhinja-100-recepata-2",
+        "napomena": "Ekstraktovano iz PDF (best-effort)",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "tikvice_punjene_krompirom",
+      "naziv": "Tikvice punjene krompirom",
+      "kategorija": [
+        "prilozi"
+      ],
+      "tags": [
+        "carobna",
+        "dijabetes",
+        "posno",
+        "prilozi"
+      ],
+      "porcije": 2,
+      "vreme_min": 0,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "krompira",
+          "kolicina": "160 g"
+        },
+        {
+          "item": "rendanog biljnog kačkavalja",
+          "kolicina": "40 g"
+        },
+        {
+          "item": "2 supene kašike maslinovog ulja",
+          "kolicina": ""
+        },
+        {
+          "item": "1 čen belog luka",
+          "kolicina": ""
+        },
+        {
+          "item": "so, biber, bosiljak, začini po ukusu",
+          "kolicina": ""
+        }
+      ],
+      "koraci": [
+        "5 minuta. Kada se prohlade, odseći sa Tikvice su bogate kalijumom koji pomaže u sprečavanju visokog krvnog na duboke čamce. Odsečeni deo iseći na Sadrže i veoma važne gorke materije, koje podstiču rad creva, jačaju jetru",
+        "kockice. Pomešati pire i seckane tikvice, i pomažu joj prilikom detoksikacije.",
+        "tikvice, staviti ih u vatrostalnu posudu, pa Spada u tvrde sireve zrnaste strukture, a u srednjem veku je kašikom maslinovog ulja. Peći u rerni stariji ukus mu postaje jači, pa mu se i vrednost povećava."
+      ],
+      "napomene": "",
+      "izvor": {
+        "naziv": "Čarobna kuhinja – Lakše sa dijabetesom (PDF)",
+        "napomena": "Automatska ekstrakcija, strana 47",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "tikvice_sa_paradajzom",
+      "naziv": "Tikvice sa paradajzom",
+      "kategorija": [
+        "prilozi"
+      ],
+      "tags": [
+        "dijabetes",
+        "paradajzom",
+        "prilozi",
+        "tikvice"
+      ],
+      "porcije": 4,
+      "vreme_min": 0,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "tikvica",
+          "kolicina": "800 g"
+        },
+        {
+          "item": "čeri paradajza",
+          "kolicina": "600 g"
+        },
+        {
+          "item": "crnog luka",
+          "kolicina": "150 g"
+        },
+        {
+          "item": "ulja od komine masline",
+          "kolicina": "40 g"
+        },
+        {
+          "item": "ili ulja od grožđanih koštica",
+          "kolicina": ""
+        },
+        {
+          "item": "(6 supenih kašika)",
+          "kolicina": ""
+        },
+        {
+          "item": "1 kafena kašičica origana",
+          "kolicina": ""
+        },
+        {
+          "item": "1 kafena kašičica bosiljka",
+          "kolicina": ""
+        }
+      ],
+      "koraci": [
+        "Cvetiće brokolija obariti u ključaloj, slanoj vodi 2–3 minuta (na dno posude staviti samo malo vode, tako da cvetići budu iznad vode i da se, prarktično, kuvaju na pari).",
+        "Luk sitno iseckati i prodinstati na ulju i vodi, dodati šampinjone iseckane na listiće i dinstati dok ne počnu da tamne, dodati iseckani paradajz i dinstati dok tečnost ne ispari.",
+        "Ako se koristi “čeri” paradajz nije ga potrebno ljuštiti, a ako se koristi običan paradajz oljuštiti ga oštrim nožem, bez kuvanja.",
+        "Dinstano povrće presuti u vatrostalnu posudu, posuti mrvljenim feta sirom i poređati cvetiće brokolija, pa preliti umućenim jajima i belancima (posoliti ih).",
+        "Staviti u zagrejanu rernu i peći oko 20 minuta, dok se jaja ne stegnu.Brokoli obiluje fitohemikalijama koje sadrže sumpor i indole karbinol i sulforafan koji podstiču odbrambene sposobnosti organizma.",
+        "Odličan je izvor vitamina C koji pomaže u odbrani od virusa i u detoksikaciji organizma.",
+        "Brokoli se može servirati i svež, kao salata, preliven maslinovim uljem i lumunovim sokom, a posebno je dobar prilog jelima sa piletinom i ribom."
+      ],
+      "napomene": "",
+      "izvor": {
+        "naziv": "carobna-kuhinja-100-recepata-2",
+        "napomena": "Ekstraktovano iz PDF (best-effort)",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "pdf_tikvice_u_besamel_sosu_65",
+      "naziv": "Tikvice u bešamel sosu",
+      "kategorija": [
+        "glavna_jela"
+      ],
+      "tags": [
+        "dijabetes",
+        "glavna_jela",
+        "kuvar",
+        "nasacarobnakuhinja100recepat"
+      ],
+      "porcije": 4,
+      "vreme_min": 0,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "očišćenih tikvica",
+          "kolicina": "600 g"
+        },
+        {
+          "item": "ulja od grožđanih koštica ili maslinovog ulja od komine masline",
+          "kolicina": "30 g"
+        },
+        {
+          "item": "integralnog ovsenog brašna (jedna puna supena kašika)",
+          "kolicina": "25 g"
+        },
+        {
+          "item": "peršuna (jedna šaka)",
+          "kolicina": "15 g"
+        },
+        {
+          "item": "mleka (1.6% m. m.)",
+          "kolicina": "200 g"
+        }
+      ],
+      "koraci": [
+        "Tikvice oljuštiti i iseći ih na kockice stranice oko 2 cm.",
+        "Spustiti ih u proključalu vodu, prethodno posoljenu, i prokuvati oko 2 minuta.",
+        "U posebnoj posudi zagrejati ulje, Tikvice mogu biti ukusan prilog svakom obroku i spremljene na roštilju ili u rerni.",
+        "Potrebno je iseći ih na kolutove debljine oko 1 cm i peći ih sa jedne strane dok ne porumene, a onda ih okrenuti i ispeći i sa druge strane.",
+        "Poređati ih na tanjir za serviranje, posoliti i premazati balzamiko sirćetom.",
+        "Nutritivne vrednosti ovako pripremljenih staviti brašno i malo promešati, a zatim dodati mleko.",
+        "Promešati i u masu koja počinje da se zgušnjava dodati kuvane i proceđene tikvice.",
+        "Posoliti, začiniti po ukusu i dodati tikvica su date u tabeli kao “Pečene tikvice”.",
+        "Od začina se, za jela sa tikvicama, mogu koristiti i bosiljak, ruzmarin, timijan i origano.",
+        "peršun.",
+        "Promešati i kuvati još oko 1 minut.",
+        "Služiti toplo uz kuvano juneće"
+      ],
+      "napomene": "",
+      "izvor": {
+        "naziv": "nasa-carobna-kuhinja-100-recepata-za-osobe-sa-dijabetesom_compress.pdf.zip",
+        "napomena": "strana 65",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "pdf_tikvice_u_testu_sa_persunom_i_origanom_64",
+      "naziv": "Tikvice u testu sa peršunom i origanom",
+      "kategorija": [
+        "glavna_jela"
+      ],
+      "tags": [
+        "dijabetes",
+        "glavna_jela",
+        "kuvar",
+        "nasacarobnakuhinja100recepat"
+      ],
+      "porcije": 4,
+      "vreme_min": 0,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "očišćenih tikvica",
+          "kolicina": "1.3 kg"
+        },
+        {
+          "item": "integralnog ovsenog brašna",
+          "kolicina": "180 g"
+        },
+        {
+          "item": "peršuna (jedna veća šaka)",
+          "kolicina": "20 g"
+        },
+        {
+          "item": "ulja od grožđanih koštica",
+          "kolicina": "80 g"
+        },
+        {
+          "item": "so, origano, začini po ukusu",
+          "kolicina": ""
+        }
+      ],
+      "koraci": [
+        "Tikvice krupno izrendati (kao jabuke"
+      ],
+      "napomene": "",
+      "izvor": {
+        "naziv": "nasa-carobna-kuhinja-100-recepata-za-osobe-sa-dijabetesom_compress.pdf.zip",
+        "napomena": "strana 64",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "tiramisu",
+      "naziv": "Tiramisu",
+      "kategorija": [
+        "poslastice"
+      ],
+      "tags": [
+        "dijabetes",
+        "poslastice",
+        "tiramisu"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "4 žumanca",
+          "kolicina": ""
+        },
+        {
+          "item": "kokosovog šećera",
+          "kolicina": "100 g"
+        },
+        {
+          "item": "piškota (1 kutija)",
+          "kolicina": "200 g"
+        },
+        {
+          "item": "krem sira (0% m. m.)",
+          "kolicina": "500 g"
+        },
+        {
+          "item": "slatke pavlake (za šlag)",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "1 kremfix",
+          "kolicina": ""
+        },
+        {
+          "item": "kuvane crne kafe",
+          "kolicina": "3 dl"
+        },
+        {
+          "item": "3 supene kašike ruma",
+          "kolicina": ""
+        },
+        {
+          "item": "tečni zaslađivač, po ukusu",
+          "kolicina": ""
+        },
+        {
+          "item": "2 supene kašike kakao praha",
+          "kolicina": ""
+        },
+        {
+          "item": "za posipanje",
+          "kolicina": ""
+        }
+      ],
+      "koraci": [
+        "Penasto umutiti žumanca sa kokosovim šećerom pa ih kuvati na pari desetak minuta.",
+        "Prohladiti i dodati sir i slatku pavlaku, pomešanu sa kremfiksom za učvršćivanje slatke pavlake.",
+        "Sačekati da se fil ohladi i malo stegne (oko 1 sat).",
+        "Skuvati crnu kafu i u nju dodati rum.",
+        "Piškote podeliti na dva dela i umakati ih u toplu kafu sa rumom, vrlo kratko, samo ih okrenuti i odmah izvaditi da se ne bi polomile.",
+        "Ređati ih na tanjir za serviranje i preko njih rasporediti polovinu fila.",
+        "Na fil staviti drugu polovinu piškota, umočenih u kafu sa rumom, pa i njih prekriti filom.",
+        "Posuti kakao prahom i staviti u frižider da se dobro ohladi i stegne.",
+        "Seći na kocke i služiti!Tiramisu 50"
+      ],
+      "napomene": "",
+      "izvor": {
+        "naziv": "carobna-kuhinja-100-recepata-2",
+        "napomena": "Ekstraktovano iz PDF (best-effort)",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "tofu_sa_povrcem_i_sampinjonima_sa_bukovacama",
+      "naziv": "Tofu sa povrćem i šampinjonima sa bukovačama",
+      "kategorija": [
+        "kuvana_jela"
+      ],
+      "tags": [
+        "carobna",
+        "dijabetes",
+        "kuvana_jela",
+        "posno"
+      ],
+      "porcije": 4,
+      "vreme_min": 0,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "crvene paprike",
+          "kolicina": "200 g"
+        },
+        {
+          "item": "140 g mladog luka (3",
+          "kolicina": "4 struka)"
+        },
+        {
+          "item": "ulja od grožđanih koštica ili ulja od komine masline (3 kašike)",
+          "kolicina": "25 g"
+        },
+        {
+          "item": "belog luka",
+          "kolicina": "2 čena"
+        },
+        {
+          "item": "svetlog susamovog ulja",
+          "kolicina": "1 kašika"
+        },
+        {
+          "item": "zaslađivača DIAMEL",
+          "kolicina": "1 kašika"
+        },
+        {
+          "item": "soja sosa",
+          "kolicina": "1 kašika"
+        },
+        {
+          "item": "đumbira",
+          "kolicina": "1 kašika"
+        },
+        {
+          "item": "so, biber, začini po ukusu",
+          "kolicina": ""
+        }
+      ],
+      "koraci": [
+        "U tiganj (ili vok) staviti jednu kašiku ulja od grožđanih koštica, propržiti izvaditi na tanjir."
+      ],
+      "napomene": "",
+      "izvor": {
+        "naziv": "Čarobna kuhinja – Lakše sa dijabetesom (PDF)",
+        "napomena": "Automatska ekstrakcija, strana 42",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "topli_kakao_napitak",
+      "naziv": "Topli kakao napitak",
+      "kategorija": [
+        "napitak",
+        "toplo"
+      ],
+      "tags": [
+        "brzo",
+        "kakao",
+        "napitak",
+        "toplo"
+      ],
+      "porcije": 2,
+      "vreme_min": 10,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "mleko",
+          "kolicina": "600 ml"
+        },
+        {
+          "item": "kakao",
+          "kolicina": "25 g"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "30 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "Zagreji mleko do blagog ključanja.",
+        "U činiji razmuti kakao i šećer sa 60 ml mleka.",
+        "Ulij razmućeni kakao u šerpu uz mešanje.",
+        "Dodaj prstohvat soli.",
+        "Kuvaj 2 minuta na tihoj vatri.",
+        "Mešaj 20 sekundi da bude glatko.",
+        "Sipaj u šolje.",
+        "Serviraj toplo."
+      ],
+      "napomene": "Razmućivanje kakaa pre dodavanja sprečava grudvice.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "topli_kakao_sa_cimetom",
+      "naziv": "Topli kakao sa cimetom",
+      "kategorija": [
+        "napitak",
+        "toplo"
+      ],
+      "tags": [
+        "cimet",
+        "kakao",
+        "napitak",
+        "toplo"
+      ],
+      "porcije": 2,
+      "vreme_min": 8,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "mleko",
+          "kolicina": "600 ml"
+        },
+        {
+          "item": "kakao",
+          "kolicina": "25 g"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "30 g"
+        },
+        {
+          "item": "cimet mleveni",
+          "kolicina": "1 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Razmuti kakao i šećer u 80 ml mleka.",
+        "2) Zagrej ostatak mleka do vrućeg.",
+        "3) Dodaj razmućeni kakao i mešaj 20 sekundi.",
+        "4) Dodaj cimet i so.",
+        "5) Kuvaj 2 minuta na tihoj vatri.",
+        "6) Promesi 10 sekundi.",
+        "7) Sipaj u šolje.",
+        "8) Serviraj."
+      ],
+      "napomene": "Prstohvat soli pojača čokoladni ukus.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "topli_kakao_sa_cimetom_i_vanilom",
+      "naziv": "Topli kakao sa cimetom i vanilom",
+      "kategorija": [
+        "napitak",
+        "toplo"
+      ],
+      "tags": [
+        "cimet",
+        "kakao",
+        "napitak",
+        "toplo"
+      ],
+      "porcije": 2,
+      "vreme_min": 8,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "mleko",
+          "kolicina": "600 ml"
+        },
+        {
+          "item": "kakao",
+          "kolicina": "25 g"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "30 g"
+        },
+        {
+          "item": "cimet mleveni",
+          "kolicina": "1 g"
+        },
+        {
+          "item": "vanilin šećer",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Razmuti kakao i šećer u 80 ml mleka.",
+        "2) Zagrej ostatak mleka do vrućeg.",
+        "3) Dodaj razmućeni kakao i mešaj 20 sekundi.",
+        "4) Dodaj cimet, vanilu i so.",
+        "5) Kuvaj 2 minuta tiho.",
+        "6) Sipaj u šolje.",
+        "7) Serviraj.",
+        "8) Gotovo."
+      ],
+      "napomene": "Cimet dodaj umereno da ne preuzme ukus.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "topli_napitak_od_jabuke_i_cimeta",
+      "naziv": "Topli napitak od jabuke i cimeta",
+      "kategorija": [
+        "napitak",
+        "toplo"
+      ],
+      "tags": [
+        "cimet",
+        "jabuka",
+        "napitak",
+        "toplo"
+      ],
+      "porcije": 4,
+      "vreme_min": 20,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "jabuke",
+          "kolicina": "600 g"
+        },
+        {
+          "item": "voda",
+          "kolicina": "1.4 l"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "60 g"
+        },
+        {
+          "item": "cimet u prahu",
+          "kolicina": "2 g"
+        },
+        {
+          "item": "limunov sok",
+          "kolicina": "10 ml"
+        }
+      ],
+      "koraci": [
+        "1) Iseci jabuke na kocke (sa korom).",
+        "2) Prokuvaj vodu sa šećerom 3 minuta.",
+        "3) Dodaj jabuke.",
+        "4) Kuvaj 12 minuta na tihoj vatri.",
+        "5) Dodaj cimet.",
+        "6) Dodaj limunov sok.",
+        "7) Procedi napitak kroz cedilo.",
+        "8) Serviraj toplo."
+      ],
+      "napomene": "Limun dodaj na kraju da ukus ostane svež.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "topli_napitak_od_mleka_i_vanile",
+      "naziv": "Topli napitak od mleka i vanile",
+      "kategorija": [
+        "napitak",
+        "toplo"
+      ],
+      "tags": [
+        "mleko",
+        "napitak",
+        "toplo",
+        "vanila"
+      ],
+      "porcije": 2,
+      "vreme_min": 6,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "mleko",
+          "kolicina": "600 ml"
+        },
+        {
+          "item": "vanilin šećer",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "20 g"
+        }
+      ],
+      "koraci": [
+        "1) Zagrej mleko do vrućeg.",
+        "2) Dodaj šećer i vanilu.",
+        "3) Mešaj 20 sek.",
+        "4) Kuvaj 1 min tiho.",
+        "5) Sipaj u šolje.",
+        "6) Serviraj.",
+        "7) Gotovo.",
+        "8) Ohladi 1 min pre pijenja."
+      ],
+      "napomene": "Jednostavan napitak za lagan doručak ili večeru.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "toplo_mleko_sa_medom_i_cimetom",
+      "naziv": "Toplo mleko sa medom i cimetom",
+      "kategorija": [
+        "napitak",
+        "toplo"
+      ],
+      "tags": [
+        "cimet",
+        "med",
+        "mleko",
+        "napitak",
+        "toplo"
+      ],
+      "porcije": 2,
+      "vreme_min": 6,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "mleko",
+          "kolicina": "600 ml"
+        },
+        {
+          "item": "med",
+          "kolicina": "25 g"
+        },
+        {
+          "item": "cimet mleveni",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Zagrej mleko do vrućeg.",
+        "2) Sipaj u šolje.",
+        "3) Ohladi 2 min.",
+        "4) Dodaj med.",
+        "5) Dodaj cimet.",
+        "6) Promešaj 10 sek.",
+        "7) Serviraj.",
+        "8) Gotovo."
+      ],
+      "napomene": "Med dodaj kada mleko nije prevruće.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "torta_kapreze",
+      "naziv": "Torta Kapreze",
+      "kategorija": [
+        "poslastice"
+      ],
+      "tags": [
+        "dijabetes",
+        "kapreze",
+        "poslastice",
+        "torta"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "5 jaja",
+          "kolicina": ""
+        },
+        {
+          "item": "pečenog badema",
+          "kolicina": "300 g"
+        },
+        {
+          "item": "čokolade za kuvanje",
+          "kolicina": "200 g"
+        },
+        {
+          "item": "putera",
+          "kolicina": "200 g"
+        },
+        {
+          "item": "kokosovog šećera",
+          "kolicina": "150 g"
+        },
+        {
+          "item": "tečni zaslađivač, po ukusu",
+          "kolicina": ""
+        }
+      ],
+      "koraci": [
+        "Puter i čokoladu istopiti na tihoj vatri i presuti u veću posudu.",
+        "Pečeni badem usitniti u seckalici (može se i samleti, ali je bolje da ima i krupnijih komadića).",
+        "Ukoliko badem nije pečen staviti ga u umereno zagrejan tiganj i, uz stalno mešanje, peći ga desetak minuta, bez masnoće, pa ga onda usitniti.",
+        "U posudu sa puterom i čokoladom dodati badem i kokosov šećer, a zatim dodavati jedno po jedno jaje, muteći mikserom na najmanjoj brzini.",
+        "Smesu za kolač sipati u podmazan pleh za tortu, prečnika oko 24 cm (ili u pravougaoni kalup, širine oko 8 cm, a dužine oko 30 cm), staviti u rernu zagrejanu na 200 0C, smanjiti na oko 170 0C i peći 30 do 40 minuta.",
+        "Torta treba da bude potpuno pečena spolja, a unutra da ostane sočna.",
+        "Torta bez brašna!"
+      ],
+      "napomene": "",
+      "izvor": {
+        "naziv": "carobna-kuhinja-100-recepata-2",
+        "napomena": "Ekstraktovano iz PDF (best-effort)",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "pdf_torta_od_banana_i_jagoda_91",
+      "naziv": "Torta od banana i jagoda",
+      "kategorija": [
+        "poslastice"
+      ],
+      "tags": [
+        "dijabetes",
+        "kuvar",
+        "nasacarobnakuhinja100recepat",
+        "poslastice",
+        "torta"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "za patišpanj",
+          "kolicina": ""
+        },
+        {
+          "item": "kokosovog šećera",
+          "kolicina": "180 g"
+        },
+        {
+          "item": "ovsenog brašna",
+          "kolicina": "150 g"
+        },
+        {
+          "item": "kokosovog brašna",
+          "kolicina": "50 g"
+        },
+        {
+          "item": "mlevenih lešnika, oraha ili badema",
+          "kolicina": "50 g"
+        },
+        {
+          "item": "1/2 praška za pecivo za l",
+          "kolicina": ""
+        },
+        {
+          "item": "jagoda",
+          "kolicina": "400 g"
+        },
+        {
+          "item": "banana (oljuštenih)",
+          "kolicina": "230 g"
+        },
+        {
+          "item": "slatke pavlake (2 pavlake)",
+          "kolicina": "500 g"
+        }
+      ],
+      "koraci": [
+        "Umutiti penasto 5 žumanaca sa 180 g kokosovog šećera i 3 kašike vrele vode.",
+        "Dodati brašno i lešnike, 1/2 praška za pecivo i ulupan sneg od 5 belanaca.",
+        "Sipati u pleh od najmanje 22 cm u prečniku ili odgovarajući četvrtasti pleh, staviti u rernu zagrejanu na 250 oC, smanjiti na 200 oC i peći oko 40 minuta, da se patišpanj odvoji od ivica pleha i lepo porumeni.",
+        "Ispečeni patišpanj preseći na tri dela i svaki deo poprskati sokom koji se napravi u blenderu od 50 g jagoda, 250 g vode i tečnog zaslađivača prema ukusu.",
+        "Filovati tako što se na prve dve poprskane kore prvo namaže puding (spremljen prema uputstvu ali sa manje mleka i zaslađen tečnim zaslađivačem prema ukusu), zatim se na prvu koru, preko pudinga, poređaju jagode presečene na pola, a na drugu banane iseckane na listiće pa se preklopi trećom korom koja se premaže preostalim pudingom i zatim zaslađenom ulupanom slatkom pavlakom ili šlagom.",
+        "Ukrasiti sa par jagoda!"
+      ],
+      "napomene": "Porcije nisu navedene u PDF-u (možeš dopisati).",
+      "izvor": {
+        "naziv": "nasa-carobna-kuhinja-100-recepata-za-osobe-sa-dijabetesom_compress.pdf.zip",
+        "napomena": "strana 91",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "pdf_torta_sa_jogurtom_i_cokoladom_99",
+      "naziv": "Torta sa jogurtom i čokoladom",
+      "kategorija": [
+        "poslastice"
+      ],
+      "tags": [
+        "dijabetes",
+        "kuvar",
+        "nasacarobnakuhinja100recepat",
+        "poslastice",
+        "torta"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "za testo",
+          "kolicina": ""
+        },
+        {
+          "item": "ovsenog brašna",
+          "kolicina": "60 g"
+        },
+        {
+          "item": "kokosovog šećera",
+          "kolicina": "40 g"
+        },
+        {
+          "item": "kakaoa ● 1/2 praška za pecivo za l",
+          "kolicina": "20 g"
+        },
+        {
+          "item": "2 slatke pavlake",
+          "kolicina": ""
+        },
+        {
+          "item": "malo tečnog zaslađivača (po ukusu)",
+          "kolicina": ""
+        },
+        {
+          "item": "jogurta (0.9% m. m.)",
+          "kolicina": "500 g"
+        },
+        {
+          "item": "2 kesice želatina",
+          "kolicina": ""
+        },
+        {
+          "item": "čokolade za kuvanje za glazuru",
+          "kolicina": "200 g"
+        },
+        {
+          "item": "čokolade za kuvanje",
+          "kolicina": "100 g"
+        },
+        {
+          "item": "mleka (1.6% m. m.), ● 20 g putera",
+          "kolicina": "40 g"
+        }
+      ],
+      "koraci": [
+        "Penasto umutiti žumanca i kokosov šećer.",
+        "Dodati ovseno brašno, kakao i prašak za pecivo, a na kraju i čvrst sneg od 3 belanca.",
+        "Peći u plehu prečnika oko 22 cm, sa obručem za stezanje.",
+        "Staviti u rernu zagrejanu na 250 0C, smanjiti na 2000C i peći"
+      ],
+      "napomene": "Porcije nisu navedene u PDF-u (možeš dopisati).",
+      "izvor": {
+        "naziv": "nasa-carobna-kuhinja-100-recepata-za-osobe-sa-dijabetesom_compress.pdf.zip",
+        "napomena": "strana 99",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "torta_sa_pudingom_i_malinama",
+      "naziv": "Torta sa pudingom i malinama",
+      "kategorija": [
+        "poslastice"
+      ],
+      "tags": [
+        "dijabetes",
+        "malinama",
+        "poslastice",
+        "pudingom",
+        "torta"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "(za pleh prečnika 23 cm)",
+          "kolicina": ""
+        },
+        {
+          "item": "za patišpanj",
+          "kolicina": ""
+        },
+        {
+          "item": "ovsenog brašna",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "kokosovog šećera",
+          "kolicina": "100 g"
+        },
+        {
+          "item": "2 jaja",
+          "kolicina": ""
+        },
+        {
+          "item": "putera (maslaca)",
+          "kolicina": "125 g"
+        },
+        {
+          "item": "mleka (1.6% m. m.)",
+          "kolicina": "100 g"
+        },
+        {
+          "item": "soka od višnje ili maline",
+          "kolicina": "2 dl"
+        },
+        {
+          "item": "(bistri – bez dodatog šećera)",
+          "kolicina": ""
+        },
+        {
+          "item": "rendana kora od 1 limuna",
+          "kolicina": ""
+        },
+        {
+          "item": "1/2 praška za pecivo",
+          "kolicina": ""
+        },
+        {
+          "item": "1/2 kafene kašičice tečnog zaslađivačaza fil",
+          "kolicina": ""
+        },
+        {
+          "item": "mleka (1.5% m. m.)",
+          "kolicina": "500 g"
+        },
+        {
+          "item": "1 prašak za puding od vanile",
+          "kolicina": ""
+        },
+        {
+          "item": "1/2 kafene kašičice tečnog",
+          "kolicina": ""
+        },
+        {
+          "item": "zaslađivača",
+          "kolicina": ""
+        },
+        {
+          "item": "za preliv",
+          "kolicina": ""
+        },
+        {
+          "item": "soka od višnje ili maline",
+          "kolicina": "5 dl"
+        },
+        {
+          "item": "2 kesice preliva za tortu",
+          "kolicina": ""
+        },
+        {
+          "item": "malina",
+          "kolicina": "400 g"
+        },
+        {
+          "item": "4 belanca",
+          "kolicina": ""
+        },
+        {
+          "item": "ovsenog brašna",
+          "kolicina": "60 g"
+        },
+        {
+          "item": "kokosovog šećera",
+          "kolicina": "40 g"
+        },
+        {
+          "item": "oraha (ili lešnika, ili badema)",
+          "kolicina": "50 g"
+        },
+        {
+          "item": "suvog grožđa",
+          "kolicina": "50 g"
+        },
+        {
+          "item": "seckane diet čokolade",
+          "kolicina": "50 g"
+        },
+        {
+          "item": "ulja od grožđanih koštica",
+          "kolicina": "15 g"
+        },
+        {
+          "item": "(2 supene kašike)",
+          "kolicina": ""
+        },
+        {
+          "item": "soka od limuna (3 supene kašike)",
+          "kolicina": "30 g"
+        },
+        {
+          "item": "vode (3 supene kašike)",
+          "kolicina": "30 g"
+        }
+      ],
+      "koraci": [
+        "Patišpanj: Penasto umutiti puter sa ko kosovim čećerom, dodati jedno po jedno jaje, stalno muteći mikserom, sipati mleko i tečni zaslađivač, pa polako dosipati brašno pomešano sa praškom za pecivo i koru od limuna. Kalup za tortu (sa obručem za otvaranje) premazati uljem, sipati testo i peći 20−30 minuta u rerni za grejanoj na 200 0C (proveriti čačkalicom – kad je čista, patišpanj je gotov). Kada se testo ohladi, preseći ga na dva lista. Fil: puding skuvati po uputstvu na kesici i zasladiti tečnim zaslađivačem. Preliv: Crveni sok (višnja ili malina) sipati u šerpu, zasladiti po ukusu i staviti da provri. U malo hladnog soka razmutiti preliv za tortu, dodati u provreli sok i prokuvati 2 −3 minuta. Skloniti sa vatre i sačekati da počne da želira (ako počne da se zgrušava, malo promešati mikserom). Filovati tortu – Donji deo patišpanja preliti sa 2 dl soka, premazati jednom trećinom preliva i pudingom, pa prekriti drugim delom patišpanja. Ravnomerno rasporediti maline (odmrznute i ne sasvim oceđene) i preliti ostatkom preliva. Staviti u frižider da se dobro ohladi i stegne, pa otvoriti kalup. Seći na trouglaste kriške i servirati.Potrebno je (za pleh prečnika 23 cm) za patišpanj •250 g ovsenog brašna •100 g kokosovog šećera •2 jaja •125 g putera (maslaca) •100 g mleka (",
+        "6% m. m.) •2 dl soka od višnje ili maline (bistri – bez dodatog šećera) •rendana kora od 1 limuna •1/2 praška za pecivo •1/2 kafene kašičice tečnog zaslađivačaza fil •500 g mleka (",
+        "5% m. m.) •1 prašak za puding od vanile •1/2 kafene kašičice tečnog zaslađivača za preliv •5 dl soka od višnje ili maline (bistri – bez dodatog šećera) •2 kesice preliva za tortu •400 g malina •tečni zaslađivač po ukusu"
+      ],
+      "napomene": "",
+      "izvor": {
+        "naziv": "carobna-kuhinja-100-recepata-2",
+        "napomena": "Ekstraktovano iz PDF (best-effort)",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "tost_sa_ajvarom_i_fetom",
+      "naziv": "Tost sa ajvarom i fetom",
+      "kategorija": [
+        "doručak",
+        "brzo"
+      ],
+      "tags": [
+        "ajvar",
+        "brzo",
+        "dorucak",
+        "feta",
+        "tost"
+      ],
+      "porcije": 2,
+      "vreme_min": 10,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "tost hleb",
+          "kolicina": "4 kriške"
+        },
+        {
+          "item": "ajvar",
+          "kolicina": "120 g"
+        },
+        {
+          "item": "feta sir",
+          "kolicina": "140 g"
+        },
+        {
+          "item": "puter",
+          "kolicina": "15 g"
+        }
+      ],
+      "koraci": [
+        "1) Namaži ajvar na dve kriške hleba.",
+        "2) Dodaj izmrvljenu fetu.",
+        "3) Poklopi drugim kriškama.",
+        "4) Spolja tanko premaži puterom.",
+        "5) Zapeći 4 min u tiganju ili tosteru.",
+        "6) Preseci na pola.",
+        "7) Serviraj.",
+        "8) Gotovo."
+      ],
+      "napomene": "Ajvar koristi u tankom sloju da tost ostane hrskav.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "tost_sa_ajvarom_i_kackavaljem",
+      "naziv": "Tost sa ajvarom i kačkavaljem",
+      "kategorija": [
+        "doručak",
+        "brzo"
+      ],
+      "tags": [
+        "ajvar",
+        "brzo",
+        "dorucak",
+        "kackavalj",
+        "tost"
+      ],
+      "porcije": 2,
+      "vreme_min": 10,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "tost hleb",
+          "kolicina": "4 kriške"
+        },
+        {
+          "item": "ajvar",
+          "kolicina": "120 g"
+        },
+        {
+          "item": "kačkavalj",
+          "kolicina": "140 g"
+        },
+        {
+          "item": "puter",
+          "kolicina": "15 g"
+        }
+      ],
+      "koraci": [
+        "1) Namaži ajvar na dve kriške hleba.",
+        "2) Dodaj rendani kačkavalj.",
+        "3) Poklopi drugim kriškama.",
+        "4) Spolja premaži tanko puterom.",
+        "5) Zapeći u tiganju ili tosteru 4 min.",
+        "6) Preseci na pola.",
+        "7) Serviraj.",
+        "8) Gotovo."
+      ],
+      "napomene": "Ajvar koristi umerenije da tost ostane hrskav.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "tost_sa_ajvarom_i_pecenim_jajetom",
+      "naziv": "Tost sa ajvarom i pečenim jajetom",
+      "kategorija": [
+        "doručak",
+        "brzo"
+      ],
+      "tags": [
+        "ajvar",
+        "brzo",
+        "dorucak",
+        "jaja",
+        "peceno",
+        "tost"
+      ],
+      "porcije": 2,
+      "vreme_min": 15,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "tost hleb",
+          "kolicina": "4 kriške"
+        },
+        {
+          "item": "ajvar",
+          "kolicina": "120 g"
+        },
+        {
+          "item": "jaja",
+          "kolicina": "2 kom"
+        },
+        {
+          "item": "kačkavalj rendani",
+          "kolicina": "60 g"
+        },
+        {
+          "item": "puter",
+          "kolicina": "20 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "2 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "Premaži hleb puterom i tostiraj 2 minuta.",
+        "Namaži ajvar na tople kriške.",
+        "Pospi rendani kačkavalj.",
+        "Ispeci jaja na oko 2–3 minuta.",
+        "Posoli i pobiberi jaja.",
+        "Stavi po jedno jaje na svaki tost.",
+        "Sačekaj 1 minut da se sir malo otopi.",
+        "Serviraj toplo."
+      ],
+      "napomene": "Može i u rerni 3 minuta na 200°C da se sir brže otopi.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "tost_sa_avokadom_i_jajetom",
+      "naziv": "Tost sa avokadom i jajetom",
+      "kategorija": [
+        "doručak",
+        "brzo"
+      ],
+      "tags": [
+        "avokado",
+        "brzo",
+        "dorucak",
+        "jaje",
+        "tost"
+      ],
+      "porcije": 2,
+      "vreme_min": 12,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "tost hleb",
+          "kolicina": "4 kriške"
+        },
+        {
+          "item": "avokado zreo",
+          "kolicina": "1 kom"
+        },
+        {
+          "item": "jaja",
+          "kolicina": "2 kom"
+        },
+        {
+          "item": "limunov sok",
+          "kolicina": "10 ml"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "10 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "8 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "Tostiraj hleb 3 minuta.",
+        "Izgnječi avokado i dodaj limunov sok.",
+        "Posoli avokado sa 4 g soli.",
+        "Ispeci 2 jaja na ulju 2–3 minuta.",
+        "Namaži avokado na tost.",
+        "Stavi jaja preko.",
+        "Pospi preostalom solju i biberom.",
+        "Serviraj odmah."
+      ],
+      "napomene": "Limun sprečava tamnjenje avokada i osvežava ukus.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "tost_sa_puterom_i_medom",
+      "naziv": "Tost sa puterom i medom",
+      "kategorija": [
+        "doručak",
+        "brzo"
+      ],
+      "tags": [
+        "brzo",
+        "dorucak",
+        "med",
+        "puter",
+        "tost"
+      ],
+      "porcije": 2,
+      "vreme_min": 5,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "tost hleb",
+          "kolicina": "4 kriške"
+        },
+        {
+          "item": "puter",
+          "kolicina": "40 g"
+        },
+        {
+          "item": "med",
+          "kolicina": "30 g"
+        }
+      ],
+      "koraci": [
+        "Tostiraj hleb 3 minuta.",
+        "Namaži puter na topli tost.",
+        "Prelij medom.",
+        "Odstoj 30 sekundi.",
+        "Serviraj.",
+        "Gotovo.",
+        "Nema kuvanja.",
+        "Po želji preseci na trouglove."
+      ],
+      "napomene": "Puter se najbolje razmaže dok je tost topao.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "tost_sa_puterom_od_kikirikija_i_bananom",
+      "naziv": "Tost sa puterom od kikirikija i bananom",
+      "kategorija": [
+        "doručak",
+        "brzo"
+      ],
+      "tags": [
+        "banana",
+        "brzo",
+        "dorucak",
+        "kikiriki",
+        "tost"
+      ],
+      "porcije": 2,
+      "vreme_min": 6,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "tost hleb",
+          "kolicina": "4 kriške"
+        },
+        {
+          "item": "puter od kikirikija",
+          "kolicina": "100 g"
+        },
+        {
+          "item": "banane",
+          "kolicina": "2 kom"
+        }
+      ],
+      "koraci": [
+        "1) Tostiraj hleb 3 min.",
+        "2) Namaži puter od kikirikija.",
+        "3) Iseci banane na kolutove.",
+        "4) Rasporedi preko tosta.",
+        "5) Serviraj odmah.",
+        "6) Gotovo.",
+        "7) Po želji preseci na trouglove.",
+        "8) Posluži."
+      ],
+      "napomene": "Bananu dodaj neposredno pred serviranje.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "tost_sa_sirom_i_paradajzom",
+      "naziv": "Tost sa sirom i paradajzom",
+      "kategorija": [
+        "doručak",
+        "brzo"
+      ],
+      "tags": [
+        "brzo",
+        "dorucak",
+        "paradajz",
+        "sir",
+        "tost"
+      ],
+      "porcije": 2,
+      "vreme_min": 10,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "tost hleb",
+          "kolicina": "4 kriške"
+        },
+        {
+          "item": "kačkavalj",
+          "kolicina": "140 g"
+        },
+        {
+          "item": "paradajz",
+          "kolicina": "200 g"
+        },
+        {
+          "item": "puter",
+          "kolicina": "15 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "4 g"
+        }
+      ],
+      "koraci": [
+        "1) Iseci paradajz na tanke kriške.",
+        "2) Složi tost sa sirom i paradajzom.",
+        "3) Blago posoli paradajz.",
+        "4) Spolja premaži tanko puterom.",
+        "5) Zapeći 4 min u tiganju ili tosteru.",
+        "6) Preseci na pola.",
+        "7) Serviraj.",
+        "8) Gotovo."
+      ],
+      "napomene": "Paradajz koristi u tankim kriškama da tost ostane hrskav.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "tost_sendvic_sa_sirom_i_pecurkama",
+      "naziv": "Tost sendvič sa sirom i pečurkama",
+      "kategorija": [
+        "doručak",
+        "brzo"
+      ],
+      "tags": [
+        "brzo",
+        "dorucak",
+        "pecurke",
+        "sir",
+        "tost"
+      ],
+      "porcije": 2,
+      "vreme_min": 15,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "tost hleb",
+          "kolicina": "4 kriške"
+        },
+        {
+          "item": "kačkavalj",
+          "kolicina": "200 g"
+        },
+        {
+          "item": "šampinjoni",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "puter",
+          "kolicina": "20 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "6 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Iseci šampinjone na listiće.",
+        "2) Prži šampinjone na puteru 6 minuta.",
+        "3) Posoli i pobiberi pečurke.",
+        "4) Složi tost: hleb + sir + pečurke + sir + hleb.",
+        "5) Zapeći u tiganju ili tosteru 3–4 minuta.",
+        "6) Preseci na pola.",
+        "7) Serviraj.",
+        "8) Gotovo."
+      ],
+      "napomene": "Pečurke proprži da ne puste vodu u sendviču.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "tostirani_hleb_sa_namazom_od_pasulja",
+      "naziv": "Tostirani hleb sa namazom od pasulja",
+      "kategorija": [
+        "doručak",
+        "brzo"
+      ],
+      "tags": [
+        "brzo",
+        "dorucak",
+        "namaz",
+        "pasulj",
+        "tost"
+      ],
+      "porcije": 2,
+      "vreme_min": 10,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "hleb",
+          "kolicina": "4 kriške"
+        },
+        {
+          "item": "namaz od belog pasulja",
+          "kolicina": "200 g"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "10 ml"
+        }
+      ],
+      "koraci": [
+        "Tostiraj hleb 3 minuta.",
+        "Premaži kriške uljem tanko.",
+        "Namaži pasulj namaz preko.",
+        "Serviraj odmah.",
+        "Po želji pospi biberom 1 g.",
+        "Odstoj 1 minut.",
+        "Serviraj toplo.",
+        "Nema dodatnih koraka."
+      ],
+      "napomene": "Ako želiš hrskavije, tostiraj još 1 minut.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "tresnje_u_zeleu",
+      "naziv": "Trešnje u želeu",
+      "kategorija": [
+        "poslastice"
+      ],
+      "tags": [
+        "dijabetes",
+        "poslastice",
+        "tresnje",
+        "zeleu"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "(za pleh 22 x 35 cm)",
+          "kolicina": ""
+        },
+        {
+          "item": "za testo",
+          "kolicina": ""
+        },
+        {
+          "item": "ovsenog brašna",
+          "kolicina": "180 g"
+        },
+        {
+          "item": "kokosovog šećera",
+          "kolicina": "60 g"
+        },
+        {
+          "item": "1 jaje",
+          "kolicina": ""
+        },
+        {
+          "item": "putera (maslaca)",
+          "kolicina": "75 g"
+        },
+        {
+          "item": "1 kafena kašičica praška za pecivo",
+          "kolicina": ""
+        },
+        {
+          "item": "soka od jabuke (bez dodatog šećera)",
+          "kolicina": "2 dl"
+        },
+        {
+          "item": "za fil",
+          "kolicina": ""
+        },
+        {
+          "item": "slatke pavlake",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "1 kesica šlaga (",
+          "kolicina": ""
+        }
+      ],
+      "koraci": [
+        "se sa mlekom) •100 g mleka (",
+        "6% m. m.) •40 g kokosovog šećera •250 g jogurta (",
+        "9% m. m.) •1 sup. kašika rendane limunove kore •1 kesica želatina u prahu za preliv •400 g trešanja bez koštica •3 dl soka od jabuke (bez dodatog šećera) •",
+        "5 kesica želatina u prahuPriprema - Testo: pomešati brašno i prašak za pecivo, dodati omekšali puter i na kraju jaje i kokosov šećer. Ostaviti u frižideru da se ohladi, oko 1 sat. Testo prstima ravnomerno rasporediti po dnu pleha, staviti u rernu zagrejanu na 200 0C i peći oko 15 minuta. Kada se prohladi preliti sokom od jabuke. Fil: mutiti pavlaku i kada počne da se zgušnjava dodati šlag i mleko pa promešati. Želatin natopiti sa 4 kašike hladne vode, ostaviti 10 minuta, a zatim ga zagrejati da se otopi. Sipati ga u smesu pavlake i šlaga, dobro promešati pa dodati kokosov šećer, jogurt i limunovu koru. Fil preliti preko ohlađenog testa i ostaviti u frižideru oko 30 minuta, da počne da se steže. Priprema - Preliv: sok od jabuke staviti da proključa pa u njega spustiti trešnje bez koštica, presečene na pola. Kuvati ih 2 minuta, skloniti sa vatre i ostaviti da odstoje u soku još 5 minuta, a zatim ih izvaditi i, kada se ohlade, presečenom stranom okrenutom na dole blago ih utisnuti u beli fil, koji se delimično stegao . Želatin pripremiti na isti način kao za fil, sipati ga u topli sok, dobro promešati da se rastvori, pa sve staviti u frižider da počne da želira. Preliti preko trešanja i staviti u frižider da se stegne, 3 −4 sata."
+      ],
+      "napomene": "",
+      "izvor": {
+        "naziv": "carobna-kuhinja-100-recepata-2",
+        "napomena": "Ekstraktovano iz PDF (best-effort)",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "trilece",
+      "naziv": "Trileće",
+      "kategorija": [
+        "desert",
+        "kolači"
+      ],
+      "tags": [
+        "desert",
+        "kolaci",
+        "krem",
+        "mleko",
+        "trilece"
+      ],
+      "porcije": 12,
+      "vreme_min": 90,
+      "tezina": "teško",
+      "sastojci": [
+        {
+          "item": "jaja",
+          "kolicina": "5 kom"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "180 g"
+        },
+        {
+          "item": "brašno",
+          "kolicina": "180 g"
+        },
+        {
+          "item": "prašak za pecivo",
+          "kolicina": "8 g"
+        },
+        {
+          "item": "mleko",
+          "kolicina": "600 ml"
+        },
+        {
+          "item": "kondenzovano mleko",
+          "kolicina": "350 ml"
+        },
+        {
+          "item": "slatka pavlaka",
+          "kolicina": "300 ml"
+        },
+        {
+          "item": "šećer (za karamel)",
+          "kolicina": "120 g"
+        },
+        {
+          "item": "slatka pavlaka (za karamel)",
+          "kolicina": "200 ml"
+        }
+      ],
+      "koraci": [
+        "Zagrej rernu na 180°C.",
+        "Umuti jaja i šećer 5 minuta.",
+        "Dodaj brašno i prašak za pecivo, sjedini.",
+        "Peci biskvit 25 minuta.",
+        "Pomešaj mleko, kondenzovano mleko i 300 ml pavlake.",
+        "Izbodi biskvit i prelij mlečnom mešavinom.",
+        "Rashladi 1 sat.",
+        "Napravi karamel: istopi 120 g šećera, dodaj 200 ml pavlake.",
+        "Prelij karamel preko kolača.",
+        "Rashladi 2 sata i seci."
+      ],
+      "napomene": "Biskvit prelivaj postepeno da ravnomerno upije.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "tufahije",
+      "naziv": "Tufahije",
+      "kategorija": [
+        "desert",
+        "tradicionalno"
+      ],
+      "tags": [
+        "desert",
+        "jabuke",
+        "orasi",
+        "tradicionalno",
+        "tufahije"
+      ],
+      "porcije": 6,
+      "vreme_min": 60,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "jabuke",
+          "kolicina": "1.2 kg"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "180 g"
+        },
+        {
+          "item": "voda",
+          "kolicina": "1 l"
+        },
+        {
+          "item": "orasi mleveni",
+          "kolicina": "200 g"
+        },
+        {
+          "item": "vanilin šećer",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "limun",
+          "kolicina": "1 kom"
+        }
+      ],
+      "koraci": [
+        "Oljušti jabuke i izdubi sredinu.",
+        "U šerpi prokuvaj vodu sa 180 g šećera i vanilom.",
+        "Dodaj sok od limuna.",
+        "Kuvaj jabuke u sirupu 10–12 minuta.",
+        "Ohladi jabuke 15 minuta.",
+        "Pomešaj orahe sa 40 ml sirupa.",
+        "Napuni jabuke orasima.",
+        "Rashladi 1 sat i serviraj."
+      ],
+      "napomene": "Jabuke kuvaj kratko da ostanu cele i ne raspadnu se.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "tufahije_jabuke_punjene_orasima",
+      "naziv": "Tufahije (jabuke punjene orasima)",
+      "kategorija": [
+        "desert",
+        "tradicionalno"
+      ],
+      "tags": [
+        "desert",
+        "jabuke",
+        "orasi",
+        "tradicionalno",
+        "tufahije"
+      ],
+      "porcije": 6,
+      "vreme_min": 60,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "jabuke",
+          "kolicina": "6 kom"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "180 g"
+        },
+        {
+          "item": "voda",
+          "kolicina": "1.2 l"
+        },
+        {
+          "item": "orasi mleveni",
+          "kolicina": "220 g"
+        },
+        {
+          "item": "med",
+          "kolicina": "30 g"
+        },
+        {
+          "item": "cimet mleveni",
+          "kolicina": "2 g"
+        },
+        {
+          "item": "limunov sok",
+          "kolicina": "15 ml"
+        }
+      ],
+      "koraci": [
+        "1) Oljušti jabuke i izdubi sredinu.",
+        "2) Prokuvaj vodu sa šećerom 5 minuta.",
+        "3) Dodaj jabuke i kuvaj 12 minuta na tihoj vatri.",
+        "4) Izvadi jabuke i ohladi 10 minuta.",
+        "5) Pomešaj orahe, med i cimet.",
+        "6) Napuni jabuke filom.",
+        "7) Prelij sa 200 ml sirupa i dodaj limunov sok.",
+        "8) Rashladi 2 sata i serviraj."
+      ],
+      "napomene": "Jabuke kuvaj tiho da ne puknu.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "tunjevinom_i_avokadom_tost_sa",
+      "naziv": "tunjevinom i avokadom Tost sa",
+      "kategorija": [
+        "pite",
+        "testa"
+      ],
+      "tags": [
+        "carobna",
+        "dijabetes",
+        "pite",
+        "posno",
+        "testa"
+      ],
+      "porcije": 2,
+      "vreme_min": 0,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "tunjevine iz konzerve (iz konzerve od 185 g ocediti 50 g ulja)",
+          "kolicina": "135 g"
+        },
+        {
+          "item": "očišćenog avokada",
+          "kolicina": "150 g"
+        },
+        {
+          "item": "1 struk mladog luka (samo zeleni deo)",
+          "kolicina": ""
+        },
+        {
+          "item": "2 supene kašike seckanog peršuna (ili lista korijandera)",
+          "kolicina": ""
+        },
+        {
+          "item": "1 supena kašika limunovog soka",
+          "kolicina": ""
+        },
+        {
+          "item": "so, biber",
+          "kolicina": ""
+        },
+        {
+          "item": "integralnog hleba (4 parčeta)",
+          "kolicina": "100 g"
+        }
+      ],
+      "koraci": [
+        "Hleb prepeći u tosteru ili u rerni.",
+        "Ohladiti, stavljati"
+      ],
+      "napomene": "",
+      "izvor": {
+        "naziv": "Čarobna kuhinja – Lakše sa dijabetesom (PDF)",
+        "napomena": "Automatska ekstrakcija, strana 27",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "tursija_salata_od_kiselih_paprika",
+      "naziv": "Turšija salata od kiselih paprika",
+      "kategorija": [
+        "salata",
+        "prilog"
+      ],
+      "tags": [
+        "brzo",
+        "kiselepaprike",
+        "prilog",
+        "salata",
+        "tursija"
+      ],
+      "porcije": 4,
+      "vreme_min": 10,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "kisela paprika (turšija)",
+          "kolicina": "500 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "100 g"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "25 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "6 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "Ocedi kisele paprike.",
+        "Iseci paprike na trake.",
+        "Iseci luk na tanke polumesece.",
+        "Dodaj ulje.",
+        "Posoli blago i pobiberi.",
+        "Promešaj 20 sekundi.",
+        "Odstoj 5 minuta.",
+        "Serviraj."
+      ],
+      "napomene": "Turšija je već slana; so dodaj oprezno.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "urmasice",
+      "naziv": "Urmašice",
+      "kategorija": [
+        "desert",
+        "kolači"
+      ],
+      "tags": [
+        "desert",
+        "kolaci",
+        "sirup",
+        "tradicionalno",
+        "urmasice"
+      ],
+      "porcije": 12,
+      "vreme_min": 90,
+      "tezina": "teško",
+      "sastojci": [
+        {
+          "item": "brašno",
+          "kolicina": "500 g"
+        },
+        {
+          "item": "puter",
+          "kolicina": "200 g"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "80 g"
+        },
+        {
+          "item": "jaja",
+          "kolicina": "2 kom"
+        },
+        {
+          "item": "prašak za pecivo",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "voda",
+          "kolicina": "500 ml"
+        },
+        {
+          "item": "šećer (za sirup)",
+          "kolicina": "350 g"
+        },
+        {
+          "item": "limun",
+          "kolicina": "1/2 kom"
+        }
+      ],
+      "koraci": [
+        "Zagrej rernu na 180°C.",
+        "Umesi testo: brašno, puter, šećer, jaja i prašak za pecivo.",
+        "Oblikuj urmašice i poređaj u pleh.",
+        "Peci 25 minuta do zlatno.",
+        "Skuvaj sirup: 350 g šećera i 500 ml vode 10 minuta, dodaj limun.",
+        "Vruće urmašice prelij toplim sirupom.",
+        "Odstoj 2 sata.",
+        "Serviraj."
+      ],
+      "napomene": "Ne prepeci; treba da ostanu svetlije da upiju sirup.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "urnebes_salata_sir_i_paprika",
+      "naziv": "Urnebes salata (sir i paprika)",
+      "kategorija": [
+        "salata",
+        "prilog"
+      ],
+      "tags": [
+        "paprika",
+        "prilog",
+        "salata",
+        "sir",
+        "urnebes"
+      ],
+      "porcije": 4,
+      "vreme_min": 10,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "beli sir",
+          "kolicina": "350 g"
+        },
+        {
+          "item": "ajvar",
+          "kolicina": "160 g"
+        },
+        {
+          "item": "kisela pavlaka",
+          "kolicina": "120 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "6 g"
+        }
+      ],
+      "koraci": [
+        "1) Izmrvi sir viljuškom.",
+        "2) Dodaj ajvar.",
+        "3) Dodaj pavlaku.",
+        "4) Dodaj biber i so.",
+        "5) Promesi 20 sekundi.",
+        "6) Odstoj 10 minuta.",
+        "7) Promesi kratko.",
+        "8) Serviraj."
+      ],
+      "napomene": "Ako je sir slan, smanji so na 0–2 g.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "ustipci_od_heljdinog_brasna",
+      "naziv": "Uštipci od heljdinog brašna",
+      "kategorija": [
+        "doručak",
+        "brzo"
+      ],
+      "tags": [
+        "brzo",
+        "dorucak",
+        "heljda",
+        "tiganj",
+        "ustipci"
+      ],
+      "porcije": 4,
+      "vreme_min": 25,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "heljdino brašno",
+          "kolicina": "220 g"
+        },
+        {
+          "item": "pšenično brašno",
+          "kolicina": "120 g"
+        },
+        {
+          "item": "prašak za pecivo",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "jogurt",
+          "kolicina": "260 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "ulje (za prženje)",
+          "kolicina": "350 ml"
+        }
+      ],
+      "koraci": [
+        "1) Pomešaj brašna, prašak i so.",
+        "2) Dodaj jogurt i umuti testo 30 sekundi.",
+        "3) Zagrej ulje na srednjoj vatri.",
+        "4) Kašikom spuštaj uštipke.",
+        "5) Prži 2–3 minuta po strani.",
+        "6) Vadi na papir.",
+        "7) Odstoj 2 minuta.",
+        "8) Serviraj."
+      ],
+      "napomene": "Heljdino brašno daje jači ukus—pšenično pomaže strukturi.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "ustipci_od_kukuruza_i_jogurta",
+      "naziv": "Uštipci od kukuruza i jogurta",
+      "kategorija": [
+        "doručak",
+        "tiganj"
+      ],
+      "tags": [
+        "dorucak",
+        "jogurt",
+        "kukuruz",
+        "tiganj",
+        "ustipci"
+      ],
+      "porcije": 4,
+      "vreme_min": 25,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "kukuruz šećerac (oceđen)",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "brašno",
+          "kolicina": "260 g"
+        },
+        {
+          "item": "jaja",
+          "kolicina": "2 kom"
+        },
+        {
+          "item": "jogurt",
+          "kolicina": "220 ml"
+        },
+        {
+          "item": "prašak za pecivo",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "12 g"
+        },
+        {
+          "item": "ulje (za prženje)",
+          "kolicina": "350 ml"
+        }
+      ],
+      "koraci": [
+        "1) Pomešaj brašno, prašak i so.",
+        "2) Dodaj jaja i jogurt, umuti 20 sek.",
+        "3) Dodaj kukuruz 10 sek.",
+        "4) Zagrej ulje.",
+        "5) Kašikom spuštaj uštipke.",
+        "6) Prži 2–3 min po strani.",
+        "7) Vadi na papir.",
+        "8) Serviraj."
+      ],
+      "napomene": "Kukuruz treba da bude dobro oceđen.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "ustipci_od_kukuruznog_brasna",
+      "naziv": "Uštipci od kukuruznog brašna",
+      "kategorija": [
+        "doručak",
+        "prženo"
+      ],
+      "tags": [
+        "brzo",
+        "dorucak",
+        "kukuruz",
+        "przeno",
+        "ustipci"
+      ],
+      "porcije": 4,
+      "vreme_min": 20,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "kukuruzno brašno",
+          "kolicina": "220 g"
+        },
+        {
+          "item": "pšenično brašno",
+          "kolicina": "80 g"
+        },
+        {
+          "item": "prašak za pecivo",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "jogurt",
+          "kolicina": "250 ml"
+        },
+        {
+          "item": "jaje",
+          "kolicina": "1 kom"
+        },
+        {
+          "item": "so",
+          "kolicina": "12 g"
+        },
+        {
+          "item": "ulje (za prženje)",
+          "kolicina": "250 ml"
+        }
+      ],
+      "koraci": [
+        "Sjedini brašna, prašak za pecivo i so.",
+        "Dodaj jogurt i jaje, umuti gusto testo.",
+        "Zagrej ulje u tiganju.",
+        "Kašikom spuštaj testo u ulje.",
+        "Prži 2–3 minuta po strani.",
+        "Vadi na papir.",
+        "Ponovi do kraja.",
+        "Serviraj uz sir."
+      ],
+      "napomene": "Ako je testo pregusto, dodaj 30 ml vode.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "ustipci_od_tikvica",
+      "naziv": "Uštipci od tikvica",
+      "kategorija": [
+        "doručak",
+        "prženo"
+      ],
+      "tags": [
+        "brzo",
+        "dorucak",
+        "przeno",
+        "tikvice",
+        "ustipci"
+      ],
+      "porcije": 4,
+      "vreme_min": 25,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "tikvice",
+          "kolicina": "600 g"
+        },
+        {
+          "item": "brašno",
+          "kolicina": "160 g"
+        },
+        {
+          "item": "jaja",
+          "kolicina": "2 kom"
+        },
+        {
+          "item": "prašak za pecivo",
+          "kolicina": "8 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "1 g"
+        },
+        {
+          "item": "ulje (za prženje)",
+          "kolicina": "250 ml"
+        }
+      ],
+      "koraci": [
+        "Izrendaj tikvice i ocedi 5 minuta.",
+        "Dodaj jaja, so i biber.",
+        "Dodaj brašno i prašak za pecivo, umuti gusto testo.",
+        "Zagrej ulje u tiganju.",
+        "Kašikom spuštaj uštipke u ulje.",
+        "Prži 2–3 minuta po strani.",
+        "Vadi na papir.",
+        "Serviraj toplo."
+      ],
+      "napomene": "Tikvice moraju biti oceđene da uštipci ne budu gnjecavi.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "ustipci_sa_jogurtom",
+      "naziv": "Uštipci sa jogurtom",
+      "kategorija": [
+        "doručak",
+        "peciva"
+      ],
+      "tags": [
+        "brzo",
+        "dorucak",
+        "peciva",
+        "przeno",
+        "ustipci"
+      ],
+      "porcije": 4,
+      "vreme_min": 25,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "brašno",
+          "kolicina": "300 g"
+        },
+        {
+          "item": "jogurt",
+          "kolicina": "250 ml"
+        },
+        {
+          "item": "jaje",
+          "kolicina": "1 kom"
+        },
+        {
+          "item": "prašak za pecivo",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "6 g"
+        },
+        {
+          "item": "ulje (za prženje)",
+          "kolicina": "200 ml"
+        }
+      ],
+      "koraci": [
+        "U posudi sjedini jogurt, jaje i so.",
+        "Dodaj brašno i prašak za pecivo.",
+        "Umuti testo da bude gusto.",
+        "Zagrej ulje u dubljem tiganju.",
+        "Kašikom spuštaj testo u ulje.",
+        "Prži 2–3 minuta po strani.",
+        "Vadi na papir da upije masnoću.",
+        "Serviraj toplo."
+      ],
+      "napomene": "Ako želiš mekše, dodaj 30 ml vode u testo.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "ustipci_sa_sirom",
+      "naziv": "Uštipci sa sirom",
+      "kategorija": [
+        "doručak",
+        "prženo"
+      ],
+      "tags": [
+        "brzo",
+        "dorucak",
+        "przeno",
+        "sir",
+        "ustipci"
+      ],
+      "porcije": 4,
+      "vreme_min": 20,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "brašno",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "prašak za pecivo",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "jogurt",
+          "kolicina": "250 ml"
+        },
+        {
+          "item": "jaje",
+          "kolicina": "1 kom"
+        },
+        {
+          "item": "beli sir",
+          "kolicina": "180 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "12 g"
+        },
+        {
+          "item": "ulje (za prženje)",
+          "kolicina": "250 ml"
+        }
+      ],
+      "koraci": [
+        "Sjedini brašno i prašak za pecivo.",
+        "Dodaj jogurt i jaje, umuti testo.",
+        "Dodaj izmrvljen sir i so.",
+        "Zagrej ulje u tiganju.",
+        "Kašikom spuštaj uštipke.",
+        "Prži 2–3 minuta po strani.",
+        "Vadi na papir.",
+        "Serviraj toplo."
+      ],
+      "napomene": "Ako je testo pregusto, dodaj 30 ml vode.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "djuvec_od_povrca_sa_sojinim_mlekom",
+      "naziv": "Đuveč od povrća sa sojinim mlekom",
+      "kategorija": [
+        "kuvana_jela"
+      ],
+      "tags": [
+        "carobna",
+        "dijabetes",
+        "kuvana_jela",
+        "posno"
+      ],
+      "porcije": 4,
+      "vreme_min": 0,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "pripremljenog sojinog mleka",
+          "kolicina": "400 g"
+        },
+        {
+          "item": "ulja od grožđanih koštica",
+          "kolicina": "40 g"
+        },
+        {
+          "item": "ovsenog brašna",
+          "kolicina": "40 g"
+        },
+        {
+          "item": "so, biber, muškatni oraščić",
+          "kolicina": ""
+        }
+      ],
+      "koraci": [
+        "U posoljenu, ključalu vodu staviti karfiol iskidan na sitne cvetiće, kuvati oko 5 minuta i izvaditi ga rešetkastom kašikom. U istu vodu staviti šargarepu",
+        "Preliti bešamel sosom, staviti u rernu i peći oko pola sata dok tečnost ne Servirati toplo, uz zelenu salatu!",
+        "Bešamel sos: na ulju blago propržiti"
+      ],
+      "napomene": "",
+      "izvor": {
+        "naziv": "Čarobna kuhinja – Lakše sa dijabetesom (PDF)",
+        "napomena": "Automatska ekstrakcija, strana 40",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "pdf_djuvec_sa_junecim_mesom_55",
+      "naziv": "Đuveč sa junećim mesom",
+      "kategorija": [
+        "glavna_jela"
+      ],
+      "tags": [
+        "dijabetes",
+        "glavna_jela",
+        "kuvar",
+        "nasacarobnakuhinja100recepat"
+      ],
+      "porcije": 5,
+      "vreme_min": 0,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "junećeg (ili ždrebećeg) mesa od buta",
+          "kolicina": "500 g"
+        },
+        {
+          "item": "crnog luka",
+          "kolicina": "150 g"
+        },
+        {
+          "item": "smrznute zelene boranije",
+          "kolicina": "150 g"
+        },
+        {
+          "item": "smrznutog mladog graška",
+          "kolicina": "150 g"
+        },
+        {
+          "item": "sveže crvene paprike",
+          "kolicina": "150 g"
+        },
+        {
+          "item": "integralnog Basmati pirinča",
+          "kolicina": "150 g"
+        },
+        {
+          "item": "paradajza",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "peršuna (jedna veća šaka)",
+          "kolicina": "20 g"
+        },
+        {
+          "item": "ulja od grožđanih koštica",
+          "kolicina": "50 g"
+        },
+        {
+          "item": "so, bosiljak, začini po ukusu",
+          "kolicina": ""
+        }
+      ],
+      "koraci": [
+        "Na ulju dinstati sitno iseckan luk i meso"
+      ],
+      "napomene": "",
+      "izvor": {
+        "naziv": "nasa-carobna-kuhinja-100-recepata-za-osobe-sa-dijabetesom_compress.pdf.zip",
+        "napomena": "strana 55",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "uvec_sa_patlidzanom_i_pirincem",
+      "naziv": "Đuveč sa patlidžanom i pirinčem",
+      "kategorija": [
+        "glavno",
+        "rerna"
+      ],
+      "tags": [
+        "djuvec",
+        "glavno",
+        "patlidzan",
+        "pirinac",
+        "rerna"
+      ],
+      "porcije": 6,
+      "vreme_min": 70,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "pirinač",
+          "kolicina": "320 g"
+        },
+        {
+          "item": "plavi patlidžan",
+          "kolicina": "700 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "220 g"
+        },
+        {
+          "item": "crvena paprika",
+          "kolicina": "300 g"
+        },
+        {
+          "item": "pasirani paradajz",
+          "kolicina": "500 ml"
+        },
+        {
+          "item": "voda",
+          "kolicina": "850 ml"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "35 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "24 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Zagrej rernu 200°C.",
+        "2) Dinstaj luk 6 min.",
+        "3) Dodaj patlidžan i papriku 6 min.",
+        "4) Dodaj pirinač 1 min.",
+        "5) Dodaj paradajz, vodu, so i biber.",
+        "6) Sipaj u pleh.",
+        "7) Peci 45 min.",
+        "8) Odstoj 10 min i serviraj."
+      ],
+      "napomene": "Patlidžan seci na sitnije kocke da omekša u rerni.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "uvec_sa_pecurkama_prilog",
+      "naziv": "Đuveč sa pečurkama (prilog)",
+      "kategorija": [
+        "prilog",
+        "rerna"
+      ],
+      "tags": [
+        "djuvec",
+        "pecurke",
+        "pirinac",
+        "prilog",
+        "rerna"
+      ],
+      "porcije": 4,
+      "vreme_min": 55,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "pirinač",
+          "kolicina": "260 g"
+        },
+        {
+          "item": "šampinjoni",
+          "kolicina": "350 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "180 g"
+        },
+        {
+          "item": "pasirani paradajz",
+          "kolicina": "300 ml"
+        },
+        {
+          "item": "voda",
+          "kolicina": "500 ml"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "35 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "14 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "Zagrej rernu na 200°C.",
+        "Dinstaj luk na ulju 6 minuta.",
+        "Dodaj pečurke i prži 6 minuta.",
+        "Dodaj pirinač i promešaj 1 minut.",
+        "Dodaj paradajz i vodu.",
+        "Posoli i pobiberi.",
+        "Prebaci u posudu i peci 30 minuta.",
+        "Odstoj 10 minuta pre serviranja."
+      ],
+      "napomene": "Pirinač treba da upije tečnost; po potrebi dodaj 100 ml vode na pola pečenja.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "uvec_sa_piletinom",
+      "naziv": "Đuveč sa piletinom",
+      "kategorija": [
+        "glavno",
+        "rerna"
+      ],
+      "tags": [
+        "djuvec",
+        "glavno",
+        "piletina",
+        "pirinac",
+        "rerna"
+      ],
+      "porcije": 4,
+      "vreme_min": 65,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "pileći bataci bez kostiju",
+          "kolicina": "700 g"
+        },
+        {
+          "item": "pirinač",
+          "kolicina": "260 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "200 g"
+        },
+        {
+          "item": "crvena paprika",
+          "kolicina": "200 g"
+        },
+        {
+          "item": "pasirani paradajz",
+          "kolicina": "350 ml"
+        },
+        {
+          "item": "voda",
+          "kolicina": "550 ml"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "35 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "18 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "Zagrej rernu na 200°C.",
+        "Dinstaj luk na ulju 6 minuta.",
+        "Dodaj piletinu na kocke i prži 6 minuta.",
+        "Dodaj papriku na kocke i dinstaj 2 minuta.",
+        "Dodaj pirinač i promešaj 1 minut.",
+        "Dodaj paradajz i vodu.",
+        "Posoli i pobiberi.",
+        "Peci 35 minuta, odmori 10 minuta pa serviraj."
+      ],
+      "napomene": "Ako se suši, dodaj 100 ml vode na pola pečenja.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "uvec_sa_piletinom_i_povrcem",
+      "naziv": "Đuveč sa piletinom i povrćem",
+      "kategorija": [
+        "glavno",
+        "rerna"
+      ],
+      "tags": [
+        "djuvec",
+        "glavno",
+        "piletina",
+        "pirinac",
+        "rerna"
+      ],
+      "porcije": 6,
+      "vreme_min": 80,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "pileći file",
+          "kolicina": "750 g"
+        },
+        {
+          "item": "pirinač",
+          "kolicina": "320 g"
+        },
+        {
+          "item": "crvena paprika",
+          "kolicina": "350 g"
+        },
+        {
+          "item": "šargarepa",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "grašak zamrznut",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "220 g"
+        },
+        {
+          "item": "pasirani paradajz",
+          "kolicina": "500 ml"
+        },
+        {
+          "item": "voda",
+          "kolicina": "900 ml"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "35 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "26 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Dinstaj luk 6 min.",
+        "2) Dodaj piletinu i zapeči 6 min.",
+        "3) Dodaj papriku i šargarepu 4 min.",
+        "4) Dodaj pirinač 1 min.",
+        "5) Dodaj paradajz, vodu, grašak, so i biber.",
+        "6) Sipaj u pleh.",
+        "7) Peci 45 min na 200°C.",
+        "8) Odstoj 10 min i serviraj."
+      ],
+      "napomene": "Pirinač će upiti sav sos tokom pečenja.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "uvec_sa_povrcem",
+      "naziv": "Đuveč sa povrćem",
+      "kategorija": [
+        "glavno",
+        "posno"
+      ],
+      "tags": [
+        "djuvec",
+        "glavno",
+        "posno",
+        "povrce",
+        "rerna"
+      ],
+      "porcije": 4,
+      "vreme_min": 60,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "pirinač",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "180 g"
+        },
+        {
+          "item": "crvena paprika",
+          "kolicina": "200 g"
+        },
+        {
+          "item": "tikvice",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "šargarepa",
+          "kolicina": "150 g"
+        },
+        {
+          "item": "pasirani paradajz",
+          "kolicina": "300 ml"
+        },
+        {
+          "item": "voda",
+          "kolicina": "450 ml"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "40 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "Zagrej rernu na 200°C.",
+        "Dinstaj luk na ulju 6 minuta.",
+        "Dodaj papriku, šargarepu i tikvice, dinstaj 6 minuta.",
+        "Dodaj pirinač i promešaj 1 minut.",
+        "Sipaj pasirani paradajz i vodu.",
+        "Posoli i pobiberi.",
+        "Prebaci u vatrostalnu posudu.",
+        "Peci 30 minuta, odmori 10 minuta."
+      ],
+      "napomene": "Ako se brzo suši, dodaj još 100 ml vode na pola pečenja.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "uvec_sa_povrcem_i_pirincem",
+      "naziv": "Đuveč sa povrćem i pirinčem",
+      "kategorija": [
+        "glavno",
+        "rerna"
+      ],
+      "tags": [
+        "djuvec",
+        "glavno",
+        "pirinac",
+        "povrce",
+        "rerna"
+      ],
+      "porcije": 6,
+      "vreme_min": 75,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "pirinač",
+          "kolicina": "320 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "220 g"
+        },
+        {
+          "item": "crvena paprika",
+          "kolicina": "350 g"
+        },
+        {
+          "item": "šargarepa",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "grašak zamrznut",
+          "kolicina": "300 g"
+        },
+        {
+          "item": "pasirani paradajz",
+          "kolicina": "500 ml"
+        },
+        {
+          "item": "voda",
+          "kolicina": "900 ml"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "35 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "26 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Zagrej rernu 200°C.",
+        "2) Dinstaj luk 6 min.",
+        "3) Dodaj šargarepu i papriku 5 min.",
+        "4) Dodaj pirinač i promešaj 30 sek.",
+        "5) Dodaj paradajz, vodu, grašak, so i biber.",
+        "6) Sipaj u pleh.",
+        "7) Peci 45 min.",
+        "8) Odstoj 10 min i serviraj."
+      ],
+      "napomene": "Pirinač se kuva u rerni i upija sav sos.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "vanila_mafini_sa_komadicima_jabuke",
+      "naziv": "Vanila mafini sa komadićima jabuke",
+      "kategorija": [
+        "desert",
+        "kolači"
+      ],
+      "tags": [
+        "desert",
+        "jabuka",
+        "kolaci",
+        "mafini",
+        "vanila"
+      ],
+      "porcije": 12,
+      "vreme_min": 40,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "brašno",
+          "kolicina": "320 g"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "180 g"
+        },
+        {
+          "item": "jaja",
+          "kolicina": "2 kom"
+        },
+        {
+          "item": "mleko",
+          "kolicina": "250 ml"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "80 ml"
+        },
+        {
+          "item": "jabuka",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "vanilin šećer",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "prašak za pecivo",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Zagrej rernu 190°C.",
+        "2) Umuti jaja i šećer 1 min.",
+        "3) Dodaj mleko, ulje i vanilu 10 sek.",
+        "4) Dodaj brašno, prašak i so, umešaj 20 sek.",
+        "5) Dodaj jabuku na sitne kocke.",
+        "6) Sipaj u kalupe.",
+        "7) Peci 18 min.",
+        "8) Ohladi 10 min i serviraj."
+      ],
+      "napomene": "Jabuku seci sitnije da mafini ravnomerno narastu.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "vanilice",
+      "naziv": "Vanilice",
+      "kategorija": [
+        "desert",
+        "kolači"
+      ],
+      "tags": [
+        "desert",
+        "keks",
+        "kolaci",
+        "slatko",
+        "vanilice"
+      ],
+      "porcije": 8,
+      "vreme_min": 60,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "mast ili puter",
+          "kolicina": "200 g"
+        },
+        {
+          "item": "šećer u prahu",
+          "kolicina": "100 g"
+        },
+        {
+          "item": "jaje",
+          "kolicina": "1 kom"
+        },
+        {
+          "item": "brašno",
+          "kolicina": "450 g"
+        },
+        {
+          "item": "prašak za pecivo",
+          "kolicina": "6 g"
+        },
+        {
+          "item": "vanilin šećer",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "džem od kajsije",
+          "kolicina": "180 g"
+        },
+        {
+          "item": "šećer u prahu (za valjanje)",
+          "kolicina": "120 g"
+        }
+      ],
+      "koraci": [
+        "Umuti mast/puter i šećer u prahu 3 minuta.",
+        "Dodaj jaje i vanilin šećer.",
+        "Dodaj brašno i prašak za pecivo, umesi testo.",
+        "Ohladi testo 15 minuta.",
+        "Razvuci na 5 mm i vadi krugove.",
+        "Peci 12 minuta na 180°C.",
+        "Ohladi, spoji po dva sa džemom.",
+        "Uvaljaj u šećer u prahu."
+      ],
+      "napomene": "Ne prepeci; treba da ostanu svetle.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "vanilice_keksi",
+      "naziv": "Vanilice (keksi)",
+      "kategorija": [
+        "desert",
+        "keks"
+      ],
+      "tags": [
+        "desert",
+        "keks",
+        "peceno",
+        "vanilice"
+      ],
+      "porcije": 24,
+      "vreme_min": 55,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "brašno",
+          "kolicina": "420 g"
+        },
+        {
+          "item": "puter",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "šećer u prahu",
+          "kolicina": "120 g"
+        },
+        {
+          "item": "vanilin šećer",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "džem od kajsije",
+          "kolicina": "220 g"
+        }
+      ],
+      "koraci": [
+        "1) Zagrej rernu na 180°C.",
+        "2) Umuti puter i šećer u prahu 2 minuta.",
+        "3) Dodaj vanilu.",
+        "4) Dodaj brašno i umesi 1 minut.",
+        "5) Razvuci testo na 6–7 mm i vadi krugove.",
+        "6) Peci 10–12 minuta.",
+        "7) Spoji po dva keksa džemom.",
+        "8) Ohladi 15 minuta i serviraj."
+      ],
+      "napomene": "Vanilice ostaju svetle—ne prepeći ih.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "vanilice_sa_dzemom_od_kajsije",
+      "naziv": "Vanilice sa džemom od kajsije",
+      "kategorija": [
+        "desert",
+        "keks"
+      ],
+      "tags": [
+        "desert",
+        "dzem",
+        "keks",
+        "vanilice"
+      ],
+      "porcije": 24,
+      "vreme_min": 60,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "brašno",
+          "kolicina": "500 g"
+        },
+        {
+          "item": "puter",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "šećer u prahu",
+          "kolicina": "120 g"
+        },
+        {
+          "item": "jaja",
+          "kolicina": "1 kom"
+        },
+        {
+          "item": "vanilin šećer",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "džem od kajsije",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "šećer u prahu (za valjanje)",
+          "kolicina": "80 g"
+        }
+      ],
+      "koraci": [
+        "Umesi testo: puter, šećer u prahu, jaje i vanilu.",
+        "Dodaj brašno i umesi kratko 2 minuta.",
+        "Rashladi testo 20 minuta.",
+        "Razvuci testo i vadi krugove.",
+        "Peci 10 minuta na 180°C.",
+        "Ohladi 10 minuta.",
+        "Spoji keks sa džemom.",
+        "Uvaljaj u šećer u prahu i serviraj."
+      ],
+      "napomene": "Testo hladi da se vanilice ne razliju tokom pečenja.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "varivo_od_boranije_sa_curetinom",
+      "naziv": "Varivo od boranije sa ćuretinom",
+      "kategorija": [
+        "glavno",
+        "porodično"
+      ],
+      "tags": [
+        "boranija",
+        "curetina",
+        "glavno",
+        "porodicno",
+        "varivo"
+      ],
+      "porcije": 6,
+      "vreme_min": 75,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "ćureći file",
+          "kolicina": "850 g"
+        },
+        {
+          "item": "boranija zamrznuta",
+          "kolicina": "900 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "320 g"
+        },
+        {
+          "item": "slatka mlevena paprika",
+          "kolicina": "1 kašika"
+        },
+        {
+          "item": "voda",
+          "kolicina": "1.8 l"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "25 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "26 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Dinstaj luk 8 min.",
+        "2) Dodaj ćuretinu i zapeči 6 min.",
+        "3) Skloni sa vatre, dodaj papriku 10 sek.",
+        "4) Nalij vodom i kuvaj 25 min.",
+        "5) Dodaj boraniju 25 min.",
+        "6) Posoli i pobiberi 3 min.",
+        "7) Odstoj 10 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Boranija treba da omekša, ali da ostane cela.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "varivo_od_graska_i_krompira_posno",
+      "naziv": "Varivo od graška i krompira (posno)",
+      "kategorija": [
+        "glavno",
+        "posno"
+      ],
+      "tags": [
+        "glavno",
+        "grasak",
+        "krompir",
+        "posno",
+        "varivo"
+      ],
+      "porcije": 6,
+      "vreme_min": 45,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "grašak zamrznut",
+          "kolicina": "900 g"
+        },
+        {
+          "item": "krompir",
+          "kolicina": "800 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "voda",
+          "kolicina": "1.8 l"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "25 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "24 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Dinstaj luk 6 min.",
+        "2) Dodaj krompir na kocke 4 min.",
+        "3) Nalij vodom i kuvaj 15 min.",
+        "4) Dodaj grašak 12 min.",
+        "5) Posoli i pobiberi.",
+        "6) Kuvaj još 3 min.",
+        "7) Odstoj 10 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Krompir će blago zgusnuti varivo.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "varivo_od_graska_sa_piletinom",
+      "naziv": "Varivo od graška sa piletinom",
+      "kategorija": [
+        "glavno",
+        "porodično"
+      ],
+      "tags": [
+        "glavno",
+        "grasak",
+        "piletina",
+        "porodicno",
+        "varivo"
+      ],
+      "porcije": 6,
+      "vreme_min": 70,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "pileći file",
+          "kolicina": "850 g"
+        },
+        {
+          "item": "grašak zamrznut",
+          "kolicina": "900 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "350 g"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "25 ml"
+        },
+        {
+          "item": "slatka mlevena paprika",
+          "kolicina": "1 kašika"
+        },
+        {
+          "item": "voda",
+          "kolicina": "1.7 l"
+        },
+        {
+          "item": "so",
+          "kolicina": "26 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Dinstaj luk 8 min.",
+        "2) Dodaj piletinu i zapeči 6 min.",
+        "3) Skloni, dodaj papriku 10 sek.",
+        "4) Nalij vodom i kuvaj 25 min.",
+        "5) Dodaj grašak 20 min.",
+        "6) Posoli i pobiberi 3 min.",
+        "7) Odstoj 10 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Grašak dodaj kasnije da ostane zelen.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "varivo_od_sociva_i_blitve_posno",
+      "naziv": "Varivo od sočiva i blitve (posno)",
+      "kategorija": [
+        "glavno",
+        "posno"
+      ],
+      "tags": [
+        "blitva",
+        "glavno",
+        "posno",
+        "socivo",
+        "varivo"
+      ],
+      "porcije": 4,
+      "vreme_min": 45,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "sočivo suvo",
+          "kolicina": "280 g"
+        },
+        {
+          "item": "blitva",
+          "kolicina": "400 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "220 g"
+        },
+        {
+          "item": "šargarepa",
+          "kolicina": "220 g"
+        },
+        {
+          "item": "pasirani paradajz",
+          "kolicina": "250 ml"
+        },
+        {
+          "item": "voda",
+          "kolicina": "1.5 l"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "25 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "22 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Isperi sočivo.",
+        "2) Dinstaj luk 6 min.",
+        "3) Dodaj šargarepu 4 min.",
+        "4) Dodaj paradajz, vodu i sočivo.",
+        "5) Kuvaj 25 min.",
+        "6) Dodaj blitvu 5 min.",
+        "7) Pobiberi i po potrebi dosoli.",
+        "8) Odstoj 5 min i serviraj."
+      ],
+      "napomene": "Blitvu dodaj pri kraju da ostane svetla.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "vinagret_sos_za_salate_i_jela_od_povrca",
+      "naziv": "Vinagret sos za salate i jela od povrća",
+      "kategorija": [
+        "salate_namazi_umaci"
+      ],
+      "tags": [
+        "dijabetes",
+        "jela",
+        "salate",
+        "salate_namazi_umaci",
+        "salatenamaziumaci",
+        "sos",
+        "vinagret"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "2 tvrdo kuvana žumanca",
+          "kolicina": ""
+        },
+        {
+          "item": "hladno ceđenog maslinovog ulja",
+          "kolicina": "75 g"
+        },
+        {
+          "item": "vinskog sirćeta",
+          "kolicina": "25 g"
+        },
+        {
+          "item": "kašika senfa",
+          "kolicina": "1 supena"
+        },
+        {
+          "item": "1 kafena kašičica sušenog bosiljka",
+          "kolicina": ""
+        },
+        {
+          "item": "ili majorana",
+          "kolicina": ""
+        },
+        {
+          "item": "2 supene kašike seckanog peršuna",
+          "kolicina": ""
+        },
+        {
+          "item": "ili mirođije",
+          "kolicina": ""
+        },
+        {
+          "item": "so, biber",
+          "kolicina": ""
+        },
+        {
+          "item": "Potrebno je",
+          "kolicina": ""
+        },
+        {
+          "item": "smrznutih višanja",
+          "kolicina": "100 g"
+        },
+        {
+          "item": "vode",
+          "kolicina": "1 dl"
+        },
+        {
+          "item": "ovsenog brašna",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "(1 supena kašika)",
+          "kolicina": ""
+        },
+        {
+          "item": "1 kafena kašičica putera",
+          "kolicina": ""
+        },
+        {
+          "item": "seckani peršun, mirođija",
+          "kolicina": ""
+        },
+        {
+          "item": "list celera ili drugo",
+          "kolicina": ""
+        },
+        {
+          "item": "začinsko bilje po ukusu",
+          "kolicina": ""
+        },
+        {
+          "item": "47Priprema",
+          "kolicina": ""
+        },
+        {
+          "item": "Sve sastojke staviti u blender i mutiti",
+          "kolicina": ""
+        },
+        {
+          "item": "dok se ne sjedine u homogeni",
+          "kolicina": ""
+        },
+        {
+          "item": "penasti sos, 1 do 2 minuta.",
+          "kolicina": ""
+        },
+        {
+          "item": "Vinagret sos se može praviti i bez",
+          "kolicina": ""
+        },
+        {
+          "item": "žumanaca, ali se onda mora odmah",
+          "kolicina": ""
+        },
+        {
+          "item": "koristiti jer se ulje i sirće",
+          "kolicina": ""
+        },
+        {
+          "item": "vrlo brzo razdvoje.",
+          "kolicina": ""
+        },
+        {
+          "item": "Ovim sosom možete preliti razne",
+          "kolicina": ""
+        },
+        {
+          "item": "vrste salata, od zelene salate i",
+          "kolicina": ""
+        },
+        {
+          "item": "kupusa, pa do onih sa junećim",
+          "kolicina": ""
+        },
+        {
+          "item": "ili pilećim mesom.",
+          "kolicina": ""
+        },
+        {
+          "item": "Sva jela sa brokolijem, prokeljom",
+          "kolicina": ""
+        },
+        {
+          "item": "keljom, šampinjonima ili karfiolom",
+          "kolicina": ""
+        },
+        {
+          "item": "dobiće poseban ukus uz dodatak",
+          "kolicina": ""
+        },
+        {
+          "item": "Vinagret sosa.",
+          "kolicina": ""
+        }
+      ],
+      "koraci": [
+        "Brašno razmutiti u polovini vode i sipati u rastopljeni puter pa pustiti da proključa, na tihoj vatri.",
+        "Dodati ostatak vode i odleđene višnje, zajedno sa sokom koji su pustile.",
+        "Posoliti, dodati začinsko bilje po ukusu, pustiti da probaci jedan ili dva ključa i skloniti sa vatre.",
+        "Služiti toplo ili hladno, kao preliv za sve vrste mesa i ribe!"
+      ],
+      "napomene": "",
+      "izvor": {
+        "naziv": "carobna-kuhinja-100-recepata-2",
+        "napomena": "Ekstraktovano iz PDF (best-effort)",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "pdf_vocna_salata_88",
+      "naziv": "Voćna salata",
+      "kategorija": [
+        "salate"
+      ],
+      "tags": [
+        "dijabetes",
+        "kuvar",
+        "nasacarobnakuhinja100recepat",
+        "salata",
+        "salate"
+      ],
+      "porcije": 4,
+      "vreme_min": 0,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "za zimsku voćnu salatu",
+          "kolicina": ""
+        },
+        {
+          "item": "jabuka (2 manje jabuke)",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "pomorandži (jedna veća)",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "banana (dve srednje)",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "kivija",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "1 kesica šlaga (priprema sa mlekom) za prolećnu voćnu salatu",
+          "kolicina": ""
+        },
+        {
+          "item": "jabuka (2 manje jabuke)",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "jagoda",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "ananasa",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "trešanja",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "1 kesica šlaga (priprema sa mlekom) za letnju voćnu salatu",
+          "kolicina": ""
+        },
+        {
+          "item": "jabuka (2 male jabuke)",
+          "kolicina": "200 g"
+        },
+        {
+          "item": "ribizli",
+          "kolicina": "200 g"
+        },
+        {
+          "item": "kupina",
+          "kolicina": "200 g"
+        },
+        {
+          "item": "malina",
+          "kolicina": "200 g"
+        },
+        {
+          "item": "1 kesica šlaga (priprema sa mlekom)",
+          "kolicina": ""
+        }
+      ],
+      "koraci": [
+        "Voće iseckati na kockice, poprskati isceđenim sokom od limuna (da ne potamni), zasladiti prema ukusu tečnim zaslađivačem i sve pažljivo izmešati.",
+        "Servirati u dubljim činijicama i ukrasiti šlagom.",
+        "Za jednu porciju voćne salate dovoljno je 25 g pripremljenog šlaga.",
+        "Voćna salata je sezonski dezert.",
+        "Možete je pripremati na različite načine kombinujući"
+      ],
+      "napomene": "",
+      "izvor": {
+        "naziv": "nasa-carobna-kuhinja-100-recepata-za-osobe-sa-dijabetesom_compress.pdf.zip",
+        "napomena": "strana 88",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "vocni_biskviti_sa_dzemom",
+      "naziv": "Voćni biskviti sa džemom",
+      "kategorija": [
+        "poslastice"
+      ],
+      "tags": [
+        "biskviti",
+        "dijabetes",
+        "dzemom",
+        "poslastice",
+        "vocni"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "–20 biskvita",
+          "kolicina": ""
+        },
+        {
+          "item": "putera",
+          "kolicina": "60 g"
+        },
+        {
+          "item": "krem sira (0% m. m.)",
+          "kolicina": "100 g"
+        },
+        {
+          "item": "mleka (1 supena kašika)",
+          "kolicina": "15 g"
+        },
+        {
+          "item": "ovsenog brašna",
+          "kolicina": "180 g"
+        },
+        {
+          "item": "višanja (može i zamrznutih)",
+          "kolicina": "80 g"
+        },
+        {
+          "item": "dijet džema",
+          "kolicina": "90 g"
+        },
+        {
+          "item": "(od višanja, jagoda...)",
+          "kolicina": ""
+        },
+        {
+          "item": "1 kafena kašičica tečnog",
+          "kolicina": ""
+        },
+        {
+          "item": "zaslađivača",
+          "kolicina": ""
+        }
+      ],
+      "koraci": [
+        "Višnje odmrznuti, dobro ocediti i izmešati sa džemom. Penasto umutiti puter, dodati sir i mleko, tečni zaslađivač i skoro svo brašno. Sve sjediniti pa dodati višnje sa džemom i sve dobro promešati. Testo će biti mekano. Brašno, odvojeno od ukupne količine, posuti po radnoj ploči, istresti meko testo, uvaljati ga u brašno i formirati valjušku prečnika 4–5 cm. Pažljivo je uviti u prozirnu foliju i staviti u frižider (1–",
+        "5 sat) da se ohladi i stegne, kako bi se lakše sekla. Seći kriškice, debljine oko 1 cm, ređati razmaknute u pleh u koji je prethodno stavljen papir za pečenje i peći 25 do 30 minuta u rerni zagrejanoj na 200 0C, dok ne porumene."
+      ],
+      "napomene": "",
+      "izvor": {
+        "naziv": "carobna-kuhinja-100-recepata-2",
+        "napomena": "Ekstraktovano iz PDF (best-effort)",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "vocni_jogurt_sa_bananom_i_borovnicama",
+      "naziv": "Voćni jogurt sa bananom i borovnicama",
+      "kategorija": [
+        "doručak",
+        "brzo"
+      ],
+      "tags": [
+        "banana",
+        "borovnice",
+        "brzo",
+        "dorucak",
+        "jogurt"
+      ],
+      "porcije": 2,
+      "vreme_min": 5,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "jogurt",
+          "kolicina": "500 ml"
+        },
+        {
+          "item": "banane",
+          "kolicina": "2 kom"
+        },
+        {
+          "item": "borovnice",
+          "kolicina": "160 g"
+        },
+        {
+          "item": "med",
+          "kolicina": "20 g"
+        }
+      ],
+      "koraci": [
+        "1) Iseci banane na kolutove.",
+        "2) Sipaj jogurt u činije.",
+        "3) Dodaj banane i borovnice.",
+        "4) Prelij medom.",
+        "5) Odstoj 2 min.",
+        "6) Serviraj.",
+        "7) Gotovo.",
+        "8) Po želji rashladi 10 min."
+      ],
+      "napomene": "Borovnice dodaj cele da ostanu sveže i čvrste.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "vocni_kolac_sa_grizom",
+      "naziv": "Voćni kolač sa grizom",
+      "kategorija": [
+        "poslastice"
+      ],
+      "tags": [
+        "carobna",
+        "dijabetes",
+        "kolac",
+        "poslastice",
+        "posno"
+      ],
+      "porcije": 4,
+      "vreme_min": 0,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "kokosovog šećera",
+          "kolicina": "200 g"
+        },
+        {
+          "item": "griza",
+          "kolicina": "220 g"
+        },
+        {
+          "item": "pripremljenog sojinog mleka",
+          "kolicina": "8 dl"
+        },
+        {
+          "item": "biljne pavlake za šlag",
+          "kolicina": "200 g"
+        },
+        {
+          "item": "lešnika, oraha ili badema",
+          "kolicina": "200 g"
+        },
+        {
+          "item": "posnog šlaga",
+          "kolicina": "120 g"
+        },
+        {
+          "item": "tečni zaslađivač po ukusu",
+          "kolicina": ""
+        }
+      ],
+      "koraci": [
+        "7 dl zagrejane vode stavi 100 g sojinog 160 g kokosovog šećera i pustiti da i kuvati 7−8 minuta. Skloniti sa vatre, lagano dosipati griz, stalno",
+        "ravnomerno je rasporediti i ostaviti da se ohladi i stegne.",
+        "usitniti u seckalici pa ih pomešati sa dodati i tečni zaslađivač. Fil rasporediti"
+      ],
+      "napomene": "",
+      "izvor": {
+        "naziv": "Čarobna kuhinja – Lakše sa dijabetesom (PDF)",
+        "napomena": "Automatska ekstrakcija, strana 84",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "vocni_kolac_sa_sljivama",
+      "naziv": "Voćni kolač sa šljivama",
+      "kategorija": [
+        "desert",
+        "kolači"
+      ],
+      "tags": [
+        "desert",
+        "kolac",
+        "kolaci",
+        "peceno",
+        "sljive"
+      ],
+      "porcije": 12,
+      "vreme_min": 60,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "šljive",
+          "kolicina": "700 g"
+        },
+        {
+          "item": "jaja",
+          "kolicina": "3 kom"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "180 g"
+        },
+        {
+          "item": "brašno",
+          "kolicina": "320 g"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "80 ml"
+        },
+        {
+          "item": "mleko",
+          "kolicina": "180 ml"
+        },
+        {
+          "item": "prašak za pecivo",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Zagrej rernu na 180°C.",
+        "2) Umuti jaja i šećer 2 min.",
+        "3) Dodaj ulje i mleko 10 sek.",
+        "4) Dodaj brašno, prašak i so, umešaj 20 sek.",
+        "5) Sipaj u pleh i poređaj polovine šljiva.",
+        "6) Peci 35 min.",
+        "7) Ohladi 20 min.",
+        "8) Iseci i serviraj."
+      ],
+      "napomene": "Šljive slaži presekom nagore da manje puštaju sok u testo.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "voda_sa_krastavcem_i_limunom",
+      "naziv": "Voda sa krastavcem i limunom",
+      "kategorija": [
+        "napitak",
+        "osveženje"
+      ],
+      "tags": [
+        "krastavac",
+        "limun",
+        "napitak",
+        "osvezenje",
+        "voda"
+      ],
+      "porcije": 6,
+      "vreme_min": 10,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "voda hladna",
+          "kolicina": "2 l"
+        },
+        {
+          "item": "krastavac",
+          "kolicina": "300 g"
+        },
+        {
+          "item": "limun",
+          "kolicina": "1 kom"
+        }
+      ],
+      "koraci": [
+        "1) Iseci krastavac na kolutove.",
+        "2) Iseci limun na kolutove.",
+        "3) Stavi u bokal.",
+        "4) Nalij vodom.",
+        "5) Promesi 10 sekundi.",
+        "6) Rashladi 1 sat.",
+        "7) Promesi kratko.",
+        "8) Serviraj."
+      ],
+      "napomene": "Kolutove ostavi u bokalu tokom hlađenja za jaču aromu.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "zapecena_testenina_sa_tunjevinom_i_kukuruzom",
+      "naziv": "Zapečena testenina sa tunjevinom i kukuruzom",
+      "kategorija": [
+        "glavno",
+        "rerna"
+      ],
+      "tags": [
+        "glavno",
+        "kukuruz",
+        "peceno",
+        "rerna",
+        "testenina",
+        "tunjevina"
+      ],
+      "porcije": 6,
+      "vreme_min": 50,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "testenina (fusilli)",
+          "kolicina": "400 g"
+        },
+        {
+          "item": "tunjevina (oceđena)",
+          "kolicina": "300 g"
+        },
+        {
+          "item": "kukuruz šećerac (oceđen)",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "mleko",
+          "kolicina": "450 ml"
+        },
+        {
+          "item": "jaja",
+          "kolicina": "3 kom"
+        },
+        {
+          "item": "kačkavalj",
+          "kolicina": "220 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "16 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Skuvaj testeninu 8 min u slanoj vodi (8 g soli).",
+        "2) Pomešaj testeninu, tunjevinu i kukuruz.",
+        "3) Umuti mleko, jaja, preostalu so i biber.",
+        "4) Dodaj polovinu sira u testeninu.",
+        "5) Sipaj u pleh i prelij smesom.",
+        "6) Pospi ostatkom sira.",
+        "7) Peci 25 min na 200°C.",
+        "8) Odstoj 10 min i serviraj."
+      ],
+      "napomene": "Tunjevinu dobro ocedi da složenac ne bude voden.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "zapecene_makarone_sa_sirom",
+      "naziv": "Zapečene makarone sa sirom",
+      "kategorija": [
+        "glavno",
+        "rerna"
+      ],
+      "tags": [
+        "glavno",
+        "makarone",
+        "peceno",
+        "rerna",
+        "sir"
+      ],
+      "porcije": 6,
+      "vreme_min": 55,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "makarone",
+          "kolicina": "350 g"
+        },
+        {
+          "item": "so (za testeninu)",
+          "kolicina": "6 g"
+        },
+        {
+          "item": "jaja",
+          "kolicina": "4 kom"
+        },
+        {
+          "item": "mleko",
+          "kolicina": "400 ml"
+        },
+        {
+          "item": "beli sir",
+          "kolicina": "300 g"
+        },
+        {
+          "item": "kačkavalj",
+          "kolicina": "150 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "12 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "20 ml"
+        }
+      ],
+      "koraci": [
+        "Skuvaj makarone 8 minuta u slanoj vodi.",
+        "Ocedi.",
+        "Zagrej rernu na 200°C.",
+        "Umuti jaja i mleko.",
+        "Dodaj sir, so i biber.",
+        "Sjedini makarone i preliv.",
+        "Podmaži pleh uljem i sipaj smesu.",
+        "Pospi rendanim kačkavaljem.",
+        "Peci 25 minuta.",
+        "Odstoj 10 minuta pre sečenja."
+      ],
+      "napomene": "Testeninu kuvaj malo kraće jer se dodatno peče u rerni.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "zapecene_palacinke_sa_povrcem",
+      "naziv": "Zapečene palačinke sa povrćem",
+      "kategorija": [
+        "pite_testa"
+      ],
+      "tags": [
+        "dijabetes",
+        "palacinke",
+        "peceno",
+        "pite_testa",
+        "pitetesta",
+        "povrcem",
+        "zapecene"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "palačinki",
+          "kolicina": ""
+        },
+        {
+          "item": "ovsenog brašna",
+          "kolicina": "120 g"
+        },
+        {
+          "item": "1 jaje",
+          "kolicina": ""
+        },
+        {
+          "item": "ulja od grožđanih koštica",
+          "kolicina": "20 g"
+        },
+        {
+          "item": "(3 supene kašike)",
+          "kolicina": ""
+        },
+        {
+          "item": "mleka, 1 dl vode",
+          "kolicina": "1 dl"
+        },
+        {
+          "item": "ovsenog brašna",
+          "kolicina": "40 g"
+        },
+        {
+          "item": "so, na vrh noža praška za pecivo",
+          "kolicina": ""
+        },
+        {
+          "item": "za fil",
+          "kolicina": ""
+        },
+        {
+          "item": "ulja",
+          "kolicina": "30 g"
+        },
+        {
+          "item": "tikvica",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "šampinjona",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "kuvanog paradajza",
+          "kolicina": "200 g"
+        },
+        {
+          "item": "kačkavalja (edamer, trapist...)",
+          "kolicina": "50 g"
+        },
+        {
+          "item": "so, biber, začini po ukusu",
+          "kolicina": ""
+        },
+        {
+          "item": "Bešamel sos",
+          "kolicina": ""
+        },
+        {
+          "item": "mleka",
+          "kolicina": "3 dl"
+        },
+        {
+          "item": "kačkavalja",
+          "kolicina": "40g"
+        },
+        {
+          "item": "(parmezana, trapista...)",
+          "kolicina": ""
+        },
+        {
+          "item": "ovsenog brašna",
+          "kolicina": "20g"
+        }
+      ],
+      "koraci": [
+        "Umutiti brašno, jaje, mleko, vodu, so i 2 supene kašike ulja i na preostalom ulju ispeći 6 debljih palačinki (svaka je težine 55–60 g).",
+        "Na ulju prodinstati šampinjone isečene na listiće, oko 5 minuta, dodati narendane tikvice i paradajz i dinstati dok tečnost ne ispari.",
+        "Dodati rendani kačkavalj, posoliti, pobiberiti i ostaviti da se prohladi.",
+        "Filovati palačinke, uviti ih u rolnice, poređati u vatrostalnu činiju ili pleh i preliti bešamelom.",
+        "Posuti narendanim kačkavaljem ili parmezanom i peći u rerni zagrejanoj na 2000C, oko 20 minuta, dok gornja površina ne porumeni.",
+        "Služiti toplo!Priprema bešamel sosa Na tihoj vatri zagrejati puter, dodati brašno i propržiti ga dok blago ne porumeni, a zatim polako sipati mleko, sve vreme mešajući.",
+        "Posoliti, pobiberiti i dodati muškatni oraščić, po ukusu.Potrebno je za 6 palačinki •120 g ovsenog brašna •1 jaje •20 g ulja od grožđanih koštica (3 supene kašike) •1 dl mleka, 1 dl vode •40 g ovsenog brašna •so, na vrh noža praška za pecivo za fil •30 g ulja •250 g tikvica •250 g šampinjona •200 g kuvanog paradajza •50 g kačkavalja (edamer, trapist...) •so, biber, začini po ukusu Bešamel sos •3 dl mleka •40g kačkavalja (parmezana, trapista...) •20g ovsenog brašna •20g putera (maslaca)"
+      ],
+      "napomene": "",
+      "izvor": {
+        "naziv": "carobna-kuhinja-100-recepata-2",
+        "napomena": "Ekstraktovano iz PDF (best-effort)",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "pdf_zapecene_tikvice_sa_sirom_i_jajima_69",
+      "naziv": "Zapečene tikvice sa sirom i jajima",
+      "kategorija": [
+        "glavna_jela"
+      ],
+      "tags": [
+        "dijabetes",
+        "glavna_jela",
+        "kuvar",
+        "nasacarobnakuhinja100recepat",
+        "peceno"
+      ],
+      "porcije": 4,
+      "vreme_min": 0,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "tikvica",
+          "kolicina": "400 g"
+        },
+        {
+          "item": "krem sira ELLA (0% m. m.)",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "mleka (1.6% m. m.)",
+          "kolicina": "150 g"
+        },
+        {
+          "item": "ovsenog brašna",
+          "kolicina": "20 g"
+        },
+        {
+          "item": "so, začini po ukusu Tikvice su bogate kalijumom koji pomaže u sprečavanju visokog krvnog pritiska, održava ravnotežu telesnih tečnosti i pravilan rad srca. Kora tikvice je bogata magnezijumom i betakarotenom, koji je snažan antioksidans, pa je dobro ne ljuštiti ih, već ih treba dobro oprati. Semenke su pune omega 6 i esencijalnih masnih kiselina koje utiču na pravilan rad nervnog sistema.",
+          "kolicina": ""
+        }
+      ],
+      "koraci": [
+        "Tikvice dobro oprati i iseći ih na sitnije"
+      ],
+      "napomene": "",
+      "izvor": {
+        "naziv": "nasa-carobna-kuhinja-100-recepata-za-osobe-sa-dijabetesom_compress.pdf.zip",
+        "napomena": "strana 69",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "zapecene_tikvice_sa_sirom_rerna",
+      "naziv": "Zapečene tikvice sa sirom (rerna)",
+      "kategorija": [
+        "glavno",
+        "rerna"
+      ],
+      "tags": [
+        "glavno",
+        "peceno",
+        "rerna",
+        "sir",
+        "tikvice"
+      ],
+      "porcije": 4,
+      "vreme_min": 45,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "tikvice",
+          "kolicina": "1.2 kg"
+        },
+        {
+          "item": "beli sir",
+          "kolicina": "300 g"
+        },
+        {
+          "item": "jaja",
+          "kolicina": "3 kom"
+        },
+        {
+          "item": "jogurt",
+          "kolicina": "200 ml"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "25 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "16 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "Zagrej rernu na 200°C.",
+        "Iseci tikvice na tanke kolutove.",
+        "Posoli tikvice sa 10 g soli i ostavi 10 minuta, pa ocedi.",
+        "Umuti jaja, jogurt, biber i preostalu so 6 g.",
+        "Dodaj izmrvljen sir.",
+        "Slaži tikvice u pleh i prelij smesom.",
+        "Peci 30 minuta.",
+        "Odstoj 10 minuta pre serviranja."
+      ],
+      "napomene": "Oceđene tikvice sprečavaju da jelo bude vodenasto.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "zapeceni_brokoli_sa_kackavaljem",
+      "naziv": "Zapečeni brokoli sa kačkavaljem",
+      "kategorija": [
+        "prilog",
+        "rerna"
+      ],
+      "tags": [
+        "brokoli",
+        "kackavalj",
+        "peceno",
+        "prilog",
+        "rerna",
+        "zapeceno"
+      ],
+      "porcije": 4,
+      "vreme_min": 30,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "brokoli",
+          "kolicina": "1 kg"
+        },
+        {
+          "item": "kačkavalj",
+          "kolicina": "220 g"
+        },
+        {
+          "item": "jogurt",
+          "kolicina": "200 ml"
+        },
+        {
+          "item": "jaja",
+          "kolicina": "2 kom"
+        },
+        {
+          "item": "so",
+          "kolicina": "16 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "10 ml"
+        }
+      ],
+      "koraci": [
+        "1) Zagrej rernu 200°C.",
+        "2) Obari brokoli 3 min i ocedi.",
+        "3) Rasporedi u podmazan pleh.",
+        "4) Umuti jogurt, jaja, so i biber.",
+        "5) Prelij brokoli.",
+        "6) Pospi sirom.",
+        "7) Peci 20 min.",
+        "8) Odstoj 8 min i serviraj."
+      ],
+      "napomene": "Brokoli kratko obari da ostane čvrst posle pečenja.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "zapeceni_karfiol_sa_kackavaljem",
+      "naziv": "Zapečeni karfiol sa kačkavaljem",
+      "kategorija": [
+        "prilog",
+        "rerna"
+      ],
+      "tags": [
+        "karfiol",
+        "peceno",
+        "prilog",
+        "rerna",
+        "sir",
+        "zapeceno"
+      ],
+      "porcije": 4,
+      "vreme_min": 35,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "karfiol",
+          "kolicina": "1.1 kg"
+        },
+        {
+          "item": "kačkavalj",
+          "kolicina": "220 g"
+        },
+        {
+          "item": "jogurt",
+          "kolicina": "250 ml"
+        },
+        {
+          "item": "jaja",
+          "kolicina": "2 kom"
+        },
+        {
+          "item": "so",
+          "kolicina": "18 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "10 ml"
+        }
+      ],
+      "koraci": [
+        "1) Zagrej rernu 200°C.",
+        "2) Skuvaj karfiol 6 min i ocedi.",
+        "3) Rasporedi u pleh podmazan uljem.",
+        "4) Umuti jogurt, jaja, so i biber.",
+        "5) Prelij karfiol.",
+        "6) Pospi kačkavaljem.",
+        "7) Peci 22 min.",
+        "8) Odstoj 10 min i serviraj."
+      ],
+      "napomene": "Karfiol kratko obari da se ne raspadne u rerni.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "zapeceni_karfiol_sa_sirom",
+      "naziv": "Zapečeni karfiol sa sirom",
+      "kategorija": [
+        "prilog",
+        "rerna"
+      ],
+      "tags": [
+        "karfiol",
+        "peceno",
+        "prilog",
+        "rerna",
+        "sir"
+      ],
+      "porcije": 4,
+      "vreme_min": 35,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "karfiol",
+          "kolicina": "900 g"
+        },
+        {
+          "item": "kačkavalj",
+          "kolicina": "180 g"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "25 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "16 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "Zagrej rernu na 220°C.",
+        "Karfiol podeli na cvetiće.",
+        "Prelij uljem, posoli i pobiberi.",
+        "Peci 18 minuta.",
+        "Pospi rendanim kačkavaljem.",
+        "Zapeći još 6 minuta.",
+        "Odstoj 5 minuta.",
+        "Serviraj."
+      ],
+      "napomene": "Karfiol peci dok rubovi ne porumene, tada je najukusniji.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "zapeceni_krompir_sa_pavlakom_i_sirom",
+      "naziv": "Zapečeni krompir sa pavlakom i sirom",
+      "kategorija": [
+        "glavno",
+        "rerna"
+      ],
+      "tags": [
+        "glavno",
+        "krompir",
+        "pavlaka",
+        "peceno",
+        "rerna",
+        "sir"
+      ],
+      "porcije": 6,
+      "vreme_min": 65,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "krompir",
+          "kolicina": "1.5 kg"
+        },
+        {
+          "item": "kisela pavlaka",
+          "kolicina": "300 g"
+        },
+        {
+          "item": "kačkavalj",
+          "kolicina": "220 g"
+        },
+        {
+          "item": "mleko",
+          "kolicina": "250 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "22 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        },
+        {
+          "item": "puter",
+          "kolicina": "20 g"
+        }
+      ],
+      "koraci": [
+        "1) Zagrej rernu na 200°C.",
+        "2) Iseci krompir na tanke kolutove.",
+        "3) Podmaži pleh puterom.",
+        "4) Pomešaj pavlaku, mleko, so i biber.",
+        "5) Ređaj krompir i preliv u slojevima.",
+        "6) Pospi sirom.",
+        "7) Peci 45 min.",
+        "8) Odstoj 10 min i serviraj."
+      ],
+      "napomene": "Tanki kolutovi krompira obezbeđuju ravnomerno pečenje.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "zapeceni_krompir_sa_ruzmarinom",
+      "naziv": "Zapečeni krompir sa ruzmarinom",
+      "kategorija": [
+        "prilog",
+        "rerna"
+      ],
+      "tags": [
+        "krompir",
+        "peceno",
+        "prilog",
+        "rerna",
+        "ruzmarin"
+      ],
+      "porcije": 4,
+      "vreme_min": 55,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "krompir",
+          "kolicina": "1.3 kg"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "45 ml"
+        },
+        {
+          "item": "ruzmarin suvi",
+          "kolicina": "2 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "18 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "Zagrej rernu na 220°C.",
+        "Iseci krompir na kriške 1 cm.",
+        "Pomešaj ulje, ruzmarin, so i biber.",
+        "Prelij krompir i promešaj.",
+        "Rasporedi na pleh u jednom sloju.",
+        "Peci 40 minuta uz okretanje na pola.",
+        "Odstoj 5 minuta.",
+        "Serviraj."
+      ],
+      "napomene": "Ne pretrpavaj pleh da krompir ostane hrskav.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "zapeceni_pasulj_sa_belim_lukom_prilog",
+      "naziv": "Zapečeni pasulj sa belim lukom (prilog)",
+      "kategorija": [
+        "prilog",
+        "rerna"
+      ],
+      "tags": [
+        "beliluk",
+        "pasulj",
+        "peceno",
+        "prilog",
+        "rerna",
+        "zapeceno"
+      ],
+      "porcije": 4,
+      "vreme_min": 70,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "beli pasulj kuvan",
+          "kolicina": "800 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "beli luk",
+          "kolicina": "12 g"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "35 ml"
+        },
+        {
+          "item": "slatka mlevena paprika",
+          "kolicina": "1.5 kašičica"
+        },
+        {
+          "item": "voda",
+          "kolicina": "250 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "12 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "Zagrej rernu na 200°C.",
+        "Dinstaj luk na ulju 10 minuta.",
+        "Dodaj beli luk i dinstaj 1 minut.",
+        "Skloni sa vatre, dodaj papriku i promešaj.",
+        "Dodaj kuvani pasulj i vodu.",
+        "Posoli i pobiberi, promešaj.",
+        "Prebaci u pekač.",
+        "Peci 35 minuta do korice."
+      ],
+      "napomene": "Koricu dobijaš jače ako poslednjih 5 minuta pojačaš na 220°C.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "pdf_zapeceni_praziluk_63",
+      "naziv": "Zapečeni praziluk",
+      "kategorija": [
+        "glavna_jela"
+      ],
+      "tags": [
+        "dijabetes",
+        "glavna_jela",
+        "kuvar",
+        "nasacarobnakuhinja100recepat",
+        "peceno"
+      ],
+      "porcije": 5,
+      "vreme_min": 0,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "praziluka",
+          "kolicina": "1 kg"
+        },
+        {
+          "item": "paradajza (2 srednje velika)",
+          "kolicina": "300 g"
+        },
+        {
+          "item": "prezle",
+          "kolicina": "30 g"
+        },
+        {
+          "item": "so, začini po ukusu",
+          "kolicina": ""
+        },
+        {
+          "item": "seckanog peršuna",
+          "kolicina": "20 g"
+        },
+        {
+          "item": "belog luka (3 –4 čena)",
+          "kolicina": "15 g"
+        },
+        {
+          "item": "kisele pavlake (12% m. m.)",
+          "kolicina": "250 g"
+        }
+      ],
+      "koraci": [
+        "Praziluk očistiti, uzdužno ga preseći i dobro oprati.",
+        "Iseći ga na komade dužine oko 5 cm i staviti ga u kipuću vodu, prokuvati oko 10 minuta.",
+        "Na zagrejanom ulju kratko propržiti bareni praziluk i sitno iseckan beli luk, začiniti po ukusu, i na kraju dodati sitno iseckan peršun.",
+        "Vatrostalnu posudu premazati uljem i na dno staviti polovinu pripremljenog praziluka.",
+        "Zatim složiti paradajz isečen"
+      ],
+      "napomene": "",
+      "izvor": {
+        "naziv": "nasa-carobna-kuhinja-100-recepata-za-osobe-sa-dijabetesom_compress.pdf.zip",
+        "napomena": "strana 63",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "zelena_salata_sa_jogurt_dresingom",
+      "naziv": "Zelena salata sa jogurt dresingom",
+      "kategorija": [
+        "salata",
+        "prilog"
+      ],
+      "tags": [
+        "brzo",
+        "jogurt",
+        "prilog",
+        "salata",
+        "zelenasalata"
+      ],
+      "porcije": 4,
+      "vreme_min": 10,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "zelena salata",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "jogurt",
+          "kolicina": "220 ml"
+        },
+        {
+          "item": "limunov sok",
+          "kolicina": "12 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "Operi i ocedi salatu.",
+        "Umuti jogurt, limun, so i biber.",
+        "Prelij dresing preko salate.",
+        "Promešaj pažljivo 15 sekundi.",
+        "Odstoj 2 minuta.",
+        "Ponovo promešaj.",
+        "Serviraj.",
+        "Gotovo."
+      ],
+      "napomene": "Salatu dobro ocedi da se dresing ne razredi.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "zelena_salata_sa_semenkama_bundeve",
+      "naziv": "Zelena salata sa semenkama bundeve",
+      "kategorija": [
+        "salata",
+        "zdravo"
+      ],
+      "tags": [
+        "prilog",
+        "salata",
+        "semenkebundeve",
+        "zdravo",
+        "zelenasalata"
+      ],
+      "porcije": 4,
+      "vreme_min": 10,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "zelena salata",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "semenke bundeve",
+          "kolicina": "40 g"
+        },
+        {
+          "item": "maslinovo ulje",
+          "kolicina": "25 ml"
+        },
+        {
+          "item": "limunov sok",
+          "kolicina": "12 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "7 g"
+        }
+      ],
+      "koraci": [
+        "Operi i ocedi zelenu salatu.",
+        "Na suvom tiganju tostiraj semenke 2 minuta.",
+        "Umuti ulje, limun i so.",
+        "Prelij salatu.",
+        "Pospi semenkama.",
+        "Promešaj kratko.",
+        "Serviraj odmah.",
+        "Ne rashlađuj dugo."
+      ],
+      "napomene": "Tostirane semenke daju aromu i hrskavost.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "pdf_zeleni_rolat_sa_sirom_29",
+      "naziv": "Zeleni rolat sa sirom",
+      "kategorija": [
+        "glavna_jela"
+      ],
+      "tags": [
+        "dijabetes",
+        "glavna_jela",
+        "kuvar",
+        "nasacarobnakuhinja100recepat"
+      ],
+      "porcije": 4,
+      "vreme_min": 0,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "krem sira ELLA (0% m. m.)",
+          "kolicina": "500 g"
+        },
+        {
+          "item": "kisele crvene paprike ili sveže paprike poprskane sirćetom",
+          "kolicina": "130 g"
+        },
+        {
+          "item": "spanaća",
+          "kolicina": "300 g"
+        },
+        {
+          "item": "ovsenog brašna",
+          "kolicina": "40 g"
+        },
+        {
+          "item": "peršuna (jedna šaka)",
+          "kolicina": "15 g"
+        }
+      ],
+      "koraci": [
+        "Belanca umutiti u čvrst sneg i dodati obaren, sitno iseckan i oceđen spanać, a zatim postepeno, jedno po jedno, žumanca i brašno, sve vreme muteći mikserom.",
+        "U pleh od rerne staviti papir za pečenje, sipati testo i ravnomerno ga rasporediti, a zatim peći na 150 0C oko 20"
+      ],
+      "napomene": "",
+      "izvor": {
+        "naziv": "nasa-carobna-kuhinja-100-recepata-za-osobe-sa-dijabetesom_compress.pdf.zip",
+        "napomena": "strana 29",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "zeljanica_kore_spanac_i_sir",
+      "naziv": "Zeljanica (kore, spanać i sir)",
+      "kategorija": [
+        "peciva",
+        "doručak"
+      ],
+      "tags": [
+        "dorucak",
+        "peciva",
+        "sir",
+        "spanac",
+        "zeljanica"
+      ],
+      "porcije": 10,
+      "vreme_min": 60,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "kore za pitu",
+          "kolicina": "500 g"
+        },
+        {
+          "item": "spanać svež",
+          "kolicina": "650 g"
+        },
+        {
+          "item": "beli sir",
+          "kolicina": "350 g"
+        },
+        {
+          "item": "jaja",
+          "kolicina": "2 kom"
+        },
+        {
+          "item": "jogurt",
+          "kolicina": "250 ml"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "80 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "18 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Iseckaj spanać i ocedi 10 min.",
+        "2) Pomešaj spanać, sir, jaja, jogurt, so i biber.",
+        "3) Zagrej rernu 200°C.",
+        "4) Slaži kore, svaku premaži uljem.",
+        "5) Rasporedi fil u 2–3 sloja.",
+        "6) Završi korama i premaži uljem.",
+        "7) Peci 35 min.",
+        "8) Ohladi 10 min i serviraj."
+      ],
+      "napomene": "Spanać mora biti oceđen da pita ne bude vlažna.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "zeljanica_sa_spanacem_kore",
+      "naziv": "Zeljanica sa spanaćem (kore)",
+      "kategorija": [
+        "peciva",
+        "doručak"
+      ],
+      "tags": [
+        "dorucak",
+        "kore",
+        "peciva",
+        "spanac",
+        "zeljanica"
+      ],
+      "porcije": 10,
+      "vreme_min": 60,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "kore za pitu",
+          "kolicina": "500 g"
+        },
+        {
+          "item": "spanać svež",
+          "kolicina": "700 g"
+        },
+        {
+          "item": "beli sir",
+          "kolicina": "300 g"
+        },
+        {
+          "item": "jaja",
+          "kolicina": "2 kom"
+        },
+        {
+          "item": "jogurt",
+          "kolicina": "250 ml"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "80 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "14 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "Zagrej rernu na 200°C.",
+        "Operi i iseckaj spanać, posoli 8 g i ocedi 10 minuta.",
+        "Dodaj sir, jaja, jogurt i biber.",
+        "Slaži kore u pleh, svaku premaži uljem.",
+        "Rasporedi fil u 2–3 sloja.",
+        "Završi korama i premaži uljem.",
+        "Peci 35 minuta.",
+        "Ohladi 10 minuta i seci."
+      ],
+      "napomene": "Spanać obavezno ocedi da pita ne bude vodena.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "zemicke_sa_susamom",
+      "naziv": "Zemičke sa susamom",
+      "kategorija": [
+        "peciva",
+        "užina"
+      ],
+      "tags": [
+        "kvasno",
+        "peciva",
+        "susam",
+        "uzina",
+        "zemicke"
+      ],
+      "porcije": 8,
+      "vreme_min": 150,
+      "tezina": "teško",
+      "sastojci": [
+        {
+          "item": "brašno",
+          "kolicina": "600 g"
+        },
+        {
+          "item": "kvasac suvi",
+          "kolicina": "7 g"
+        },
+        {
+          "item": "voda",
+          "kolicina": "360 ml"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "40 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "14 g"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "6 g"
+        },
+        {
+          "item": "susam",
+          "kolicina": "60 g"
+        }
+      ],
+      "koraci": [
+        "1) Pomešaj vodu, kvasac i šećer, ostavi 10 minuta.",
+        "2) Dodaj brašno, so i ulje, umesi 8 minuta.",
+        "3) Ostavi 60 minuta da naraste.",
+        "4) Podeli na 8 loptica i oblikuj zemičke.",
+        "5) Ostavi 20 minuta.",
+        "6) Premaži vodom i uvaljaj u susam.",
+        "7) Peci 18 minuta na 220°C.",
+        "8) Ohladi 10 minuta i serviraj."
+      ],
+      "napomene": "Ne preskači odmor—testo se lakše oblikuje i zemičke su vazdušnije.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch",
+        "url": ""
+      },
+      "user": false
+    },
+    {
+      "id": "zito_sa_slagom",
+      "naziv": "Žito sa šlagom",
+      "kategorija": [
+        "poslastice"
+      ],
+      "tags": [
+        "carobna",
+        "dijabetes",
+        "poslastice",
+        "posno"
+      ],
+      "porcije": 6,
+      "vreme_min": 0,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "oraha",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "kokosovog šećera",
+          "kolicina": "50 g"
+        },
+        {
+          "item": "tečni zaslađivač po ukusu",
+          "kolicina": ""
+        },
+        {
+          "item": "muškatni oraščić po želji",
+          "kolicina": ""
+        },
+        {
+          "item": "biljna pavlaka za šlag ili posni šlag u prahu",
+          "kolicina": ""
+        }
+      ],
+      "koraci": [
+        "Kada se osuši, žito samleti i pomešati sa tečni zaslađivač po ukusu i narendan rukom. Servirati uz pripremljen posni"
+      ],
+      "napomene": "",
+      "izvor": {
+        "naziv": "Čarobna kuhinja – Lakše sa dijabetesom (PDF)",
+        "napomena": "Automatska ekstrakcija, strana 76",
+        "url": ""
+      },
+      "user": false
+    }
+  ]
+}

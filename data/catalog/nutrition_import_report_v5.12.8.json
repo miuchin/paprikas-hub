@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-02-28T00:00:00Z",
+  "source_pdf": "kalorijska-tabela_compress.pdf",
+  "source_entries": 204,
+  "applied_to_existing_seed": 51,
+  "review_needed": 153,
+  "exact_matches": 25,
+  "manual_matches": 26,
+  "notes": [
+    "PDF ima OCR/encoding greške; izvršena je normalizacija najčešćih problema.",
+    "Automatski su upisani samo tačni i ručno definisani bezbedni match-evi.",
+    "Review CSV sadrži preostale slogove i predloge za ručnu proveru."
+  ]
+}

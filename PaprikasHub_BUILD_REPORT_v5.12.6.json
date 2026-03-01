@@ -1,0 +1,33 @@
+{
+  "version": "v5.12.6",
+  "generated_utc": "2026-02-28T08:40:33Z",
+  "input": {
+    "legacy_recipe_files": 909,
+    "legacy_user_recipes_in_db": 835
+  },
+  "merged": {
+    "total_unique_by_id": 1711,
+    "legacy_built_in": 876,
+    "legacy_imported_baked_in": 835
+  },
+  "runtime": {
+    "primary_loader": "data/recipes_chunks/manifest.json",
+    "legacy_fallback": "data/recipes/index.json",
+    "chunk_size": 200,
+    "chunk_count": 9
+  },
+  "removed_from_zip": [
+    "data/recipes",
+    "data/exports",
+    "data/import_ready",
+    "data/source_uploads",
+    "pack",
+    "report",
+    "server/__pycache__",
+    "index.backup-*.html"
+  ],
+  "package": {
+    "zip_file": "PaprikasHub-v5.12.6-LEAN-UNIFIED-1711.zip",
+    "zip_size_bytes": 610201
+  }
+}

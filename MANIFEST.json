@@ -1,0 +1,29 @@
+{
+  "name": "Paprikas Hub v3.8 DATA-FIRST",
+  "type": "single-page web app + local JSON DB server",
+  "entry": "index.html",
+  "files": [
+    "index.html",
+    "README.md",
+    "CHANGELOG.md",
+    "MANIFEST.json",
+    "KORISNICKO_UPUTSTVO_DETALJNO.md",
+    "ARHITEKTURA_DATA_SERVER_PLAN.md",
+    "data/db/app_state.json",
+    "data/db/events.ndjson",
+    "server/paprikas_server.py",
+    "scripts/setup_paprikas_hub_manjaro.sh",
+    "scripts/start_paprikas_server.sh",
+    "scripts/start_static_preview_8015.sh",
+    "scripts/backup_db.sh",
+    "docs/STRUKTURA_FOLDERA_I_FAJLOVA.md",
+    "docs/SERVER_JSON_BAZA_UPUTSTVO.md"
+  ],
+  "created_utc": "2026-02-25T14:17:32Z",
+  "base_from": "PaprikasHub-v3.7-FULL.zip",
+  "notes": [
+    "HTML renamed to index.html",
+    "JSON database persistence via local Python server (no SQLite)",
+    "Immediate server save on browser localStorage writes when API is available"
+  ]
+}

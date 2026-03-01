@@ -1,0 +1,176 @@
+{
+  "id": "kitchen_tricks_v48",
+  "version": "v4.8",
+  "schema": "paprikas-json-module-v1",
+  "title": "🍳 Kuhinjski trikovi",
+  "slug": "kitchen_tricks_v48",
+  "summary": "Brze kuhinjske prečice: ukus, tekstura, organizacija, zamene.",
+  "intro": {
+    "why": "Brze, proverene prečice da popraviš ukus / miris / stanje — bez komplikovanja.",
+    "how_to_use": [
+      "Izaberi problem.",
+      "Kreni od najbezbednijih koraka (1–2 minuta).",
+      "Posle svake izmene: probaj i odluči da li ideš dalje."
+    ]
+  },
+  "badges": [
+    {
+      "label": "SINET Light",
+      "kind": "info"
+    },
+    {
+      "label": "Praktično",
+      "kind": "ok"
+    },
+    {
+      "label": "v4.8",
+      "kind": "info"
+    }
+  ],
+  "goals": [
+    "Brzo rešenje (1–10 min)",
+    "Minimalno bacanja hrane",
+    "Manje nerviranja 🙂"
+  ],
+  "warning": {
+    "title": "Bezbednost",
+    "items": [
+      "Ako sumnjaš da je hrana pokvarena (neprijatan miris, sluz, gas, buđ) — ne spašavaj, baci.",
+      "Kod fleka: prvo testiraj na neupadljivom mestu."
+    ]
+  },
+  "diagnostics": {
+    "questions": [
+      "Šta tačno smeta (ukus, miris, tekstura, izgled)?",
+      "Kolika je količina (malo / srednje / mnogo)?",
+      "Da li je već dodato mlečno, sirće, limun, šećer?"
+    ]
+  },
+  "protocol": {
+    "title": "Protokol (korak-po-korak)",
+    "steps": [
+      {
+        "h": "1) Brzi kuhinjski trikovi (ukus/tekstura)",
+        "items": [
+          {
+            "t": "Preljuto → smiri bez vode",
+            "d": "Dodaj skrob (krompir, pirinač), malo masnoće, pa tek onda po potrebi mlečno. Dodaj u malim koracima i probaj."
+          },
+          {
+            "t": "Prekiselo → balans",
+            "d": "Prvo masnoća/tekstura (puter/ulje/pavlaka), zatim prstohvat šećera, tek na kraju mikro-korekcija soli."
+          },
+          {
+            "t": "Bljutavo → vrati ukus",
+            "d": "Pojačaj so kontrolisano, dodaj kiselinu (limun/sirće kap-po-kap), pa aromu (beli luk, biber, dimljena paprika)."
+          },
+          {
+            "t": "Pregusto/retko",
+            "d": "Pregusto: dodaj toplotu + mešanje + po potrebi malo tečnosti. Preretko: redukuj kuvanjem ili dodaj skrobnu kašu."
+          },
+          {
+            "t": "Gorko",
+            "d": "Ukloni izvor (zagorelo, preprženo), dodaj masnoću i slatko u mikro-dozi. Ne dodaj još jake začine."
+          }
+        ]
+      },
+      {
+        "h": "2) Organizacija kuvanja (štedi vreme)",
+        "items": [
+          {
+            "t": "Mise en place 5 min",
+            "d": "Pre kuvanja: sve izmeri/iseckaj. 5 minuta pripreme često uštedi 20 minuta haosa."
+          },
+          {
+            "t": "Jedna daska – jedna posuda za otpad",
+            "d": "Ostatke/ljuske odmah u posudu: manje nereda i pranja."
+          },
+          {
+            "t": "Redosled: luk → meso → začin",
+            "d": "Prvo baza (luk), onda proteini, pa začini kratko (da ne zagore)."
+          },
+          {
+            "t": "Duple posude (toplo/hladno)",
+            "d": "Drži jednu posudu za vruće (lonac) i jednu za hladno (povrće) da ne gubiš vreme."
+          },
+          {
+            "t": "Soljenje u 2 faze",
+            "d": "Malo na početku, fino podešavanje na kraju — lakše je ispraviti."
+          }
+        ]
+      },
+      {
+        "h": "3) Pametne zamene",
+        "items": [
+          {
+            "t": "Nema pavlake",
+            "d": "Malo mleka + kašičica brašna (kašica) ili jogurt na kraju van vatre."
+          },
+          {
+            "t": "Nema limuna",
+            "d": "Sirće (blago) ili kiseli krastavac sok — kap po kap."
+          },
+          {
+            "t": "Nema brašna",
+            "d": "Kukuruzni skrob / krompir / pasulj – izblendano malo u sos."
+          }
+        ]
+      },
+      {
+        "h": "4) Brza tehnika (mini skill)",
+        "items": [
+          {
+            "t": "Test soli bez greške",
+            "d": "Uzmi kašičicu tečnosti, ohladi 10 sekundi i probaj. Toplo varaju čula."
+          },
+          {
+            "t": "Češnjak bez gorkog ukusa",
+            "d": "Beli luk dodaj pred kraj ili kratko proprži 10–20 s; pregoreva i postaje gorak."
+          },
+          {
+            "t": "Karakter jela: 3 dugmeta",
+            "d": "So + kiselina + masnoća: u mikro koracima vodi jelo u ravnotežu."
+          },
+          {
+            "t": "Pirinač bez lepljenja",
+            "d": "Isperi 3×, odnos voda:pirinač 1.5:1, poklopi i ne mešaj tokom kuvanja."
+          },
+          {
+            "t": "Jaja mekša",
+            "d": "Malo putera + niža temperatura + strpljenje: tekstura bude kremasta."
+          }
+        ]
+      }
+    ]
+  },
+  "mistakes": {
+    "title": "Česte greške",
+    "items": [
+      "Prevelike promene odjednom (dodaj malo, pa probaj).",
+      "Dodavanje nove ljutine/kiseline pre nego što se balansira postojeća.",
+      "Spašavanje hrane kojoj je istekao rok / sumnjiva je."
+    ]
+  },
+  "a4_card": {
+    "title": "A4 kartica (brzi podsetnik)",
+    "bullets": [
+      "1) Najbezbedniji korak → probaj",
+      "2) Korekcija teksture → probaj",
+      "3) Fini balans (so/kiselina/šećer/masnoća) → probaj"
+    ]
+  },
+  "links": [
+    {
+      "label": "NutriTable Pro (otvori)",
+      "href": "extras/nutri/index.html",
+      "kind": "external"
+    }
+  ],
+  "tags": [
+    "kitchen",
+    "trikovi",
+    "ukus",
+    "tekstura",
+    "organizacija"
+  ]
+}

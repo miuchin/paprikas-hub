@@ -1,0 +1,176 @@
+{
+  "id": "stains_odors_rescue_v48",
+  "version": "v4.8",
+  "schema": "paprikas-json-module-v1",
+  "title": "🧽 Fleke & mirisi Rescue",
+  "slug": "stains_odors_rescue_v48",
+  "summary": "Brzi protokoli za fleke i neutralisanje mirisa u kući i kuhinji.",
+  "intro": {
+    "why": "Brze, proverene prečice da popraviš ukus / miris / stanje — bez komplikovanja.",
+    "how_to_use": [
+      "Izaberi problem.",
+      "Kreni od najbezbednijih koraka (1–2 minuta).",
+      "Posle svake izmene: probaj i odluči da li ideš dalje."
+    ]
+  },
+  "badges": [
+    {
+      "label": "SINET Light",
+      "kind": "info"
+    },
+    {
+      "label": "Praktično",
+      "kind": "ok"
+    },
+    {
+      "label": "v4.8",
+      "kind": "info"
+    }
+  ],
+  "goals": [
+    "Brzo rešenje (1–10 min)",
+    "Minimalno bacanja hrane",
+    "Manje nerviranja 🙂"
+  ],
+  "warning": {
+    "title": "Bezbednost",
+    "items": [
+      "Ako sumnjaš da je hrana pokvarena (neprijatan miris, sluz, gas, buđ) — ne spašavaj, baci.",
+      "Kod fleka: prvo testiraj na neupadljivom mestu."
+    ]
+  },
+  "diagnostics": {
+    "questions": [
+      "Šta tačno smeta (ukus, miris, tekstura, izgled)?",
+      "Kolika je količina (malo / srednje / mnogo)?",
+      "Da li je već dodato mlečno, sirće, limun, šećer?"
+    ]
+  },
+  "protocol": {
+    "title": "Protokol (korak-po-korak)",
+    "steps": [
+      {
+        "h": "1) Fleke (brzi protokoli)",
+        "items": [
+          {
+            "t": "Masnoća na tkanini",
+            "d": "Papirni ubrus + talk/soda/škrob, sačekaj 10 min, pa operi. Ne trljaj odmah."
+          },
+          {
+            "t": "Crveno vino",
+            "d": "Posoli odmah, pa hladna voda. Ne topla. Posle blagi deterdžent."
+          },
+          {
+            "t": "Kafa/čaj",
+            "d": "Hladna voda + malo deterdženta, pa ispiranje. Ako ostane: soda pasta."
+          },
+          {
+            "t": "Paradajz/paprika (sos)",
+            "d": "Hladno ispiranje + deterdžent. Sunce pomaže za izbjeljivanje."
+          },
+          {
+            "t": "Mast na tepihu",
+            "d": "Pospi sodu, ostavi 20–30 min, usisaj. Po potrebi blagi sapun."
+          },
+          {
+            "t": "Masna fleka na tkanini",
+            "d": "Pospi skrob/talk 10–20 min, otresti, pa deterdžent i pranje."
+          },
+          {
+            "t": "Vino",
+            "d": "Hladna voda + so/klasičan sapun odmah. Ne trljaj agresivno."
+          },
+          {
+            "t": "Trava",
+            "d": "Malo alkohola (70%) na vati, potom pranje. Testiraj prvo neupadljivo mesto."
+          }
+        ]
+      },
+      {
+        "h": "2) Mirisi (neutralizacija)",
+        "items": [
+          {
+            "t": "Miris ribe",
+            "d": "Limun + so na dasci / rukama, ventilacija, posuda sa sirćetom u prostoriji 15 min."
+          },
+          {
+            "t": "Miris dima u kuhinji",
+            "d": "Provetravanje + prokuvaj vodu sa sirćetom i korom limuna 10 min."
+          },
+          {
+            "t": "Miris iz kante",
+            "d": "Operi, osuši, pospi sodu na dno, menjaj 1× nedeljno."
+          },
+          {
+            "t": "Miris u plastici",
+            "d": "Soda + topla voda preko noći; alternativa: kafa u zrnu u posudi."
+          }
+        ]
+      },
+      {
+        "h": "3) Oprez (materijali)",
+        "items": [
+          {
+            "t": "Ne sirće na",
+            "d": "Prirodni kamen (mermer/granit sa slabom zaštitom), aluminijum, osetljive premaze."
+          },
+          {
+            "t": "Ne varikina na",
+            "d": "Vuna/svila/obojene tkanine bez testa."
+          }
+        ]
+      },
+      {
+        "h": "2) Mirisi (kuhinja, frižider, obuća)",
+        "items": [
+          {
+            "t": "Frižider miris",
+            "d": "Posuda sode bikarbone 24–48 h + očisti police blagim rastvorom sirćeta."
+          },
+          {
+            "t": "Miris luka/ribe sa ruku",
+            "d": "Trljaj ruke o inox (kašika/sudopera) pod vodom 20–30 s."
+          },
+          {
+            "t": "Miris u obući",
+            "d": "Soda preko noći u čarapi ili kesici, ujutru istresi."
+          },
+          {
+            "t": "Kuhinja posle prženja",
+            "d": "Prokuvaj vodu sa limunom i karanfilićem 5–10 min, prozrači."
+          }
+        ]
+      }
+    ]
+  },
+  "mistakes": {
+    "title": "Česte greške",
+    "items": [
+      "Prevelike promene odjednom (dodaj malo, pa probaj).",
+      "Dodavanje nove ljutine/kiseline pre nego što se balansira postojeća.",
+      "Spašavanje hrane kojoj je istekao rok / sumnjiva je."
+    ]
+  },
+  "a4_card": {
+    "title": "A4 kartica (brzi podsetnik)",
+    "bullets": [
+      "1) Najbezbedniji korak → probaj",
+      "2) Korekcija teksture → probaj",
+      "3) Fini balans (so/kiselina/šećer/masnoća) → probaj"
+    ]
+  },
+  "links": [
+    {
+      "label": "NutriTable Pro (otvori)",
+      "href": "extras/nutri/index.html",
+      "kind": "external"
+    }
+  ],
+  "tags": [
+    "fleke",
+    "mirisi",
+    "rescue",
+    "kuca",
+    "higijena"
+  ]
+}

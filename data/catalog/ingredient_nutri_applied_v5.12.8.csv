@@ -1,0 +1,52 @@
+matched_id,matched_naziv,source_name,grupa,page,kcal,p_g,m_g,uh_g,holesterol_mg,match_type
+pirinac,pirinač,PIRINAČ - polirani,ŽITARICE I PROIZVODI OD ŽITA,1,349.0,7.0,1.0,78.0,0.0,manual
+ovsene_pahuljice,ovsene pahuljice,ZOBENE PAHULJICE,ŽITARICE I PROIZVODI OD ŽITA,1,372.0,8.0,7.5,72.8,0.0,manual
+kukuruzni_griz,kukuruzni griz,KUKURUZNI GRIZ,ŽITARICE I PROIZVODI OD ŽITA,1,368.0,7.8,2.6,76.8,0.0,exact
+psenicno_brasno,pšenično brašno,PŠENIČNO BRAŠNO - belo,ŽITARICE I PROIZVODI OD ŽITA,1,350.0,9.8,1.2,80.1,0.0,manual
+psenicno_brasno,pšenično brašno,PŠENIČNO BRAŠNO - polubelo,ŽITARICE I PROIZVODI OD ŽITA,1,337.0,11.3,1.2,74.8,0.0,manual
+psenicno_brasno,pšenično brašno,PŠENIČNO BRAŠNO - crno,ŽITARICE I PROIZVODI OD ŽITA,1,327.0,12.8,2.0,68.8,0.0,manual
+kukuruzno_brasno,kukuruzno brašno,KUKURUZNO BRAŠNO,ŽITARICE I PROIZVODI OD ŽITA,1,362.0,8.7,0.8,78.1,0.0,exact
+teletina,teletina,TELETINA - mršava,"MESO, RIBA, JAJA",1,115.4,21.3,3.1,0.0,68.0,manual
+teletina,teletina,TELETINA - srednje masna,"MESO, RIBA, JAJA",1,163.4,17.0,6.0,0.0,68.0,manual
+gove_a_jetra,goveđa jetra,GOVEĐA JETRA,"MESO, RIBA, JAJA",1,166.6,21.1,7.8,2.2,270.0,exact
+mleko,mleko,"KRAVLJE MLEKO 1,8% M.M.",MLEKO I MLEČNI PROIZVODI,2,50.0,3.5,1.8,5.0,3.0,manual
+mleko,mleko,"KRAVLJE MLEKO 2,2% M.M.",MLEKO I MLEČNI PROIZVODI,2,51.0,2.9,2.2,4.5,,manual
+mleko,mleko,"KRAVLJE MLEKO 2,8% M.M.",MLEKO I MLEČNI PROIZVODI,2,58.5,3.3,2.8,4.7,13.0,manual
+mleko,mleko,"KRAVLJE MLEKO 3,2% M.M",MLEKO I MLEČNI PROIZVODI,2,62.2,3.3,3.3,4.7,13.0,manual
+jogurt,jogurt,"JOGURT 3,2% M.M.",MLEKO I MLEČNI PROIZVODI,2,62.2,3.5,3.2,4.7,13.0,manual
+kisela_pavlaka,kisela pavlaka,KISELA PAVLAKA 20% M.M.,MLEKO I MLEČNI PROIZVODI,2,210.2,2.8,20.0,3.9,66.0,manual
+narandza,narandža,NARANDŽA - sveža,VOĆE I VOĆNI PROIZVOD,2,48.0,0.7,0.2,11.0,,manual
+jagode,jagode,JAGODE,VOĆE I VOĆNI PROIZVOD,2,26.0,0.6,0.0,6.2,0.0,exact
+maline,maline,MALINE,VOĆE I VOĆNI PROIZVOD,2,25.0,0.9,0.0,5.6,0.0,exact
+jabuka,jabuka,JABUKA,VOĆE I VOĆNI PROIZVOD,2,40.0,0.0,0.0,10.0,0.0,exact
+kruska,kruška,KRUŠKA,VOĆE I VOĆNI PROIZVOD,2,29.0,0.2,0.0,7.6,0.0,exact
+sljive,šljive,ŠLJIVE,VOĆE I VOĆNI PROIZVOD,2,38.0,0.6,0.0,9.6,0.0,exact
+banana,banana,BANANA,VOĆE I VOĆNI PROIZVOD,2,79.0,1.1,0.3,19.2,0.0,exact
+blitva,blitva,BLITVA,POVRĆE I PROIZVODI OD POVRĆA,3,12.0,1.3,0.1,1.5,0.0,exact
+kiseli_kupus,kiseli kupus,KISELI KUPUS,POVRĆE I PROIZVODI OD POVRĆA,3,12.0,2.0,0.0,1.0,0.0,exact
+persun,peršun,PERŠUN,POVRĆE I PROIZVODI OD POVRĆA,3,49.0,1.7,0.0,11.3,0.0,exact
+zelena_salata,zelena salata,ZELENA SALATA,POVRĆE I PROIZVODI OD POVRĆA,3,14.0,1.1,0.1,2.2,0.0,exact
+karfiol,karfiol,KARFIOL,POVRĆE I PROIZVODI OD POVRĆA,3,25.0,3.2,0.2,2.7,0.0,exact
+krastavac,krastavac,KRASTAVAC - svež,POVRĆE I PROIZVODI OD POVRĆA,3,14.0,0.7,0.5,1.8,0.0,manual
+kisela_paprika_tursija,kisela paprika (turšija),KISELA PAPRIKA,POVRĆE I PROIZVODI OD POVRĆA,3,15.0,0.8,0.6,1.7,0.0,manual
+tikvice,tikvice,TIKVICE,POVRĆE I PROIZVODI OD POVRĆA,3,15.0,1.3,0.1,2.3,0.0,exact
+keleraba,keleraba,KELERABA,POVRĆE I PROIZVODI OD POVRĆA,3,24.0,2.0,0.0,4.0,0.0,exact
+beli_luk,beli luk,"LUK - beli, svež",POVRĆE I PROIZVODI OD POVRĆA,3,136.0,6.0,0.0,28.0,0.0,manual
+crni_luk,crni luk,"LUK - crveni, svež",POVRĆE I PROIZVODI OD POVRĆA,3,24.0,0.9,0.0,5.2,0.0,manual
+praziluk,praziluk,PORILUK celi,POVRĆE I PROIZVODI OD POVRĆA,3,28.0,2.0,0.0,5.0,0.0,manual
+celer_koren,celer koren,CELER koren,POVRĆE I PROIZVODI OD POVRĆA,3,23.0,1.9,0.1,3.8,0.0,exact
+cvekla,cvekla,CVEKLA,POVRĆE I PROIZVODI OD POVRĆA,3,36.0,2.0,0.0,7.0,0.0,exact
+sargarepa,šargarepa,ŠARGAREPA,POVRĆE I PROIZVODI OD POVRĆA,3,36.0,1.0,0.0,8.0,0.0,exact
+puter,puter,MASLAC - neslani,MASTI I ULJA,3,751.0,1.0,83.0,0.0,225.0,manual
+maslinovo_ulje,maslinovo ulje,ULJE - maslinovo,MASTI I ULJA,3,900.0,0.0,99.9,0.0,0.0,manual
+suncokretovo_ulje,suncokretovo ulje,ULJE - suncokretovo,MASTI I ULJA,3,900.0,0.0,99.9,0.0,0.0,manual
+majonez,majonez,MAJONEZ,MASTI I ULJA,3,732.0,1.0,80.0,2.0,,exact
+med,med,MED vrcani,"ŠEĆER, MED I SLATKIŠI",4,320.0,0.4,0.0,80.0,0.0,manual
+sok_od_narandze,sok od narandže,SOK OD NARANDŽE,"PIĆA, NAPICI I OSTALO",4,45.0,0.7,0.2,10.4,0.0,exact
+mineralna_voda,mineralna voda,MINERALNA VODA,"PIĆA, NAPICI I OSTALO",4,0.0,0.0,0.0,0.0,0.0,exact
+crni_biber,crni biber,BIBER crni,ZAČINI I INDUSTRIJSKE SUPE,5,279.0,11.0,3.0,52.0,0.0,manual
+slatka_mlevena_paprika,slatka mlevena paprika,PAPRIKA crvena mlevena,ZAČINI I INDUSTRIJSKE SUPE,5,300.0,15.0,15.0,70.0,0.0,manual
+persun_suvi,peršun suvi,PERŠUNOV LIST sušeni,ZAČINI I INDUSTRIJSKE SUPE,5,400.0,30.0,10.0,70.0,0.0,manual
+kvasac_suvi,kvasac suvi,KVASAC suvi,ZAČINI I INDUSTRIJSKE SUPE,5,282.0,36.9,1.6,38.9,0.0,exact
+prasak_za_pecivo,prašak za pecivo,PRAŠAK ZA PECIVO,ZAČINI I INDUSTRIJSKE SUPE,5,76.0,0.1,,18.9,0.0,exact
+senf,senf,SENF,ZAČINI I INDUSTRIJSKE SUPE,5,75.0,4.7,4.4,6.4,0.0,exact

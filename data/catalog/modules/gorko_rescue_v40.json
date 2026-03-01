@@ -1,0 +1,85 @@
+{
+  "id": "gorko_rescue",
+  "version": "1.0",
+  "schema": "paprikas-hub-module-v1",
+  "title": "🌫️ Gorko Rescue (JSON modul v4.0)",
+  "slug": "bitter-json",
+  "summary": "Data-first vodič za gorko/dimno-gorko jelo: procena da li je spasivo, smanjenje gorčine balansom i batch pristupom.",
+  "intro": {
+    "title": "Gorčina nije uvek ista",
+    "text": "Blaga gorčina od začina ili prženja često je popravljiva. Jako zagorela, dimna gorčina iz dna lonca ponekad nije bezbedna za 'spašavanje' u istom loncu — tada se radi prelivanje i batch pristup."
+  },
+  "badges": [
+    "data-first",
+    "gorko rescue",
+    "dimno-gorko",
+    "batch pristup"
+  ],
+  "goals": [
+    "Odvojiti zagorelu bazu od jela",
+    "Smanjiti gorčinu bez preslađivanja",
+    "Proceniti kada je bolje krenuti ispočetka"
+  ],
+  "warning": "Ako je dno zagorelo, ne strugati dno. Pažljivo prelij gornji sloj u drugi lonac i radi korekcije tamo.",
+  "diagnostics": [
+    {
+      "symptom": "Dimni miris + gorčina",
+      "likely": "zagorelo dno / prepečen luk ili paprika"
+    },
+    {
+      "symptom": "Gorko bez dima",
+      "likely": "previše nekog začina ili preduga redukcija"
+    },
+    {
+      "symptom": "Pecka gorčina na kraju",
+      "likely": "prejaka redukcija / koncentracija"
+    },
+    {
+      "symptom": "Tamna boja + gorčina",
+      "likely": "karamelizacija prešla u sagorevanje"
+    }
+  ],
+  "protocol": [
+    "Odmah skini lonac sa vatre i ne mešaj dno",
+    "Prelij gornji sloj u čist lonac (bez struganja dna)",
+    "Probaj mali batch i proceni nivo gorčine",
+    "Dodaj neutralnu bazu + malo masnoće za ublažavanje",
+    "Po potrebi mikro kiselina/so za balans, ali ne maskiraj agresivno"
+  ],
+  "mistakes": [
+    "Struganje dna lonca",
+    "Dodavanje puno šećera kao maska",
+    "Previše začina da 'pokrije' gorčinu",
+    "Ignorisanje bezbednosti i mirisa paljevine"
+  ],
+  "a4_card": {
+    "title": "A4 podsjetnik — Gorko / dimno-gorko",
+    "do": [
+      "Skini sa vatre",
+      "Prelij u čist lonac",
+      "Batch test",
+      "Neutralna baza + masnoća",
+      "Proceni realno da li je spasivo"
+    ],
+    "dont": [
+      "Ne struži dno",
+      "Ne maskiraj šećerom",
+      "Ne paniči sa začinima",
+      "Ne služi ako ima jak miris paljevine"
+    ]
+  },
+  "links": [
+    {
+      "tab": "bitter",
+      "label": "Klasični Gorko Rescue"
+    },
+    {
+      "tab": "burn",
+      "label": "Zagorelo Rescue"
+    },
+    {
+      "tab": "atlas",
+      "label": "Rescue Atlas"
+    }
+  ]
+}

@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriTable Pro - Baza v2.0</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background-color: #f8fafc; }
+        .tab-active { border-bottom: 3px solid #10b981; color: #047857; font-weight: bold; background-color: #ecfdf5; }
+        .indicator-dot { height: 12px; width: 12px; border-radius: 50%; display: inline-block; cursor: help; border: 2px solid white; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .indicator-dot:hover { transform: scale(1.3); }
+        .custom-scroll::-webkit-scrollbar { height: 8px; width: 8px; }
+        .custom-scroll::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+        .fade-in { animation: fadeIn 0.3s ease-in; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    </style>
+</head>
+<body class="text-slate-800">
+
+    <!-- Zaglavlje -->
+    <header class="bg-white shadow-sm border-b border-slate-200 sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="bg-emerald-100 p-2 rounded-lg text-emerald-600"><i class="fas fa-leaf text-xl"></i></div>
+                <div>
+                    <h1 class="text-xl font-bold text-slate-800">NutriTable Pro</h1>
+                    <p class="text-xs text-slate-500">EU Reg. 1169/2011 | Baza v2.0</p>
+                </div>
+            </div>
+            <div class="text-right hidden sm:block">
+                <span class="text-xs font-semibold bg-green-100 text-green-700 px-3 py-1 rounded-full">Baza Podataka</span>
+                <p class="text-[10px] text-slate-400 mt-1">Ukupno unosa: <span id="total-count" class="font-bold">0</span></p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-6">
+        
+        <!-- Tabovi -->
+        <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-1 mb-4 flex flex-wrap gap-2 justify-between items-center sticky top-20 z-40">
+            <div class="flex space-x-1 overflow-x-auto">
+                <button onclick="switchTab('namirnice')" id="tab-namirnice" class="px-4 py-2 rounded-lg text-slate-600 hover:bg-slate-50 transition text-sm font-medium tab-active"><i class="fas fa-utensils mr-2"></i>Namirnice</button>
+                <button onclick="switchTab('vitamini')" id="tab-vitamini" class="px-4 py-2 rounded-lg text-slate-600 hover:bg-slate-50 transition text-sm font-medium"><i class="fas fa-capsules mr-2"></i>Vitamini</button>
+                <button onclick="switchTab('minerali')" id="tab-minerali" class="px-4 py-2 rounded-lg text-slate-600 hover:bg-slate-50 transition text-sm font-medium"><i class="fas fa-gem mr-2"></i>Minerali</button>
+            </div>
+            <div class="flex items-center gap-2 px-3">
+                <label class="text-xs font-bold text-slate-500 uppercase">Prikaz:</label>
+                <select id="itemsPerPage" onchange="updatePagination()" class="border-slate-300 rounded text-sm py-1 px-2 bg-slate-50">
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="50" selected>50</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- LEGENDA (NA VRHU) -->
+        <div id="legend-container" class="mb-4 fade-in">
+            <!-- Legenda za Namirnice -->
+            <div id="legend-namirnice" class="grid grid-cols-1 md:grid-cols-3 gap-3">
+                <div class="bg-green-50 border border-green-100 rounded-lg p-3 flex gap-3 items-center">
+                    <span class="indicator-dot bg-green-500 shrink-0"></span>
+                    <div><h4 class="font-bold text-green-800 text-xs uppercase">Preporučljivo</h4><p class="text-[10px] text-green-700">Zdravo, nizak GI, bogato nutrijentima.</p></div>
+                </div>
+                <div class="bg-orange-50 border border-orange-100 rounded-lg p-3 flex gap-3 items-center">
+                    <span class="indicator-dot bg-orange-500 shrink-0"></span>
+                    <div><h4 class="font-bold text-orange-800 text-xs uppercase">Umereno</h4><p class="text-[10px] text-orange-700">Srednji GI ili masnije. Umereno.</p></div>
+                </div>
+                <div class="bg-red-50 border border-red-100 rounded-lg p-3 flex gap-3 items-center">
+                    <span class="indicator-dot bg-red-500 shrink-0"></span>
+                    <div><h4 class="font-bold text-red-800 text-xs uppercase">Oprez</h4><p class="text-[10px] text-red-700">Visok GI, šećeri ili loše masti.</p></div>
+                </div>
+            </div>
+            <!-- Legenda za Vitamine (Narodna) -->
+            <div id="legend-mikro" class="hidden grid grid-cols-1 md:grid-cols-2 gap-3">
+                <div class="bg-emerald-50 border border-emerald-100 rounded-lg p-3 flex gap-3 items-center">
+                    <div class="bg-emerald-200 text-emerald-700 rounded-full w-8 h-8 flex items-center justify-center shrink-0 text-sm"><i class="fas fa-handshake"></i></div>
+                    <div><h4 class="font-bold text-emerald-800 text-sm">Prijatelji (Sinergija)</h4><p class="text-[10px] text-emerald-700">Pomažu se međusobno. Uzimajte ih zajedno.</p></div>
+                </div>
+                <div class="bg-rose-50 border border-rose-100 rounded-lg p-3 flex gap-3 items-center">
+                    <div class="bg-rose-200 text-rose-700 rounded-full w-8 h-8 flex items-center justify-center shrink-0 text-sm"><i class="fas fa-hand-paper"></i></div>
+                    <div><h4 class="font-bold text-rose-800 text-sm">Suparnici (Antagonisti)</h4><p class="text-[10px] text-rose-700">Poništavaju se. Razdvojite obroke.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tabela -->
+        <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden flex flex-col">
+            <div class="overflow-x-auto custom-scroll">
+                <table class="w-full whitespace-nowrap text-left border-collapse">
+                    <thead class="bg-slate-50 text-slate-500 border-b border-slate-200">
+                        <tr id="table-headers" class="text-xs font-bold uppercase tracking-wider"></tr>
+                    </thead>
+                    <tbody id="table-body" class="divide-y divide-slate-100 text-sm text-slate-600"></tbody>
+                </table>
+            </div>
+            <div class="p-4 bg-slate-50 border-t border-slate-200 flex justify-between items-center">
+                <span id="page-info" class="text-xs font-medium text-slate-500">...</span>
+                <div class="flex gap-2">
+                    <button onclick="changePage(-1)" id="btn-prev" class="px-3 py-1 border rounded bg-white text-xs disabled:opacity-50">Nazad</button>
+                    <button onclick="changePage(1)" id="btn-next" class="px-3 py-1 border rounded bg-white text-xs disabled:opacity-50">Napred</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal -->
+    <div id="modal-amino" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm">
+        <div class="bg-white w-full max-w-md rounded-xl shadow-2xl overflow-hidden">
+            <div class="bg-emerald-600 px-6 py-4 flex justify-between text-white">
+                <h3 class="font-bold"><i class="fas fa-dna mr-2"></i>Aminokiseline (na 100g proteina)</h3>
+                <button onclick="toggleModal()" class="hover:text-emerald-200"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="p-6 overflow-y-auto max-h-[60vh]" id="modal-body"></div>
+        </div>
+    </div>
+
+    <script>
+        // --- VELIKA BAZA PODATAKA ---
+
+        const foods = [
+            // --- MESO I JAJA ---
+            { id: 1, name: "Pileća prsa (kuvana)", group: "Meso", kcal: 165, fat: 3.6, carb: 0, prot: 31, gi: 0, ind: "green", tip: "Protein", comp: ["Brokoli", "Pirinač"], amino: { arg: 3.7, his: 2.9, leu: 9.5, lys: 8.1, val: 6.7 } },
+            { id: 2, name: "Junetina (posna)", group: "Meso", kcal: 250, fat: 15, carb: 0, prot: 26, gi: 0, ind: "orange", tip: "Masti", comp: ["Salata", "Kupus"], amino: { arg: 3.5, lys: 8.5, leu: 8.0 } },
+            { id: 3, name: "Svinjski kare", group: "Meso", kcal: 242, fat: 14, carb: 0, prot: 27, gi: 0, ind: "orange", tip: "Zasićene masti", comp: ["Kiseli kupus"], amino: { leu: 7.5 } },
+            { id: 4, name: "Ćuretina", group: "Meso", kcal: 189, fat: 7, carb: 0, prot: 29, gi: 0, ind: "green", tip: "Niske masti", comp: ["Grašak"], amino: { trp: 1.8 } },
+            { id: 5, name: "Jagnjetina", group: "Meso", kcal: 294, fat: 21, carb: 0, prot: 25, gi: 0, ind: "red", tip: "Visoke masti", comp: ["Tikvice"], amino: { leu: 7.8 } },
+            { id: 6, name: "Jaje (celo)", group: "Jaja", kcal: 155, fat: 11, carb: 1.1, prot: 13, gi: 0, ind: "green", tip: "Kompletan protein", comp: ["Spanać"], amino: { leu: 8.8, val: 7.2 } },
+            { id: 7, name: "Belance", group: "Jaja", kcal: 52, fat: 0.2, carb: 0.7, prot: 11, gi: 0, ind: "green", tip: "Čist protein", comp: ["Ovas"], amino: { leu: 8.5 } },
+
+            // --- RIBA ---
+            { id: 8, name: "Losos (svež)", group: "Riba", kcal: 208, fat: 13, carb: 0, prot: 20, gi: 0, ind: "green", tip: "Omega-3", comp: ["Limun", "Blitva"], amino: { arg: 1.2, lys: 1.8 } },
+            { id: 9, name: "Tunjevina (konzerva)", group: "Riba", kcal: 116, fat: 1, carb: 0, prot: 26, gi: 0, ind: "green", tip: "Niske masti", comp: ["Kukuruz"], amino: { lys: 9.0 } },
+            { id: 10, name: "Oslić", group: "Riba", kcal: 82, fat: 0.7, carb: 0, prot: 18, gi: 0, ind: "green", tip: "Lako varljivo", comp: ["Krompir"], amino: { lys: 9.2 } },
+            { id: 11, name: "Sardine", group: "Riba", kcal: 208, fat: 11, carb: 0, prot: 25, gi: 0, ind: "green", tip: "Kalcijum", comp: ["Limun"], amino: null },
+            { id: 12, name: "Skuša", group: "Riba", kcal: 305, fat: 25, carb: 0, prot: 19, gi: 0, ind: "green", tip: "Omega-3", comp: ["Salata"], amino: null },
+
+            // --- MLEČNI PROIZVODI ---
+            { id: 13, name: "Mleko (3.2%)", group: "Mlečno", kcal: 61, fat: 3.2, carb: 4.8, prot: 3.2, gi: 31, ind: "green", tip: "Kalcijum", comp: ["Ovas"], amino: { lys: 7.8 } },
+            { id: 14, name: "Jogurt", group: "Mlečno", kcal: 61, fat: 3.2, carb: 4.7, prot: 3.5, gi: 33, ind: "green", tip: "Probiotik", comp: ["Lan"], amino: { lys: 7.9 } },
+            { id: 15, name: "Kefir", group: "Mlečno", kcal: 55, fat: 2.5, carb: 4, prot: 3, gi: 30, ind: "green", tip: "Probiotik", comp: ["Bobice"], amino: { lys: 7.5 } },
+            { id: 16, name: "Mladi sir", group: "Mlečno", kcal: 98, fat: 4, carb: 3, prot: 11, gi: 30, ind: "green", tip: "Kazein", comp: ["Paradajz"], amino: { lys: 8.0 } },
+            { id: 17, name: "Kačkavalj (Trapist)", group: "Mlečno", kcal: 350, fat: 28, carb: 1, prot: 25, gi: 0, ind: "orange", tip: "Visoke masti", comp: ["Grožđe"], amino: { tyr: 6.0 } },
+            { id: 18, name: "Mocarela", group: "Mlečno", kcal: 280, fat: 17, carb: 3, prot: 28, gi: 0, ind: "green", tip: "Dobar protein", comp: ["Bosiljak"], amino: null },
+            { id: 19, name: "Puter", group: "Masti", kcal: 717, fat: 81, carb: 0.1, prot: 0.9, gi: 0, ind: "orange", tip: "Zasićene masti", comp: ["Hleb"], amino: null },
+
+            // --- POVRĆE ---
+            { id: 20, name: "Brokoli", group: "Povrće", kcal: 34, fat: 0.4, carb: 6.6, prot: 2.8, gi: 15, ind: "green", tip: "Superhrana", comp: ["Meso"], amino: null },
+            { id: 21, name: "Spanać", group: "Povrće", kcal: 23, fat: 0.4, carb: 3.6, prot: 2.9, gi: 15, ind: "green", tip: "Gvožđe", comp: ["Limun"], amino: null },
+            { id: 22, name: "Paradajz", group: "Povrće", kcal: 18, fat: 0.2, carb: 3.9, prot: 0.9, gi: 15, ind: "green", tip: "Likopen", comp: ["Sir"], amino: null },
+            { id: 23, name: "Krastavac", group: "Povrće", kcal: 15, fat: 0.1, carb: 3.6, prot: 0.7, gi: 15, ind: "green", tip: "Voda", comp: ["Jogurt"], amino: null },
+            { id: 24, name: "Paprika (crvena)", group: "Povrće", kcal: 31, fat: 0.3, carb: 6.0, prot: 1.0, gi: 15, ind: "green", tip: "Vitamin C", comp: ["Humus"], amino: null },
+            { id: 25, name: "Krompir (kuvan)", group: "Povrće", kcal: 87, fat: 0.1, carb: 20, prot: 1.9, gi: 78, ind: "red", tip: "Visok GI", comp: ["Riba"], amino: null },
+            { id: 26, name: "Šargarepa", group: "Povrće", kcal: 41, fat: 0.2, carb: 9.6, prot: 0.9, gi: 39, ind: "green", tip: "Vitamin A", comp: ["Humus"], amino: null },
+            { id: 27, name: "Kupus", group: "Povrće", kcal: 25, fat: 0.1, carb: 5.8, prot: 1.3, gi: 15, ind: "green", tip: "Vlakna", comp: ["Meso"], amino: null },
+            { id: 28, name: "Luk (crni)", group: "Povrće", kcal: 40, fat: 0.1, carb: 9.3, prot: 1.1, gi: 15, ind: "green", tip: "Prebiotik", comp: [], amino: null },
+            { id: 29, name: "Beli luk", group: "Povrće", kcal: 149, fat: 0.5, carb: 33, prot: 6.4, gi: 30, ind: "green", tip: "Imunitet", comp: [], amino: null },
+            { id: 30, name: "Karfiol", group: "Povrće", kcal: 25, fat: 0.3, carb: 5, prot: 1.9, gi: 15, ind: "green", tip: "Niskokalorično", comp: [], amino: null },
+            { id: 31, name: "Tikvice", group: "Povrće", kcal: 17, fat: 0.3, carb: 3, prot: 1.2, gi: 15, ind: "green", tip: "Lako varljivo", comp: [], amino: null },
+            { id: 32, name: "Grašak", group: "Povrće", kcal: 81, fat: 0.4, carb: 14, prot: 5, gi: 50, ind: "orange", tip: "Skrob", comp: ["Meso"], amino: null },
+
+            // --- VOĆE ---
+            { id: 33, name: "Banana", group: "Voće", kcal: 89, fat: 0.3, carb: 23, prot: 1.1, gi: 51, ind: "orange", tip: "Kalijum", comp: ["Ovas"], amino: null },
+            { id: 34, name: "Jabuka", group: "Voće", kcal: 52, fat: 0.2, carb: 14, prot: 0.3, gi: 36, ind: "green", tip: "Pektin", comp: ["Badem"], amino: null },
+            { id: 35, name: "Pomorandža", group: "Voće", kcal: 47, fat: 0.1, carb: 12, prot: 0.9, gi: 43, ind: "green", tip: "Vitamin C", comp: [], amino: null },
+            { id: 36, name: "Limun", group: "Voće", kcal: 29, fat: 0.3, carb: 9, prot: 1.1, gi: 20, ind: "green", tip: "Alkalno", comp: ["Voda"], amino: null },
+            { id: 37, name: "Jagode", group: "Voće", kcal: 32, fat: 0.3, carb: 7.7, prot: 0.7, gi: 41, ind: "green", tip: "Antioksidans", comp: [], amino: null },
+            { id: 38, name: "Borovnice", group: "Voće", kcal: 57, fat: 0.3, carb: 14, prot: 0.7, gi: 53, ind: "green", tip: "Superhrana", comp: ["Jogurt"], amino: null },
+            { id: 39, name: "Lubenica", group: "Voće", kcal: 30, fat: 0.2, carb: 8, prot: 0.6, gi: 72, ind: "orange", tip: "Visok GI", comp: ["Sir"], amino: null },
+            { id: 40, name: "Grožđe", group: "Voće", kcal: 69, fat: 0.2, carb: 18, prot: 0.7, gi: 59, ind: "orange", tip: "Šećer", comp: [], amino: null },
+            { id: 41, name: "Avokado", group: "Voće", kcal: 160, fat: 15, carb: 9, prot: 2, gi: 10, ind: "green", tip: "Zdrave masti", comp: ["Jaja"], amino: null },
+
+            // --- ŽITARICE ---
+            { id: 42, name: "Beli hleb", group: "Žitarice", kcal: 265, fat: 3.2, carb: 49, prot: 9, gi: 75, ind: "red", tip: "Visok GI", comp: ["Puter"], amino: null },
+            { id: 43, name: "Integralni hleb", group: "Žitarice", kcal: 247, fat: 3.4, carb: 41, prot: 13, gi: 50, ind: "green", tip: "Vlakna", comp: ["Humus"], amino: null },
+            { id: 44, name: "Beli pirinač", group: "Žitarice", kcal: 130, fat: 0.3, carb: 28, prot: 2.7, gi: 73, ind: "red", tip: "Brzi UH", comp: ["Riba"], amino: null },
+            { id: 45, name: "Integralni pirinač", group: "Žitarice", kcal: 111, fat: 0.9, carb: 23, prot: 2.6, gi: 68, ind: "orange", tip: "Složeni UH", comp: ["Povrće"], amino: null },
+            { id: 46, name: "Ovas (Pahuljice)", group: "Žitarice", kcal: 389, fat: 6.9, carb: 66, prot: 16.9, gi: 55, ind: "green", tip: "Beta glukan", comp: ["Mleko"], amino: { leu: 7.0 } },
+            { id: 47, name: "Kinoa", group: "Žitarice", kcal: 120, fat: 1.9, carb: 21, prot: 4.4, gi: 53, ind: "green", tip: "Kompletan protein", comp: ["Avokado"], amino: { lys: 6.0 } },
+
+            // --- MAHUNARKE ---
+            { id: 48, name: "Pasulj", group: "Mahunarke", kcal: 127, fat: 0.5, carb: 23, prot: 9, gi: 24, ind: "green", tip: "Vlakna", comp: ["Paprika"], amino: { lys: 7.0 } },
+            { id: 49, name: "Sočivo", group: "Mahunarke", kcal: 116, fat: 0.4, carb: 20, prot: 9, gi: 32, ind: "green", tip: "Gvožđe", comp: ["Pirinač"], amino: { lys: 7.2 } },
+            { id: 50, name: "Leblebija", group: "Mahunarke", kcal: 164, fat: 2.6, carb: 27, prot: 9, gi: 28, ind: "green", tip: "Humus baza", comp: ["Tahini"], amino: null },
+
+            // --- ORAŠASTI PLODOVI ---
+            { id: 51, name: "Bademi", group: "Orašasti", kcal: 579, fat: 49, carb: 22, prot: 21, gi: 15, ind: "green", tip: "Vitamin E", comp: ["Jabuka"], amino: { arg: 9.0 } },
+            { id: 52, name: "Orasi", group: "Orašasti", kcal: 654, fat: 65, carb: 14, prot: 15, gi: 15, ind: "green", tip: "Omega-3", comp: ["Med"], amino: { arg: 10.0 } },
+            { id: 53, name: "Kikiriki", group: "Orašasti", kcal: 567, fat: 49, carb: 16, prot: 26, gi: 15, ind: "green", tip: "Protein", comp: [], amino: null },
+
+            // --- SLATKIŠI I GRICKALICE ---
+            { id: 54, name: "Čips", group: "Grickalice", kcal: 536, fat: 35, carb: 53, prot: 7, gi: 85, ind: "red", tip: "Trans masti", comp: [], amino: null },
+            { id: 55, name: "Mlečna čokolada", group: "Slatkiši", kcal: 535, fat: 30, carb: 59, prot: 7.6, gi: 49, ind: "orange", tip: "Šećer", comp: [], amino: null },
+            { id: 56, name: "Crna čokolada (70%)", group: "Slatkiši", kcal: 598, fat: 43, carb: 46, prot: 7.8, gi: 23, ind: "green", tip: "Antioksidans", comp: [], amino: null },
+            { id: 57, name: "Keks", group: "Slatkiši", kcal: 450, fat: 14, carb: 72, prot: 6, gi: 70, ind: "red", tip: "Prazne kalorije", comp: [], amino: null },
+            { id: 58, name: "Med", group: "Slatkiši", kcal: 304, fat: 0, carb: 82, prot: 0.3, gi: 61, ind: "orange", tip: "Prirodno", comp: ["Čaj"], amino: null },
+            { id: 59, name: "Koka Kola", group: "Pića", kcal: 42, fat: 0, carb: 10.6, prot: 0, gi: 60, ind: "red", tip: "Tečni šećer", comp: [], amino: null },
+            { id: 60, name: "Maslinovo ulje", group: "Masti", kcal: 884, fat: 100, carb: 0, prot: 0, gi: 0, ind: "green", tip: "Zdrave masti", comp: ["Salata"], amino: null }
+        ];
+
+        const vitamins = [
+            { name: "Vitamin A", src: "Džigerica, Šargarepa", rda: "800µg", friend: ["Cink", "Masti"], enemy: [], ind: "green" },
+            { name: "Vitamin B1 (Tiamin)", src: "Svinjetina, Žitarice", rda: "1.1mg", friend: ["Mg"], enemy: ["Kafa"], ind: "green" },
+            { name: "Vitamin B2 (Riboflavin)", src: "Mleko, Jaja", rda: "1.4mg", friend: ["B-kompleks"], enemy: [], ind: "green" },
+            { name: "Vitamin B3 (Niacin)", src: "Piletina, Riba", rda: "16mg", friend: ["Trp"], enemy: [], ind: "green" },
+            { name: "Vitamin B6", src: "Riba, Krompir", rda: "1.4mg", friend: ["Mg"], enemy: [], ind: "green" },
+            { name: "Vitamin B12", src: "Meso, Jaja, Mleko", rda: "2.5µg", friend: ["Folna kis."], enemy: ["Vit C (u istom obroku)"], ind: "green" },
+            { name: "Vitamin C", src: "Citrusi, Paprika", rda: "80mg", friend: ["Gvožđe"], enemy: ["B12"], ind: "green" },
+            { name: "Vitamin D", src: "Sunce, Riba", rda: "5µg", friend: ["Kalcijum", "Mg"], enemy: [], ind: "green" },
+            { name: "Vitamin E", src: "Bademi, Ulja", rda: "12mg", friend: ["Vit C", "Selen"], enemy: ["Gvožđe"], ind: "green" },
+            { name: "Vitamin K", src: "Zeleno povrće", rda: "75µg", friend: ["Kalcijum"], enemy: ["Vit E (visoke doze)"], ind: "green" }
+        ];
+
+        const minerals = [
+            { name: "Kalcijum (Ca)", src: "Mleko, Kelj", rda: "800mg", friend: ["Vit D"], enemy: ["Gvožđe", "Cink"], ind: "green" },
+            { name: "Gvožđe (Fe)", src: "Meso, Pasulj", rda: "14mg", friend: ["Vit C"], enemy: ["Kalcijum", "Kafa"], ind: "orange" },
+            { name: "Magnezijum (Mg)", src: "Bademi, Spanać", rda: "375mg", friend: ["B6", "Kalcijum"], enemy: [], ind: "green" },
+            { name: "Cink (Zn)", src: "Meso, Semenke", rda: "10mg", friend: ["Vit A"], enemy: ["Kalcijum", "Gvožđe"], ind: "green" },
+            { name: "Kalijum (K)", src: "Banana, Krompir", rda: "3500mg", friend: ["Mg"], enemy: ["Natrijum"], ind: "green" },
+            { name: "Natrijum (Na)", src: "So", rda: "2000mg", friend: [], enemy: ["Kalijum"], ind: "red" },
+            { name: "Selen (Se)", src: "Brazilski orah", rda: "55µg", friend: ["Vit E"], enemy: [], ind: "green" },
+            { name: "Jod (I)", src: "Jodirana so, Riba", rda: "150µg", friend: ["Selen"], enemy: ["Karfiol (sirov)"], ind: "green" }
+        ];
+
+        // LOGIKA
+        let tab = 'namirnice';
+        let page = 1;
+        let perPage = 50;
+
+        function init() { 
+            document.getElementById('total-count').innerText = foods.length + vitamins.length + minerals.length;
+            render(); 
+        }
+
+        function switchTab(t) {
+            tab = t; page = 1;
+            document.querySelectorAll('button[id^="tab-"]').forEach(b => {
+                b.classList.remove('tab-active', 'bg-emerald-50', 'text-emerald-700');
+                b.classList.add('text-slate-600');
+            });
+            const active = document.getElementById(`tab-${t}`);
+            active.classList.add('tab-active');
+            
+            // Toggle Legenda
+            if(t === 'namirnice') {
+                document.getElementById('legend-namirnice').classList.remove('hidden');
+                document.getElementById('legend-mikro').classList.add('hidden');
+            } else {
+                document.getElementById('legend-namirnice').classList.add('hidden');
+                document.getElementById('legend-mikro').classList.remove('hidden');
+            }
+            render();
+        }
+
+        function getDot(color, tip) {
+            return `<span class="indicator-dot bg-${color}-500" title="${tip}"></span>`;
+        }
+
+        function toggleModal() {
+            const m = document.getElementById('modal-amino');
+            m.classList.toggle('hidden');
+        }
+
+        function showAmino(id) {
+            const f = foods.find(x => x.id === id);
+            if(!f || !f.amino) return;
+            const b = document.getElementById('modal-body');
+            b.innerHTML = '';
+            
+            const names = {
+                'arg': 'Arginin', 'his': 'Histidin', 'leu': 'Leucin', 'lys': 'Lizin',
+                'met': 'Metionin', 'phe': 'Fenilalanin', 'thr': 'Treonin', 
+                'trp': 'Triptofan', 'tyr': 'Tirozin', 'val': 'Valin'
+            };
+
+            for(let [k,v] of Object.entries(f.amino)) {
+                let fullName = names[k] || k.toUpperCase();
+                b.innerHTML += `
+                    <div class="flex justify-between border-b border-slate-100 p-2 hover:bg-slate-50">
+                        <span class="text-slate-600">${fullName}</span>
+                        <span class="font-bold text-emerald-600 bg-emerald-50 px-2 rounded">${v} g</span>
+                    </div>`;
+            }
+            toggleModal();
+        }
+
+        function render() {
+            const tbody = document.getElementById('table-body');
+            const thead = document.getElementById('table-headers');
+            tbody.innerHTML = '';
+            
+            let data = tab === 'namirnice' ? foods : (tab === 'vitamini' ? vitamins : minerals);
+            
+            if(tab === 'namirnice') {
+                thead.innerHTML = `<th class="px-4 py-2">Stat</th><th class="px-4 py-2">Naziv</th><th class="px-4 py-2">Grupa</th><th class="px-4 py-2">Kcal</th><th class="px-4 py-2">Masti</th><th class="px-4 py-2">UH</th><th class="px-4 py-2">Prot</th><th class="px-4 py-2">GI</th><th class="px-4 py-2">Amino</th><th class="px-4 py-2">Komp</th>`;
+            } else {
+                thead.innerHTML = `<th class="px-4 py-2">Stat</th><th class="px-4 py-2">Naziv</th><th class="px-4 py-2">Izvori</th><th class="px-4 py-2">RDA</th><th class="px-4 py-2 text-green-600">Prijatelji</th><th class="px-4 py-2 text-red-600">Suparnici</th>`;
+            }
+
+            perPage = parseInt(document.getElementById('itemsPerPage').value);
+            let start = (page-1)*perPage;
+            let end = start + perPage;
+            let slice = data.slice(start, end);
+
+            slice.forEach(d => {
+                let tr = document.createElement('tr');
+                tr.className = "hover:bg-slate-50 border-b border-slate-50 transition";
+                
+                if(tab === 'namirnice') {
+                    let amino = d.amino ? `<button onclick="showAmino(${d.id})" class="text-emerald-600 hover:bg-emerald-100 px-2 py-1 rounded transition"><i class="fas fa-microscope"></i></button>` : '<span class="text-slate-300">-</span>';
+                    let comp = d.comp.map(c => `<span class="bg-slate-100 text-slate-600 border border-slate-200 text-[10px] px-2 py-0.5 rounded-full mr-1">${c}</span>`).join('');
+                    tr.innerHTML = `
+                        <td class="px-4 py-3 text-center">${getDot(d.ind, d.tip)}</td>
+                        <td class="px-4 font-semibold text-slate-700">${d.name}</td>
+                        <td class="px-4 text-xs uppercase text-slate-500 font-bold tracking-wider">${d.group}</td>
+                        <td class="px-4 font-mono text-xs text-slate-600">${d.kcal}</td>
+                        <td class="px-4 text-xs text-slate-500">${d.fat}</td>
+                        <td class="px-4 text-xs text-slate-500">${d.carb}</td>
+                        <td class="px-4 font-bold text-xs text-slate-700">${d.prot}</td>
+                        <td class="px-4 font-mono text-xs ${d.gi>70?'text-red-500 font-bold':'text-slate-500'}">${d.gi}</td>
+                        <td class="px-4 text-center">${amino}</td>
+                        <td class="px-4 whitespace-normal max-w-xs">${comp}</td>
+                    `;
+                } else {
+                    let friend = d.friend.map(f => `<span class="bg-green-50 text-green-700 border border-green-200 text-[10px] px-2 py-0.5 rounded-full mr-1 mb-1 inline-block"><i class="fas fa-check mr-1"></i>${f}</span>`).join('');
+                    let enemy = d.enemy.map(e => `<span class="bg-red-50 text-red-700 border border-red-200 text-[10px] px-2 py-0.5 rounded-full mr-1 mb-1 inline-block"><i class="fas fa-times mr-1"></i>${e}</span>`).join('');
+                    tr.innerHTML = `
+                        <td class="px-4 py-3 text-center">${getDot(d.ind, '')}</td>
+                        <td class="px-4 font-bold text-emerald-800">${d.name}</td>
+                        <td class="px-4 text-xs text-slate-600 whitespace-normal max-w-xs">${d.src}</td>
+                        <td class="px-4 font-mono text-xs font-bold bg-slate-100 px-2 rounded w-min whitespace-nowrap">${d.rda}</td>
+                        <td class="px-4 whitespace-normal max-w-xs">${friend||'-'}</td>
+                        <td class="px-4 whitespace-normal max-w-xs">${enemy||'-'}</td>
+                    `;
+                }
+                tbody.appendChild(tr);
+            });
+
+            document.getElementById('page-info').innerText = `${start+1}-${Math.min(end, data.length)} / ${data.length}`;
+            
+            const btnPrev = document.getElementById('btn-prev');
+            const btnNext = document.getElementById('btn-next');
+            
+            btnPrev.disabled = page === 1;
+            btnNext.disabled = end >= data.length;
+            
+            btnPrev.classList.toggle('opacity-50', page === 1);
+            btnNext.classList.toggle('opacity-50', end >= data.length);
+        }
+
+        function updatePagination() { page=1; render(); }
+        function changePage(d) { page+=d; render(); }
+
+        init();
+    </script>
+</body>
+</html>
