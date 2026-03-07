@@ -1,0 +1,301 @@
+{
+  "metadata": {
+    "version": "v11",
+    "area_key": "koza_kosa_i_spoljna_primena",
+    "area_title": "Koža, kosa i spoljašnja primena",
+    "source_book": "Enciklopedija narodnih metoda lečenja",
+    "item_count": 11
+  },
+  "counts": {
+    "recepti_protokoli": 3,
+    "biljke_i_namirnice": 0,
+    "tegobe": 8,
+    "opsti_saveti": 0
+  },
+  "items": [
+    {
+      "id": "glaukom",
+      "naziv": "Glaukom",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "PROPOLIS",
+      "strane": [
+        57
+      ],
+      "opis_kratak": "Mumio piti 25 dana i posle desetodnevne pauze ponoviti terapiju, a premazivanje izvoditi po 3-4 meseca i nakon toga praviti pauzu od mesec dana. Kod zapuštenih hemoroida izlečenje se postiže nakon 6-8 meseci ili ranije. Paradentoza, desni, zubi, sluzokoža usne šupljine, lokalne upalne reakcije 1. Piti mumio po 0,2gr. 1-2 puta dnevno (obavezno uveče pre spavanja) u toku 25 dana sa mlekom, medom ili sa vodom...",
+      "tagovi": [
+        "propolis",
+        "pčelarstvo"
+      ],
+      "anchor": "index.html#page-57",
+      "raspon_strana": "57",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Glaukom",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "tinktura-cveta-lipe-sa-medom",
+      "naziv": "Tinktura cveta lipe sa medom",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "PROPOLIS",
+      "strane": [
+        40
+      ],
+      "opis_kratak": "Tinktura cveta lipe sa medom Uzmite 1Ogr. cveta lipe (tri sup.kaš.) i prelijte sa 200ml.vrele vode u emajliranoj posudi, poklopite i stavite 15 minuta na pari, ostavite da se ohladi, a zatim procedite. U dobijenu tinkturu dolijte vrelu vodu da se ukupno dobije 200ml. i u njoj rastopite 1 sup.kaš. meda. Uzimati toplo po 1,5-1 čaše 2-3 puta dnevno kao sredstvo za izazivanje znojenja, a takođe i snižavanje temperature...",
+      "tagovi": [
+        "propolis",
+        "pčelarstvo"
+      ],
+      "anchor": "index.html#page-40",
+      "raspon_strana": "40",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Tinktura cveta lipe sa medom",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "zedj",
+      "naziv": "Žeđ",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "DISANJE PO SISTEMU BUTEJKO VEŽBA PRVA",
+      "strane": [
+        101
+      ],
+      "opis_kratak": "Žeđ Osobine - umirujuća tačka (jedina tačka na sluzokoži u organizmu čoveka).",
+      "tagovi": [
+        "disanje"
+      ],
+      "anchor": "index.html#page-101",
+      "raspon_strana": "101",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Žeđ",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "ateroskleroza",
+      "naziv": "Ateroskleroza",
+      "tip": "tegoba",
+      "sekcija_knjige": "Deo drugi - LEČENJE LEKOVITIM BILJKAMA I NARODNA MEDICINA",
+      "strane": [
+        132,
+        244
+      ],
+      "opis_kratak": "a) Odvar od korena pije se kod bronhijalne astme, kašlja, upale sluzokože ždrela, nesanice, lupanja srca, promuklosti. Priprema: dve supene kašike isitnjenog korena preliti čašom vrele vode, kuvati 15 minuta, procediti. Piti po 1/4 čaše 4 puta dnevno ili jednu čašu uveče. b) Sok od repe sa medom koristi se kod kašlja po 1 -2 supene kašike",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-132",
+      "raspon_strana": "132-244",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Ateroskleroza",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "tegobe"
+    },
+    {
+      "id": "bradavice",
+      "naziv": "Bradavice",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        248,
+        249,
+        350
+      ],
+      "opis_kratak": "Narodni saveti i recepti u knjizi vezani za 'Bradavice'.",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-248",
+      "raspon_strana": "248-350",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Bradavice",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.64,
+      "review_note": "ručno normalizovana i vraćena iz v8 review kandidata",
+      "_category": "tegobe"
+    },
+    {
+      "id": "dermatitis",
+      "naziv": "Dermatitis",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        273
+      ],
+      "opis_kratak": "po pola čaše vruće tinkture 3-4 puta dnevno kao sredstvo za izazivanje znojenja. e) plodovi maline - 1 deo, list maline - 2 dela, majoran - 2 dela, list podbjela - 2 dela. Supenu kašiku isitnjene mešavine preliti sa dve čaše vrele vode, kuvati 5-10 minuta na tihoj vatri, procediti. Piti po pola čaše vrućeg odvara 3-4 puta dnevno pre jela",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-273",
+      "raspon_strana": "273",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Dermatitis",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.73,
+      "review_note": "naslov više liči na biljku/namirnicu ili pomoćni sastojak; normalizovan naslov iz obrasca “Dermatitis - Hmelj”",
+      "normalized_naziv": "Dermatitis - Hmelj",
+      "_category": "tegobe"
+    },
+    {
+      "id": "maska-za-lice",
+      "naziv": "Maska za lice",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        208
+      ],
+      "opis_kratak": "Ovo je starinsko narodno i zato pravo sredstvo. Pre spavanja napariti noge u vrućoj vodi, zatim dobro osušiti i priviti na žulj koru od limuna sa malom količinom mekšine ili, rak, parče limuna. Posle 4-5 dana žulj će sasvim nestati. Sredstvo za omekšavanje kože lica U narodnom govoru ovo sredstvo nazivaju \"voda od krastavca\". Izrezati kra",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-208",
+      "raspon_strana": "208",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Maska za lice",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "tegobe"
+    },
+    {
+      "id": "opekotine",
+      "naziv": "Opekotine",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        318
+      ],
+      "opis_kratak": "Jednu supenu kašiku ove mešavine preliti čašom vrele vode, ostaviti da odstoji i piti u toku dana između obroka i uveče. Za jedan dan treba utrošiti čašu suve mešavine. Protiv otežanog disanja ' 1. Kilogram meda, sok od 10 limuna, 10 glavica belog luka izgnječiti u kašicu, sve pomešati i ostaviti nedelju dana da odstoji u zatvorenoj tegli",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-318",
+      "raspon_strana": "318",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Opekotine",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "tegobe"
+    },
+    {
+      "id": "pege-maslacak",
+      "naziv": "Pege - Maslačak",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        209
+      ],
+      "opis_kratak": "minuta, prohladiti odvar i dok je još toplo natopiti gazu ili tampone i stavljati na čisto lice. Držati 15-20 minuta i nakon toga isprati lice toplom vodom. Pege Maslačak Pripremiti odvar - dve supene kašike maslačka kuvati u 200ml. vode 15 minuta, procediti, ohladiti i umivati lice ovim odvarom. Luk Protrljavati lice svežom glavicom lu",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-209",
+      "raspon_strana": "209",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Pege - Maslačak",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "tegobe"
+    },
+    {
+      "id": "znojenje-nogu",
+      "naziv": "Znojenje nogu",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        317,
+        318
+      ],
+      "opis_kratak": "Narodni saveti i recepti u knjizi vezani za 'Znojenje nogu'.",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-317",
+      "raspon_strana": "317-318",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Znojenje nogu",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.64,
+      "review_note": "ručno normalizovana i vraćena iz v8 review kandidata",
+      "_category": "tegobe"
+    },
+    {
+      "id": "celavost",
+      "naziv": "Ćelavost",
+      "tip": "tegoba",
+      "sekcija_knjige": "Deo drugi - LEČENJE LEKOVITIM BILJKAMA I NARODNA MEDICINA",
+      "strane": [
+        155
+      ],
+      "opis_kratak": "Piti po 1/3-1/2 čaše vruće tinkture tri puta dnevno pola sata pre jela radi pojačanja funkcije probavnih organa i bubrega kod kožnih bolesti. 9. Sladić (koren) - 10g., čičak (koren) - 15g., maslačak (koren) - 15g., dvozubica - 30g., broćevina (koren) - 30g. Piti po 1 -2 čaše odvara ujutru za lečenje eksudativne dijateze. 10. Krušina (kora) - 30g., sladić (koren) - 30g., dan-inoć - 40g.",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-155",
+      "raspon_strana": "155",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Ćelavost",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.82,
+      "review_note": "naslov više liči na biljku/namirnicu ili pomoćni sastojak; zadržano kao problem opadanja kose / ćelavosti",
+      "normalized_naziv": "Ćelavost",
+      "_category": "tegobe"
+    }
+  ]
+}

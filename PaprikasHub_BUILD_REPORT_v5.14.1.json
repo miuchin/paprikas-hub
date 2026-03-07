@@ -1,0 +1,21 @@
+{
+  "version": "v5.14.1",
+  "build": "PaprikasHub-v5.14.1-LIBRARY-NAV-FULL",
+  "date_utc": "2026-03-02T09:10:29Z",
+  "base_package": "PaprikasHub-v5.14.0-LIBRARY-ACCORDION-FULL.zip",
+  "changes": [
+    "Added sticky left library navigation / table of contents",
+    "Added open-all and titles-only controls for library collections",
+    "Synced active nav state with details accordion sections",
+    "Kept Python 3.13+ server hotfix and localhost 8015 flow"
+  ],
+  "verified": {
+    "api_ping": true,
+    "homepage_contains_library_nav": true,
+    "localhost_port": 8015
+  },
+  "catalog": {
+    "recipes": 1773,
+    "chunk_files": 10
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "version": "v11",
+    "source": "enciklopedija_narodnih_metoda_lecenja_sinet_ready_katalog_v11_curated.json",
+    "purpose": "strozi SINET export po tipovima"
+  },
+  "types": [
+    {
+      "type": "protocol",
+      "group": "recepti_protokoli",
+      "count": 50,
+      "file": "data/tipovi/protocol.json"
+    },
+    {
+      "type": "plant",
+      "group": "biljke_i_namirnice",
+      "count": 59,
+      "file": "data/tipovi/plant.json"
+    },
+    {
+      "type": "symptom",
+      "group": "tegobe",
+      "count": 29,
+      "file": "data/tipovi/symptom.json"
+    },
+    {
+      "type": "advice",
+      "group": "opsti_saveti",
+      "count": 9,
+      "file": "data/tipovi/advice.json"
+    }
+  ]
+}

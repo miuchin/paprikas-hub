@@ -1,0 +1,12 @@
+{
+  "version": "v5.16.1",
+  "date": "2026-03-02",
+  "focus": "1000-recipe content collection pipeline",
+  "changes": [
+    "Updated visible app version to v5.16.1",
+    "Added prompt pack for 1000 recipes / 100 per session",
+    "Added ready continue prompt",
+    "Added workflow doc for collecting, validating and importing 10 batches",
+    "Added prompt-ready inventory titles export and 10-session tracker"
+  ]
+}

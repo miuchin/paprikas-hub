@@ -1,0 +1,253 @@
+{
+  "metadata": {
+    "version": "v11",
+    "export_type": "advice",
+    "source_group": "opsti_saveti",
+    "count": 9
+  },
+  "items": [
+    {
+      "id": "aktivan-nacin-zivota",
+      "naziv": "Aktivan način života",
+      "tip": "opsti_savet",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        324
+      ],
+      "opis_kratak": "Opšti savet ili praktična preporuka iz knjige pod naslovom 'Aktivan način života'.",
+      "tagovi": [
+        "narodna medicina",
+        "savet"
+      ],
+      "anchor": "index.html#page-324",
+      "raspon_strana": "324",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Aktivan način života",
+        "podtip": "opsti_saveti",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.64,
+      "review_note": "ručno normalizovana i vraćena iz v8 review kandidata",
+      "export_type": "advice",
+      "source_group": "opsti_saveti"
+    },
+    {
+      "id": "gladovanje-i-detoksikacija",
+      "naziv": "Gladovanje i detoksikacija",
+      "tip": "opsti_savet",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        231
+      ],
+      "opis_kratak": "Bubrezi izbacuju iz jetre krajnje produkte hrane i razmene materija u organizmu. Creva izbacuju ne samo otpatke hrane nego i otpatke organizma u obliku iskorišćenih ćelija i tkiva, koje se javljaju kao rezulat naših fizičkih i umnih aktivnosti. Jedna od prvih i brzih metoda čišćenja, posebno za odrasle je sledeća: PAŽNJA: ne primenjivati",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-231",
+      "raspon_strana": "231",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Gladovanje i detoksikacija",
+        "podtip": "opsti_saveti",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.74,
+      "review_note": "naslov više liči na biljku/namirnicu ili pomoćni sastojak; preklasifikovano kao opšti savet / protokol iz dela o detoksikaciji",
+      "normalized_naziv": "Gladovanje",
+      "export_type": "advice",
+      "source_group": "opsti_saveti"
+    },
+    {
+      "id": "kako-izvaditi-insekat-ili-kamencic-iz-uha",
+      "naziv": "Kako izvaditi insekat ili kamenčić iz uha",
+      "tip": "opsti_savet",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        205
+      ],
+      "opis_kratak": "Za kamenčić: ispirati uho slabim mlazom tople vode posle sipanja ulja. Za insekat: napuniti uho uljem kap po kap dok ne ispliva.",
+      "tagovi": [
+        "narodna medicina",
+        "opšti savet"
+      ],
+      "anchor": "index.html#page-205",
+      "raspon_strana": "205",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Kako izvaditi insekat ili kamenčić iz uha",
+        "podtip": "opsti_saveti",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.95,
+      "export_type": "advice",
+      "source_group": "opsti_saveti"
+    },
+    {
+      "id": "lekovita-tecnost",
+      "naziv": "Lekovita tečnost",
+      "tip": "opsti_savet",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        217
+      ],
+      "opis_kratak": "Treba imati u vidu da su pri lečenju na ovaj način moguća pogoršanja, posebno kod Ljudi sa puno bolesti. Kada počnu da se opuštaju žarišta čoveku se može učiniti da mu se stanje pogoršalo. Dešava se da u organizmu postoji bolest, ali se još ne oseća i čovek smatra sebe za zdravog. Posle ovakve procedure stanje se odjednom pogoršava, to zn",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-217",
+      "raspon_strana": "217",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Lekovita tečnost",
+        "podtip": "opsti_saveti",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.66,
+      "review_note": "naslov više liči na biljku/namirnicu ili pomoćni sastojak; zadržano kao opšti savet / pomoćni narodni preparat",
+      "normalized_naziv": "Lekovita tečnost",
+      "export_type": "advice",
+      "source_group": "opsti_saveti"
+    },
+    {
+      "id": "mala-pomoc-epilepticarima",
+      "naziv": "Mala pomoć epileptičarima",
+      "tip": "opsti_savet",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        205
+      ],
+      "opis_kratak": "Kod napada epilepsije u knjizi se navodi pomoćni narodni postupak sa osloncem leve ruke na pod i pritiskom malog prsta.",
+      "tagovi": [
+        "narodna medicina",
+        "opšti savet"
+      ],
+      "anchor": "index.html#page-205",
+      "raspon_strana": "205",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Mala pomoć epileptičarima",
+        "podtip": "opsti_saveti",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.95,
+      "export_type": "advice",
+      "source_group": "opsti_saveti"
+    },
+    {
+      "id": "o-mleku-kozje-mleko",
+      "naziv": "O mleku / kozje mleko",
+      "tip": "opsti_savet",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        229
+      ],
+      "opis_kratak": "Opšti savet o mleku, sa posebnim osvrtom na kozje mleko i njegovu tradicionalno opisanu primenu u ishrani.",
+      "tagovi": [
+        "narodna medicina",
+        "savet",
+        "ishrana"
+      ],
+      "anchor": "index.html#page-229",
+      "raspon_strana": "229",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "O mleku / kozje mleko",
+        "podtip": "opsti_saveti",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.82,
+      "review_note": "ručno normalizovan naslov sa OCR oblika Omleku",
+      "export_type": "advice",
+      "source_group": "opsti_saveti"
+    },
+    {
+      "id": "otreznjenje-mrtvo-pijanog",
+      "naziv": "Otrežnjenje \"mrtvo\" pijanog",
+      "tip": "opsti_savet",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        205
+      ],
+      "opis_kratak": "Navodi se amonijak u vodi ili snažna masaža oba uha kao brz narodni postupak otrežnjenja.",
+      "tagovi": [
+        "narodna medicina",
+        "opšti savet"
+      ],
+      "anchor": "index.html#page-205",
+      "raspon_strana": "205",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Otrežnjenje \"mrtvo\" pijanog",
+        "podtip": "opsti_saveti",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.95,
+      "export_type": "advice",
+      "source_group": "opsti_saveti"
+    },
+    {
+      "id": "sredstvo-za-vadjenje-riblje-kosti-iz-grla",
+      "naziv": "Sredstvo za vađenje riblje kosti iz grla",
+      "tip": "opsti_savet",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        205
+      ],
+      "opis_kratak": "Riblju kost iz grla moguće je izvaditi pomoću sveće od voska. Jedan kraj sveće zagreje se na vatri i brzo, da se ne stegne, stavlja se na kost koja štrči. Za pola minuta vosak se ohladi, kost ostaje u njemu pričvršćena i lako se izvlači zajedno sa svećom. Kako izvaditi insekat ili kamenčić iz uha 1. Sipati u uho ulje, zatim relativno slab",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-205",
+      "raspon_strana": "205",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Sredstvo za vađenje riblje kosti iz grla",
+        "podtip": "opsti_saveti",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "advice",
+      "source_group": "opsti_saveti"
+    },
+    {
+      "id": "zapamtite-i-ne-zaboravljajte",
+      "naziv": "Zapamtite i ne zaboravljajte",
+      "tip": "opsti_savet",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        230
+      ],
+      "opis_kratak": "Vozim automobil, po 100 milja dnevno bez zaustavljanja i slobodno se penjem stepenicama. Sada znate zašto mi je potreban beli glog, a šipurak tni je potreban kao vitamin 'C', kao začin glogu da bi bio prijatniji za piće. Tinkturu od gloga pripremam na sledeći način: stavljam u lonac 7 punih, sa \"vrškom\" supenih kašika plodova, prelivam sa",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-230",
+      "raspon_strana": "230",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Zapamtite i ne zaboravljajte",
+        "podtip": "opsti_saveti",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.7,
+      "review_note": "naslov više liči na biljku/namirnicu ili pomoćni sastojak; preklasifikovano kao opšti savet / podsetnik",
+      "normalized_naziv": "Zapamtite i ne zaboravljajte",
+      "export_type": "advice",
+      "source_group": "opsti_saveti"
+    }
+  ]
+}

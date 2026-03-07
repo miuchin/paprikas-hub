@@ -1,0 +1,11 @@
+{
+  "version": "v5.14.2",
+  "base": "PaprikasHub-v5.14.1-LIBRARY-NAV-FULL.zip",
+  "fixes": [
+    "Removed inline ontoggle handlers from library accordion details elements",
+    "Added phLibraryInitBindings on DOMContentLoaded",
+    "Moved library content navigation to the first visible block in the library pane"
+  ],
+  "server_port": 8015,
+  "notes": "UI/JS hotfix based on runtime ReferenceError seen in browser console."
+}

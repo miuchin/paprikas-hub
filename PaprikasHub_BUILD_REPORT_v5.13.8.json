@@ -1,0 +1,34 @@
+{
+  "build": "v5.13.8",
+  "package": "PaprikasHub-v5.13.8-ENCIKLOPEDIJA-BRIDGE-FULL.zip",
+  "generated_at": "2026-03-02T07:20:29Z",
+  "base_package": "PaprikasHub-v5.13.6-RECIPES-OPEN-HOTFIX.zip",
+  "changes": [
+    "Dodata Biblioteka / Enciklopedija kartica i TAB u aplikaciji",
+    "Ugrađena HTML knjiga u references/enciklopedija_narodnih_metoda/",
+    "Dodat bridge JSON koji deli šta ide u Paprikas Hub a šta u SINET",
+    "Dodat ingredient_traditional seed za budući atlas biljaka i namirnica",
+    "Dodat SINET bridge export za review/import tok",
+    "Ažuriran data/catalog/index.json da atlas vidi novi reference modul"
+  ],
+  "validated": {
+    "js_syntax_node_check": true,
+    "server_api_ping": true,
+    "bridge_json_served": true,
+    "reference_html_served": true,
+    "library_tab_present_in_index": true
+  },
+  "counts": {
+    "recipes_current_manifest": 1773,
+    "enciklopedija_items_total": 147,
+    "enciklopedija_plants_foods": 59,
+    "enciklopedija_general_advice": 9,
+    "enciklopedija_protocols": 50,
+    "enciklopedija_symptoms": 29
+  },
+  "notes": [
+    "Biblioteka je read-only i ne menja Recipe Atlas.",
+    "Tradicionalni sadržaj nije automatski medicinski savet u Paprikas Hub-u.",
+    "Server ostaje na 8015."
+  ]
+}

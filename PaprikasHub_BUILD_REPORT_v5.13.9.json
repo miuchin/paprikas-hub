@@ -1,0 +1,27 @@
+{
+  "build": "v5.13.9",
+  "base_build": "v5.13.8-ENCIKLOPEDIJA-BRIDGE-FULL",
+  "feature": "JNA OCR Bridge",
+  "server_port": 8015,
+  "verified": [
+    "index.html patched",
+    "node syntax check passed for embedded scripts",
+    "/api/ping responded OK",
+    "JNA bridge JSON served over local server"
+  ],
+  "jna_counts": {
+    "indexed_recipe_titles": 328,
+    "safe_preview_candidates": 270,
+    "review_only_candidates": 58,
+    "exact_title_overlaps_with_recipe_atlas": 20,
+    "unique_titles_vs_recipe_atlas": 308
+  },
+  "new_files": [
+    "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+    "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+    "references/jna_kuvar_ocr/kuvar_jna_ocr.docx",
+    "references/jna_kuvar_ocr/kuvar_jna_ocr_bundle.zip",
+    "data/catalog/bridges/jna_ocr_bridge_v5.13.9.json",
+    "data/catalog/bridges/jna_ocr_review_export_v5.13.9.json"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "version": "v11",
+    "purpose": "preostale stvarno sporne ili oštećene stavke posle dodatnog clean-passa",
+    "resolved_to_curated_count": 19,
+    "remaining_count": 2,
+    "removed_false_positive_count": 19,
+    "notes": [
+      "Lažni OCR naslovi poput gradova iz bibliografije, generičkih reči i prekinutih sastojaka uklonjeni su iz review seta.",
+      "Preostala su samo dva slučaja: osetljivi onkološki podnaslov i potpuno oštećena strana 309."
+    ]
+  },
+  "recepti_protokoli": [],
+  "biljke_i_namirnice": [],
+  "tegobe": [
+    {
+      "id": "rak-1-pasjakovina",
+      "naziv": "Rak - 1. Pasjakovina",
+      "tip": "tegobe",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        323
+      ],
+      "opis_kratak": "Na strani 323 naslov Rak sadrži potpoglavlje Pasjakovina. Zadržano u review setu zbog osetljive teme i potrebe za pažljivim ručnim medicinskim kontekstom pre eventualnog direktnog importa.",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-323",
+      "raspon_strana": "323",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Rak - 1. Pasjakovina",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": false,
+      "quality_score": 0.34,
+      "review_note": "ostavljeno za ručnu odluku jer je onkološki naslov specifičan, a pasjakovina je potpoglavlje u sklopu šireg unosa Rak"
+    },
+    {
+      "id": "strana-309-ostecen-text-layer",
+      "naziv": "Strana 309 - oštećen text layer",
+      "tip": "tegobe",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        309
+      ],
+      "opis_kratak": "Na strani 309 tekstualni sloj PDF-a je teško oštećen i bez ručne provere slike nije moguće sigurno rekonstruisati zasebne naslove ili recepte.",
+      "tagovi": [
+        "ocr",
+        "review"
+      ],
+      "anchor": "index.html#page-309",
+      "raspon_strana": "309",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Strana 309 - oštećen text layer",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": false,
+      "quality_score": 0.1,
+      "review_note": "ostavljeno za kasniju ručnu lekturu sa slike strane"
+    }
+  ],
+  "opsti_saveti": [],
+  "counts": {
+    "recepti_protokoli": 0,
+    "biljke_i_namirnice": 0,
+    "tegobe": 2,
+    "opsti_saveti": 0
+  }
+}

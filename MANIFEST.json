@@ -1,29 +1,25 @@
 {
-  "name": "Paprikas Hub v3.8 DATA-FIRST",
+  "name": "Paprikas Hub v5.16.1 CONTENT-PIPELINE",
   "type": "single-page web app + local JSON DB server",
   "entry": "index.html",
-  "files": [
-    "index.html",
-    "README.md",
-    "CHANGELOG.md",
-    "MANIFEST.json",
-    "KORISNICKO_UPUTSTVO_DETALJNO.md",
-    "ARHITEKTURA_DATA_SERVER_PLAN.md",
-    "data/db/app_state.json",
-    "data/db/events.ndjson",
-    "server/paprikas_server.py",
-    "scripts/setup_paprikas_hub_manjaro.sh",
-    "scripts/start_paprikas_server.sh",
-    "scripts/start_static_preview_8015.sh",
-    "scripts/backup_db.sh",
-    "docs/STRUKTURA_FOLDERA_I_FAJLOVA.md",
-    "docs/SERVER_JSON_BAZA_UPUTSTVO.md"
-  ],
-  "created_utc": "2026-02-25T14:17:32Z",
-  "base_from": "PaprikasHub-v3.7-FULL.zip",
+  "created_utc": "2026-03-02T17:40:00Z",
+  "base_from": "PaprikasHub-v5.16.0-IMPORT-INVENTORY-FULL.zip",
   "notes": [
-    "HTML renamed to index.html",
-    "JSON database persistence via local Python server (no SQLite)",
-    "Immediate server save on browser localStorage writes when API is available"
-  ]
+    "Version tag updated to v5.16.1 in the main app UI.",
+    "Added ready-to-use prompt files for 1000 new recipes in 10 sessions of 100.",
+    "Added workflow docs and a session tracker for mass content collection.",
+    "Added prompt-ready inventory titles export for dedup before generation."
+  ],
+  "files_highlight": [
+    "index.html",
+    "server/paprikas_server.py",
+    "docs/PROMPTS_MASOVNO_SAKUPLJANJE_v5.16.1.md",
+    "docs/WORKFLOW_1000_RECEPTI_v5.16.1.md",
+    "prompts/recipes_1000_session_100_v5.16.1.txt",
+    "prompts/recipes_continue_v5.16.1.txt",
+    "data/exports/recipe_inventory_titles_prompt_ready_v5.16.1.txt",
+    "data/exports/recipe_collection_1000_tracker_v5.16.1.json"
+  ],
+  "app_version": "v5.18.9",
+  "updated_utc": "2026-03-07T12:36:38+00:00"
 }

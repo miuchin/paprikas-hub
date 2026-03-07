@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "version": "v11",
+    "area_key": "kardiovaskularno_nervno_i_lokomotorno",
+    "area_title": "Kardiovaskularno, nervno i lokomotorno",
+    "source_book": "Enciklopedija narodnih metoda lečenja",
+    "item_count": 8
+  },
+  "counts": {
+    "recepti_protokoli": 7,
+    "biljke_i_namirnice": 0,
+    "tegobe": 1,
+    "opsti_saveti": 0
+  },
+  "items": [
+    {
+      "id": "kod-malokrvnosti-se-koriste-mesavine",
+      "naziv": "Kod malokrvnosti se koriste mešavine",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [],
+      "opis_kratak": "Narodni recept ili protokol opisan u knjizi pod naslovom 'Kod malokrvnosti se koriste mešavine'.",
+      "tagovi": [
+        "narodna medicina",
+        "protokol"
+      ],
+      "anchor": "index.html",
+      "raspon_strana": "",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Kod malokrvnosti se koriste mešavine",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.64,
+      "review_note": "ručno normalizovana i vraćena iz v8 review kandidata",
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "masaza-po-tackama-kod-ateroskleroze",
+      "naziv": "Masaža po tačkama kod ateroskleroze",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "MASAŽA PO TAČKAMA",
+      "strane": [
+        122
+      ],
+      "opis_kratak": "Sl. 59. Masaža po tačkama kod ateroskleroze",
+      "tagovi": [
+        "masaža"
+      ],
+      "anchor": "index.html#page-122",
+      "raspon_strana": "122",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Masaža po tačkama kod ateroskleroze",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "nesvestica",
+      "naziv": "Nesvestica",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "DISANJE PO SISTEMU BUTEJKO VEŽBA PRVA",
+      "strane": [
+        99
+      ],
+      "opis_kratak": "Sl. 20. Nesvestica",
+      "tagovi": [
+        "disanje"
+      ],
+      "anchor": "index.html#page-99",
+      "raspon_strana": "99",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Nesvestica",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "sok-od-cvekle",
+      "naziv": "Sok od cvekle",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "SOKOVI OD POVRĆA",
+      "strane": [
+        13
+      ],
+      "opis_kratak": "Sok od cvekle je najdragoceniji sok za stvaranje crvenih krvnih zrnaca i za poboljšanje krvi uopšte. Za žene je on izuzetno koristan ako se pije najmanje 0,5l. dnevno pomešan sa sokom od mrkve. Sam sok od cvekle u količini od jedne vinske čaše može izazvati reakciju čišćenja, a takođe i malu nesvesticu ili mučninu. Iskustvo je pokazalo da",
+      "tagovi": [
+        "ishrana",
+        "sok"
+      ],
+      "anchor": "index.html#page-13",
+      "raspon_strana": "13",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Sok od cvekle",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "sokovi-od-povrca",
+      "naziv": "Sokovi od povrća",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "SOKOVI OD POVRĆA",
+      "strane": [
+        7,
+        11,
+        12
+      ],
+      "opis_kratak": "Našim noktima i kosi posebno je potreban spoj elemenata koji se nalazi u svežem soku od krastavaca radi sprečavanja pucanja i opadanja kose. Sok je koristan i kao profilaksa prenapregnutih miokarda. On umiruje i jača nervni sistem, sprečava aterosklerozu i poboljšava pamćenje. Uzima se do 100ml čistog soka. Njegovo delovanje se pojačava k",
+      "tagovi": [
+        "ishrana",
+        "sok"
+      ],
+      "anchor": "index.html#page-7",
+      "raspon_strana": "7-12",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Sokovi od povrća",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "vezba-treca",
+      "naziv": "Vežba treća",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "DISANJE PO SISTEMU BUTEJKO VEŽBA PRVA",
+      "strane": [
+        62
+      ],
+      "opis_kratak": "razbijanje se može ponoviti. Zbog toga je poželjno ostati na jednom mestu u toku jedne godine (ciklus razbijanja) Posle razbijanja bolesti stanje boles-nika odmah se poboljšava. U toku razbijanja bolesti mogu se davati lekovi, ali polovinu doze. Izbegavati belančevine. Ako je bolesnik prima hormone, onda u toku razbijanja mogu se davati hortizonski hormoni, srčanim bole-snicima slabiji preparati za srce. Kod pojave...",
+      "tagovi": [
+        "disanje"
+      ],
+      "anchor": "index.html#page-62",
+      "raspon_strana": "62",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Vežba treća",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "vezba-cetvrta",
+      "naziv": "Vežba četvrta",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "DISANJE PO SISTEMU BUTEJKO VEŽBA PRVA",
+      "strane": [
+        64
+      ],
+      "opis_kratak": "Evolucija disanja u patogenezi (ploda) Svih devet meseci života u utrobi u krvi ploda kiseonika ima tri puta manje nego u krvi odraslog čoveka. Kažu da je plod modar. Takav normalan sadržaj kiseonika u krvi ploda u potpunosti obezbeđuje razvoj tkiva. Visok sadržaj kiseonika vodi tkiva ka propasti. U arterijskoj krvi odraslog čoveka ima 97% kiseonika, u venoznoj - 70%, u plodu - 30%. Sistem disanja spaja se sistem...",
+      "tagovi": [
+        "disanje"
+      ],
+      "anchor": "index.html#page-64",
+      "raspon_strana": "64",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Vežba četvrta",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "nesanica",
+      "naziv": "Nesanica",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        246
+      ],
+      "opis_kratak": "ostaviti 10 minuta.. Piti polako u gutljajima u toku jednog sata. Jgdna čaša je dnevna doza. List živovlaka dobro oprati, izrezati i iscediti sok. Dodati isto toliko meda i kuvati 20 minuta. Uzimati po 2-3 kašičice dnevno. Čuvati u zatvorenoj posudi na prohladnom mestu. 9. Čubrika - (5g. na 500ml vrele vode) ostaviti da odstoji 40 minuta",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-246",
+      "raspon_strana": "246",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Nesanica",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "tegobe"
+    }
+  ]
+}

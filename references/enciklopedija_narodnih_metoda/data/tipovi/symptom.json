@@ -1,0 +1,820 @@
+{
+  "metadata": {
+    "version": "v11",
+    "export_type": "symptom",
+    "source_group": "tegobe",
+    "count": 29
+  },
+  "items": [
+    {
+      "id": "alkoholizam",
+      "naziv": "Alkoholizam",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        206
+      ],
+      "opis_kratak": "Gorčica -1 deo, pelen -1 deo, čubrika -1 deo. Preliti 15g. ove mešavine sa 200ml. vrele vode, umotati i ostaviti dva sata, procediti. Piti po 1 supenu kašiku 4 puta dnevno kod alkoholizma. Stenice šumske, zelene (ima ih u malinjaku). Stenice imaju jak, neprijatan miris. Uhvatiti nekoliko stenica i ostaviti neko vreme u alkoholu, a zat",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-206",
+      "raspon_strana": "206",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Alkoholizam",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "symptom",
+      "source_group": "tegobe"
+    },
+    {
+      "id": "artritis",
+      "naziv": "Artritis",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        242
+      ],
+      "opis_kratak": "Difterija išarlah Ispirati grlo 30% rastvorom limunske kiseline. U toku ispiranja potrebno je zabaciti glavu unazad i izdisati vazduh tako da rastvor krklja u ustima. Ispiranje izvoditi svaki sat u toku dana. Ovaj rastvor izuzetno pomaže kod 'aznih obolenja grla ako su ona u početnoj fazi. U slučaju kada nema ovog rastvora mogu se uze",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-242",
+      "raspon_strana": "242",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Artritis",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "symptom",
+      "source_group": "tegobe"
+    },
+    {
+      "id": "ateroskleroza",
+      "naziv": "Ateroskleroza",
+      "tip": "tegoba",
+      "sekcija_knjige": "Deo drugi - LEČENJE LEKOVITIM BILJKAMA I NARODNA MEDICINA",
+      "strane": [
+        132,
+        244
+      ],
+      "opis_kratak": "a) Odvar od korena pije se kod bronhijalne astme, kašlja, upale sluzokože ždrela, nesanice, lupanja srca, promuklosti. Priprema: dve supene kašike isitnjenog korena preliti čašom vrele vode, kuvati 15 minuta, procediti. Piti po 1/4 čaše 4 puta dnevno ili jednu čašu uveče. b) Sok od repe sa medom koristi se kod kašlja po 1 -2 supene kašike",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-132",
+      "raspon_strana": "132-244",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Ateroskleroza",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "symptom",
+      "source_group": "tegobe"
+    },
+    {
+      "id": "bolesti-jetre",
+      "naziv": "Bolesti jetre",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        319,
+        320
+      ],
+      "opis_kratak": "meseca. Apsorbuju se otoci i otklanja bol. Posle procedure obuti vunene čarape ili navući vunene rukavice i leći. 2. Istopiti sveži kravlji, nesoljeni maslac u posudi iznad vatre. Kada maslac počne da ključa skinuti penu, dodati isto toliko medicinskog alkohola i promešati. Zatim zapaliti tu smesu i pustiti alkohol da izgori. Preostala sm",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-319",
+      "raspon_strana": "319-320",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Bolesti jetre",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "symptom",
+      "source_group": "tegobe"
+    },
+    {
+      "id": "bradavice",
+      "naziv": "Bradavice",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        248,
+        249,
+        350
+      ],
+      "opis_kratak": "Narodni saveti i recepti u knjizi vezani za 'Bradavice'.",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-248",
+      "raspon_strana": "248-350",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Bradavice",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.64,
+      "review_note": "ručno normalizovana i vraćena iz v8 review kandidata",
+      "export_type": "symptom",
+      "source_group": "tegobe"
+    },
+    {
+      "id": "bronhijalna-astma",
+      "naziv": "Bronhijalna astma",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        243
+      ],
+      "opis_kratak": "Divlji ruzmarin - 25g. kopriva -15g. Biljke sitno iseckati i pomešati. Preliti ovu mešavinu litrom vrele vode, umotati i ostaviti tri sata. Procgditi i piti po pola čaše 5-6 puta dnevno. Koristi se kod bronhijalne astme, prehlade, reumatizma, kašlja. U narodu se smatra da posle dve nedelje uzimanja ovakvog sastava astma u početnom stad",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-243",
+      "raspon_strana": "243",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Bronhijalna astma",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "symptom",
+      "source_group": "tegobe"
+    },
+    {
+      "id": "bronhijalni-spazam",
+      "naziv": "Bronhijalni spazam",
+      "tip": "tegoba",
+      "sekcija_knjige": "Deo drugi - LEČENJE LEKOVITIM BILJKAMA I NARODNA MEDICINA",
+      "strane": [
+        127
+      ],
+      "opis_kratak": "125 bronhijalm'spazam 1. Podbjel (lišće), - 10g. živovlak (lišće) - 20g. barska metlica (konjski rep) - 30g., jagorčika (jaglika) - cvetovi - 40g. Uzimati topao napitak od tinkture ili odvara po 1/3 i!i 1/4 čaše kod kašlja, upale dušnika, bronhitisa, hroničnog i suvog bronhitisa. 2. Podbjel (lišće) - 20g., živovlak (list) - 30g. sladić (koren) - 30g., daninoć - 20g.",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-127",
+      "raspon_strana": "127",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Bronhijalni spazam",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.76,
+      "review_note": "naslov više liči na biljku/namirnicu ili pomoćni sastojak; preklasifikovano kao stvarna tegoba iz poglavlja o lekovitim mešavinama",
+      "normalized_naziv": "Bronhijalni spazam",
+      "export_type": "symptom",
+      "source_group": "tegobe"
+    },
+    {
+      "id": "cistitis",
+      "naziv": "Cistitis",
+      "tip": "tegoba",
+      "sekcija_knjige": "Deo drugi - LEČENJE LEKOVITIM BILJKAMA I NARODNA MEDICINA",
+      "strane": [
+        145,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152
+      ],
+      "opis_kratak": "Supenu kašiku mešavine preliti čašom vrele vode, ostaviti da stoji 30 minuta, piti 3-4 puta dnevno po jednu čašu tinkture pre jela. 4. List crvene borovnice - 20g., list crne borovnice - 20g., orlina - 20g., kora krušine -10g., list breze -10g. Koru krušine isitniti i kuvati 20 minuta, a ostale delove mešavine preliti sa 300ml vrele vode, kuvati tri minuta, zatim pomešati i piti po 1/3 čaše 2-3 puta dnevno pre jela.…",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-145",
+      "raspon_strana": "145-152",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Cistitis",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.86,
+      "review_note": "naslov više liči na biljku/namirnicu ili pomoćni sastojak; zadržano kao jasna urološka tegoba",
+      "normalized_naziv": "Cistitis",
+      "export_type": "symptom",
+      "source_group": "tegobe"
+    },
+    {
+      "id": "dermatitis",
+      "naziv": "Dermatitis",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        273
+      ],
+      "opis_kratak": "po pola čaše vruće tinkture 3-4 puta dnevno kao sredstvo za izazivanje znojenja. e) plodovi maline - 1 deo, list maline - 2 dela, majoran - 2 dela, list podbjela - 2 dela. Supenu kašiku isitnjene mešavine preliti sa dve čaše vrele vode, kuvati 5-10 minuta na tihoj vatri, procediti. Piti po pola čaše vrućeg odvara 3-4 puta dnevno pre jela",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-273",
+      "raspon_strana": "273",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Dermatitis",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.73,
+      "review_note": "naslov više liči na biljku/namirnicu ili pomoćni sastojak; normalizovan naslov iz obrasca “Dermatitis - Hmelj”",
+      "normalized_naziv": "Dermatitis - Hmelj",
+      "export_type": "symptom",
+      "source_group": "tegobe"
+    },
+    {
+      "id": "difterija",
+      "naziv": "Difterija",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        278
+      ],
+      "opis_kratak": "Narodni saveti i recepti u knjizi vezani za 'Difterija'.",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-278",
+      "raspon_strana": "278",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Difterija",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.64,
+      "review_note": "ručno normalizovana i vraćena iz v8 review kandidata",
+      "export_type": "symptom",
+      "source_group": "tegobe"
+    },
+    {
+      "id": "dijabetes",
+      "naziv": "Dijabetes",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        214,
+        216,
+        218
+      ],
+      "opis_kratak": "Dodajmo da pri lečenju teškog oblika reumatizma svih vrsta posebno zglobova dijeta igra najvažniju ulogu. Ogromnu ulogu imaju i sunčane kirke, kao i ruske banje, obavezno sa paraom i brezovim grančicama. Pariti bolna mesta treba što jače i duže. Dijabetes Postoje dve vrste dijabetesa Dijabetes bez šećera. Ovaj oblik ispoljava se samo i ob",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-214",
+      "raspon_strana": "214-218",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Dijabetes",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "symptom",
+      "source_group": "tegobe"
+    },
+    {
+      "id": "dijareja",
+      "naziv": "Dijareja",
+      "tip": "tegoba",
+      "sekcija_knjige": "Deo drugi - LEČENJE LEKOVITIM BILJKAMA I NARODNA MEDICINA",
+      "strane": [
+        140,
+        141,
+        142,
+        143,
+        144
+      ],
+      "opis_kratak": "Način primene: Dve kašičice za kafu preliti čašom vrele vode, ostaviti 20 minuta, procediti i piti 3-4 puta dnevno. Upale bubrega i mokraćnih kanala 1. Neven (cvetovi) - 20g., kopriva (list) - 10g., zečji trn (koren) - 15g., hajdučica - 20g., divlja mirođija (plodovi) - 10g., konjski rep - 10g., breza (list)-15g.",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-140",
+      "raspon_strana": "140-144",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Dijareja",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.86,
+      "review_note": "naslov više liči na biljku/namirnicu ili pomoćni sastojak; zadržano kao digestivna tegoba",
+      "normalized_naziv": "Dijareja",
+      "export_type": "symptom",
+      "source_group": "tegobe"
+    },
+    {
+      "id": "enureza",
+      "naziv": "Enureza",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        315,
+        316
+      ],
+      "opis_kratak": "Narodni saveti i recepti u knjizi vezani za 'Enureza'.",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-315",
+      "raspon_strana": "315-316",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Enureza",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.64,
+      "review_note": "ručno normalizovana i vraćena iz v8 review kandidata",
+      "export_type": "symptom",
+      "source_group": "tegobe"
+    },
+    {
+      "id": "gastritis",
+      "naziv": "Gastritis",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        258
+      ],
+      "opis_kratak": "Suvimentolizrnu rastvoriti u loncu sa vrelom vodom. Umotati glavu i disati na nos iznad tog lonca. Procedura traje dotle dok ima pare u loncu. 2. Krompir i kori. Skuvati krompir u kori, vodu prosuti i disati iznad pare od krompira. 3. Propolis, alkoholna tinktura. U lonac vrele vode sipati 0,5 kašičice propolisa. Uviti se i disati izna",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-258",
+      "raspon_strana": "258",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Gastritis",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.82,
+      "review_note": "naslov više liči na biljku/namirnicu ili pomoćni sastojak; zadržano kao digestivna tegoba",
+      "normalized_naziv": "Gastritis",
+      "export_type": "symptom",
+      "source_group": "tegobe"
+    },
+    {
+      "id": "hemoroidi",
+      "naziv": "Hemoroidi",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        56,
+        153,
+        154,
+        155,
+        156,
+        157,
+        261,
+        337
+      ],
+      "opis_kratak": "Narodni saveti i recepti u knjizi vezani za 'Hemoroidi'.",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-56",
+      "raspon_strana": "56-337",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Hemoroidi",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.64,
+      "review_note": "ručno normalizovana i vraćena iz v8 review kandidata",
+      "export_type": "symptom",
+      "source_group": "tegobe"
+    },
+    {
+      "id": "hepatitis",
+      "naziv": "Hepatitis",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        265
+      ],
+      "opis_kratak": "Narodni saveti i recepti u knjizi vezani za 'Hepatitis'.",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-265",
+      "raspon_strana": "265",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Hepatitis",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.64,
+      "review_note": "ručno normalizovana i vraćena iz v8 review kandidata",
+      "export_type": "symptom",
+      "source_group": "tegobe"
+    },
+    {
+      "id": "hipotonija",
+      "naziv": "Hipotonija",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        268
+      ],
+      "opis_kratak": "čašom vrele vode, kuvati na tihoj vatri 10 minuta, ostaviti jedan sat, procediti. Piti po 1/4 čaše 4 puta dnevno. 17. Kod hipertonije se koristi i sledeća mešavina: - Plodovi maline - 2 dela, majoran - 2 dela, cvetovi lipe - 2 dela, list podbjela - 2 dela, list živovlaka - 2 dela, koren sladića - 1 deo, plodovi belotma - 1 deo, travnati d",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-268",
+      "raspon_strana": "268",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Hipotonija",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.74,
+      "review_note": "naslov više liči na biljku/namirnicu ili pomoćni sastojak; zadržano kao kardiovaskularna tegoba",
+      "normalized_naziv": "Hipotonija",
+      "export_type": "symptom",
+      "source_group": "tegobe"
+    },
+    {
+      "id": "hronicni-pankreatitis",
+      "naziv": "Hronični pankreatitis",
+      "tip": "tegoba",
+      "sekcija_knjige": "Deo drugi - LEČENJE LEKOVITIM BILJKAMA I NARODNA MEDICINA",
+      "strane": [
+        146
+      ],
+      "opis_kratak": "Piti po jednu čašu odvara 2-3 puta dnevno pola sata pre jela kod postojanja kamena u žučnoj kesi. 5. Kinn - 20g., krušina (kora) - 20g., angelika - anđeoski koren (koren) - 20g., Ijuta metvica (list) - 20g., žalfija - 20g. Piti po 1/3-1/2 čaše odvara tri puta dnevo pola sata pre jela kod kamenca u žučnoj kesi. 6. Rusa - 10g., maslačak (koren) - 20g., dvornik - 15g., kukuruzna svila - 15g., kantarion - 20g.,…",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-146",
+      "raspon_strana": "146",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Hronični pankreatitis",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.8,
+      "review_note": "naslov više liči na biljku/namirnicu ili pomoćni sastojak; zadržano kao digestivna tegoba",
+      "normalized_naziv": "Hronični pankreatitis",
+      "export_type": "symptom",
+      "source_group": "tegobe"
+    },
+    {
+      "id": "kamen-u-bubrezima-i-mokracnoj-besici",
+      "naziv": "Kamen u bubrezima i mokraćnoj bešici",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        293,
+        294,
+        295
+      ],
+      "opis_kratak": "Narodni saveti i recepti za kamen u bubrezima i mokraćnoj bešici, sa semenom mrkve, peršunom, šipurkom - korenom, sokom od breze i drugim mešavinama.",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-293",
+      "raspon_strana": "293-295",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Kamen u bubrezima i mokraćnoj bešici",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.86,
+      "review_note": "novi sabirni naslov izveden iz stranica 293-295",
+      "export_type": "symptom",
+      "source_group": "tegobe"
+    },
+    {
+      "id": "kamen-u-zucnoj-kesi",
+      "naziv": "Kamen u žučnoj kesi",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        291,
+        293
+      ],
+      "opis_kratak": "Narodni saveti i recepti vezani za kamen u žučnoj kesi, uključujući cveklu, kukuruznu svilu, šumsku jagodu i biljne mešavine.",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-291",
+      "raspon_strana": "291-293",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Kamen u žučnoj kesi",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.84,
+      "review_note": "novi sabirni naslov izveden iz očišćenih stranica 291-293",
+      "export_type": "symptom",
+      "source_group": "tegobe"
+    },
+    {
+      "id": "maska-za-lice",
+      "naziv": "Maska za lice",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        208
+      ],
+      "opis_kratak": "Ovo je starinsko narodno i zato pravo sredstvo. Pre spavanja napariti noge u vrućoj vodi, zatim dobro osušiti i priviti na žulj koru od limuna sa malom količinom mekšine ili, rak, parče limuna. Posle 4-5 dana žulj će sasvim nestati. Sredstvo za omekšavanje kože lica U narodnom govoru ovo sredstvo nazivaju \"voda od krastavca\". Izrezati kra",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-208",
+      "raspon_strana": "208",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Maska za lice",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "symptom",
+      "source_group": "tegobe"
+    },
+    {
+      "id": "nesanica",
+      "naziv": "Nesanica",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        246
+      ],
+      "opis_kratak": "ostaviti 10 minuta.. Piti polako u gutljajima u toku jednog sata. Jgdna čaša je dnevna doza. List živovlaka dobro oprati, izrezati i iscediti sok. Dodati isto toliko meda i kuvati 20 minuta. Uzimati po 2-3 kašičice dnevno. Čuvati u zatvorenoj posudi na prohladnom mestu. 9. Čubrika - (5g. na 500ml vrele vode) ostaviti da odstoji 40 minuta",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-246",
+      "raspon_strana": "246",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Nesanica",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "symptom",
+      "source_group": "tegobe"
+    },
+    {
+      "id": "opekotine",
+      "naziv": "Opekotine",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        318
+      ],
+      "opis_kratak": "Jednu supenu kašiku ove mešavine preliti čašom vrele vode, ostaviti da odstoji i piti u toku dana između obroka i uveče. Za jedan dan treba utrošiti čašu suve mešavine. Protiv otežanog disanja ' 1. Kilogram meda, sok od 10 limuna, 10 glavica belog luka izgnječiti u kašicu, sve pomešati i ostaviti nedelju dana da odstoji u zatvorenoj tegli",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-318",
+      "raspon_strana": "318",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Opekotine",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "symptom",
+      "source_group": "tegobe"
+    },
+    {
+      "id": "pege-maslacak",
+      "naziv": "Pege - Maslačak",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        209
+      ],
+      "opis_kratak": "minuta, prohladiti odvar i dok je još toplo natopiti gazu ili tampone i stavljati na čisto lice. Držati 15-20 minuta i nakon toga isprati lice toplom vodom. Pege Maslačak Pripremiti odvar - dve supene kašike maslačka kuvati u 200ml. vode 15 minuta, procediti, ohladiti i umivati lice ovim odvarom. Luk Protrljavati lice svežom glavicom lu",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-209",
+      "raspon_strana": "209",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Pege - Maslačak",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "symptom",
+      "source_group": "tegobe"
+    },
+    {
+      "id": "radikulitis-i-isijas",
+      "naziv": "Radikulitis i išijas",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        322
+      ],
+      "opis_kratak": "Belabreza -pupoljci, listovi, sok. Alkoholna tinktura. Piti po 15-20 kapi tri puta dngvno sa vodom Odvar: 5g. brezinih pupoljaka na čašu vode. Kuvati 15 minuta na tihoj vatri, uviti i ostaviti jedan sat, procediti. Piti po 1/4 čaŠe 4 puta dnevno sat posle jela. lli: jedna supgna kašika suvih iistova na čašu vrelg vode. Uviti i ostavit",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-322",
+      "raspon_strana": "322",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Radikulitis i išijas",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.86,
+      "review_note": "naslov više liči na biljku/namirnicu ili pomoćni sastojak; normalizovan spojeni naslov",
+      "normalized_naziv": "Radikulitis, Išijas",
+      "export_type": "symptom",
+      "source_group": "tegobe"
+    },
+    {
+      "id": "rak",
+      "naziv": "Rak",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        323
+      ],
+      "opis_kratak": "Narodni saveti i recepti u knjizi vezani za Rak, uključujući pasjakovinu kao zasebno podpoglavlje.",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-323",
+      "raspon_strana": "323",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Rak",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.72,
+      "review_note": "u v11 dopunjeni anchor i strana na osnovu očišćene kartice 323",
+      "export_type": "symptom",
+      "source_group": "tegobe"
+    },
+    {
+      "id": "upala-jajnika",
+      "naziv": "Upala jajnika",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        257
+      ],
+      "opis_kratak": "Narodni saveti i recepti u knjizi vezani za 'Upala jajnika'.",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-257",
+      "raspon_strana": "257",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Upala jajnika",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.64,
+      "review_note": "ručno normalizovana i vraćena iz v8 review kandidata",
+      "export_type": "symptom",
+      "source_group": "tegobe"
+    },
+    {
+      "id": "znojenje-nogu",
+      "naziv": "Znojenje nogu",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        317,
+        318
+      ],
+      "opis_kratak": "Narodni saveti i recepti u knjizi vezani za 'Znojenje nogu'.",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-317",
+      "raspon_strana": "317-318",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Znojenje nogu",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.64,
+      "review_note": "ručno normalizovana i vraćena iz v8 review kandidata",
+      "export_type": "symptom",
+      "source_group": "tegobe"
+    },
+    {
+      "id": "celavost",
+      "naziv": "Ćelavost",
+      "tip": "tegoba",
+      "sekcija_knjige": "Deo drugi - LEČENJE LEKOVITIM BILJKAMA I NARODNA MEDICINA",
+      "strane": [
+        155
+      ],
+      "opis_kratak": "Piti po 1/3-1/2 čaše vruće tinkture tri puta dnevno pola sata pre jela radi pojačanja funkcije probavnih organa i bubrega kod kožnih bolesti. 9. Sladić (koren) - 10g., čičak (koren) - 15g., maslačak (koren) - 15g., dvozubica - 30g., broćevina (koren) - 30g. Piti po 1 -2 čaše odvara ujutru za lečenje eksudativne dijateze. 10. Krušina (kora) - 30g., sladić (koren) - 30g., dan-inoć - 40g.",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-155",
+      "raspon_strana": "155",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Ćelavost",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.82,
+      "review_note": "naslov više liči na biljku/namirnicu ili pomoćni sastojak; zadržano kao problem opadanja kose / ćelavosti",
+      "normalized_naziv": "Ćelavost",
+      "export_type": "symptom",
+      "source_group": "tegobe"
+    }
+  ]
+}

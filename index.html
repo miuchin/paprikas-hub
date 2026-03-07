@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Ctext y=%2250%22 font-size=%2248%22%3E%F0%9F%8D%B2%3C/text%3E%3C/svg%3E" />
-  <title>Paprikaš Hub v5.8.3 SINET Light — Kitchen Rescue</title>
+  <title>Paprikaš Hub v5.18.9 SINET Light — Kitchen Rescue</title>
   <style>
     :root{
       /* SINET palette (Audio Lekar) */
@@ -689,7 +689,7 @@ input, select, textarea{ color:var(--text); background:var(--input-bg); }
     }
 
 
-    /* v5.8.3 launcher dashboard */
+    /* v5.15.0 launcher dashboard */
     .home-head{display:flex; align-items:baseline; justify-content:space-between; gap:10px; flex-wrap:wrap;}
     .home-head h2{margin:0;}
     .home-sub{color:var(--muted); font-weight:700;}
@@ -741,6 +741,26 @@ input, select, textarea{ color:var(--text); background:var(--input-bg); }
 
 
     
+    
+    /* Content Studio (pipeline) */
+    .ph-pipe-steps{margin:12px 0 0 0; padding:0; list-style:none;}
+    .ph-pipe-step{display:flex; gap:10px; align-items:flex-start; border:1px solid var(--line); border-radius:14px; padding:10px 12px; background:var(--panel); margin:8px 0; box-shadow:0 10px 24px rgba(20,18,15,.05);}
+    .ph-pipe-step .num{font-weight:900; min-width:38px; height:38px; border-radius:12px; display:flex; align-items:center; justify-content:center; background:var(--soft); border:1px solid var(--line);}
+    .ph-pipe-step.done{border-color: rgba(46, 204, 113, .5); background: rgba(46, 204, 113, .06);}
+    .ph-pipe-step.done .num{background: rgba(46, 204, 113, .16); border-color: rgba(46, 204, 113, .45);}
+    .ph-pipe-step.warn{border-color: rgba(230, 126, 34, .55); background: rgba(230, 126, 34, .06);}
+    .ph-pipe-step.warn .num{background: rgba(230, 126, 34, .16); border-color: rgba(230, 126, 34, .45);}
+    .ph-pipe-step .meta{flex:1;}
+    .ph-pipe-step .meta .t{font-weight:900;}
+    .ph-pipe-step .meta .d{color:var(--muted); margin-top:2px; font-size:.95rem;}
+    .ph-pipe-step .actions{display:flex; gap:8px; flex-wrap:wrap; justify-content:flex-end;}
+    .ph-pipe-step .actions button{padding:9px 10px; border-radius:12px; font-weight:900;}
+    .ph-pipe-box{border:1px solid var(--line); border-radius:14px; padding:12px; background:var(--soft2);}
+    .ph-pipe-box textarea{width:100%; min-height:160px; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;}
+    .ph-pipe-kv{display:grid; grid-template-columns: repeat(auto-fit,minmax(180px,1fr)); gap:10px; margin-top:10px;}
+    .ph-pipe-kv .ph-lib-stat{background:#fff;}
+
+
     /* v5.8: recipe count + category index */
     .ph-badge{
       display:inline-block;
@@ -805,6 +825,85 @@ input, select, textarea{ color:var(--text); background:var(--input-bg); }
       .ph-recipes-stats .ph-grid{ grid-template-columns:1fr; }
     }
 
+
+    .ph-lib-stats{ display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:10px; margin-top:12px; }
+    .ph-lib-stat{ border:1px solid var(--line); border-radius:14px; padding:12px; background:#fff; box-shadow:0 10px 24px rgba(20,18,15,.05); }
+    .ph-lib-stat b{ display:block; font-size:1.3rem; margin-top:4px; }
+    .ph-lib-map{ width:100%; border-collapse:collapse; }
+    .ph-lib-map th, .ph-lib-map td{ border-bottom:1px solid var(--line); padding:10px 8px; vertical-align:top; text-align:left; font-size:0.95rem; }
+    .ph-lib-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:12px; }
+    .ph-lib-card{ border:1px solid var(--line); border-radius:14px; padding:12px; background:#fff; box-shadow:0 10px 24px rgba(20,18,15,.05); }
+    .ph-lib-card h4{ margin:0 0 6px 0; }
+    .ph-lib-meta{ color:var(--muted); font-size:0.92rem; margin:4px 0 8px 0; }
+    .ph-lib-badges{ display:flex; flex-wrap:wrap; gap:6px; margin:6px 0 10px 0; }
+    .ph-lib-badges .pill, .ph-lib-stat .pill{ cursor:default; }
+    .ph-lib-results-head{ display:flex; flex-wrap:wrap; gap:8px; justify-content:space-between; align-items:center; margin:10px 0; }
+    .ph-lib-actions{ display:flex; flex-wrap:wrap; gap:8px; margin:10px 0; }
+    .ph-lib-shelf{ display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:12px; margin:12px 0; }
+    .ph-lib-shelf-card{ border:1px solid var(--line); border-radius:16px; padding:14px; background:#fff; box-shadow:0 10px 24px rgba(20,18,15,.05); }
+    .ph-lib-shelf-card h3{ margin:0 0 6px 0; font-size:1rem; }
+    .ph-lib-shelf-card p{ margin:0; color:var(--muted); font-size:.92rem; }
+    .ph-lib-shelf-meta{ display:flex; flex-wrap:wrap; gap:6px; margin:8px 0 12px; }
+    .ph-lib-book{ margin-top:12px; }
+    .ph-lib-book summary{ display:flex; align-items:flex-start; justify-content:space-between; gap:12px; }
+    .ph-lib-bookline{ display:flex; flex-direction:column; gap:4px; }
+    .ph-lib-booktitle{ font-weight:900; color:var(--dark); }
+    .ph-lib-bookdesc{ font-size:.88rem; color:var(--muted); font-weight:700; }
+    .ph-lib-bookmeta{ display:flex; flex-wrap:wrap; gap:6px; justify-content:flex-end; }
+    .ph-lib-layout{ display:grid; grid-template-columns:minmax(240px,300px) minmax(0,1fr); gap:14px; align-items:start; margin-top:12px; }
+    .ph-lib-nav{ position:sticky; top:86px; }
+    .ph-lib-navlist{ display:flex; flex-direction:column; gap:10px; margin-top:10px; }
+    .ph-lib-navbtn{ width:100%; text-align:left; display:flex; flex-direction:column; gap:4px; border:1px solid var(--line); border-radius:14px; background:#fff; padding:12px; box-shadow:0 10px 24px rgba(20,18,15,.05); }
+    .ph-lib-navbtn:hover{ border-color:var(--accent); }
+    .ph-lib-navbtn.is-active{ border-color:var(--accent); background:rgba(184,120,68,.08); box-shadow:0 12px 28px rgba(184,120,68,.14); }
+    .ph-lib-navbtn strong{ font-size:.98rem; color:var(--dark); }
+    .ph-lib-navbtn small{ color:var(--muted); font-weight:700; }
+    .ph-lib-navmeta{ display:flex; flex-wrap:wrap; gap:6px; margin-top:6px; }
+    .ph-lib-nav-actions{ display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
+    .ph-lib-kpis{ display:flex; flex-wrap:wrap; gap:8px; margin-top:8px; }
+    .ph-lib-content > .ph-lib-book:first-child{ margin-top:0; }
+    @media(max-width:920px){ .ph-lib-layout{ grid-template-columns:1fr; } .ph-lib-nav{ position:static; } }
+    @media(max-width:720px){ .ph-lib-book summary{ flex-direction:column; } .ph-lib-bookmeta{ justify-content:flex-start; } }
+
+
+    /* Home — Content Studio dashboard */
+    .ph-batch-grid{display:grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap:10px; margin-top:10px;}
+    .ph-batch-chip{border:1px solid var(--line); background:var(--panel); border-radius:14px; padding:10px; text-align:left; cursor:pointer;}
+    .ph-batch-chip .t{font-weight:900;}
+    .ph-batch-chip .s{font-size:.92rem; color:var(--muted); margin-top:2px;}
+    .ph-batch-chip.done{border-color: rgba(46,204,113,.55); background: rgba(46,204,113,.07);}
+    .ph-batch-chip.partial{border-color: rgba(230,126,34,.55); background: rgba(230,126,34,.07);}
+    .ph-batch-chip.empty{opacity:.85;}
+
+
+    /* Home — Recently used + Next step */
+    .ph-recent-btn{border:1px solid var(--line); background:var(--panel); border-radius:14px; padding:10px 12px; font-weight:900; cursor:pointer;}
+    .ph-recent-btn .sm{display:block; font-size:.9rem; color:var(--muted); font-weight:700; margin-top:2px;}
+
+
+    /* Session log */
+    .ph-log-list{display:flex; flex-direction:column; gap:8px; max-height:340px; overflow:auto; border:1px solid var(--line); border-radius:14px; padding:10px; background:var(--soft2);}
+    .ph-log-item{border:1px solid var(--line); border-radius:12px; background:var(--panel); padding:10px;}
+    .ph-log-item .t{font-weight:900;}
+    .ph-log-item .m{color:var(--muted); font-size:.92rem; margin-top:3px;}
+    .ph-log-item .n{margin-top:6px; white-space:pre-wrap;}
+
+
+    /* Batch detail */
+    .ph-batch-detail-kv{display:grid; grid-template-columns: repeat(auto-fit,minmax(120px,1fr)); gap:8px; margin-top:10px;}
+    .ph-batch-detail-kv .mini{border:1px solid var(--line); border-radius:12px; background:var(--panel); padding:8px 10px;}
+    .ph-batch-detail-kv .mini b{display:block; font-size:1.02rem;}
+    .ph-batch-detail-kv .mini span{display:block; color:var(--muted); font-size:.88rem; margin-top:2px;}
+
+
+    /* Health pills */
+    .pill.good{background: rgba(46,204,113,.14); border-color: rgba(46,204,113,.35);}
+    .pill.warn{background: rgba(230,126,34,.14); border-color: rgba(230,126,34,.35);}
+    .pill.bad{background: rgba(231,76,60,.14); border-color: rgba(231,76,60,.35);}
+    .ph-batch-chip.ok{border-color: rgba(46,204,113,.55);}
+    .ph-batch-chip.warn{border-color: rgba(230,126,34,.65);}
+    .ph-batch-chip.bad{border-color: rgba(231,76,60,.65);}
+
 </style>
 
 <style id="ph-mobile-nav-css">
@@ -838,7 +937,7 @@ input, select, textarea{ color:var(--text); background:var(--input-bg); }
 .ph-menu-toprow input{flex:1; padding:11px 12px; border-radius:14px; border:1px solid var(--line);}
 .ph-menu-toprow button{padding:11px 12px; border-radius:14px; font-weight:900;}
 
-/* v5.8.3: search toggle (opciono) */
+/* v5.15.0: search toggle (opciono) */
 .ph-searchwrap{display:none; flex:1; gap:8px; align-items:center;}
 .ph-searchwrap.open{display:flex;}
 .ph-searchwrap input{flex:1;}
@@ -952,6 +1051,21 @@ input, select, textarea{ color:var(--text); background:var(--input-bg); }
 }
 .ph-chiprow{ display:flex; flex-wrap:wrap; gap:8px; }
 .ph-chip.small{ padding:7px 10px; font-size:12px; }
+
+    .ph-lib-stats{ display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:10px; margin-top:12px; }
+    .ph-lib-stat{ border:1px solid var(--line); border-radius:14px; padding:12px; background:#fff; box-shadow:0 10px 24px rgba(20,18,15,.05); }
+    .ph-lib-stat b{ display:block; font-size:1.3rem; margin-top:4px; }
+    .ph-lib-map{ width:100%; border-collapse:collapse; }
+    .ph-lib-map th, .ph-lib-map td{ border-bottom:1px solid var(--line); padding:10px 8px; vertical-align:top; text-align:left; font-size:0.95rem; }
+    .ph-lib-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:12px; }
+    .ph-lib-card{ border:1px solid var(--line); border-radius:14px; padding:12px; background:#fff; box-shadow:0 10px 24px rgba(20,18,15,.05); }
+    .ph-lib-card h4{ margin:0 0 6px 0; }
+    .ph-lib-meta{ color:var(--muted); font-size:0.92rem; margin:4px 0 8px 0; }
+    .ph-lib-badges{ display:flex; flex-wrap:wrap; gap:6px; margin:6px 0 10px 0; }
+    .ph-lib-badges .pill, .ph-lib-stat .pill{ cursor:default; }
+    .ph-lib-results-head{ display:flex; flex-wrap:wrap; gap:8px; justify-content:space-between; align-items:center; margin:10px 0; }
+    .ph-lib-actions{ display:flex; flex-wrap:wrap; gap:8px; margin:10px 0; }
+
 </style>
 
 </head>
@@ -959,7 +1073,8 @@ input, select, textarea{ color:var(--text); background:var(--input-bg); }
 
 <script>
   // v4.3: force LIGHT theme for readability (disable dark mode)
-  try{
+    const PH_APP_VERSION = "v5.18.9";
+try{
     document.documentElement.classList.remove('dark');
     document.body && document.body.classList.remove('dark');
     localStorage.setItem('paprikasHubThemeV38DataFirst','light');
@@ -971,7 +1086,7 @@ input, select, textarea{ color:var(--text); background:var(--input-bg); }
     <header class="hero ph-hero-compact">
       <div class="ph-headline">
         <div class="ph-head-title">🍲 Paprikaš Hub</div>
-        <div class="ph-head-meta">v5.8.3 • SINET Light</div>
+        <div class="ph-head-meta"><span id="phVersionTag">v5.18.9</span> • SINET Light</div>
       </div>
 
       <div class="ph-mobilebar">
@@ -998,6 +1113,7 @@ input, select, textarea{ color:var(--text); background:var(--input-bg); }
         <button class="ph-catbtn" onclick="phOpenCategory('tools')">🧰 Alati <small>kalkulator, mere, tajming…</small></button>
         <button class="ph-catbtn" onclick="phOpenCategory('atlas')">🗺️ Atlas & print <small>indeks + A4 kartice</small></button>
         <button class="ph-catbtn" onclick="phOpenCategory('journal')">📓 Dnevnik & batch <small>zapisi + test plan</small></button>
+        <button class="ph-catbtn" onclick="phOpenCategory('library')">📚 Biblioteka <small>enciklopedija + reference</small></button>
         <button class="ph-catbtn" onclick="switchTab('manual')">📖 Uputstvo <small>server/static + troubleshooting</small></button>
       </div>
 
@@ -1033,6 +1149,7 @@ input, select, textarea{ color:var(--text); background:var(--input-bg); }
         <button onclick="switchTab('budget')">💸 Budžet helper</button>
         <button onclick="switchTab('workflow')">🧼 Organizacija rada</button>
         <button onclick="switchTab('manual')">📖 Korisničko uputstvo</button>
+        <button onclick="try{window.open('docs/HELP_BRZI_VODIC.html','_blank');}catch(_e){}">❓ Help / FAQ</button>
       </div>
     </header>
 
@@ -1068,6 +1185,7 @@ input, select, textarea{ color:var(--text); background:var(--input-bg); }
       <button class="tab-btn" data-tab="mealprep" onclick="switchTab('mealprep')">📅 Meal prep (1–3 dana)</button>
       <button class="tab-btn" data-tab="budget" onclick="switchTab('budget')">💸 Budžet kuvanje helper</button>
       <button class="tab-btn" data-tab="workflow" onclick="switchTab('workflow')">🧼 Organizacija kuhinje</button>
+      <button class="tab-btn" data-tab="library" onclick="switchTab('library')">📚 Biblioteka</button>
       <button class="tab-btn" data-tab="manual" onclick="switchTab('manual')">📖 Korisničko uputstvo</button>
     </nav>
 
@@ -1076,7 +1194,7 @@ input, select, textarea{ color:var(--text); background:var(--input-bg); }
     <section id="pane-home" class="pane active">
       <div class="home-head">
         <h2>🍲 Paprikaš Hub</h2>
-        <div class="home-sub">v5.8.3 • SINET Light • data-first</div>
+        <div class="home-sub"><span id="phVersionHome">v5.18.9</span> • SINET Light • data-first</div>
       </div>
 
       <div class="launcher-grid">
@@ -1093,14 +1211,31 @@ input, select, textarea{ color:var(--text); background:var(--input-bg); }
           <span class="tx"><b>Atlas & print</b><i>indeks + A4 kartice</i></span>
         </button>
         
-<button class="launcher-card" onclick="switchTab('recipes')">
+<button class="launcher-card" onclick="phOpenCategory('recipes')">
   <span class="ic">📖</span>
   <span class="tx"><b>Recepti</b><i>Recipe Atlas + import/export <span id="phRecipeCountBadge" class="ph-badge">…</span></i></span>
+</button>
+<button class="launcher-card" onclick="phOpenCategory('studio')">
+  <span class="ic">🧰</span>
+  <span class="tx"><b>Content Studio</b><i>1000 recepata • 10×100 • auto-fix/merge</i></span>
+</button>
+        <button class="launcher-card" onclick="phOpenCategory('library')">
+  <span class="ic">📚</span>
+  <span class="tx"><b>Biblioteka</b><i>Enciklopedija + most ka SINET-u</i><span class="pill" style="margin-top:6px; display:inline-block" data-ph-count="library_collections">2 kolekcije</span></span>
 </button>
         <button class="launcher-card" onclick="phOpenCategory('diary')">
           <span class="ic">📓</span>
           <span class="tx"><b>Dnevnik</b><i>zapisi + batch plan</i></span>
         </button>
+        <button class="launcher-card" onclick="switchTab('manual')">
+          <span class="ic">📖</span>
+          <span class="tx"><b>Korisničko uputstvo</b><i>detaljno + redosled rada</i></span>
+        </button>
+        <button class="launcher-card" onclick="switchTab('help')">
+          <span class="ic">❓</span>
+          <span class="tx"><b>Help / FAQ</b><i>brza pomoć + najčešći problemi</i></span>
+        </button>
+
       </div>
 
       <div class="launcher-mini">
@@ -1110,16 +1245,82 @@ input, select, textarea{ color:var(--text); background:var(--input-bg); }
 	    <button data-ph-menu-btn="1" onclick="phOpenMenu()">☰ Meni</button>
       </div>
 
+
+      <div class="card ph-no-print" id="phHomeStudioDash">
+        <h3>🧰 Content Studio — Dashboard (10×100)</h3>
+        <div class="note">Brzi pregled batch-eva: klik na batch otvara Content Studio i postavlja izabrani batch. ✅</div>
+        <div class="ph-batch-grid" id="phHomeBatchGrid"></div>
+        <div class="toolbar" style="margin-top:10px; flex-wrap:wrap">
+          <button class="primary" onclick="switchTab('studio')">🧰 Otvori Content Studio</button>
+          <button onclick="phHomeStudioDashRefresh()">🔄 Osveži status</button>
+          <button onclick="try{window.open('docs/HELP_BRZI_VODIC.html','_blank');}catch(_e){}">❓ Help</button>
+          <button onclick="switchTab('manual')">📖 Uputstvo</button>
+        </div>
+        <div id="phHomeStudioDashMsg" class="muted" style="margin-top:8px"></div>
+      </div>
+
+
+      <div class="card ph-no-print" id="phHomeDocsPanel">
+        <h3>📚 Dokumentacija</h3>
+        <div class="note">Najvažnija pomoć je sada odmah na Početnoj: korisnik ne mora da traži uputstva po menijima. ✅</div>
+        <div class="toolbar" style="margin-top:10px; flex-wrap:wrap">
+          <button class="primary" onclick="switchTab('manual')">📖 Korisničko uputstvo</button>
+          <button onclick="switchTab('help')">❓ Help / FAQ</button>
+          <button onclick="try{window.open('docs/QUICK_START.html','_blank');}catch(_e){}">🚀 Quick Start</button>
+          <button onclick="try{window.open('docs/TROUBLESHOOTING.html','_blank');}catch(_e){}">🧯 Troubleshooting</button>
+        </div>
+      </div>
+
+
+
+
       <div class="card">
         <h3>📌 Pin (Top 3)</h3>
         <div class="note">Najbrže prečice. Označi TAB kao ★ u Favoritima, pa se ovde pojavi automatski.</div>
         <div class="ph-chipbar" data-ph-quickchips></div>
       </div>
 
+
+      <div class="card ph-no-print" id="phHomeNextPanel">
+        <h3>🧭 Nastavi gde si stao</h3>
+        <div class="grid two">
+          <div class="card" style="margin:0">
+            <h4>🕘 Poslednje korišćeno</h4>
+            <div class="muted">Prečice ka zadnjim ekranima koje si otvarao.</div>
+            <div class="toolbar" id="phRecentTabsBar" style="margin-top:10px; flex-wrap:wrap"></div>
+          </div>
+          <div class="card" style="margin:0">
+            <h4>➡️ Preporučeni sledeći korak</h4>
+            <div class="muted">Automatski predlog na osnovu statusa Content Studio batch-eva.</div>
+            <div class="note" id="phNextStepNote" style="margin-top:10px">⏳ Učitavam preporuku…</div>
+            <div class="toolbar" style="margin-top:10px; flex-wrap:wrap">
+              <button class="primary" id="phNextStepBtn" onclick="switchTab('studio')">🧰 Otvori Content Studio</button>
+              <button onclick="phHomeNextRefresh()">🔄 Osveži</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
       <div class="card">
         <h3>🕘 Skorašnje (zadnjih 5)</h3>
         <div id="phRecentHome" class="ph-chipbar"></div>
       </div>
+
+
+      <div class="card ph-no-print" id="phHomeSessionLogPanel">
+        <h3>🗂️ Session log</h3>
+        <div class="note">Evidencija rada za Content Studio: datum, batch, akcija, broj linija i napomena. Pomaže da se tačno zna šta je urađeno i kada. ✅</div>
+        <div class="toolbar" style="margin-top:10px; flex-wrap:wrap">
+          <button class="primary" onclick="switchTab('studio')">🧰 Otvori Content Studio</button>
+          <button onclick="phSessionLogRefresh()">🔄 Osveži log</button>
+          <button onclick="phSessionLogDownload()">⬇️ Download log (JSON)</button>
+        </div>
+        <div id="phHomeSessionLogList" class="ph-log-list" style="margin-top:12px"></div>
+      </div>
+
+
     
       <div class="card">
         <h3>📌 Pinovani recepti</h3>
@@ -1131,6 +1332,43 @@ input, select, textarea{ color:var(--text); background:var(--input-bg); }
         </div>
         <div id="phPinnedRecipesHome" class="ph-recipe-mini-grid"></div>
       </div>
+
+
+      <div class="card ph-no-print" id="phHomeAtlasImportPanel">
+        <h3>🗂️ Atlas Import</h3>
+        <div class="note">Poslednji import i brzo vraćanje (rollback) ako nešto nije kako treba.</div>
+        <div class="toolbar" style="margin-top:10px; flex-wrap:wrap">
+          <button class="primary" onclick="try{switchTab('studio'); setTimeout(()=>phPipeAtlasAutoImport(), 300);}catch(_e){}">⚡ Auto-import</button>
+          <button onclick="try{switchTab('studio'); setTimeout(()=>phPipeAtlasRollbackLast(), 300);}catch(_e){}">↩️ Rollback last</button>
+          <button onclick="phHomeAtlasHistory()">🗂️ History</button>
+        </div>
+        <div id="phHomeAtlasImportLast" class="muted" style="margin-top:10px">⏳ Učitavam…</div>
+      </div>
+
+
+
+
+      <div class="card ph-no-print" id="phHomeBatchDetailPanel">
+        <h3>🔎 Batch detail</h3>
+        <div class="grid two">
+          <div class="card" style="margin:0">
+            <label class="label">Izaberi batch</label>
+            <select id="phHomeBatchDetailSel" class="input"></select>
+            <div class="toolbar" style="margin-top:10px; flex-wrap:wrap">
+              <button class="primary" onclick="phBatchDetailOpen()">🧰 Otvori batch u Studio</button>
+              <button onclick="phBatchDetailRefresh()">🔄 Osveži detalj</button>
+              <button onclick="phBatchQuickFix()">🛠️ Quick fix</button>
+            </div>
+            <div id="phHomeBatchDetailStats" class="note" style="margin-top:10px">⏳ Učitavam detalje…</div>
+          </div>
+          <div class="card" style="margin:0">
+            <h4>🗂️ Poslednje stavke za izabrani batch</h4>
+            <div id="phHomeBatchDetailLog" class="ph-log-list"></div>
+          </div>
+        </div>
+      </div>
+
+
 
     </section>
 
@@ -2689,7 +2927,7 @@ input, select, textarea{ color:var(--text); background:var(--input-bg); }
 <section id="pane-recipes" class="pane">
   <div class="card">
     <h2>📖 Recipe Atlas</h2>
-    <p>Ovo je baza recepata. Imaš <strong>ugrađene recepte</strong> (iz <code>/data/recipes/*.json</code>) i <strong>tvoje recepte</strong> (snimaju se u bazi na disku kada je <em>Server DB aktivan</em>). ✅</p>
+    <p>Ovo je jedinstveni Recipe Atlas. Ugrađeni katalog se primarno učitava iz <code>/data/recipes_chunks/manifest.json</code>, a tvoji lokalni recepti se čuvaju u bazi na disku kada je <em>Server DB aktivan</em>. ✅</p>
 
     <div class="ph-recipes-toolbar ph-no-print">
       <button class="primary" onclick="phRecipesShowEditor()">➕ Novi recept</button>
@@ -2703,9 +2941,12 @@ input, select, textarea{ color:var(--text); background:var(--input-bg); }
       <button onclick="phRecipesPrintFiltered()">🖨️ Print (filter)</button>
       <button onclick="phRecipesShowStats()">📊 Statistika</button>
       <button onclick="phRecipesExportQC()">🧹 QC izveštaj</button>
+      <button onclick="phRecipesRefreshCatalog(true)">🔄 Osveži bazu</button>
+      <button onclick="phClearBrowserCacheAndReload()">🧼 Cache</button>
     </div>
 
     <div id="phRecipesTotalLine" class="ph-recipes-total muted" style="margin-top:10px"></div>
+    <div id="phRecipesSourceInfo" class="note ph-no-print" style="margin-top:8px"></div>
 
     <div class="grid two" style="margin-top:10px">
       <div>
@@ -2740,6 +2981,17 @@ input, select, textarea{ color:var(--text); background:var(--input-bg); }
 
 
     <div id="phRecipesList" style="margin-top:12px"></div>
+
+  </div>
+
+
+  <div class="card ph-no-print" id="phContentStudioShortcut">
+    <h3>🧰 Content Studio</h3>
+    <p class="muted">Prebačen je na poseban ekran radi bržeg rada na mobilnom. Ovde je samo prečica.</p>
+    <div class="ph-actions">
+      <button class="primary" onclick="switchTab('studio')">🧰 Otvori Content Studio</button>
+      <button onclick="phToggleFavorite('studio')">⭐ Dodaj u favorite</button>
+    </div>
   </div>
 
   <div class="card" id="phRecipeEditor" style="display:none">
@@ -2794,8 +3046,450 @@ input, select, textarea{ color:var(--text); background:var(--input-bg); }
 
   <input id="phRecipesImportFile" type="file" accept="application/json,text/csv,text/plain,.json,.ndjson,.jsonl,.csv,.txt" style="display:none" onchange="phRecipesHandleImport(this.files && this.files[0])"/>
   <input id="phRecipesImportPdfFile" type="file" accept="application/pdf,.pdf" style="display:none" onchange="phRecipesHandleImportPdf(this.files && this.files[0])"/>
+
 </section>
 
+<section id="pane-studio" class="pane">
+  <div class="home-head">
+    <h2>🧰 Content Studio</h2>
+    <div class="home-sub"><span class="pill">v5.18.9</span> • 1000 recepata • mobilni ulaz</div>
+  </div>
+
+  <div class="card">
+    <div class="note">Izdvojen ekran za skupljanje i obradu recepata. Na mobilnom više nema skrolovanja do dna Recipe Atlas-a. ✅</div>
+    <div class="ph-actions" style="margin-top:8px">
+      <button onclick="switchTab('home')">🏠 Početna</button>
+      <button onclick="switchTab('recipes')">📖 Recipe Atlas</button>
+      <button onclick="phToggleFavorite('studio')">⭐ Favorit</button>
+    </div>
+  </div>
+
+  <div class="card ph-no-print" id="phContentStudio">
+    <h2>🧰 Content Studio — 1000 recepata (10×100) <span class="pill">ver v5.18.9</span></h2>
+    <p class="muted">Jedan panel za ceo rad: promptovi (copy), paste+save batch, status, auto-fix + merge + export. Sve po redosledu. ✅</p>
+
+    <div class="ph-pipe-kv">
+      <div class="ph-lib-stat"><div class="pill">Baza</div><b id="phPipeBaseCount">—</b><div class="muted">ugrađeni + lokalni</div></div>
+      <div class="ph-lib-stat"><div class="pill">Inventory</div><b id="phPipeInv">—</b><div class="muted">naslovi (dedup)</div></div>
+      <div class="ph-lib-stat"><div class="pill">Batch (1–10)</div><b id="phPipeBatches">—</b><div class="muted">linije ukupno</div></div>
+      <div class="ph-lib-stat"><div class="pill">Merge</div><b id="phPipeMerged">—</b><div class="muted">spojeno validno</div></div>
+    </div>
+
+    <div class="ph-pipe-box" style="margin-top:12px">
+      <div class="grid two">
+        <div>
+          <label class="label">Izaberi batch (1–10)</label>
+          <select id="phPipeBatchSel" class="input"></select>
+          <div class="ph-actions" style="margin-top:8px">
+            <button onclick="phPipeLoadPrompt()">📋 Učitaj prompt</button>
+            <button onclick="phPipeBuildPromptAuto()">🧠 Build prompt (auto)</button>
+            <button onclick="phPipeOpenPromptWindow()">🪟 Open helper</button>
+            <button class="primary" onclick="phPipeCopyPrompt()">📎 Copy prompt</button>
+            <button onclick="phPipeDownloadInventory()">⬇️ Download inventory TXT</button>
+          </div>
+          <div class="muted" style="margin-top:8px">Savet: u prompt ubaci inventory + prethodne naslove iz ranijih batch-eva (dedup).</div>
+        </div>
+        <div>
+          <label class="label">Opcije merge-a</label>
+          <label style="display:flex; gap:10px; align-items:center; margin-top:6px">
+            <input type="checkbox" id="phPipeOptAutofix" checked /> <span><b>Auto-fix</b> (koraci/sastojci string → lista)</span>
+          </label>
+          <label style="display:flex; gap:10px; align-items:center; margin-top:6px">
+            <input type="checkbox" id="phPipeOptSoftKolicina" checked /> <span><b>Soft accept</b> prazna <code>kolicina</code> (ne ruši validaciju)</span>
+          <label style="display:flex; gap:10px; align-items:center; margin-top:6px">
+            <input type="checkbox" id="phPipeOptUseCleaned" checked /> <span><b>Use cleaned</b> batch-eve (ako postoje)</span>
+          </label>
+          <label style="display:flex; gap:10px; align-items:center; margin-top:6px">
+            <input type="checkbox" id="phPipeOptGate" checked /> <span><b>Quality gate</b> blokiraj merge ako postoje BAD batch-evi</span>
+          </label>
+          <label style="display:flex; gap:10px; align-items:center; margin-top:6px">
+          </label>
+          </label>
+          <label style="display:flex; gap:10px; align-items:center; margin-top:6px">
+            <input type="checkbox" id="phPipeOptStrict" /> <span>Strict (strože provere)</span>
+          </label>
+          <div class="ph-actions" style="margin-top:10px">
+            <button onclick="phPipeFinalize1000()">🏁 Finalize 1000</button>
+            <button onclick="phPipeGateCheck(true)">🛡️ Gate check</button>
+            <button onclick="phPipeQuickFixAll()">🛠️ Quick fix ALL</button>
+            <button onclick="phPipeFixGateMerge()">🚦 Fix→Gate→Merge</button>
+            <button onclick="phPipeRunMerge()">🧪 Auto-fix + Merge</button>
+            <button onclick="phPipeExportAll()">📦 Export ALL (zip)</button>
+          </div>
+          <div id="phPipeRunMsg" class="note" style="display:none; margin-top:8px"></div>
+          <div id="phRecheckStamp" class="muted" style="margin-top:6px"></div>
+        </div>
+      </div>
+
+      <label class="label" style="margin-top:10px">Prompt / sadržaj (možeš i paste NDJSON ovde pa snimiš u batch)</label>
+      <textarea id="phPipeText" placeholder="Klikni ‘Učitaj prompt’, ili nalepi NDJSON (100 recepata) pa klikni ‘Sačuvaj batch’…"></textarea>
+      <div class="ph-actions" style="margin-top:8px">
+        <button onclick="phPipeSaveBatchFromText()">💾 Sačuvaj batch (iz textarea)</button>
+        <button onclick="phPipeUploadBatchFile()">⬆️ Upload batch file</button>
+        <button onclick="phPipeExtractTitles()">🧾 Extract titles</button>
+        <button onclick="phPipeMergeTitles()">🧩 Merge titles (all-previous)</button>
+        <button onclick="phPipeDownloadMerged()">⬇️ Download merged NDJSON</button>
+        <button onclick="phPipeAtlasAutoImport()">⚡ Auto-import u Atlas</button>
+        <button onclick="phPipeAtlasRollbackLast()">↩️ Rollback last import</button>
+        <button onclick="phPipeAtlasHistory()">🗂️ Import history</button>
+        <button onclick="phPipeDownloadReports()">⬇️ Download reports ZIP</button>
+      </div>
+      <input id="phPipeFile" type="file" accept=".ndjson,.jsonl,.txt,.json" style="display:none" />
+    </div>
+
+    
+    <div class="card ph-no-print" id="phStudioSessionLogPanel">
+      <h3>🗂️ Session log</h3>
+      <div class="grid two">
+        <div>
+          <label class="label">Napomena za izabrani batch</label>
+          <textarea id="phSessionLogNote" class="input" style="min-height:110px" placeholder="Upiši kratku napomenu: šta je rađeno, odakle su recepti, šta treba proveriti, da li je batch dobar, itd."></textarea>
+          <div class="ph-actions" style="margin-top:8px">
+            <button class="primary" onclick="phSessionLogAddNote()">💾 Sačuvaj napomenu u log</button>
+            <button onclick="phSessionLogRefresh()">🔄 Osveži log</button>
+            <button onclick="phSessionLogDownload()">⬇️ Download log (JSON)</button>
+          </div>
+        </div>
+        <div>
+          <label class="label">Poslednje aktivnosti</label>
+          <div id="phStudioSessionLogList" class="ph-log-list"></div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card ph-no-print" id="phStudioBatchDetailPanel">
+      <h3>🔎 Batch detail</h3>
+      <div class="grid two">
+        <div>
+          <div id="phStudioBatchDetailStats" class="note">⏳ Učitavam detalje za izabrani batch…</div>
+          <div class="ph-actions" style="margin-top:8px">
+            <button onclick="phBatchDetailRefresh()">🔄 Osveži detalj</button>
+            <button onclick="phBatchDetailPrefillNote()">📝 Ubaci poslednju napomenu u editor</button>
+            <button onclick="phBatchQuickFix()">🛠️ Quick fix batch</button>
+            <button onclick="phBatchDownloadCleaned()">⬇️ Download cleaned</button>
+            <button onclick="phBatchDownloadInvalid()">⬇️ Download invalid</button>
+            <button onclick="phBatchPromoteCleaned()">✅ Promote cleaned</button>
+          </div>
+        </div>
+        <div>
+          <div id="phStudioBatchDetailLog" class="ph-log-list"></div>
+        </div>
+      </div>
+    </div>
+
+<h3 style="margin-top:14px">📌 Meni po redosledu rada</h3>
+    <ul class="ph-pipe-steps" id="phPipeSteps"></ul>
+  </div>
+
+</section>
+
+
+<section id="pane-help" class="pane">
+  <div class="home-head">
+    <h2>❓ Help / FAQ</h2>
+    <div class="home-sub"><span class="pill">v5.18.9</span> • brza pomoć • mobilno čitljivo</div>
+  </div>
+
+  <div class="card ph-no-print">
+    <div class="toolbar" style="flex-wrap:wrap">
+      <button onclick="switchTab('home')">🏠 Početna</button>
+      <button onclick="switchTab('manual')">📖 Korisničko uputstvo</button>
+      <button onclick="switchTab('studio')">🧰 Content Studio</button>
+      <button onclick="try{window.open('docs/QUICK_START.html','_blank');}catch(_e){}">🚀 Quick Start</button>
+      <button onclick="try{window.open('docs/TROUBLESHOOTING.html','_blank');}catch(_e){}">🧯 Troubleshooting</button>
+    </div>
+    <div class="note" style="margin-top:10px">Ovo je <strong>brzi help ekran</strong> za svakodnevni rad. Za dubinsko čitanje koristi i detaljno Korisničko uputstvo.</div>
+  </div>
+
+  <div class="grid two">
+    <div class="card">
+      <h3>🚀 Quick Start</h3>
+      <ol>
+        <li>Pokreni server na <code>127.0.0.1:8015</code>.</li>
+        <li>Na Početnoj izaberi modul koji ti treba.</li>
+        <li>Za nove recepte idi na <strong>🧰 Content Studio</strong>.</li>
+        <li>Za postojeću bazu i pregled idi na <strong>📖 Recipe Atlas</strong>.</li>
+        <li>Za praktičnu pomoć koristi <strong>Biblioteka / Trikovi / Help</strong>.</li>
+      </ol>
+      <div class="good">Princip rada: <strong>Početna = komandni centar</strong>; korisnik ne treba da traži alate duboko po tabovima.</div>
+    </div>
+
+    <div class="card">
+      <h3>🧰 Content Studio — najkraći tok</h3>
+      <ol>
+        <li>Izaberi Batch 001–010.</li>
+        <li>Klikni <strong>Build prompt (auto)</strong>.</li>
+        <li><strong>Open helper</strong> → Copy → nalepi u ChatGPT.</li>
+        <li>Dobijeni NDJSON nalepi ili uploaduj u isti batch.</li>
+        <li><strong>Extract titles</strong>.</li>
+        <li>Na kraju: <strong>Merge titles</strong> → <strong>Auto-fix + Merge</strong>.</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="grid two">
+    <div class="card">
+      <h3>📖 Recipe Atlas</h3>
+      <ul>
+        <li>Recipe Atlas je ciljna baza recepata.</li>
+        <li>Ovde radiš pregled, ručni unos, edit i import finalnog merged NDJSON-a.</li>
+        <li>Inventory export služi za dedup u sledećim promptovima.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>📚 Dokumentacija</h3>
+      <ul>
+        <li><strong>Korisničko uputstvo</strong> — detaljno, kompletan opis sistema.</li>
+        <li><strong>Help / FAQ</strong> — kratka pomoć za svakodnevni rad.</li>
+        <li><strong>Quick Start</strong> — najkraći put za pokretanje.</li>
+        <li><strong>Troubleshooting</strong> — česte greške i rešenja.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>🧯 Najčešći problemi</h3>
+    <details open>
+      <summary>Server radi, ali ne vidim promene</summary>
+      <div class="muted">Uradi <strong>Ctrl+Shift+R</strong>. Browser često drži stari cache za <code>index.html</code>.</div>
+    </details>
+    <details>
+      <summary>Batch ne prolazi merge</summary>
+      <div class="muted">Proveri da li je izlaz zaista <strong>NDJSON</strong> (1 JSON objekat po liniji). Uključi <strong>Auto-fix</strong> i pogledaj <code>invalid_lines</code> report.</div>
+    </details>
+    <details>
+      <summary>Duplikati se i dalje pojavljuju</summary>
+      <div class="muted">Koristi <strong>inventory titles</strong> + <strong>extract titles</strong> iz ranijih batch-eva. Prompt mora da zna šta već postoji.</div>
+    </details>
+    <details>
+      <summary>Na mobilnom je teško snaći se</summary>
+      <div class="muted">Radi iz <strong>Početne</strong>. Najvažniji ulazi su sada odmah vidljivi: Recipe Atlas, Content Studio, Korisničko uputstvo, Help / FAQ i batch dashboard.</div>
+    </details>
+  </div>
+</section>
+
+<section id="pane-library" class="pane">
+  <div class="ph-lib-layout">
+    <aside class="ph-lib-nav card ph-no-print">
+      <h3 style="margin-top:0">🗂️ Sadržaj Biblioteke</h3>
+      <div class="muted">Ovde odmah vidiš <strong>sve knjige i kolekcije</strong>. Klik otvara izabranu sekciju i zatvara ostale, da ekran ostane čist.</div>
+      <div class="ph-lib-nav-actions">
+        <button class="primary" onclick="phLibraryExpandAll(false)">📚 Samo naslovi</button>
+        <button onclick="phLibraryExpandAll(true)">📖 Otvori sve</button>
+      </div>
+      <div class="ph-lib-navlist">
+        <button id="phLibNavEnc" class="ph-lib-navbtn is-active" onclick="phLibraryOpenSection('phLibBookEnc')">
+          <strong>📖 Enciklopedija narodnih metoda</strong>
+          <small>Kurirana knjiga, bridge JSON i jasno razdvajanje: Paprikas Hub / SINET</small>
+          <span class="ph-lib-navmeta">
+            <span class="pill" data-ph-count="enc_items">147 stavki</span>
+            <span class="pill">knjiga</span>
+            <span class="pill">bridge</span>
+          </span>
+        </button>
+        <button id="phLibNavJna" class="ph-lib-navbtn" onclick="phLibraryOpenSection('phLibBookJna')">
+          <strong>🪖 Kuvar JNA - OCR bundle review</strong>
+          <small>OCR naslovni indeks, preview koraka i review red za bezbedan merge</small>
+          <span class="ph-lib-navmeta">
+            <span class="pill" data-ph-count="jna_titles">328 naslova</span>
+            <span class="pill">OCR review</span>
+            <span class="pill" data-ph-count="jna_preview">270 preview</span>
+          </span>
+        </button>
+      </div>
+    </aside>
+
+    <div class="ph-lib-content">
+      <div class="card">
+        <h2>📚 Biblioteka / Enciklopedija narodnih metoda</h2>
+        <p>Ovde je biblioteka sada organizovana kao <strong>polica knjiga + sadržaj na vrhu</strong>: korisnik odmah vidi <strong>koje kolekcije postoje</strong>, kog su tipa i jednim klikom otvara samo onu koja ga zanima. Tako Biblioteka ostaje pregledna i na velikim i na malim ekranima.</p>
+        <div class="warn"><strong>Važno:</strong> referentni sadržaj je odvojen od glavnog Recipe Atlas toka. Knjige i OCR bundle-ovi služe za pregled, pretragu, review i bezbedan most ka kasnijem merge-u.</div>
+        <div class="ph-lib-kpis">
+          <span class="pill" data-ph-count="library_collections">2 kolekcije</span>
+          <span class="pill">1 referentna knjiga</span>
+          <span class="pill">1 OCR review kolekcija</span>
+          <span class="pill">most ka SINET-u</span>
+        </div>
+      </div>
+
+  <details id="phLibBookEnc" class="ph-acc ph-lib-book" open>
+    <summary>
+      <span class="ph-lib-bookline">
+        <span class="ph-lib-booktitle">📖 Enciklopedija narodnih metoda</span>
+        <span class="ph-lib-bookdesc">Kurirana knjiga, bridge JSON i jasna podela: šta ostaje u Paprikas Hub-u, a šta ide ka SINET-u.</span>
+      </span>
+      <span class="ph-lib-bookmeta">
+        <span class="pill" data-ph-count="enc_items">147 stavki</span>
+        <span class="pill">Biljke + saveti</span>
+        <span class="pill">SINET bridge</span>
+      </span>
+    </summary>
+    <div class="ph-acc-body">
+      <p>Ovo je referentni modul koji pakuje posebnu HTML knjigu i kurirani bridge JSON. Služi kao <strong>read-only biblioteka</strong>, kao kontrolni viewer za buduće merge-ove, i kao jasan most: <strong>šta je korisno za Paprikas Hub</strong>, a <strong>šta ide ka SINET-u</strong>.</p>
+      <div class="warn"><strong>Važno:</strong> sadržaj je tradicionalna referenca. U Paprikas Hub-u se ne koristi kao automatski medicinski savet i ne menja Recipe Atlas.</div>
+
+      <div class="ph-lib-actions ph-no-print">
+        <button class="primary" onclick="phEncOpenBook()">📖 Otvori knjigu</button>
+        <button onclick="phEncOpenOverview()">🗂️ Pregled poglavlja</button>
+        <button onclick="phEncOpenBridgeJson()">🧩 Bridge JSON</button>
+        <button onclick="loadEnciklopedijaBridge(true)">🔄 Osveži modul</button>
+      </div>
+
+      <div id="phEncStatus" class="muted">Bridge modul nije još učitan.</div>
+      <div id="phEncSummary"></div>
+
+      <div class="grid two" style="margin-top:12px">
+        <div class="card">
+          <h3>🍲 Šta uzimamo za Paprikas Hub</h3>
+          <div id="phEncPaprikas"></div>
+        </div>
+        <div class="card">
+          <h3>🩺 Šta ide u SINET</h3>
+          <div id="phEncSinet"></div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top:12px">
+        <h3>🧭 Jasna tabela / module mapiranje</h3>
+        <div id="phEncMap"></div>
+      </div>
+
+      <div class="card" style="margin-top:12px">
+        <h3>🔎 Pretraga kuriranih stavki</h3>
+        <div class="grid two">
+          <div>
+            <label class="label">Traži po naslovu / opisu / sekciji</label>
+            <input id="phEncSearch" class="input" placeholder="npr. anis, jetra, aktivan način života…" oninput="phEncRenderResults()" />
+          </div>
+          <div>
+            <label class="label">Filter toka</label>
+            <select id="phEncFilter" class="input" onchange="phEncRenderResults()">
+              <option value="all">Sve stavke</option>
+              <option value="paprikas">Paprikas Hub relevantno</option>
+              <option value="sinet">SINET relevantno</option>
+              <option value="biljke_i_namirnice">Biljke i namirnice</option>
+              <option value="opsti_saveti">Opšti saveti</option>
+              <option value="recepti_protokoli">Recepti i protokoli</option>
+              <option value="tegobe">Tegobe</option>
+            </select>
+          </div>
+        </div>
+        <div id="phEncResultsHead" class="ph-lib-results-head"></div>
+        <div id="phEncResults" class="ph-lib-grid"></div>
+      </div>
+    </div>
+  </details>
+
+  <details id="phLibBookJna" class="ph-acc ph-lib-book">
+    <summary>
+      <span class="ph-lib-bookline">
+        <span class="ph-lib-booktitle">🪖 Kuvar JNA — OCR bundle review</span>
+        <span class="ph-lib-bookdesc">Review kolekcija sa OCR naslovnim indeksom i preview slojem, bez tihog auto-importa u Recipe Atlas.</span>
+      </span>
+      <span class="ph-lib-bookmeta">
+        <span class="pill" data-ph-count="jna_titles">328 naslova</span>
+        <span class="pill" data-ph-count="jna_preview">270 preview</span>
+        <span class="pill">review queue</span>
+      </span>
+    </summary>
+    <div class="ph-acc-body">
+      <p>Ovaj modul uvlači OCR bundle iz JNA kuvara kao <strong>read-only review sloj</strong>. Idealan je za pretragu naslova, pregled OCR koraka i pripremu sigurnog merge-a, ali <strong>nije</strong> direktan auto-import u Recipe Atlas.</p>
+      <div class="warn"><strong>Važno:</strong> OCR je dovoljno dobar za naslovni indeks i preview pripreme, ali su <strong>tabele, gramaze, randmani i nutritivne vrednosti</strong> i dalje previše šumoviti za bezbedan automatski merge.</div>
+
+      <div class="ph-lib-actions ph-no-print">
+        <button class="primary" onclick="loadJnaOcrBridge(true)">🪖 Učitaj JNA modul</button>
+        <button onclick="phJnaOpenMd()">📝 OCR MD</button>
+        <button onclick="phJnaOpenTxt()">📄 OCR TXT</button>
+        <button onclick="phJnaOpenDocx()">📘 OCR DOCX</button>
+        <button onclick="phJnaOpenBridgeJson()">🧩 JNA bridge JSON</button>
+      </div>
+
+      <div id="phJnaStatus" class="muted">JNA OCR modul nije još učitan.</div>
+      <div id="phJnaSummary"></div>
+
+      <div class="grid two" style="margin-top:12px">
+        <div class="card">
+          <h4>✅ Šta sada može u Paprikas Hub</h4>
+          <div id="phJnaSafeNow"></div>
+        </div>
+        <div class="card">
+          <h4>⛔ Šta još ne guramo u Recipe Atlas</h4>
+          <div id="phJnaBlockedNow"></div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top:12px">
+        <h4>🧭 JNA module mapiranje</h4>
+        <div id="phJnaMap"></div>
+      </div>
+
+      
+      <div class="card" style="margin-top:12px">
+        <h4>🧼 JNA → Clean import → Recipe Atlas</h4>
+        <div class="note">
+          Ovo je bezbedan tok: <strong>review</strong> (OCR) → <strong>clean pack</strong> (ručno/kurirano) → <strong>import u Recipe Atlas</strong>.
+          Top Clean pack je već spakovan u projekat (minimalni stubovi bez automatskog parsiranja tabela).
+        </div>
+        <div class="ph-lib-actions ph-no-print">
+          <button class="primary" onclick="phJnaLoadTopCleanPack(true)">🧼 Učitaj Top Clean pack</button>
+          <button onclick="phJnaImportTopCleanToAtlas()">⬇️ Import Top Clean → Atlas</button>
+          <button onclick="phJnaOpenTopCleanJson()">🧾 Otvori Top Clean JSON</button>
+          <button onclick="phJnaOpenTopCleanNdjson()">📄 Otvori Top Clean NDJSON</button>
+        </div>
+        <div id="phJnaCleanStatus" class="muted">Top Clean pack nije učitan.</div>
+        <div id="phJnaCleanMount"></div>
+
+        <hr style="border:0; border-top:1px solid var(--line); margin:12px 0"/>
+
+        <h4>🧪 Draft clean pack (lokalno, pre export/import)</h4>
+        <div class="note">Dodaj iz liste kandidata ispod (read-only preview) u draft. Draft se čuva u browser-u (localStorage) i možeš ga exportovati kao NDJSON/JSON, pa importovati batch-om ili jednim klikom.</div>
+        <div class="ph-lib-actions ph-no-print">
+          <button onclick="phJnaDraftClear()">🧽 Očisti draft</button>
+          <button onclick="phJnaDraftExportNdjson()">⬇️ Export draft NDJSON</button>
+          <button onclick="phJnaDraftExportJson()">⬇️ Export draft JSON</button>
+          <button onclick="phJnaDraftImportToAtlas()">⬇️ Import draft → Atlas</button>
+        </div>
+        <div id="phJnaDraftStatus" class="muted">Draft: 0 stavki.</div>
+        <div id="phJnaDraftMount" class="ph-lib-grid"></div>
+      </div>
+
+      <div class="card" style="margin-top:12px">
+        <h4>🔎 Pretraga JNA OCR kandidata</h4>
+        <div class="grid two">
+          <div>
+            <label class="label">Traži po naslovu / preview tekstu</label>
+            <input id="phJnaSearch" class="input" placeholder="npr. gulaš, krompir, pita, supa..." oninput="phJnaRenderResults()" />
+          </div>
+          <div>
+            <label class="label">Filter</label>
+            <select id="phJnaFilter" class="input" onchange="phJnaRenderResults()">
+              <option value="all">Sve JNA stavke</option>
+              <option value="safe_preview">Samo čitljiviji preview</option>
+              <option value="review_needed">Samo review red</option>
+              <option value="unique_vs_atlas">Samo jedinstveni naslovi</option>
+              <option value="overlap">Samo exact overlap sa Atlas-om</option>
+              <option value="napici">Napici</option>
+              <option value="supe_i_corbe">Supe i čorbe</option>
+              <option value="glavna_jela_i_meso">Glavna jela i meso</option>
+              <option value="povrce_i_prilozi">Povrće i prilozi</option>
+              <option value="salate">Salate</option>
+              <option value="testa_i_slano_slatko">Testa i slatko/slano</option>
+              <option value="jela_od_jaja">Jela od jaja</option>
+              <option value="sosovi">Sosovi</option>
+              <option value="ostalo">Ostalo</option>
+            </select>
+          </div>
+        </div>
+        <div id="phJnaResultsHead" class="ph-lib-results-head"></div>
+        <div id="phJnaResults" class="ph-lib-grid"></div>
+      </div>
+    </div>
+  </details>
+    </div>
+  </div>
+</section>
 
 
 <!-- TAB 13: BLAND RESCUE -->
@@ -3033,7 +3727,7 @@ input, select, textarea{ color:var(--text); background:var(--input-bg); }
 
 
 <section id="pane-kitchentricksjson" class="pane">
-  <h2>🍳 Kuhinjski trikovi (JSON v5.8.3)</h2>
+  <h2>🍳 Kuhinjski trikovi (JSON v5.18.9)</h2>
   <p class="muted">Praktični trikovi za ukus, teksturu, organizaciju i zamene. Učitava se iz <code>data/catalog/modules/kitchen_tricks_v48.json</code>.</p>
   <div id="kitchenTricksJsonStatus" class="note">Učitavanje JSON modula…</div>
   <div id="kitchenTricksJsonMount" class="card"><p class="muted">JSON modul još nije učitan.</p></div>
@@ -3044,7 +3738,7 @@ input, select, textarea{ color:var(--text); background:var(--input-bg); }
 </section>
 
 <section id="pane-hometricksjson" class="pane">
-  <h2>🏠 Kućni trikovi (JSON v5.8.3)</h2>
+  <h2>🏠 Kućni trikovi (JSON v5.18.9)</h2>
   <p class="muted">Kratki kućni trikovi (higijena, kamenac, mirisi…). Učitava se iz <code>data/catalog/modules/home_tricks_v48.json</code>.</p>
   <div id="homeTricksJsonStatus" class="note">Učitavanje JSON modula…</div>
   <div id="homeTricksJsonMount" class="card"><p class="muted">JSON modul još nije učitan.</p></div>
@@ -3054,7 +3748,7 @@ input, select, textarea{ color:var(--text); background:var(--input-bg); }
 </section>
 
 <section id="pane-stainsjson" class="pane">
-  <h2>🧽 Fleke & mirisi Rescue (JSON v5.8.3)</h2>
+  <h2>🧽 Fleke & mirisi Rescue (JSON v5.18.9)</h2>
   <p class="muted">Brzi protokoli za fleke i neutralisanje mirisa. Učitava se iz <code>data/catalog/modules/stains_odors_rescue_v48.json</code>.</p>
   <div id="stainsJsonStatus" class="note">Učitavanje JSON modula…</div>
   <div id="stainsJsonMount" class="card"><p class="muted">JSON modul još nije učitan.</p></div>
@@ -4234,12 +4928,17 @@ input, select, textarea{ color:var(--text); background:var(--input-bg); }
   <p class="muted">
     Ovaj vodič te vodi kroz <strong>svaki glavni TAB i važna dugmad</strong>, sa preporučenim redosledom rada, šta koja opcija radi i kada je koristiš.
   </p>
+  <div class="note">
+    <strong>Novo u v5.18.9:</strong> Content Studio je izdvojen kao poseban ekran na Početnoj, dopunjeni su Recipe Atlas / import / export tokovi, proširena je dokumentacija, a dodat je i poseban <strong>Help / FAQ</strong> dokument za brzu pomoć. ✅
+  </div>
 
   <div class="toolbar">
     <button onclick="switchTab('atlas')">🗺️ Otvori Rescue Atlas</button>
     <button onclick="switchTab('calc')">🧮 Otvori glavni kalkulator</button>
+    <button onclick="switchTab('studio')">🧰 Otvori Content Studio</button>
     <button onclick="switchTab('diary')">📓 Otvori dnevnik</button>
     <button onclick="switchTab('planner')">🧠 Otvori mini planer</button>
+    <button onclick="try{window.open('docs/HELP_BRZI_VODIC.html','_blank');}catch(_e){}">❓ Otvori Help / FAQ</button>
   </div>
 
 
@@ -4379,6 +5078,9 @@ input, select, textarea{ color:var(--text); background:var(--input-bg); }
           <tr><td>🧊 Odmrzavanje helper</td><td>Kad planiraš odmrzavanje pre kuvanja</td><td>Procena trajanja + vreme početka + pravila metode</td><td>Helper</td></tr>
           <tr><td>🥡 Leftover Rescue</td><td>Kad želiš novi obrok od ostataka</td><td>Transformacije leftovers + koraci po teksturi/problemu</td><td>Planner/Rescue</td></tr>
           <tr><td>🧠 Mini planer</td><td>Kad ne znaš šta da kuvaš od onoga što imaš</td><td>Predlozi jela prema sastojcima/vremenu/stilu</td><td>Planner</td></tr>
+          <tr><td>🧰 Content Studio</td><td>Kad korisnik sam dopunjava bazu recepata u serijama 10×100</td><td>Batch prompt workflow, upload batch, extract titles, auto-fix, merge, export all</td><td>Content pipeline</td></tr>
+          <tr><td>📚 Biblioteka / Enciklopedija</td><td>Kad pretražuješ reference, enciklopediju ili pomoćne kolekcije</td><td>Read-only pregled, pretraga i bridge ka dodatnim sadržajima</td><td>Biblioteka</td></tr>
+          <tr><td>🍳 / 🏠 / 🧽 Trikovi & kuća</td><td>Kad tražiš praktične trikove, kućne savete ili rescue za fleke/mirise</td><td>JSON kolekcije za kuhinju, kuću i održavanje</td><td>Kolekcije</td></tr>
           <tr><td>📖 Korisničko uputstvo</td><td>Kad učiš sistem ili uvodiš drugog korisnika</td><td>Kompletan vodič kroz opcije</td><td>Dokumentacija</td></tr>
         </tbody>
       </table>
@@ -4521,8 +5223,112 @@ input, select, textarea{ color:var(--text); background:var(--input-bg); }
       </div>
     </div>
 
+
     <div class="card">
-      <h3>10) Predlog prelaza na bazu + server (za rast projekta) 🗄️</h3>
+      <h3>10) Content Studio — kompletan redosled rada 🧰</h3>
+      <div class="grid two">
+        <div>
+          <h4>A) Šta je Content Studio</h4>
+          <p>Content Studio je radni ekran za <strong>masovno dopunjavanje Recipe Atlas baze</strong>. Namenjen je da korisnik sam, bez ručnog petljanja po fajlovima, može da vodi ceo tok:</p>
+          <ol>
+            <li>izbor batch-a (001–010),</li>
+            <li>učitavanje / build prompt-a,</li>
+            <li>copy prompt-a u ChatGPT,</li>
+            <li>paste ili upload dobijenog NDJSON batch-a,</li>
+            <li>extract naslova za deduplikaciju,</li>
+            <li>merge title liste,</li>
+            <li>auto-fix + merge svih batch-eva,</li>
+            <li>download finalnog merged NDJSON i report-a.</li>
+          </ol>
+        </div>
+        <div>
+          <h4>B) Najkraći praktični tok</h4>
+          <ol>
+            <li>Na Početnoj otvori <strong>🧰 Content Studio</strong>.</li>
+            <li>Izaberi <strong>Batch 001</strong>.</li>
+            <li>Klikni <strong>🧠 Build prompt (auto)</strong>.</li>
+            <li>Klikni <strong>🪟 Open helper</strong> → Copy → nalepi prompt u ChatGPT.</li>
+            <li>Dobijeni NDJSON nalepi u textarea ili uploaduj kao <code>batch-001.ndjson</code>.</li>
+            <li>Klikni <strong>🧾 Extract titles</strong>.</li>
+            <li>Isto ponovi za Batch 002–010.</li>
+            <li>Na kraju klikni <strong>🧩 Merge titles</strong> pa <strong>🧪 Auto-fix + Merge</strong>.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="good"><strong>Poenta:</strong> korisnik sada može sam da puni Atlas novim receptima, bez ručnog spajanja 10 odvojenih alata. ✅</div>
+    </div>
+
+    <div class="grid two">
+      <div class="card">
+        <h3>11) Recipe Atlas — import / export / ručni unos 📖</h3>
+        <ul>
+          <li><strong>Import</strong> prima NDJSON / JSONL, a uz novije verzije i dodatne pomoćne formate.</li>
+          <li><strong>Ručni unos</strong> je koristan za jedan recept ili ispravku postojećeg.</li>
+          <li><strong>Inventory export</strong> daje spisak postojećih naslova za dedup u promptovima.</li>
+          <li><strong>Merge izlaz</strong> iz Content Studio-a ide nazad u Atlas kao finalni import fajl.</li>
+          <li><strong>Važno:</strong> Atlas je baza recepata, a Content Studio je “proizvodna linija” za nove serije.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>12) Auto-fix / Soft accept / Merge report 🧪</h3>
+        <ul>
+          <li><strong>Auto-fix</strong> popravlja najčešće strukturne greške (npr. <code>koraci</code> kao jedan string umesto liste).</li>
+          <li><strong>Soft accept prazna kolicina</strong> dozvoljava prolaz i kada je količina ostala prazna, što je često kod AI generisanja.</li>
+          <li><strong>Invalid lines</strong> — sve što nije moglo da prođe validaciju ide u poseban fajl.</li>
+          <li><strong>Duplicates</strong> — duplikati po naslovu se izdvajaju posebno.</li>
+          <li><strong>Report JSON</strong> — daje pregled: koliko učitano, koliko validno, koliko duplikata i koliko je stvarno spojeno.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>13) Help / FAQ — najčešći problemi i brza rešenja ❓</h3>
+      <div class="grid two">
+        <div>
+          <details open>
+            <summary>Prompt je predugačak ili “težak” za copy</summary>
+            <div>Koristi <strong>Build prompt (auto)</strong> i <strong>Open helper</strong>. Ako prompt postane prevelik, skrati <code>VEC_GENERISANI_NASLOVI</code> na poslednje batch-eve ili koristi inventory export bez dodatnog “all previous” bloka.</div>
+          </details>
+          <details>
+            <summary>Batch fajl ne prolazi merge</summary>
+            <div>Prvo proveri da li je zaista <strong>NDJSON</strong> (jedan JSON objekat po liniji). Zatim pogledaj <strong>invalid_lines</strong> report i uključi <strong>Auto-fix</strong>.</div>
+          </details>
+          <details>
+            <summary>Duplikati se i dalje pojavljuju</summary>
+            <div>Obavezno koristi <strong>inventory titles</strong> + <strong>extract titles</strong> iz prethodnih batch-eva. Deduplikacija radi po normalizovanom naslovu, ali nije zamena za loš prompt.</div>
+          </details>
+        </div>
+        <div>
+          <details open>
+            <summary>Na mobilnom je opet previše skrolovanja</summary>
+            <div>Koristi <strong>Početnu</strong> i prečicu <strong>🧰 Content Studio</strong>. Recipe Atlas sada sadrži samo kratku prečicu, a ne ceo studio panel.</div>
+          </details>
+          <details>
+            <summary>Server radi, ali ne vidim promene</summary>
+            <div>Uradi <strong>Ctrl+Shift+R</strong> ili očisti cache. Kod većih hotfix-eva browser ume da drži staru verziju <code>index.html</code>.</div>
+          </details>
+          <details>
+            <summary>Ne postoji docs/KORISNICKO_UPUTSTVO_DETALJNO.html</summary>
+            <div>Od v5.18.9 taj fajl je uključen u projekat i otvara se direktno iz menija <strong>Uputstvo & podešavanja</strong>.</div>
+          </details>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>14) Preporučeni dnevni workflow za korisnika 📱</h3>
+      <ol>
+        <li><strong>Za rešavanje problema u jelu:</strong> Početna → Rescue / Atlas → odgovarajući TAB.</li>
+        <li><strong>Za dopunu baze recepata:</strong> Početna → Content Studio → batch rad.</li>
+        <li><strong>Za čuvanje iskustva:</strong> Dnevnik + export.</li>
+        <li><strong>Za reference i trikove:</strong> Biblioteka + Trikovi & kuća.</li>
+        <li><strong>Za pomoć i učenje:</strong> Korisničko uputstvo + Help / FAQ.</li>
+      </ol>
+      <div class="note">Najvažniji UX princip: <strong>Početna kao komandni centar</strong>; ne tražiti sadržaj dugim skrolovanjem po pojedinačnim tabovima.</div>
+    </div>
+
+    <div class="card">
+      <h3>15) Predlog prelaza na bazu + server (za rast projekta) 🗄️</h3>
       <ul>
         <li><strong>Data-first pristup:</strong> tekstove / module / recepte / rescue pravila izdvojiti u JSON fajlove.</li>
         <li><strong>Frontend:</strong> HTML aplikacija postaje “renderer” (učitava podatke i prikazuje tabove).</li>
@@ -4793,12 +5599,12 @@ input, select, textarea{ color:var(--text); background:var(--input-bg); }
     </section>
 
     <div class="footer">
-      Paprikaš Hub v5.8.3 SINET Light • 1 HTML fajl • + food safety + odmrzavanje + leftovers + mini planer + smart kupovina + meal prep + budžet + workflow + detaljno uputstvo 🔥🧂🍬🍋😶🥣🗺️🛢️🌫️📏🥶🧊🥡🧠🍲✨
+      Paprikaš Hub v5.18.9 SINET Light • 1 HTML fajl • + food safety + odmrzavanje + leftovers + mini planer + smart kupovina + meal prep + budžet + workflow + detaljno uputstvo 🔥🧂🍬🍋😶🥣🗺️🛢️🌫️📏🥶🧊🥡🧠🍲✨
     </div>
   </div>
 
   <script>
-    const tabIds = ["home", "detail", "methods", "mini", "a4", "calc", "diary", "batch", "serving", "burn", "salt", "sweet", "atlas", "recipes", "bland", "blandjson", "sourjson", "texturejson", "bitterjson", "sour", "texture", "greasy", "bitter", "helper", "safety", "thaw", "leftover", "planner", "shopping", "mealprep", "budget", "workflow", "manual", "kitchentricksjson", "hometricksjson", "stainsjson"];
+    const tabIds = ["home", "detail", "methods", "mini", "a4", "calc", "diary", "batch", "serving", "burn", "salt", "sweet", "atlas", "recipes", "studio", "bland", "blandjson", "sourjson", "texturejson", "bitterjson", "sour", "texture", "greasy", "bitter", "helper", "safety", "thaw", "leftover", "planner", "shopping", "mealprep", "budget", "workflow", "library", "manual", "help", "kitchentricksjson", "hometricksjson", "stainsjson"];
     const LS_KEYS = {
       activeTab: "paprikasHubActiveTabV42DataFirst",
       theme: "paprikasHubThemeV42DataFirst",
@@ -5024,6 +5830,7 @@ input, select, textarea{ color:var(--text); background:var(--input-bg); }
       });
       localStorage.setItem(LS_KEYS.activeTab, tabId);
       try{ phRememberRecent(tabId); phUpdateFavIndicators(); }catch(_e){}
+      if (tabId === 'home') { try { phHomeStudioDashRefresh(); } catch(_e) {} try { phHomeNextInit(); } catch(_e) {} try { phSessionLogRefresh(); } catch(_e) {} try { phBatchDetailRefresh(); } catch(_e) {} }
       if (tabId === 'blandjson') {
         try { loadBlandJsonModule(false); } catch(_e) {}
       } else if (tabId === 'sourjson') {
@@ -5040,8 +5847,16 @@ input, select, textarea{ color:var(--text); background:var(--input-bg); }
         try { loadStainsJsonModule(false); } catch(_e) {}
       } else if (tabId === 'recipes') {
         try { phRecipesBootstrap(false).catch(e=>console.error(e)); } catch(_e) {}
-      } 
-      else if (tabId === 'atlas') {
+      } else if (tabId === 'studio') {
+        try { phPipeInit(); } catch(_e) {}
+        try { phSessionLogRefresh(); } catch(_e) {}
+        try { phBatchDetailRefresh(); } catch(_e) {}
+      } else if (tabId === 'help') {
+        try { phHelpInit(); } catch(_e) {}
+      } else if (tabId === 'library') {
+        try { loadEnciklopedijaBridge(false); } catch(_e) {}
+        try { loadJnaOcrBridge(false); } catch(_e) {}
+      } else if (tabId === 'atlas') {
         try { loadCatalogAtlas(false); } catch(_e) {}
       }
       try{ phRenderQuickBars(); }catch(_e){}
@@ -5335,7 +6150,7 @@ input, select, textarea{ color:var(--text); background:var(--input-bg); }
       const timeStr = dt.toLocaleString("sr-RS");
 
       return [
-`# Paprikaš Hub v5.8.3 SINET Light — Rezultat kalkulatora`,
+`# Paprikaš Hub v5.18.9 SINET Light — Rezultat kalkulatora`,
 ``,
 `**Vreme:** ${timeStr}`,
 ``,
@@ -7659,6 +8474,387 @@ async function loadJsonKnowledgeModule(opts){
 }
 
 
+
+const PH_ENC = {
+  data: null,
+  lastError: "",
+  bridgeFile: "data/catalog/bridges/enciklopedija_narodnih_metoda_bridge_v5.13.8.json",
+  entryHtml: "references/enciklopedija_narodnih_metoda/index.html",
+  overviewHtml: "references/enciklopedija_narodnih_metoda/pregled.html"
+};
+
+function phEncOpenBook(){
+  try{ window.open(PH_ENC.entryHtml, "_blank"); }catch(_e){}
+}
+function phEncOpenOverview(){
+  try{ window.open(PH_ENC.overviewHtml, "_blank"); }catch(_e){}
+}
+function phEncOpenBridgeJson(){
+  try{ window.open(PH_ENC.bridgeFile, "_blank"); }catch(_e){}
+}
+function phEncOpenItemAnchor(anchor){
+  try{ window.open(phEncBookLink(anchor), "_blank"); }catch(_e){}
+}
+function phEncEsc(s){
+  return String(s ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+}
+function phEncBadge(txt){
+  return `<span class="pill">${phEncEsc(txt)}</span>`;
+}
+function phEncBookLink(anchor){
+  const clean = String(anchor || '').replace(/^index\.html/, '');
+  return PH_ENC.entryHtml + clean;
+}
+function phEncRenderSummary(){
+  const data = PH_ENC.data;
+  const statusEl = document.getElementById("phEncStatus");
+  const summaryEl = document.getElementById("phEncSummary");
+  const papEl = document.getElementById("phEncPaprikas");
+  const sinEl = document.getElementById("phEncSinet");
+  const mapEl = document.getElementById("phEncMap");
+  if (!statusEl || !summaryEl || !papEl || !sinEl || !mapEl) return;
+  if (!data){
+    statusEl.innerHTML = PH_ENC.lastError ? `<div class="warn">⚠️ ${phEncEsc(PH_ENC.lastError)}</div>` : "Bridge modul nije još učitan.";
+    summaryEl.innerHTML = "";
+    papEl.innerHTML = "";
+    sinEl.innerHTML = "";
+    mapEl.innerHTML = "";
+    return;
+  }
+
+  const c = data.counts || {};
+  try{ phLibrarySetCount('enc_items', c.all_items || 0, 'stavki'); }catch(_e){}
+  statusEl.innerHTML = `✅ Bridge modul učitan: <code>${phEncEsc(PH_ENC.bridgeFile.split('/').pop())}</code>`;
+  summaryEl.innerHTML = `
+    <div class="ph-lib-stats">
+      <div class="ph-lib-stat"><span class="muted">Ukupno stavki</span><b>${phEncEsc(c.all_items || 0)}</b><div class="ph-lib-badges">${phEncBadge("read-only")} ${phEncBadge("bridge")}</div></div>
+      <div class="ph-lib-stat"><span class="muted">Biljke i namirnice</span><b>${phEncEsc(c.biljke_i_namirnice || 0)}</b><div class="ph-lib-badges">${phEncBadge("Paprikas seed")}</div></div>
+      <div class="ph-lib-stat"><span class="muted">Opšti saveti</span><b>${phEncEsc(c.opsti_saveti || 0)}</b><div class="ph-lib-badges">${phEncBadge("reference only")}</div></div>
+      <div class="ph-lib-stat"><span class="muted">Protokoli + tegobe</span><b>${phEncEsc((c.recepti_protokoli || 0) + (c.tegobe || 0))}</b><div class="ph-lib-badges">${phEncBadge("SINET tok")}</div></div>
+    </div>
+    <div class="note" style="margin-top:10px">Knjiga je zapakovana lokalno u <code>${phEncEsc((data.source_book && data.source_book.entry_html) || PH_ENC.entryHtml)}</code>, pa možeš da je koristiš offline uz server na 8015.</div>
+  `;
+
+  const pap = data.what_goes_where && data.what_goes_where.paprikas_hub_now;
+  papEl.innerHTML = pap ? `
+    <div class="good">✅ Implementirano sada: ${phEncEsc((pap.implemented_modules || []).join(" • "))}</div>
+    <div class="ph-lib-badges" style="margin-top:10px">
+      ${phEncBadge(`broj: ${pap.count || 0}`)}
+      ${((pap.recommended_source_groups || []).map(phEncBadge)).join(" ")}
+    </div>
+    <ul>${(pap.highlights || []).map(x => `<li>${phEncEsc(x)}</li>`).join("")}</ul>
+    <div class="muted">Ovaj tok je namenjen biblioteci, ingredient seed-u i budućem nutri / ingredient atlasu.</div>
+  ` : "";
+
+  const sin = data.what_goes_where && data.what_goes_where.sinet_now;
+  sinEl.innerHTML = sin ? `
+    <div class="good">✅ Spremno kao bridge: ${phEncEsc((sin.implemented_exports || []).join(" • "))}</div>
+    <div class="ph-lib-badges" style="margin-top:10px">
+      ${phEncBadge(`broj: ${sin.count || 0}`)}
+      ${((sin.recommended_source_groups || []).map(phEncBadge)).join(" ")}
+    </div>
+    <ul>${(sin.highlights || []).map(x => `<li>${phEncEsc(x)}</li>`).join("")}</ul>
+    <div class="muted">Ovaj tok ostaje review-gated i ne prikazuje se kao direktan medicinski savet u Paprikas Hub-u.</div>
+  ` : "";
+
+  const rows = (data.module_map || []).map(row => `
+    <tr>
+      <td><strong>${phEncEsc(row.target || "")}</strong><br/><span class="muted">${phEncEsc(row.module_id || "")}</span></td>
+      <td>${phEncEsc(row.title || "")}</td>
+      <td>${phEncEsc(row.count_now || 0)}</td>
+      <td>${phEncEsc(row.status || "")}</td>
+      <td>${phEncEsc(row.use_now || "")}</td>
+      <td>${phEncEsc(row.use_later || "")}</td>
+    </tr>
+  `).join("");
+  mapEl.innerHTML = `
+    <div class="table-wrap">
+      <table class="ph-lib-map">
+        <thead><tr><th>Cilj</th><th>Modul</th><th>Stavke</th><th>Status</th><th>Sada</th><th>Sledeće</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>
+  `;
+}
+function phEncRenderResults(){
+  const mount = document.getElementById("phEncResults");
+  const head = document.getElementById("phEncResultsHead");
+  const data = PH_ENC.data;
+  if (!mount || !head) return;
+  if (!data || !Array.isArray(data.items)){
+    head.innerHTML = "";
+    mount.innerHTML = '<div class="warn">Bridge data nije učitan.</div>';
+    return;
+  }
+  const q = String((document.getElementById("phEncSearch") || {}).value || "").toLowerCase().trim();
+  const f = String((document.getElementById("phEncFilter") || {}).value || "all");
+  let list = data.items.slice();
+  if (f === "paprikas") list = list.filter(x => x.paprikas_fit === "high" || x.paprikas_fit === "medium");
+  else if (f === "sinet") list = list.filter(x => x.sinet_fit === "high");
+  else if (f !== "all") list = list.filter(x => x.source_group === f);
+  if (q){
+    list = list.filter(x => {
+      const hay = [x.naziv, x.original_naziv, x.opis_kratak, x.sekcija_knjige, (x.tagovi||[]).join(" ")].join(" ").toLowerCase();
+      return hay.includes(q);
+    });
+  }
+  const total = list.length;
+  const shown = list.slice(0, 60);
+  head.innerHTML = `
+    <div><strong>Rezultati:</strong> ${phEncEsc(total)} ${total === 1 ? 'stavka' : 'stavki'}</div>
+    <div class="muted">Prikaz prvih ${phEncEsc(shown.length)} rezultata</div>
+  `;
+  if (!shown.length){
+    mount.innerHTML = '<div class="note">Nema rezultata za dati filter / pretragu.</div>';
+    return;
+  }
+  mount.innerHTML = shown.map(x => `
+    <div class="ph-lib-card">
+      <h4>${phEncEsc(x.naziv || "")}</h4>
+      <div class="ph-lib-badges">
+        ${phEncBadge(x.source_group || "")}
+        ${phEncBadge(`Paprikas: ${x.paprikas_fit || 'n/a'}`)}
+        ${phEncBadge(`SINET: ${x.sinet_fit || 'n/a'}`)}
+      </div>
+      <div class="ph-lib-meta">${phEncEsc(x.sekcija_knjige || "")} • str. ${phEncEsc(x.raspon_strana || "")}</div>
+      <p>${phEncEsc(x.opis_kratak || "")}</p>
+      <div class="ph-lib-meta">${phEncEsc(x.use_now || "")} → ${phEncEsc(x.use_later || "")}</div>
+      <div class="toolbar">
+        <button class="primary" onclick="phEncOpenItemAnchor(${JSON.stringify(x.anchor || '')})">📖 Otvori izvor</button>
+      </div>
+    </div>
+  `).join("");
+}
+async function loadEnciklopedijaBridge(verbose){
+  try{
+    const resp = await fetch('./' + PH_ENC.bridgeFile + '?v=' + Date.now(), { cache: 'no-store' });
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    PH_ENC.data = await resp.json();
+    PH_ENC.lastError = "";
+    phEncRenderSummary();
+    phEncRenderResults();
+    if (verbose && typeof showToast === 'function') showToast('📚 Enciklopedija bridge učitana');
+  }catch(err){
+    PH_ENC.data = null;
+    PH_ENC.lastError = 'Enciklopedija bridge nije učitana (' + (err && err.message ? err.message : err) + ').';
+    phEncRenderSummary();
+    phEncRenderResults();
+    if (verbose && typeof showToast === 'function') showToast('⚠️ Enciklopedija bridge nije učitana');
+  }
+}
+
+
+
+const PH_JNA = {
+  data: null,
+  lastError: "",
+  bridgeFile: "data/catalog/bridges/jna_ocr_bridge_v5.13.9.json",
+  txtFile: "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+  mdFile: "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+  docxFile: "references/jna_kuvar_ocr/kuvar_jna_ocr.docx",
+  bundleZip: "references/jna_kuvar_ocr/kuvar_jna_ocr_bundle.zip"
+,
+  topCleanJson: "data/catalog/imports/jna_top_clean_import_v5.15.0.json",
+  topCleanNdjson: "data/catalog/imports/jna_top_clean_import_v5.15.0.ndjson",
+  cleanPack: null
+};
+function phJnaEsc(s){
+  return String(s ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+}
+function phJnaBadge(txt){
+  return `<span class="pill">${phJnaEsc(txt)}</span>`;
+}
+function phJnaOpenTxt(){ try{ window.open(PH_JNA.txtFile, "_blank"); }catch(_e){} }
+function phJnaOpenMd(){ try{ window.open(PH_JNA.mdFile, "_blank"); }catch(_e){} }
+function phJnaOpenDocx(){ try{ window.open(PH_JNA.docxFile, "_blank"); }catch(_e){} }
+function phJnaOpenBundle(){ try{ window.open(PH_JNA.bundleZip, "_blank"); }catch(_e){} }
+function phJnaOpenBridgeJson(){ try{ window.open(PH_JNA.bridgeFile, "_blank"); }catch(_e){} }
+
+function phLibrarySetCount(key, value, suffix){
+  try{
+    const v = (value === undefined || value === null) ? "…" : String(value);
+    const t = suffix ? `${v} ${suffix}` : v;
+    document.querySelectorAll(`[data-ph-count="${key}"]`).forEach(el => { el.textContent = t; });
+  }catch(_e){}
+}
+function phLibraryInitCounts(){
+  // static counts that help UX (even pre-load)
+  phLibrarySetCount('library_collections', 2, 'kolekcije');
+}
+function phLibrarySyncNav(sectionId, isOpen){
+  try{
+    const navMap = {
+      phLibBookEnc:'phLibNavEnc',
+      phLibBookJna:'phLibNavJna'
+    };
+    Object.values(navMap).forEach(id => {
+      const btn = document.getElementById(id);
+      if (btn) btn.classList.remove('is-active');
+    });
+    const activeSectionId = isOpen ? sectionId : (document.querySelector('#pane-library details.ph-lib-book[open]') || {}).id;
+    const activeNavId = navMap[activeSectionId || ''];
+    if (activeNavId){
+      const activeBtn = document.getElementById(activeNavId);
+      if (activeBtn) activeBtn.classList.add('is-active');
+    }
+  }catch(_e){}
+}
+function phLibraryExpandAll(expand){
+  try{
+    document.querySelectorAll('#pane-library details.ph-lib-book').forEach(d => { d.open = !!expand; });
+    if (!expand) phLibrarySyncNav('phLibBookEnc', true);
+  }catch(_e){}
+}
+function phLibraryOpenSection(sectionId){
+  try{
+    document.querySelectorAll('#pane-library details.ph-lib-book').forEach(d => {
+      d.open = (d.id === sectionId);
+    });
+    phLibrarySyncNav(sectionId, true);
+    const el = document.getElementById(sectionId);
+    if (el) el.scrollIntoView({behavior:'smooth', block:'start'});
+  }catch(_e){}
+}
+function phLibraryInitBindings(){
+  try{
+    document.querySelectorAll('#pane-library details.ph-lib-book').forEach(d => {
+      if (d.dataset.phToggleBound === '1') return;
+      d.addEventListener('toggle', ()=> phLibrarySyncNav(d.id, d.open));
+      d.dataset.phToggleBound = '1';
+    });
+    const openEl = document.querySelector('#pane-library details.ph-lib-book[open]') || document.getElementById('phLibBookEnc');
+    if (openEl) phLibrarySyncNav(openEl.id, true);
+  }catch(_e){}
+}
+
+function phJnaRenderSummary(){
+  const statusEl = document.getElementById("phJnaStatus");
+  const summaryEl = document.getElementById("phJnaSummary");
+  const safeEl = document.getElementById("phJnaSafeNow");
+  const blockedEl = document.getElementById("phJnaBlockedNow");
+  const mapEl = document.getElementById("phJnaMap");
+  if (!statusEl || !summaryEl || !safeEl || !blockedEl || !mapEl) return;
+  const data = PH_JNA.data;
+  if (!data){
+    statusEl.innerHTML = PH_JNA.lastError ? `<div class="warn">⚠️ ${phJnaEsc(PH_JNA.lastError)}</div>` : "JNA OCR modul nije još učitan.";
+    summaryEl.innerHTML = "";
+    safeEl.innerHTML = "";
+    blockedEl.innerHTML = "";
+    mapEl.innerHTML = "";
+    return;
+  }
+  const c = data.counts || {};
+  try{ phLibrarySetCount('jna_titles', c.indexed_recipe_titles || 0, 'naslova'); phLibrarySetCount('jna_preview', c.safe_preview_candidates || 0, 'preview'); }catch(_e){}
+  statusEl.innerHTML = `✅ JNA OCR modul učitan: <code>${phJnaEsc(PH_JNA.bridgeFile.split('/').pop())}</code>`;
+  summaryEl.innerHTML = `
+    <div class="ph-lib-stats">
+      <div class="ph-lib-stat"><span class="muted">Naslovi recepata</span><b>${phJnaEsc(c.indexed_recipe_titles || 0)}</b><div class="ph-lib-badges">${phJnaBadge("JNA OCR")} ${phJnaBadge("read-only")}</div></div>
+      <div class="ph-lib-stat"><span class="muted">Čitljiviji preview</span><b>${phJnaEsc(c.safe_preview_candidates || 0)}</b><div class="ph-lib-badges">${phJnaBadge("bezbedno za biblioteku")}</div></div>
+      <div class="ph-lib-stat"><span class="muted">Review red</span><b>${phJnaEsc(c.review_only_candidates || 0)}</b><div class="ph-lib-badges">${phJnaBadge("ručna provera")}</div></div>
+      <div class="ph-lib-stat"><span class="muted">Jedinstveni vs Atlas</span><b>${phJnaEsc(c.unique_titles_vs_recipe_atlas || 0)}</b><div class="ph-lib-badges">${phJnaBadge("potencijal za merge")}</div></div>
+      <div class="ph-lib-stat"><span class="muted">Exact overlap</span><b>${phJnaEsc(c.exact_title_overlaps_with_recipe_atlas || 0)}</b><div class="ph-lib-badges">${phJnaBadge("duplikat guard")}</div></div>
+    </div>
+    <div class="note" style="margin-top:10px">Bundle je zapakovan lokalno uz aplikaciju. Možeš da otvoriš OCR <code>.txt</code>, <code>.md</code> ili <code>.docx</code> i da ga koristiš offline kao kontrolni sloj dok čekaš finalni merge.</div>
+  `;
+  const ph = data.paprikas_hub_now || {};
+  safeEl.innerHTML = `
+    <div class="good">✅ Implementirano sada</div>
+    <ul>${(ph.safe_now || []).map(x => `<li>${phJnaEsc(x)}</li>`).join("")}</ul>
+    <div class="toolbar"><button onclick="phJnaOpenMd()">📝 Otvori OCR MD</button><button onclick="phJnaOpenTxt()">📄 Otvori OCR TXT</button><button onclick="phJnaOpenBundle()">🗜️ Bundle ZIP</button></div>
+  `;
+  blockedEl.innerHTML = `
+    <div class="warn"><strong>Blokirano za auto-merge:</strong></div>
+    <ul>${(ph.not_safe_now || []).map(x => `<li>${phJnaEsc(x)}</li>`).join("")}</ul>
+    <div class="muted">Zato JNA sada ide kao biblioteka + review queue, a ne kao tihi import u glavni Recipe Atlas.</div>
+  `;
+  const rows = (data.module_map || []).map(row => `
+    <tr>
+      <td><strong>${phJnaEsc(row.target || "")}</strong><br/><span class="muted">${phJnaEsc(row.module_id || "")}</span></td>
+      <td>${phJnaEsc(row.title || "")}</td>
+      <td>${phJnaEsc(row.count_now || 0)}</td>
+      <td>${phJnaEsc(row.status || "")}</td>
+      <td>${phJnaEsc(row.use_now || "")}</td>
+      <td>${phJnaEsc(row.use_later || "")}</td>
+    </tr>
+  `).join("");
+  mapEl.innerHTML = `
+    <div class="table-wrap">
+      <table class="ph-lib-map">
+        <thead><tr><th>Cilj</th><th>Modul</th><th>Stavke</th><th>Status</th><th>Sada</th><th>Sledeće</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>
+  `;
+}
+function phJnaRenderResults(){
+  const mount = document.getElementById("phJnaResults");
+  const head = document.getElementById("phJnaResultsHead");
+  if (!mount || !head) return;
+  const data = PH_JNA.data;
+  if (!data || !Array.isArray(data.items)){
+    head.innerHTML = "";
+    mount.innerHTML = '<div class="warn">JNA OCR bridge nije učitan.</div>';
+    return;
+  }
+  const q = String((document.getElementById("phJnaSearch") || {}).value || "").toLowerCase().trim();
+  const f = String((document.getElementById("phJnaFilter") || {}).value || "all");
+  let list = data.items.slice();
+  if (f === "safe_preview") list = list.filter(x => x.readability === "safe_preview");
+  else if (f === "review_needed") list = list.filter(x => x.readability !== "safe_preview");
+  else if (f === "unique_vs_atlas") list = list.filter(x => !!x.unique_vs_recipe_atlas);
+  else if (f === "overlap") list = list.filter(x => !x.unique_vs_recipe_atlas);
+  else if (f !== "all") list = list.filter(x => x.category_guess === f);
+  if (q){
+    list = list.filter(x => [x.naziv, x.preview, x.category_guess].join(" ").toLowerCase().includes(q));
+  }
+  const total = list.length;
+  const shown = list.slice(0, 80);
+  head.innerHTML = `
+    <div><strong>Rezultati:</strong> ${phJnaEsc(total)} ${total === 1 ? 'stavka' : 'stavki'}</div>
+    <div class="muted">Prikaz prvih ${phJnaEsc(shown.length)} rezultata</div>
+  `;
+  if (!shown.length){
+    mount.innerHTML = '<div class="note">Nema rezultata za dati filter / pretragu.</div>';
+    return;
+  }
+  mount.innerHTML = shown.map(x => `
+    <div class="ph-lib-card">
+      <h4>${phJnaEsc(x.broj)}. ${phJnaEsc(x.naziv || "")}</h4>
+      <div class="ph-lib-badges">
+        ${phJnaBadge(x.category_guess || "ostalo")}
+        ${phJnaBadge(x.readability === "safe_preview" ? "čitljiviji preview" : "review")}
+        ${phJnaBadge(x.unique_vs_recipe_atlas ? "unique vs atlas" : "exact overlap")}
+      </div>
+      <div class="ph-lib-meta">str. ${phJnaEsc(x.page_start || "?")} • ${phJnaEsc(x.import_recommendation || "")}</div>
+      <p>${phJnaEsc(x.preview || "")}</p>
+      <div class="ph-lib-meta">blokirano za auto-merge: tabele/gramaže/randmani iz OCR-a</div>
+      <div class="toolbar">
+        <button class="primary" onclick="phJnaDraftAddCandidate(${JSON.stringify(x.id || '')})">➕ U draft</button>
+        <button onclick="phJnaOpenMd()">📝 OCR MD</button>
+        <button onclick="phJnaOpenTxt()">📄 OCR TXT</button>
+      </div>
+    </div>
+  `).join("");
+}
+async function loadJnaOcrBridge(verbose){
+  try{
+    const resp = await fetch('./' + PH_JNA.bridgeFile + '?v=' + Date.now(), { cache: 'no-store' });
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    PH_JNA.data = await resp.json();
+    PH_JNA.lastError = "";
+    phJnaRenderSummary();
+    phJnaRenderResults();
+    if (verbose && typeof showToast === 'function') showToast('🪖 JNA OCR modul učitan');
+  }catch(err){
+    PH_JNA.data = null;
+    PH_JNA.lastError = 'JNA OCR bridge nije učitan (' + (err && err.message ? err.message : err) + ').';
+    phJnaRenderSummary();
+    phJnaRenderResults();
+    if (verbose && typeof showToast === 'function') showToast('⚠️ JNA OCR modul nije učitan');
+  }
+}
+
+
 const PH_CATALOG_TAB_MAP = {
   'bljutavo_rescue':'blandjson',
   'prekiselo_rescue':'sourjson',
@@ -7667,6 +8863,7 @@ const PH_CATALOG_TAB_MAP = {
   'kitchen_tricks':'kitchentricksjson',
   'home_tricks':'hometricksjson',
   'stains_odors_rescue':'stainsjson',
+  'enciklopedija_traditional_reference':'library',
 };
 const PH_CATALOG_CLASSIC_TAB_MAP = {
   'bljutavo_rescue':'bland',
@@ -7692,6 +8889,7 @@ function renderAtlasAutoNav(idx){
     'prekiselo_rescue':'🍋 Prekiselo Rescue',
     'gustina_rescue':'🥣 Gustina Rescue',
     'gorko_rescue':'🌫️ Gorko Rescue',
+    'enciklopedija_traditional_reference':'📚 Biblioteka / Enciklopedija',
     'kitchen_tricks':'🍳 Kuhinjski trikovi',
     'home_tricks':'🏠 Kućni trikovi',
     'stains_odors_rescue':'🧽 Fleke & mirisi Rescue',}[id] || id.replace(/_/g,' '));
@@ -7768,6 +8966,8 @@ const PH_MENU_DEF = [
     items:[
       {tab:"atlas", icon:"🗺️", label:"Rescue Atlas"},
       {tab:"recipes", icon:"📖", label:"Recipe Atlas", note:"baza recepata"},
+      {tab:"studio", icon:"🧰", label:"Content Studio", note:"1000 recepata / batch / merge"},
+      {tab:"help", icon:"❓", label:"Help / FAQ", note:"brza pomoć + troubleshooting"},
       {action:"printTab", icon:"🖨️", label:"Print aktivni TAB", note:"brzo štampanje"},
       {action:"printA4",  icon:"📄", label:"Print A4 TAB", note:"format kartice"},
     ]
@@ -7778,9 +8978,18 @@ const PH_MENU_DEF = [
       {tab:"batch", icon:"🧪", label:"Batch rescue"},
     ]
   },
-  { id:"help", icon:"📖", title:"Uputstvo & podešavanja", desc:"server/static + troubleshooting",
+  { id:"library", icon:"📚", title:"Biblioteka & reference", desc:"enciklopedija + bridge ka SINET-u",
+    items:[
+      {tab:"library", icon:"📚", label:"Biblioteka / Enciklopedija", note:"read-only pregled + pretraga"},
+      {action:"openEncBook", icon:"📖", label:"Otvori knjigu", note:"originalni HTML viewer"},
+      {action:"openEncOverview", icon:"🗂️", label:"Pregled poglavlja", note:"brzi ulaz u strukturu"},
+    ]
+  },
+
+  { id:"help", icon:"📖", title:"Uputstvo & podešavanja", desc:"manual + help + troubleshooting",
     items:[
       {action:"openManualDoc", icon:"📘", label:"Uputstvo (DETALJNO) — HTML/PDF", note:"otvori dokument za print/PDF"},
+      {action:"openHelpDoc", icon:"❓", label:"Help / FAQ — brzi vodič", note:"kratka pomoć + najčešći problemi"},
       {tab:"manual", icon:"📖", label:"Korisničko uputstvo (detaljno)"},
       {action:"openSettings", icon:"⚙️", label:"Backup / Export / Import"},
     ]
@@ -7832,6 +9041,11 @@ function phCloseMenu(){
   }catch(_e){}
 }
 function phOpenCategory(catId){
+  if (Array.isArray(tabIds) && tabIds.includes(catId)) {
+    try { phCloseMenu(); } catch(_e) {}
+    try { switchTab(catId); } catch(_e) {}
+    return;
+  }
   phOpenMenu();
   phOpenAccordionGroup(catId);
 }
@@ -8041,7 +9255,10 @@ function phMenuDoAction(action){
   if (action === "printA4"){ phCloseMenu(); printA4Tab(); return; }
   if (action === "openSettings"){ phCloseMenu(); phOpenSettings(); return; }
   if (action === "openManualDoc"){ try{ window.open("docs/KORISNICKO_UPUTSTVO_DETALJNO.html","_blank"); }catch(_e){} phCloseMenu(); return; }
+  if (action === "openHelpDoc"){ try{ window.open("docs/HELP_BRZI_VODIC.html","_blank"); }catch(_e){} phCloseMenu(); return; }
   if (action === "openNutri"){ try{ window.open("extras/nutri/index.html","_blank"); }catch(_e){} phCloseMenu(); return; }
+  if (action === "openEncBook"){ try{ phEncOpenBook(); }catch(_e){} phCloseMenu(); return; }
+  if (action === "openEncOverview"){ try{ phEncOpenOverview(); }catch(_e){} phCloseMenu(); return; }
   phCloseMenu();
 }
 
@@ -8097,7 +9314,7 @@ function phTabLabel(tabId){
     burn:"Zagorelo", salt:"Preslano", sweet:"Preslatko", atlas:"Rescue Atlas",
     bland:"Bljutavo", sour:"Prekiselo", texture:"Gustina", greasy:"Premasno", bitter:"Gorko",
     helper:"Mere & tajming", safety:"Čuvanje & podgrevanje", thaw:"Odmrzavanje", leftover:"Leftover", planner:"Mini planer",
-    shopping:"Pametna kupovina", mealprep:"Meal prep", budget:"Budžet", workflow:"Organizacija", manual:"Korisničko uputstvo",
+    shopping:"Pametna kupovina", mealprep:"Meal prep", budget:"Budžet", workflow:"Organizacija", studio:"Content Studio", library:"Biblioteka / Enciklopedija", manual:"Korisničko uputstvo", help:"Help / FAQ",
     blandjson:"Bljutavo JSON", sourjson:"Prekiselo JSON", texturejson:"Gustina JSON", bitterjson:"Gorko JSON"
   };
   return map[tabId] || tabId;
@@ -8374,6 +9591,20 @@ function phOpenSettings(){
           <button onclick="phPickImport()">⬆️ Restore (Import JSON)</button>
         </div>
 
+        <div class="card" style="margin-top:12px; padding:12px; border:1px solid var(--line); border-radius:14px; background:var(--card2)">
+          <h4 style="margin:0 0 8px 0">📚 Recipe katalog / cache</h4>
+          <div class="note">Ovde možeš da upišeš bazni URL kataloga (npr. Netlify deploy) i da nateraš Atlas da ponovo učita manifest + chunk fajlove bez starog browser cache-a.</div>
+          <label class="label" for="phRecipeCatalogBaseUrl" style="margin-top:8px">Spoljni URL kataloga (opciono)</label>
+          <input id="phRecipeCatalogBaseUrl" class="input" placeholder="npr. https://tvoj-sajt.netlify.app" />
+          <div class="actions" style="margin-top:10px">
+            <button onclick="phSaveRecipeCatalogBaseUrl()">💾 Sačuvaj izvor</button>
+            <button onclick="phResetRecipeCatalogBaseUrl()">↩️ Vrati na lokalni izvor</button>
+            <button onclick="phRecipesRefreshCatalog(true)">🔄 Osveži bazu recepata</button>
+            <button onclick="phClearBrowserCacheAndReload()">🧼 Obriši browser cache</button>
+          </div>
+          <div class="note" style="margin-top:8px">Preporuka: za lokalni FULL server koristi <code>http://127.0.0.1:8015/</code>. Ako koristiš Netlify kao izvor kataloga, ostavi URL root sajta bez <code>/index.html</code>.</div>
+        </div>
+
         <input id="phImportFile" type="file" accept="application/json" style="display:none;" />
         <div id="phSettingsOut" class="list"></div>
       </div>
@@ -8383,6 +9614,8 @@ function phOpenSettings(){
     inp.addEventListener("change", ()=>phDoImport(inp.files && inp.files[0]));
   }
   phEl("phSettingsOut").innerHTML = "";
+  const inp = phEl("phRecipeCatalogBaseUrl"); if (inp) inp.value = phGetRecipeCatalogBaseUrl();
+  phRecipesUpdateSourceInfo();
   m.classList.add("open");
   m.setAttribute("aria-hidden","false");
 }
@@ -8643,11 +9876,15 @@ async function loadCatalogAtlas(verbose){
 
 // Boot
 document.addEventListener('DOMContentLoaded', ()=>{
+  try{ const vEl=document.getElementById('phVersionTag'); if(vEl) vEl.textContent = PH_APP_VERSION; const v2=document.getElementById('phVersionHome'); if(v2) v2.textContent = PH_APP_VERSION; document.title = `Paprikaš Hub ${PH_APP_VERSION} SINET Light — Kitchen Rescue`; }catch(_e){}
   try{ phEnhanceTables(); phRenderQuickBars(); }catch(_e){}
   try{ phRecipePinsRenderHome(); }catch(_e){}
+  try{ phLibraryInitBindings(); }catch(_e){}
+  try{ phLibraryInitCounts(); }catch(_e){}
+  try{ phJnaDraftRender(); }catch(_e){}
 });
 /* =========================
-   v5.8.3 RECIPE ATLAS (data/recipes/*.json) + IMPORT/EXPORT + MANUAL ADD
+   v5.18.9 RECIPE ATLAS (data/recipes/*.json) + IMPORT/EXPORT + MANUAL ADD
    - Built-in recipes: /data/recipes/index.json + individual files
    - User recipes: localStorage key paprikasHubRecipesUserV1 (auto-synced to server DB)
    ========================= */
@@ -8662,6 +9899,8 @@ const PH_RECIPES = {
 };
 
 const PH_RECIPE_LS_KEY = "paprikasHubRecipesUserV1";
+const PH_RECIPE_REMOTE_BASE_KEY = "paprikasHubRecipeCatalogBaseUrlV1";
+const PH_RECIPE_CACHE_BUSTER_KEY = "paprikasHubRecipeCacheBusterV1";
 
 function phSlugify(s){
   try{
@@ -8693,6 +9932,134 @@ async function phFetchJsonFile(url){
   const r = await fetch(url, { cache: "no-store" });
   if (!r.ok) throw new Error(`HTTP ${r.status} @ ${url}`);
   return await r.json();
+}
+
+function phGetRecipeCacheBuster(){
+  try{ return String(localStorage.getItem(PH_RECIPE_CACHE_BUSTER_KEY) || "0"); }catch(_e){ return "0"; }
+}
+
+function phBumpRecipeCacheBuster(){
+  const v = String(Date.now());
+  try{ localStorage.setItem(PH_RECIPE_CACHE_BUSTER_KEY, v); }catch(_e){}
+  return v;
+}
+
+function phNormalizeBaseUrl(url){
+  try{
+    const s = String(url||"").trim();
+    if (!s) return "";
+    return s.replace(/\/+$/,'');
+  }catch(_e){ return ""; }
+}
+
+function phGetRecipeCatalogBaseUrl(){
+  try{ return phNormalizeBaseUrl(localStorage.getItem(PH_RECIPE_REMOTE_BASE_KEY) || ""); }catch(_e){ return ""; }
+}
+
+function phSetRecipeCatalogBaseUrl(url){
+  const norm = phNormalizeBaseUrl(url);
+  try{
+    if (norm) localStorage.setItem(PH_RECIPE_REMOTE_BASE_KEY, norm);
+    else localStorage.removeItem(PH_RECIPE_REMOTE_BASE_KEY);
+  }catch(_e){}
+  return norm;
+}
+
+function phGetRecipeCatalogRoot(){
+  const remote = phGetRecipeCatalogBaseUrl();
+  return remote || "";
+}
+
+async function phFetchRecipeJsonFile(relPath){
+  const clean = String(relPath||"").replace(/^\.\//,'').replace(/^\//,'');
+  const cacheBuster = encodeURIComponent(phGetRecipeCacheBuster() || String(Date.now()));
+  const remote = phGetRecipeCatalogRoot();
+  if (remote){
+    const full = remote + '/' + clean + (clean.includes('?') ? '&' : '?') + 'v=' + cacheBuster;
+    const sameOrigin = (()=>{ try{ return new URL(full, location.href).origin === location.origin; }catch(_e){ return false; }})();
+    if (sameOrigin || location.protocol === 'file:'){
+      return await phFetchJsonFile(full);
+    }
+    try{
+      const res = await phFetchApi('/api/recipes/fetch_json?url=' + encodeURIComponent(full));
+      return await res.json();
+    }catch(_e){
+      return await phFetchJsonFile(full);
+    }
+  }
+  const localUrl = './' + clean + '?v=' + cacheBuster;
+  return await phFetchJsonFile(localUrl);
+}
+
+function phRecipeManifestMeta(){
+  const idx = PH_RECIPES.baseIndex || {};
+  const parts = Array.isArray(idx.parts) ? idx.parts.length : 0;
+  return {
+    count: Number(idx.count || Object.keys(PH_RECIPES.baseById||{}).length || 0),
+    version: String(idx.version || ''),
+    generated: String(idx.generated_utc || idx.updated_utc || ''),
+    parts,
+    remoteBase: phGetRecipeCatalogBaseUrl()
+  };
+}
+
+function phRecipesUpdateSourceInfo(extraMsg){
+  try{
+    const el = document.getElementById('phRecipesSourceInfo');
+    if (!el) return;
+    const meta = phRecipeManifestMeta();
+    const source = meta.remoteBase ? `spoljni katalog: <code>${escapeHtml(meta.remoteBase)}</code>` : 'lokalni katalog iz ovog build-a';
+    const version = meta.version ? ` • verzija: <code>${escapeHtml(meta.version)}</code>` : '';
+    const generated = meta.generated ? ` • generisano: <code>${escapeHtml(meta.generated)}</code>` : '';
+    const count = meta.count ? ` • baza: <strong>${meta.count}</strong>` : '';
+    const parts = meta.parts ? ` • chunk fajlova: <strong>${meta.parts}</strong>` : '';
+    const extra = extraMsg ? ` <span class="good">${escapeHtml(extraMsg)}</span>` : '';
+    el.innerHTML = `📦 Izvor kataloga: ${source}${count}${parts}${version}${generated}${extra}`;
+  }catch(_e){}
+}
+
+async function phRecipesRefreshCatalog(showToastMsg){
+  PH_RECIPES.ready = false;
+  PH_RECIPES.baseIndex = null;
+  PH_RECIPES.baseById = {};
+  PH_RECIPES.combined = [];
+  PH_RECIPES.lastError = '';
+  phBumpRecipeCacheBuster();
+  await phRecipesBootstrap(true);
+  phRecipesUpdateSourceInfo('osveženo');
+  if (showToastMsg && typeof showToast === 'function') showToast('🔄 Recipe baza je osvežena');
+}
+
+async function phClearBrowserCacheAndReload(){
+  try{
+    if (window.caches && caches.keys){
+      const keys = await caches.keys();
+      await Promise.all(keys.map(k => caches.delete(k)));
+    }
+  }catch(_e){}
+  try{ sessionStorage.clear(); }catch(_e){}
+  phBumpRecipeCacheBuster();
+  try{ if (typeof showToast === 'function') showToast('🧼 Browser cache je obrisan'); }catch(_e){}
+  setTimeout(()=>location.reload(), 120);
+}
+
+function phSaveRecipeCatalogBaseUrl(){
+  const out = phEl('phSettingsOut');
+  const inp = phEl('phRecipeCatalogBaseUrl');
+  const value = inp ? inp.value : '';
+  const saved = phSetRecipeCatalogBaseUrl(value);
+  if (inp) inp.value = saved;
+  phRecipesUpdateSourceInfo(saved ? 'sačuvan spoljni izvor' : 'koristi se lokalni izvor');
+  if (out) out.innerHTML = `<div class="good">Sačuvan izvor kataloga: ${saved ? `<code>${phSafe(saved)}</code>` : 'lokalni build'}</div>`;
+}
+
+function phResetRecipeCatalogBaseUrl(){
+  const out = phEl('phSettingsOut');
+  phSetRecipeCatalogBaseUrl('');
+  const inp = phEl('phRecipeCatalogBaseUrl');
+  if (inp) inp.value = '';
+  phRecipesUpdateSourceInfo('vraćen lokalni izvor');
+  if (out) out.innerHTML = `<div class="good">Recipe Atlas je vraćen na lokalni katalog iz ovog build-a.</div>`;
 }
 
 function escapeHtml(str){
@@ -8810,14 +10177,14 @@ async function phRecipesBootstrap(force){
     PH_RECIPES.baseById = {};
     let loadedFrom = "";
     try{
-      const manifest = await phFetchJsonFile("data/recipes_chunks/manifest.json");
+      const manifest = await phFetchRecipeJsonFile("data/recipes_chunks/manifest.json");
       PH_RECIPES.baseIndex = manifest;
       const parts = Array.isArray(manifest.parts) ? manifest.parts : [];
       for (const part of parts){
         const file = part && (part.file || part.path || part.name);
         if (!file) continue;
         try{
-          const obj = await phFetchJsonFile("data/recipes_chunks/" + file);
+          const obj = await phFetchRecipeJsonFile("data/recipes_chunks/" + file);
           const list = Array.isArray(obj) ? obj : (Array.isArray(obj.recipes) ? obj.recipes : []);
           for (const rec of list){
             if (rec && rec.id){
@@ -8828,14 +10195,14 @@ async function phRecipesBootstrap(force){
       }
       loadedFrom = "chunks";
     }catch(_echunks){
-      const idx = await phFetchJsonFile("data/recipes/index.json");
+      const idx = await phFetchRecipeJsonFile("data/recipes/index.json");
       PH_RECIPES.baseIndex = idx;
       const list = (idx && Array.isArray(idx.recipes)) ? idx.recipes : [];
       for (const it of list){
         const file = (it && it.file) ? String(it.file) : "";
         if (!file) continue;
         try{
-          const rec = await phFetchJsonFile("data/recipes/" + file);
+          const rec = await phFetchRecipeJsonFile("data/recipes/" + file);
           if (rec && rec.id){
             PH_RECIPES.baseById[String(rec.id)] = Object.assign({user:false}, rec);
           }
@@ -8846,12 +10213,14 @@ async function phRecipesBootstrap(force){
     PH_RECIPES.user = phRecipesLoadUser();
     PH_RECIPES.ready = true;
     phRecipesRender();
+    phRecipesUpdateSourceInfo();
     try{ phRecipePinsRenderHome(); }catch(_e){}
   }catch(e){
     PH_RECIPES.ready = false;
     PH_RECIPES.lastError = String(e && e.message ? e.message : e);
     const mount = document.getElementById("phRecipesList");
     if (mount) mount.innerHTML = `<div class="warn">⚠️ Recipe Atlas nije mogao da učita bazu: ${escapeHtml(PH_RECIPES.lastError)}<br/>Proveri <code>data/recipes_chunks/manifest.json</code> ili legacy <code>data/recipes/index.json</code>.</div>`;
+    phRecipesUpdateSourceInfo(`greška: ${PH_RECIPES.lastError}`);
   }
 }
 
@@ -9113,7 +10482,7 @@ async function phRecipePinsRenderHome(){
         <h4>🍲 ${escapeHtml(spid)}</h4>
         <div class="meta">(nije pronađen u katalogu)</div>
         <div class="actions">
-          <button class="primary" onclick="switchTab('recipes')">📖 Recipe Atlas</button>
+          <button class="primary" onclick="phOpenCategory('recipes')">📖 Recipe Atlas</button>
           <button class="danger" onclick="phRecipePinsToggle('${escapeHtml(spid)}')">✖ Unpin</button>
         </div>
       </div>`;
@@ -9146,7 +10515,7 @@ async function phRecipePinsRenderHome(){
     <div class="recipe-mini" style="grid-column:1/-1">
       <div class="meta">+ još ${moreCount} pinovanih…</div>
       <div class="actions">
-        <button class="primary" onclick="switchTab('recipes')">📖 Otvori Recipe Atlas</button>
+        <button class="primary" onclick="phOpenCategory('recipes')">📖 Otvori Recipe Atlas</button>
         <button onclick="phPinnedRecipesPrintBook()">🖨️ Print sve pinovane</button>
       </div>
     </div>` : "";
@@ -9278,7 +10647,22 @@ function phRecipeHtmlDocument(r){
       .wrap{ padding:0; }
       .card{ border:none; }
     }
-  </style>
+  
+    .ph-lib-stats{ display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:10px; margin-top:12px; }
+    .ph-lib-stat{ border:1px solid var(--line); border-radius:14px; padding:12px; background:#fff; box-shadow:0 10px 24px rgba(20,18,15,.05); }
+    .ph-lib-stat b{ display:block; font-size:1.3rem; margin-top:4px; }
+    .ph-lib-map{ width:100%; border-collapse:collapse; }
+    .ph-lib-map th, .ph-lib-map td{ border-bottom:1px solid var(--line); padding:10px 8px; vertical-align:top; text-align:left; font-size:0.95rem; }
+    .ph-lib-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:12px; }
+    .ph-lib-card{ border:1px solid var(--line); border-radius:14px; padding:12px; background:#fff; box-shadow:0 10px 24px rgba(20,18,15,.05); }
+    .ph-lib-card h4{ margin:0 0 6px 0; }
+    .ph-lib-meta{ color:var(--muted); font-size:0.92rem; margin:4px 0 8px 0; }
+    .ph-lib-badges{ display:flex; flex-wrap:wrap; gap:6px; margin:6px 0 10px 0; }
+    .ph-lib-badges .pill, .ph-lib-stat .pill{ cursor:default; }
+    .ph-lib-results-head{ display:flex; flex-wrap:wrap; gap:8px; justify-content:space-between; align-items:center; margin:10px 0; }
+    .ph-lib-actions{ display:flex; flex-wrap:wrap; gap:8px; margin:10px 0; }
+
+</style>
 </head>
 <body>
   <div class="wrap">
@@ -9301,6 +10685,16 @@ function phRecipeHtmlDocument(r){
       <div class="meta" style="margin-top:14px">Paprikaš Hub • export (HTML) • ${escapeHtml((r && r.id) ? r.id : "")}</div>
     </div>
   </div>
+
+<script>
+window.switchTab = window.switchTab || function(tabId){
+  try {
+    if (typeof window.phOpenCategory === 'function') return window.phOpenCategory(tabId);
+    var el = document.getElementById(tabId) || document.querySelector('[data-tab="'+tabId+'"]');
+    if (el && typeof el.scrollIntoView === 'function') el.scrollIntoView({behavior:'smooth', block:'start'});
+  } catch (e) { console.error('switchTab fallback error', e); }
+};
+<\/script>
 </body>
 </html>`;
 }
@@ -9470,7 +10864,7 @@ async function phRecipesHandleImport(file){
   const text = await file.text();
   let incoming = [];
   try{
-    const name = String(file.name||"").toLowerCase();
+    const name = String(file.name||"" ).toLowerCase();
 
     if (name.endsWith(".ndjson") || name.endsWith(".jsonl")){
       incoming = text.split(/\r?\n/).map(l=>l.trim()).filter(Boolean).map(l=>JSON.parse(l));
@@ -9479,7 +10873,6 @@ async function phRecipesHandleImport(file){
     } else if (name.endsWith(".txt")){
       incoming = phRecipesParseTXT(text);
     } else {
-      // Fallback: try JSON first, then CSV, then TXT
       try{
         const obj = JSON.parse(text);
         if (Array.isArray(obj)) incoming = obj;
@@ -9505,17 +10898,102 @@ async function phRecipesHandleImport(file){
     alert("Nema važećih recepata u fajlu.");
     return;
   }
+
   const curr = phRecipesLoadUser();
-  const merged = phRecipesMergeUnique(curr, normalized);
+  const combined = phRecipesGetCombined();
+  const byKey = {};
+  (combined||[]).forEach(r=>{
+    const id = String((r&&r.id)||"").trim();
+    const titleKey = phNormKey((r&&r.naziv)||"");
+    if (id) byKey[id] = r;
+    if (titleKey) byKey['t:' + titleKey] = r;
+  });
+
+  const accepted = [];
+  let skippedDup = 0;
+  for (const r of normalized){
+    const id = String((r&&r.id)||"").trim();
+    const titleKey = phNormKey((r&&r.naziv)||"");
+    const exists = (id && byKey[id]) || (titleKey && byKey['t:' + titleKey]);
+    if (exists){ skippedDup++; continue; }
+    accepted.push(r);
+    if (id) byKey[id] = r;
+    if (titleKey) byKey['t:' + titleKey] = r;
+  }
+
+  if (!accepted.length){
+    alert(`Nema novih recepata za import. Duplikati prema postojecoj bazi: ${skippedDup}.`);
+    return;
+  }
+
+  const merged = phRecipesMergeUnique(curr, accepted);
   phRecipesSaveUser(merged);
   phRecipesRender();
-  alert(`✅ Importovano: ${normalized.length} (ukupno tvojih: ${merged.length}).`);
+  alert(`✅ Uvezeno novih: ${accepted.length} | preskoceni duplikati: ${skippedDup} | ukupno tvojih: ${merged.length}.`);
 }
 
+function phRecipesPickImportPdf(){
+  const el = document.getElementById("phRecipesImportPdfFile");
+  if (el){ el.value = ""; el.click(); }
+}
 
+async function phRecipesHandleImportPdf(file){
+  if (!file) return;
+  try{
+    const fd = new FormData();
+    fd.append('pdf', file, file.name || 'recept.pdf');
+    const res = await fetch('/api/recipes/import_pdf', { method:'POST', body: fd });
+    const payload = await res.json();
+    if (!res.ok || !payload || !payload.ok || !payload.recipe){
+      throw new Error((payload && payload.error) ? payload.error : 'PDF import nije uspeo.');
+    }
+    const rec = phRecipesNormalizeOne(payload.recipe);
+    if (!rec) throw new Error('PDF je procitan, ali recept nije validan za import.');
+
+    const curr = phRecipesLoadUser();
+    const combined = phRecipesGetCombined();
+    const dup = (combined||[]).some(x => String(x.id||'') === String(rec.id||'') || phNormKey(x.naziv||'') === phNormKey(rec.naziv||''));
+    if (dup){
+      alert('Ovaj PDF recept vec postoji u bazi (po id ili naslovu).');
+      return;
+    }
+    const merged = phRecipesMergeUnique(curr, [rec]);
+    phRecipesSaveUser(merged);
+    phRecipesRender();
+    const warns = Array.isArray(payload.warnings) && payload.warnings.length ? `\nUpozorenja: ${payload.warnings.join(', ')}` : '';
+    alert(`✅ PDF recept dodat: ${rec.naziv}.${warns}`);
+  }catch(e){
+    alert('PDF import greska:\n\n' + (e && e.message ? e.message : e));
+  }
+}
+
+function phRecipesBuildInventory(){
+  const all = phRecipesGetCombined().slice().sort((a,b)=>String(a.naziv||'').localeCompare(String(b.naziv||''),'sr'));
+  return all.map((r, idx) => ({
+    rbr: idx + 1,
+    id: String(r.id || ''),
+    naziv: String(r.naziv || ''),
+    kategorija: Array.isArray(r.kategorija) ? r.kategorija : [],
+    tags: Array.isArray(r.tags) ? r.tags : [],
+    izvor: r.user ? 'user' : 'catalog'
+  }));
+}
+
+function phRecipesExportInventoryTxt(){
+  const rows = phRecipesBuildInventory();
+  if (!rows.length){ alert('Nema recepata za spisak.'); return; }
+  const text = rows.map(r => `${String(r.rbr).padStart(4,'0')}. ${r.naziv} | id=${r.id} | kategorija=${(r.kategorija||[]).join(', ')} | tags=${(r.tags||[]).join(', ')}`).join("\n");
+  downloadTextFile(`paprikas-inventory-${fileStamp()}.txt`, text + "\n", 'text/plain');
+}
+
+function phRecipesExportInventoryJson(){
+  const rows = phRecipesBuildInventory();
+  if (!rows.length){ alert('Nema recepata za spisak.'); return; }
+  downloadTextFile(`paprikas-inventory-${fileStamp()}.json`, JSON.stringify({version: PH_APP_VERSION, count: rows.length, items: rows}, null, 2), 'application/json');
+}
 
 /* =========================
-   v5.8.3: CSV/TXT import + CSV/NDJSON/TXT export helpers
+   v5.18.9: CSV/TXT import + CSV/NDJSON/TXT export helpers
    ========================= */
 
 function phParseCsvRows(text, sep){
@@ -9966,6 +11444,21 @@ function phRecipesMakeHtmlDetailed(recipes, meta){
     a{color:#000;text-decoration:none}
     .recipe{page-break-inside:avoid}
   }
+
+    .ph-lib-stats{ display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:10px; margin-top:12px; }
+    .ph-lib-stat{ border:1px solid var(--line); border-radius:14px; padding:12px; background:#fff; box-shadow:0 10px 24px rgba(20,18,15,.05); }
+    .ph-lib-stat b{ display:block; font-size:1.3rem; margin-top:4px; }
+    .ph-lib-map{ width:100%; border-collapse:collapse; }
+    .ph-lib-map th, .ph-lib-map td{ border-bottom:1px solid var(--line); padding:10px 8px; vertical-align:top; text-align:left; font-size:0.95rem; }
+    .ph-lib-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:12px; }
+    .ph-lib-card{ border:1px solid var(--line); border-radius:14px; padding:12px; background:#fff; box-shadow:0 10px 24px rgba(20,18,15,.05); }
+    .ph-lib-card h4{ margin:0 0 6px 0; }
+    .ph-lib-meta{ color:var(--muted); font-size:0.92rem; margin:4px 0 8px 0; }
+    .ph-lib-badges{ display:flex; flex-wrap:wrap; gap:6px; margin:6px 0 10px 0; }
+    .ph-lib-badges .pill, .ph-lib-stat .pill{ cursor:default; }
+    .ph-lib-results-head{ display:flex; flex-wrap:wrap; gap:8px; justify-content:space-between; align-items:center; margin:10px 0; }
+    .ph-lib-actions{ display:flex; flex-wrap:wrap; gap:8px; margin:10px 0; }
+
 </style>
 </head>
 <body>
@@ -10228,6 +11721,1195 @@ async function phRecipesExportQC(){
     stats
   };
   downloadTextFile(`paprikas-recipes-qc-${fileStamp()}.json`, JSON.stringify(out, null, 2), "application/json");
+}
+
+
+/* =========================
+   Content Studio — Pipeline
+   ========================= */
+const PH_PIPE = {
+  v: "v5.18.9",
+  lsKey: "paprikasPipelineStepsV1",
+  promptsBase: "tools/pipeline/prompts/",
+};
+
+function phPipeInit(){
+  // batch selector 1..10
+  const sel = document.getElementById("phPipeBatchSel");
+  if (sel && !sel._phInit){
+    sel._phInit = true;
+    sel.innerHTML = "";
+    for (let i=1;i<=10;i++){
+      const opt=document.createElement("option");
+      opt.value = String(i).padStart(3,"0");
+      opt.textContent = `Batch ${String(i).padStart(3,"0")} (100)`;
+      sel.appendChild(opt);
+    }
+  }
+  phPipeRenderSteps();
+  phPipeRefreshStatus();
+}
+
+function phPipeStepState(){
+  try { return JSON.parse(localStorage.getItem(PH_PIPE.lsKey) || "{}"); } catch(e){ return {}; }
+}
+function phPipeSetStepDone(id, done){
+  const st = phPipeStepState();
+  st[id] = !!done;
+  localStorage.setItem(PH_PIPE.lsKey, JSON.stringify(st));
+  phPipeRenderSteps();
+}
+
+function phPipeStepsDef(){
+  // 1..10 prompts, plus operations
+  const steps = [];
+  steps.push({id:"inv", n:1, t:"Download inventory (naslovi) — dedup", d:"Skini TXT i ubaci u prompt da ne skupljaš postojeće recepte."});
+  for (let i=1;i<=10;i++){
+    const b = String(i).padStart(3,"0");
+    steps.push({id:`p${b}`, n:steps.length+1, t:`Copy prompt za Batch ${b}`, d:"Koristi FULL prompt, generiši 100, sačuvaj kao NDJSON."});
+    steps.push({id:`u${b}`, n:steps.length+1, t:`Sačuvaj/Upload Batch ${b}.ndjson`, d:"Paste u textarea + Sačuvaj batch, ili Upload file."});
+    steps.push({id:`t${b}`, n:steps.length+1, t:`Extract titles iz Batch ${b}`, d:"Server izdvoji naslove (za sledeći dedup)." });
+  }
+  steps.push({id:"mt", n:steps.length+1, t:"Merge titles (all-previous)", d:"Spoji inventory + sve batch titles u jedan spisak."});
+  steps.push({id:"merge", n:steps.length+1, t:"Auto-fix + Merge (finalni 1000)", d:"Pravi recipes_1000_merged.ndjson + report + invalid + duplicates."});
+  steps.push({id:"dl", n:steps.length+1, t:"Download merged NDJSON", d:"Importuj u Recipe Atlas (NDJSON import)." });
+  steps.push({id:"zip", n:steps.length+1, t:"Export ALL (zip backup)", d:"Spakuje sve: batches + titles + out."});
+  return steps;
+}
+
+function phPipeRenderSteps(status){
+  const ul = document.getElementById("phPipeSteps");
+  if (!ul) return;
+  const st = phPipeStepState();
+  const steps = phPipeStepsDef();
+  ul.innerHTML = "";
+  steps.forEach(s=>{
+    const li = document.createElement("li");
+    li.className = "ph-pipe-step";
+    // auto status hints
+    if (status){
+      const autoDone = status.done && status.done[s.id];
+      if (autoDone) li.classList.add("done");
+    }
+    if (st[s.id]) li.classList.add("done");
+    li.innerHTML = `
+      <div class="num">${s.n}</div>
+      <div class="meta">
+        <div class="t">${s.t}</div>
+        <div class="d">${s.d}</div>
+      </div>
+      <div class="actions">
+        <button onclick="phPipeSetStepDone('${s.id}', true)">✅ Done</button>
+        <button onclick="phPipeSetStepDone('${s.id}', false)">↩️ Reset</button>
+      </div>
+    `;
+    ul.appendChild(li);
+  });
+}
+
+async function phPipeApiGet(url){
+  const r = await fetch(url, {method:"GET"});
+  const j = await r.json();
+  if (!j.ok) throw new Error(j.error || "API error");
+  return j;
+}
+async function phPipeApiPost(url, body){
+  const r = await fetch(url, {method:"POST", headers: {"Content-Type":"application/json"}, body: JSON.stringify(body||{})});
+  const j = await r.json();
+  if (!j.ok) throw new Error(j.error || "API error");
+  return j;
+}
+
+async function phPipeRefreshStatus(){
+  try{
+    const j = await phPipeApiGet("/api/pipeline/status");
+    // counters
+    const baseCount = document.getElementById("phPipeBaseCount");
+    const inv = document.getElementById("phPipeInv");
+    const batches = document.getElementById("phPipeBatches");
+    const merged = document.getElementById("phPipeMerged");
+    if (baseCount) baseCount.textContent = (j.base_total ?? "—");
+    if (inv) inv.textContent = (j.inventory_titles ?? "—");
+    if (batches) batches.textContent = (j.batches_total_lines ?? "—");
+    if (merged) merged.textContent = (j.merged_written ?? "—");
+    phPipeRenderSteps(j);
+  }catch(e){
+    console.warn("Pipeline status error", e);
+  }
+}
+
+function phPipeBatchNo(){ 
+  const sel = document.getElementById("phPipeBatchSel");
+  return sel ? sel.value : "001";
+}
+
+async function phPipeLoadPrompt(){
+  const b = phPipeBatchNo();
+  const ta = document.getElementById("phPipeText");
+  if (!ta) return;
+  const url = `${PH_PIPE.promptsBase}recipes_batch${b}_100_FULL.txt`;
+  try{
+    const r = await fetch(url);
+    if (!r.ok) throw new Error("Ne mogu da učitam prompt fajl.");
+    const t = await r.text();
+    ta.value = t;
+    phPipeSetStepDone(`p${b}`, true);
+  }catch(e){
+    alert("❌ " + e.message);
+  }
+}
+
+async function phPipeCopyPrompt(){
+  const ta = document.getElementById("phPipeText");
+  if (!ta) return;
+  const text = ta.value || "";
+  if (!text.trim()){ alert("Nema teksta za copy."); return; }
+  try{
+    await navigator.clipboard.writeText(text);
+    alert("✅ Prompt kopiran u clipboard.");
+  }catch(e){
+    // fallback
+    ta.focus(); ta.select();
+    document.execCommand("copy");
+    alert("✅ Prompt kopiran (fallback).");
+  }
+}
+
+function phPipeDownloadInventory(){
+  // serve existing export (static file)
+  const a = document.createElement("a");
+  a.href = "data/exports/recipe_inventory_titles_prompt_ready_v5.16.1.txt";
+  a.download = "recipe_inventory_titles_prompt_ready.txt";
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  phPipeSetStepDone("inv", true);
+}
+
+async function phPipeSaveBatchFromText(){
+  const b = phPipeBatchNo();
+  const ta = document.getElementById("phPipeText");
+  const text = (ta ? ta.value : "").trim();
+  if (!text){ alert("Nalepi NDJSON u textarea prvo."); return; }
+  try{
+    await phPipeApiPost(`/api/pipeline/upload_batch?batch=${b}`, {text});
+    alert(`✅ Sačuvano: batch-${b}.ndjson`);
+    phPipeSetStepDone(`u${b}`, true);
+    phPipeRefreshStatus();
+  }catch(e){ alert("❌ " + e.message); }
+}
+
+function phPipeUploadBatchFile(){
+  const file = document.getElementById("phPipeFile");
+  if (!file) return;
+  file.value = "";
+  file.onchange = async () => {
+    const f = file.files && file.files[0];
+    if (!f) return;
+    const b = phPipeBatchNo();
+    try{
+      const fd = new FormData();
+      fd.append("file", f, f.name);
+      const r = await fetch(`/api/pipeline/upload_batch?batch=${b}`, {method:"POST", body: fd});
+      const j = await r.json();
+      if (!j.ok) throw new Error(j.error || "Upload error");
+      alert(`✅ Upload: batch-${b}.ndjson`);
+      phPipeSetStepDone(`u${b}`, true);
+      phPipeRefreshStatus();
+    }catch(e){ alert("❌ " + e.message); }
+  };
+  file.click();
+}
+
+async function phPipeExtractTitles(){
+  const b = phPipeBatchNo();
+  try{
+    const j = await phPipeApiPost(`/api/pipeline/extract_titles?batch=${b}`, {});
+    alert(`✅ Titles: ${j.count} (batch ${b})`);
+    phPipeSetStepDone(`t${b}`, true);
+    phPipeRefreshStatus();
+  }catch(e){ alert("❌ " + e.message); }
+}
+
+async function phPipeMergeTitles(){
+  try{
+    const j = await phPipeApiPost(`/api/pipeline/merge_titles`, {});
+    alert(`✅ Merged titles: ${j.count}`);
+    phPipeSetStepDone("mt", true);
+    phPipeRefreshStatus();
+  }catch(e){ alert("❌ " + e.message); }
+}
+
+function phPipeMsg(s){
+  const box = document.getElementById("phPipeRunMsg");
+  if (!box) return;
+  box.style.display = "block";
+  box.textContent = s;
+}
+
+
+async function phPipeQuickFixAll(){
+  try{
+    phPipeMsg("⏳ Quick fix ALL batch-eva…");
+    const soft_kolicina = !!document.getElementById("phPipeOptSoftKolicina")?.checked;
+    const j = await phPipeApiPost(`/api/pipeline/quick_fix_all`, {soft_kolicina});
+    try{ setTimeout(()=>phPipelineRecheckAll('Fix→Gate→Merge quick-fix'), 250); }catch(_e){}
+    const okCount = (j.results||[]).filter(x=>x && x.ok).length;
+    phPipeMsg(`✅ Quick fix ALL: ok=${okCount}, cleaned_total=${j.cleaned_total}, invalid_total=${j.invalid_total}`);
+    try{ setTimeout(()=>phPipelineRecheckAll('Quick fix ALL'), 250); }catch(_e){}
+    try{ phSessionLogRefresh(); }catch(_e){}
+    try{ phBatchDetailRefresh(); }catch(_e){}
+    try{ phHomeStudioDashRefresh(); }catch(_e){}
+  }catch(e){
+    phPipeMsg("❌ " + e.message);
+  }
+}
+
+
+
+async function phPipeFinalize1000(){
+  // One-click finish: Quick fix ALL → Gate → Merge → Download merged → open Atlas import screen.
+  try{
+    phPipeMsg("🏁 Finalize 1000: pripremam pipeline…");
+    const soft_kolicina = !!document.getElementById("phPipeOptSoftKolicina")?.checked;
+    const strict = !!document.getElementById("phPipeOptStrict")?.checked;
+    const autofix = !!document.getElementById("phPipeOptAutofix")?.checked;
+    const use_cleaned = !!document.getElementById("phPipeOptUseCleaned")?.checked;
+
+    // 1) Quick fix ALL
+    phPipeMsg("⏳ Finalize: Quick fix ALL…");
+    await phPipeApiPost(`/api/pipeline/quick_fix_all`, {soft_kolicina});
+    try{ setTimeout(()=>phPipelineRecheckAll('Finalize quick-fix'), 250); }catch(_e){}
+
+    // 2) Gate check
+    phPipeMsg("⏳ Finalize: Quality gate…");
+    const gate = await phPipeGateCheck(false);
+    if (!gate.pass){
+      const badList = (gate.bad_batches||[]).map(x=>`Batch ${x.batch}`).join(", ");
+      phPipeMsg(`⛔ Finalize STOP: Quality gate blokira merge. BAD: ${badList}. Pogledaj Batch detail i invalid fajlove.`);
+      return;
+    }
+
+    // 3) Merge
+    phPipeMsg("⏳ Finalize: Merge…");
+    const j = await phPipeApiPost(`/api/pipeline/run_merge`, {autofix, strict, soft_kolicina, use_cleaned, enforce_gate:true});
+    phPipeMsg(`✅ Finalize: Merge done. written=${j.written_merged}, invalid=${j.invalid_lines}, dup=${j.duplicate_lines}`);
+    // 3.5) Auto-import merged into Recipe Atlas (server DB + client localStorage)
+    try{
+      phPipeMsg('⏳ Finalize: Auto-import u Recipe Atlas…');
+      const imp = await phPipeApiPost(`/api/pipeline/atlas_auto_import`, {file:'out/recipes_1000_merged.ndjson', backup:true});
+      try{ localStorage.setItem('paprikasHubRecipesUserV1', imp.value || '[]'); }catch(_e){}
+      try{ await phRecipesBootstrap(true); }catch(_e){}
+      phPipeMsg(`✅ Finalize: Auto-import OK. before=${imp.before}, after=${imp.after}, replaced=${imp.replaced}, invalid=${imp.invalid}`);
+    }catch(e){
+      phPipeMsg('⚠️ Finalize: auto-import nije uspeo: ' + e.message);
+    }
+    try{ setTimeout(()=>phPipelineRecheckAll('Finalize merge'), 350); }catch(_e){}
+
+    // 4) Download merged NDJSON
+    try{
+      window.open("/api/pipeline/download?file=" + encodeURIComponent("out/recipes_1000_merged.ndjson"), "_blank");
+    }catch(_e){}
+
+    // 5) Open Recipe Atlas import screen
+    try{
+      switchTab("recipes");
+      setTimeout(()=>{
+        try{
+          // Best-effort: show a hint to user what to import.
+          alert("✅ Finalize završeno.\nSledeći korak: Recipe Atlas → Import → izaberi fajl:\n" +
+                "out/recipes_1000_merged.ndjson (download je već pokrenut).");
+        }catch(_e){}
+      }, 350);
+    }catch(_e){}
+  }catch(e){
+    phPipeMsg("❌ Finalize error: " + e.message);
+  }
+}
+
+async function phPipeGateCheck(showMsg){
+  try{
+    const soft_kolicina = !!document.getElementById("phPipeOptSoftKolicina")?.checked;
+    const r = await fetch(`/api/pipeline/quality_gate?soft_kolicina=${soft_kolicina?1:0}`);
+    const j = await r.json();
+    if (!j.ok) throw new Error(j.error || "gate error");
+    if (showMsg){
+      if (j.pass){
+        phPipeMsg(`✅ Quality gate PASS. ok=${j.counts.OK||0}, warn=${j.counts.WARN||0}, empty=${j.counts.EMPTY||0}`);
+      } else {
+        const badList = (j.bad_batches||[]).map(x=>`Batch ${x.batch}: ${((x.issues||[]).join(' • '))}`).join(" | ");
+        phPipeMsg(`⛔ Quality gate BLOCKED: BAD batch-evi postoje (${j.bad_count}). ${badList}`);
+      }
+    }
+    return j;
+  }catch(e){
+    if (showMsg) phPipeMsg("❌ Gate check error: " + e.message);
+    throw e;
+  }
+}
+
+async function phPipeFixGateMerge(){
+  try{
+    phPipeMsg("⏳ Fix→Gate→Merge: quick fix ALL…");
+    const soft_kolicina = !!document.getElementById("phPipeOptSoftKolicina")?.checked;
+    await phPipeApiPost(`/api/pipeline/quick_fix_all`, {soft_kolicina});
+    try{ await phPipeGateCheck(false); }catch(_e){}
+    // after quick fix, re-check gate
+    phPipeMsg("⏳ Fix→Gate→Merge: gate check…");
+    const gate = await phPipeGateCheck(false);
+    if (!gate.pass){
+      const badList = (gate.bad_batches||[]).map(x=>`Batch ${x.batch}`).join(", ");
+      phPipeMsg(`⛔ Gate i dalje blokira merge. BAD: ${badList}. Pogledaj Batch detail i quick-fix/invalid fajlove.`);
+      return;
+    }
+    phPipeMsg("⏳ Fix→Gate→Merge: merge…");
+    await phPipeRunMerge();
+  }catch(e){
+    phPipeMsg("❌ Fix→Gate→Merge error: " + e.message);
+  }
+}
+
+async function phPipeRunMerge(){
+  try{
+    phPipeMsg("⏳ Radim auto-fix + merge…");
+    const autofix = !!document.getElementById("phPipeOptAutofix")?.checked;
+    const strict = !!document.getElementById("phPipeOptStrict")?.checked;
+    const soft_kolicina = !!document.getElementById("phPipeOptSoftKolicina")?.checked;
+    const use_cleaned = !!document.getElementById("phPipeOptUseCleaned")?.checked;
+    const enforce_gate = !!document.getElementById("phPipeOptGate")?.checked;
+    if (enforce_gate){
+      const gate = await phPipeGateCheck(false);
+      if (!gate.pass){
+        const badList = (gate.bad_batches||[]).map(x=>`Batch ${x.batch}`).join(", ");
+        phPipeMsg(`⛔ Merge blokiran (Quality gate). BAD: ${badList}. Pokreni Quick fix ALL pa pokušaj ponovo.`);
+        return;
+      }
+    }
+    const j = await phPipeApiPost(`/api/pipeline/run_merge`, {autofix, strict, soft_kolicina, use_cleaned, enforce_gate});
+    phPipeMsg(`✅ Merge done. written=${j.written_merged}, invalid=${j.invalid_lines}, dup=${j.duplicate_lines}`);
+    try{ setTimeout(()=>phPipelineRecheckAll('Merge'), 350); }catch(_e){}
+    phPipeSetStepDone("merge", true);
+    phPipeRefreshStatus();
+  }catch(e){
+    phPipeMsg("❌ " + e.message);
+  }
+}
+
+function phPipeDownloadMerged(){
+  window.open("/api/pipeline/download?file=out/recipes_1000_merged.ndjson", "_blank");
+  phPipeSetStepDone("dl", true);
+}
+
+function phPipeDownloadReports(){
+  window.open("/api/pipeline/download?file=out/reports_bundle.zip", "_blank");
+}
+
+async function phPipeExportAll(){
+  try{
+    phPipeMsg("⏳ Pakujem export zip…");
+    const j = await phPipeApiPost("/api/pipeline/export_all", {});
+    phPipeMsg("✅ Export spreman.");
+    window.open("/api/pipeline/download?file=" + encodeURIComponent(j.file), "_blank");
+    phPipeSetStepDone("zip", true);
+  }catch(e){
+    phPipeMsg("❌ " + e.message);
+  }
+}
+
+
+async function phPipeFetchText(url){
+  const r = await fetch(url);
+  if (!r.ok) throw new Error("Fetch failed: " + url);
+  return await r.text();
+}
+
+function phPipeDetectInventoryFile(){
+  // prefer newest known file; keep backward compatible
+  const candidates = [
+    "data/exports/recipe_inventory_titles_prompt_ready_v5.16.1.txt",
+    "data/exports/recipe_inventory_titles_prompt_ready_v5.16.0.txt",
+    "data/exports/recipe_inventory_titles_prompt_ready.txt"
+  ];
+  // we can't list directory, so try sequentially
+  return candidates;
+}
+
+async function phPipeGetInventoryText(){
+  const tries = phPipeDetectInventoryFile();
+  for (const u of tries){
+    try{
+      const t = await phPipeFetchText(u);
+      if (t && t.trim()) return t;
+    }catch(_e){}
+  }
+  throw new Error("Ne mogu da učitam inventory TXT (data/exports).");
+}
+
+async function phPipeGetAllPreviousTitles(){
+  try{
+    const u = "/api/pipeline/download?file=titles/all-previous-titles.txt";
+    const t = await phPipeFetchText(u);
+    return t || "";
+  }catch(_e){
+    return "";
+  }
+}
+
+function phPipeInjectBlocks(promptText, inventoryText, prevTitlesText){
+  const invLines = inventoryText.split(/\r?\n/).map(s=>s.trim()).filter(Boolean);
+  const prevLines = prevTitlesText.split(/\r?\n/).map(s=>s.trim()).filter(Boolean);
+
+  const invBlock = invLines.length ? ("POSTOJECI_NASLOVI:\n" + invLines.map(x=> x.startsWith("-")? x : "- " + x).join("\n") + "\n") : "";
+  const prevBlock = prevLines.length ? ("VEC_GENERISANI_NASLOVI:\n" + prevLines.map(x=> x.startsWith("-")? x : "- " + x).join("\n") + "\n") : "";
+
+  let out = promptText;
+
+  const hasInv = /POSTOJECI_NASLOVI\s*:/i.test(out);
+  const hasPrev = /VEC_GENERISANI_NASLOVI\s*:/i.test(out);
+
+  if (hasInv){
+    // replace existing block (until blank line or next heading)
+    out = out.replace(/POSTOJECI_NASLOVI\s*:[\s\S]*?(?:\n{2,}|$)/i, invBlock + "\n");
+  } else if (invBlock){
+    out += "\n\n" + invBlock;
+  }
+
+  if (hasPrev){
+    out = out.replace(/VEC_GENERISANI_NASLOVI\s*:[\s\S]*?(?:\n{2,}|$)/i, prevBlock + "\n");
+  } else if (prevBlock){
+    out += "\n\n" + prevBlock;
+  }
+
+  // Safety: keep prompt size reasonable; if too huge, keep only inventory and let user dedup via app
+  if (out.length > 220000){
+    // drop prev block first
+    if (prevBlock) out = out.replace(prevBlock, "");
+    if (out.length > 220000){
+      // truncate inventory (keep first 2500 lines)
+      const keep = invLines.slice(0, 2500).map(x=> x.startsWith("-")? x : "- " + x).join("\n");
+      out = promptText + "\n\nPOSTOJECI_NASLOVI:\n" + keep + "\n\nNAPOMENA: inventory je skraćen radi limita.";
+    }
+  }
+
+  return out.trim() + "\n";
+}
+
+async function phPipeBuildPromptAuto(){
+  const b = phPipeBatchNo();
+  const ta = document.getElementById("phPipeText");
+  if (!ta) return;
+
+  try{
+    phPipeMsg("⏳ Build prompt: učitavam prompt + inventory + all-previous…");
+    const promptUrl = `${PH_PIPE.promptsBase}recipes_batch${b}_100_FULL.txt`;
+    const [promptText, invText, prevText] = await Promise.all([
+      phPipeFetchText(promptUrl),
+      phPipeGetInventoryText(),
+      phPipeGetAllPreviousTitles()
+    ]);
+    const built = phPipeInjectBlocks(promptText, invText, prevText);
+    ta.value = built;
+    phPipeMsg("✅ Prompt built (auto). Spreman za copy.");
+    phPipeSetStepDone(`p${b}`, true);
+  }catch(e){
+    phPipeMsg("❌ " + e.message);
+  }
+}
+
+function phPipeOpenPromptWindow(){
+  const ta = document.getElementById("phPipeText");
+  const text = (ta ? ta.value : "").trim();
+  if (!text){
+    alert("Prvo učitaj ili build-uj prompt.");
+    return;
+  }
+  const w = window.open("", "_blank", "noopener,noreferrer,width=900,height=780");
+  if (!w){ alert("Pop-up blocked. Dozvoli pop-up za ovaj sajt."); return; }
+
+  const safe = (s)=> String(s).replace(/[&<>"']/g, (c)=>({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+  const html = `
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Prompt Helper — ${PH_PIPE.v}</title>
+<style>
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial; margin:14px; background:#fafafa;}
+  .bar{display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin-bottom:10px;}
+  button{padding:10px 12px; border-radius:12px; border:1px solid #ddd; background:#fff; font-weight:900; cursor:pointer;}
+  button.primary{background:#111; color:#fff; border-color:#111;}
+  textarea{width:100%; min-height:70vh; border-radius:14px; border:1px solid #ddd; padding:12px; font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size:13px;}
+  .muted{color:#666; font-size:13px;}
+</style>
+</head>
+<body>
+  <div class="bar">
+    <button class="primary" id="copyBtn">📎 Copy</button>
+    <button id="selectBtn">🔎 Select all</button>
+    <span class="muted">Otvori ChatGPT, nalepi prompt, sačuvaj izlaz kao batch-00X.ndjson.</span>
+  </div>
+  <textarea id="tx">${safe(text)}</textarea>
+<script>
+  const tx=document.getElementById("tx");
+  document.getElementById("selectBtn").onclick=()=>{tx.focus(); tx.select();};
+  document.getElementById("copyBtn").onclick=async()=>{
+    try{await navigator.clipboard.writeText(tx.value); alert("✅ Copied");}
+    catch(e){tx.focus(); tx.select(); document.execCommand("copy"); alert("✅ Copied");}
+  };
+<\/script>
+</body>
+</html>`;
+  w.document.open();
+  w.document.write(html);
+  w.document.close();
+}
+
+
+
+/* =========================
+   Help / FAQ
+   ========================= */
+function phHelpInit(){
+  try{
+    // reserved for future dynamic help/search
+  }catch(_e){}
+}
+
+
+/* =========================
+   Home — Recently used + Next step
+   ========================= */
+function phGetRecentTabs(){
+  try{
+    // If app already stores recent tabs elsewhere, prefer that key.
+    const keys = ["paprikasRecentTabsV1","phRecentTabsV1","paprikasHubRecentTabsV1"];
+    for (const k of keys){
+      const raw = localStorage.getItem(k);
+      if (!raw) continue;
+      const j = JSON.parse(raw);
+      if (Array.isArray(j) && j.length) return j;
+      if (j && Array.isArray(j.list)) return j.list;
+    }
+  }catch(_e){}
+  return [];
+}
+
+function phSetRecentTabs(list){
+  try{
+    localStorage.setItem("paprikasRecentTabsV1", JSON.stringify(list.slice(0,8)));
+  }catch(_e){}
+}
+
+function phRememberRecentCompat(tabId){
+  // wrapper: keep existing behavior if function exists
+  try{
+    if (typeof phRememberRecent === "function") { phRememberRecent(tabId); return; }
+  }catch(_e){}
+  try{
+    const cur = phGetRecentTabs().filter(x=>x && x !== tabId);
+    cur.unshift(tabId);
+    phSetRecentTabs(cur);
+  }catch(_e){}
+}
+
+function phTabLabel(tabId){
+  try{
+    // existing mapping
+    if (typeof tabLabels === "object" && tabLabels[tabId]) return tabLabels[tabId];
+  }catch(_e){}
+  const fallback = {
+    home:"Početna", recipes:"Recipe Atlas", studio:"Content Studio", manual:"Uputstvo", help:"Help/FAQ",
+    library:"Biblioteka", atlas:"Rescue Atlas", calc:"Kalkulator", diary:"Dnevnik"
+  };
+  return fallback[tabId] || tabId;
+}
+
+function phRenderRecentTabs(){
+  const bar = document.getElementById("phRecentTabsBar");
+  if (!bar) return;
+  const list = phGetRecentTabs().filter(Boolean);
+  const unique = [];
+  for (const t of list){
+    if (!unique.includes(t)) unique.push(t);
+  }
+  const top = unique.slice(0,6);
+  bar.innerHTML = "";
+  if (!top.length){
+    const b = document.createElement("div");
+    b.className = "muted";
+    b.textContent = "Još nema istorije. Otvori par ekrana, pa će se ovde pojaviti prečice.";
+    bar.appendChild(b);
+    return;
+  }
+  top.forEach(t=>{
+    const btn = document.createElement("button");
+    btn.type="button";
+    btn.className="ph-recent-btn";
+    btn.onclick = ()=> switchTab(t);
+    btn.innerHTML = `${phTabLabel(t)}<span class="sm">${t}</span>`;
+    bar.appendChild(btn);
+  });
+}
+
+async function phHomeNextRefresh(){
+  const note = document.getElementById("phNextStepNote");
+  const btn = document.getElementById("phNextStepBtn");
+  if (note) note.textContent = "⏳ Učitavam preporuku…";
+  try{
+    const r = await fetch("/api/pipeline/status");
+    const j = await r.json();
+    if (!j.ok) throw new Error(j.error||"status error");
+    const files = j.files || {};
+    // compute next step:
+    // 1) find first batch with 0 lines => recommend start it (if previous batches completed)
+    // 2) else find first batch with 1..99 => recommend finish that batch
+    // 3) else if all 10 have >=100 but titles not merged => recommend extract titles / merge titles
+    // 4) else if merge not done => recommend run merge
+    // 5) else recommend import merged into Recipe Atlas
+    const batches = [];
+    for (let i=1;i<=10;i++){
+      const b = String(i).padStart(3,'0');
+      const lines = Number((files[b]||{}).lines||0);
+      batches.push({b, lines});
+    }
+    const firstPartial = batches.find(x=>x.lines>0 && x.lines<100);
+    const firstEmpty = batches.find(x=>x.lines===0);
+    const allFull = batches.every(x=>x.lines>=100);
+
+    let action = {label:"🧰 Otvori Content Studio", tab:"studio", batch:"001", msg:"Otvori Content Studio i nastavi batch-eve."};
+
+    if (firstPartial){
+      action = {label:`🧰 Nastavi Batch ${firstPartial.b}`, tab:"studio", batch:firstPartial.b,
+                msg:`Batch ${firstPartial.b} je u toku (${firstPartial.lines}/100). Predlog: završi ovaj batch.`};
+    } else if (firstEmpty){
+      // if there are previous full batches, start next empty; else start batch 001
+      const startedAny = batches.some(x=>x.lines>0);
+      const nextB = startedAny ? firstEmpty.b : "001";
+      action = {label:`🧰 Pokreni Batch ${nextB}`, tab:"studio", batch:nextB,
+                msg:`Batch ${nextB} još nije krenuo. Predlog: Build prompt (auto) → generiši 100 → sačuvaj batch.`};
+    } else if (allFull){
+      const done = j.done || {};
+      if (!done.mt){
+        action = {label:"🧩 Merge titles", tab:"studio", batch:"010",
+                  msg:"Svi batch-evi deluju puni. Predlog: Merge titles (all-previous) pa onda Auto-fix + Merge."};
+      } else if (!done.merge){
+        action = {label:"🧪 Auto-fix + Merge", tab:"studio", batch:"010",
+                  msg:"Titles su spojeni. Predlog: pokreni Auto-fix + Merge da dobiješ finalni merged NDJSON."};
+      } else {
+        action = {label:"📖 Importuj merged u Atlas", tab:"recipes", batch:"010",
+                  msg:"Merge je gotov. Predlog: idi u Recipe Atlas i importuj out/recipes_1000_merged.ndjson."};
+      }
+    }
+
+    if (note) note.textContent = "✅ " + action.msg;
+    if (btn){
+      btn.textContent = action.label;
+      btn.onclick = ()=> {
+        if (action.tab === "studio") phOpenStudioBatch(action.batch);
+        else switchTab(action.tab);
+      };
+    }
+  }catch(e){
+    if (note) note.textContent = "❌ Ne mogu da učitam status. Proveri da li server radi (8015).";
+    console.warn(e);
+    if (btn){
+      btn.textContent = "🧰 Otvori Content Studio";
+      btn.onclick = ()=> switchTab("studio");
+    }
+  }
+}
+
+function phHomeNextInit(){
+  try{
+    phRenderRecentTabs();
+    phHomeNextRefresh();
+  }catch(_e){}
+}
+
+
+
+
+
+function phBatchDownloadInvalid(){
+  const batch = phBatchDetailCurrentBatch();
+  const file = `batches/batch-${batch}.invalid.ndjson`;
+  window.open("/api/pipeline/download?file=" + encodeURIComponent(file), "_blank");
+}
+async function phBatchPromoteCleaned(){
+  const batch = phBatchDetailCurrentBatch();
+  if (!confirm(`Promote cleaned -> raw za batch ${batch}?\n(Ovo će zameniti batch-${batch}.ndjson cleaned verzijom; original ide u .bak)`)) return;
+  try{
+    const r = await fetch("/api/pipeline/promote_cleaned", {
+      method:"POST",
+      headers:{"Content-Type":"application/json"},
+      body: JSON.stringify({batch, keep_backup:true})
+    });
+    const j = await r.json();
+    if (!j.ok) throw new Error(j.error || "promote error");
+    alert(`✅ Promoted cleaned za batch ${batch}\nbackup=${j.backup || '—'}`);
+    try{ setTimeout(()=>phPipelineRecheckAll('Promote cleaned '+batch), 250); }catch(_e){}
+    try{ phSessionLogRefresh(); }catch(_e){}
+    try{ phBatchDetailRefresh(batch); }catch(_e){}
+    try{ phHomeStudioDashRefresh(); }catch(_e){}
+  }catch(e){
+    alert("❌ " + e.message);
+  }
+}
+
+/* =========================
+   Quick fix batch
+   ========================= */
+async function phBatchQuickFix(){
+  const batch = phBatchDetailCurrentBatch();
+  try{
+    const soft_kolicina = !!document.getElementById("phPipeOptSoftKolicina")?.checked || true;
+    const r = await fetch("/api/pipeline/quick_fix", {
+      method: "POST",
+      headers: {"Content-Type":"application/json"},
+      body: JSON.stringify({batch, soft_kolicina})
+    });
+    const j = await r.json();
+    if (!j.ok) throw new Error(j.error || "Quick fix error");
+    alert(`✅ Quick fix batch ${batch}\ncleaned=${j.written_cleaned}\ninvalid=${j.invalid_lines}\nfile=${j.cleaned_file}`);
+    try{ setTimeout(()=>phPipelineRecheckAll('Quick fix batch '+batch), 250); }catch(_e){}
+    try{ phSessionLogRefresh(); }catch(_e){}
+    try{ phBatchDetailRefresh(batch); }catch(_e){}
+  }catch(e){
+    alert("❌ " + e.message);
+  }
+}
+function phBatchDownloadCleaned(){
+  const batch = phBatchDetailCurrentBatch();
+  const file = `batches/batch-${batch}.cleaned.ndjson`;
+  window.open("/api/pipeline/download?file=" + encodeURIComponent(file), "_blank");
+}
+
+/* =========================
+   Batch detail
+   ========================= */
+function phBatchDetailCurrentBatch(){
+  const selStudio = document.getElementById("phPipeBatchSel");
+  if (selStudio && selStudio.value) return selStudio.value;
+  const selHome = document.getElementById("phHomeBatchDetailSel");
+  if (selHome && selHome.value) return selHome.value;
+  return "001";
+}
+function phBatchDetailSyncSelectors(batch){
+  try{
+    const b = String(batch || "001").padStart(3,"0");
+    const selHome = document.getElementById("phHomeBatchDetailSel");
+    if (selHome) selHome.value = b;
+    const selStudio = document.getElementById("phPipeBatchSel");
+    if (selStudio) selStudio.value = b;
+    localStorage.setItem("paprikasBatchDetailCurrentV1", b);
+  }catch(_e){}
+}
+function phBatchDetailFillHomeSelect(){
+  const sel = document.getElementById("phHomeBatchDetailSel");
+  if (!sel || sel._phInit) return;
+  sel._phInit = true;
+  sel.innerHTML = "";
+  for (let i=1;i<=10;i++){
+    const b = String(i).padStart(3,"0");
+    const opt = document.createElement("option");
+    opt.value = b;
+    opt.textContent = `Batch ${b}`;
+    sel.appendChild(opt);
+  }
+  const saved = localStorage.getItem("paprikasBatchDetailCurrentV1") || "001";
+  sel.value = saved;
+  sel.onchange = ()=> {
+    phBatchDetailSyncSelectors(sel.value);
+    phBatchDetailRefresh();
+  };
+}
+function phBatchDetailRenderStats(elId, info){
+  const box = document.getElementById(elId);
+  if (!box) return;
+  if (!info){
+    box.textContent = "Nema detalja.";
+    return;
+  }
+  const note = info.last_note ? `<div style="margin-top:10px"><b>Poslednja napomena:</b><div style="margin-top:4px; white-space:pre-wrap">${String(info.last_note).replace(/[<>&]/g, s=>({"<":"&lt;",">":"&gt;","&":"&amp;"}[s]))}</div></div>` : "";
+  box.innerHTML = `
+    <div><b>Batch ${info.batch}</b> • ${info.status_label}</div>
+    <div class="ph-batch-detail-kv">
+      <div class="mini"><b>${info.lines}</b><span>linija</span></div>
+      <div class="mini"><b>${info.missing_to_100}</b><span>fali do 100</span></div>
+      <div class="mini"><b>${info.titles_count}</b><span>izvučeni naslovi</span></div>
+      <div class="mini"><b>${info.note_count}</b><span>napomena/log stavki</span></div>
+    </div>
+    ${note}
+  `;
+}
+function phBatchDetailRenderLog(elId, items){
+  const box = document.getElementById(elId);
+  if (!box) return;
+  box.innerHTML = "";
+  const list = Array.isArray(items) ? items.slice(0, 8) : [];
+  if (!list.length){
+    box.innerHTML = '<div class="muted">Nema log stavki za ovaj batch.</div>';
+    return;
+  }
+  list.forEach(it=>{
+    const div = document.createElement("div");
+    div.className = "ph-log-item";
+    const lines = (typeof it.lines === "number") ? ` • ${it.lines} lin.` : "";
+    const note = it.note ? `<div class="n">${String(it.note).replace(/[<>&]/g, s=>({"<":"&lt;",">":"&gt;","&":"&amp;"}[s]))}</div>` : "";
+    div.innerHTML = `<div class="t">${it.action || "aktivnost"}${lines}</div><div class="m">${it.time_local || it.time_utc || "—"}</div>${note}`;
+    box.appendChild(div);
+  });
+}
+async function phBatchDetailRefresh(batch){
+  try{
+    phBatchDetailFillHomeSelect();
+    const b = String(batch || phBatchDetailCurrentBatch()).padStart(3,"0");
+    phBatchDetailSyncSelectors(b);
+    const r = await fetch(`/api/pipeline/batch_detail?batch=${b}`);
+    const j = await r.json();
+    if (!j.ok) throw new Error(j.error || "detail error");
+    phBatchDetailRenderStats("phHomeBatchDetailStats", j);
+    phBatchDetailRenderStats("phStudioBatchDetailStats", j);
+    phBatchDetailRenderLog("phHomeBatchDetailLog", j.log_items || []);
+    phBatchDetailRenderLog("phStudioBatchDetailLog", j.log_items || []);
+  }catch(e){
+    ["phHomeBatchDetailStats","phStudioBatchDetailStats"].forEach(id=>{
+      const box = document.getElementById(id);
+      if (box) box.textContent = "❌ Ne mogu da učitam batch detail.";
+    });
+    ["phHomeBatchDetailLog","phStudioBatchDetailLog"].forEach(id=>{
+      const box = document.getElementById(id);
+      if (box) box.innerHTML = '<div class="muted">❌ Ne mogu da učitam batch detail log.</div>';
+    });
+    console.warn(e);
+  }
+}
+function phBatchDetailOpen(){
+  const b = phBatchDetailCurrentBatch();
+  phOpenStudioBatch(b);
+}
+async function phBatchDetailPrefillNote(){
+  try{
+    const b = phBatchDetailCurrentBatch();
+    const r = await fetch(`/api/pipeline/batch_detail?batch=${b}`);
+    const j = await r.json();
+    if (!j.ok) throw new Error(j.error || "detail error");
+    const ta = document.getElementById("phSessionLogNote");
+    if (!ta){ alert("Nema editora za napomenu."); return; }
+    ta.value = j.last_note || "";
+    ta.focus();
+  }catch(e){
+    alert("❌ " + e.message);
+  }
+}
+
+/* =========================
+   Session log
+   ========================= */
+async function phSessionLogFetch(){
+  const r = await fetch("/api/pipeline/log");
+  const j = await r.json();
+  if (!j.ok) throw new Error(j.error || "log error");
+  return j;
+}
+function phSessionLogRenderInto(elId, items){
+  const box = document.getElementById(elId);
+  if (!box) return;
+  box.innerHTML = "";
+  const list = Array.isArray(items) ? items.slice(0, 12) : [];
+  if (!list.length){
+    box.innerHTML = '<div class="muted">Još nema session log stavki.</div>';
+    return;
+  }
+  list.forEach(it=>{
+    const div = document.createElement("div");
+    div.className = "ph-log-item";
+    const when = it.time_local || it.time_utc || "—";
+    const batch = it.batch ? ` • Batch ${it.batch}` : "";
+    const lines = (typeof it.lines === "number") ? ` • ${it.lines} lin.` : "";
+    const note = it.note ? `<div class="n">${String(it.note).replace(/[<>&]/g, s=>({"<":"&lt;",">":"&gt;","&":"&amp;"}[s]))}</div>` : "";
+    div.innerHTML = `<div class="t">${it.action || "aktivnost"}${batch}${lines}</div><div class="m">${when}</div>${note}`;
+    box.appendChild(div);
+  });
+}
+async function phSessionLogRefresh(){
+  try{
+    const j = await phSessionLogFetch();
+    phSessionLogRenderInto("phHomeSessionLogList", j.items || []);
+    phSessionLogRenderInto("phStudioSessionLogList", j.items || []);
+  }catch(e){
+    const ids = ["phHomeSessionLogList","phStudioSessionLogList"];
+    ids.forEach(id=>{
+      const box = document.getElementById(id);
+      if (box) box.innerHTML = '<div class="muted">❌ Ne mogu da učitam session log.</div>';
+    });
+    console.warn(e);
+  }
+}
+async function phSessionLogAddNote(){
+  const note = (document.getElementById("phSessionLogNote")?.value || "").trim();
+  const batch = (document.getElementById("phPipeBatchSel")?.value || "");
+  if (!note){
+    alert("Upiši napomenu prvo.");
+    return;
+  }
+  try{
+    const r = await fetch("/api/pipeline/log_add", {
+      method:"POST",
+      headers:{"Content-Type":"application/json"},
+      body: JSON.stringify({batch, action:"manual_note", note})
+    });
+    const j = await r.json();
+    if (!j.ok) throw new Error(j.error || "save error");
+    document.getElementById("phSessionLogNote").value = "";
+    alert("✅ Napomena je sačuvana u session log.");
+    phSessionLogRefresh();
+  }catch(e){
+    alert("❌ " + e.message);
+  }
+}
+function phSessionLogDownload(){
+  window.open("/api/pipeline/download?file=session_log.json", "_blank");
+}
+
+/* =========================
+   Home — Content Studio Dashboard
+   ========================= */
+function phOpenStudioBatch(batch){
+  try{ phBatchDetailSyncSelectors(batch); }catch(_e){}
+  try{ switchTab('studio'); }catch(_e){}
+  setTimeout(()=>{
+    try{
+      const sel = document.getElementById("phPipeBatchSel");
+      if (sel){
+        sel.value = String(batch).padStart(3,'0');
+      }
+      // auto build prompt (best effort)
+      if (typeof phPipeBuildPromptAuto === "function"){
+        phPipeBuildPromptAuto();
+      } else if (typeof phPipeLoadPrompt === "function"){
+        phPipeLoadPrompt();
+      }
+    }catch(_e){}
+  }, 350);
+}
+
+async function phHomeStudioDashRefresh(){
+  const grid = document.getElementById("phHomeBatchGrid");
+  const msg = document.getElementById("phHomeStudioDashMsg");
+  if (!grid) return;
+  try{
+    if (msg) msg.textContent = "⏳ Učitavam status…";
+    const r = await fetch("/api/pipeline/status");
+    const j = await r.json();
+    if (!j.ok) throw new Error(j.error || "status error");
+    const files = j.files || {};
+    grid.innerHTML = "";
+    let done=0, partial=0, empty=0;
+    for (let i=1;i<=10;i++){
+      const b = String(i).padStart(3,'0');
+      const info = files[b] || {exists:false, lines:0};
+      const lines = Number(info.lines||0);
+      let cls = "ph-batch-chip empty";
+      let state = "nije krenuto";
+      if (lines >= 100){ cls = "ph-batch-chip done"; state = "spremno"; done++; }
+      else if (lines > 0){ cls = "ph-batch-chip partial"; state = "u toku"; partial++; }
+      else { empty++; }
+      const btn = document.createElement("button");
+      btn.className = cls;
+      btn.type = "button";
+      btn.onclick = ()=> phOpenStudioBatch(b);
+      btn.innerHTML = `<div class="t">Batch ${b}</div><div class="s">${lines}/100 • ${state}</div>`;
+      grid.appendChild(btn);
+    }
+    if (msg) msg.textContent = `✅ Status: ${done} završeno, ${partial} u toku, ${empty} prazno.`;
+  }catch(e){
+    if (msg) msg.textContent = "❌ Ne mogu da učitam status. Proveri da li server radi (8015).";
+    console.warn(e);
+  }
+}
+
+try{ setTimeout(phPipeInit, 500); }catch(_e){}
+try{ setTimeout(phHomeStudioDashRefresh, 900); }catch(_e){}
+try{ setTimeout(phHomeNextInit, 1100); }catch(_e){}
+try{ setTimeout(()=>phPipelineRecheckAll('startup'), 1700); }catch(_e){}
+try{ setTimeout(phSessionLogRefresh, 1300); }catch(_e){}
+try{ setTimeout(phBatchDetailRefresh, 1500); }catch(_e){}
+
+
+/* =========================
+   Batch detail — render (health aware override)
+   ========================= */
+function phBatchDetailRenderStats(elId, info){
+  const box = document.getElementById(elId);
+  if (!box) return;
+  if (!info){ box.textContent = "Nema detalja."; return; }
+
+  const health = info.health || "—";
+  const hm = info.health_metrics || {};
+  const issues = Array.isArray(info.health_issues) ? info.health_issues : [];
+  const pill = (h)=>{
+    const cls = (h==="OK")?"good":(h==="WARN")?"warn":"bad";
+    return `<span class="pill ${cls}">${h}</span>`;
+  };
+  const safe = (s)=> String(s).replace(/[<>&]/g, ch=>({"<":"&lt;",">":"&gt;","&":"&amp;"}[ch]));
+  const issuesHtml = issues.length ? `<div style="margin-top:8px"><b>Issues:</b> <span class="muted">${safe(issues.join(" • "))}</span></div>`
+                                  : `<div style="margin-top:8px" class="muted">Bez problema detektovanih.</div>`;
+  const note = info.last_note ? `<div style="margin-top:10px"><b>Poslednja napomena:</b><div style="margin-top:4px; white-space:pre-wrap">${safe(info.last_note)}</div></div>` : "";
+
+  box.innerHTML = `
+    <div><b>Batch ${info.batch}</b> • ${info.status_label} • ${pill(health)}</div>
+    <div class="ph-batch-detail-kv">
+      <div class="mini"><b>${info.lines}</b><span>linija</span></div>
+      <div class="mini"><b>${info.missing_to_100}</b><span>fali do 100</span></div>
+      <div class="mini"><b>${info.titles_count}</b><span>izvučeni naslovi</span></div>
+      <div class="mini"><b>${info.note_count}</b><span>napomena/log</span></div>
+      <div class="mini"><b>${hm.min_steps ?? "—"}</b><span>min koraka</span></div>
+      <div class="mini"><b>${hm.min_ingredients ?? "—"}</b><span>min sastojaka</span></div>
+      <div class="mini"><b>${hm.parse_err ?? "—"}</b><span>invalid JSON</span></div>
+      <div class="mini"><b>${hm.empty_kolicina ?? "—"}</b><span>prazna količina</span></div>
+    </div>
+    ${issuesHtml}
+    ${note}
+  `;
+}
+
+
+/* =========================
+   Home dashboard — health aware override
+   ========================= */
+async function phHomeStudioDashRefresh(){
+  const grid = document.getElementById("phHomeBatchGrid");
+  const msg = document.getElementById("phHomeStudioDashMsg");
+  if (!grid) return;
+  try{
+    if (msg) msg.textContent = "⏳ Učitavam status…";
+    const [rs, rh] = await Promise.all([
+      fetch("/api/pipeline/status"),
+      fetch("/api/pipeline/health_summary?soft_kolicina=1")
+    ]);
+    const js = await rs.json();
+    const jh = await rh.json();
+    if (!js.ok) throw new Error(js.error || "status error");
+    const files = js.files || {};
+    const healthMap = (jh && jh.ok) ? (jh.items || {}) : {};
+
+    grid.innerHTML = "";
+    let done=0, partial=0, empty=0;
+    for (let i=1;i<=10;i++){
+      const b = String(i).padStart(3,'0');
+      const info = files[b] || {exists:false, lines:0};
+      const lines = Number(info.lines||0);
+      let cls = "ph-batch-chip empty";
+      let state = "nije krenuto";
+      if (lines >= 100){ cls = "ph-batch-chip done"; state = "spremno"; done++; }
+      else if (lines > 0){ cls = "ph-batch-chip partial"; state = "u toku"; partial++; }
+      else { empty++; }
+
+      const h = (healthMap[b]||{}).health || "";
+      let hIcon = "";
+      if (h==="OK"){ cls += " ok"; hIcon="✅ "; }
+      else if (h==="WARN"){ cls += " warn"; hIcon="⚠️ "; }
+      else if (h==="BAD"){ cls += " bad"; hIcon="❌ "; }
+
+      const btn = document.createElement("button");
+      btn.className = cls;
+      btn.type = "button";
+      btn.onclick = ()=> phOpenStudioBatch(b);
+      btn.innerHTML = `<div class="t">${hIcon}Batch ${b}</div><div class="s">${lines}/100 • ${state}${h?(" • "+h):""}</div>`;
+      grid.appendChild(btn);
+    }
+    if (msg) msg.textContent = `✅ Status: ${done} završeno, ${partial} u toku, ${empty} prazno.`;
+  }catch(e){
+    if (msg) msg.textContent = "❌ Ne mogu da učitam status. Proveri da li server radi (8015).";
+    console.warn(e);
+  }
+}
+
+
+/* =========================
+   Pipeline recheck loop
+   ========================= */
+function phRecheckStamp(msg){
+  try{
+    const el = document.getElementById("phRecheckStamp");
+    if (el) el.textContent = msg || "";
+  }catch(_e){}
+}
+async function phPipelineRecheckAll(reason){
+  try{
+    const tag = reason ? ` • ${reason}` : "";
+    phRecheckStamp(`⏳ Recheck…${tag}`);
+    const tasks = [];
+    try{ if (typeof phPipeRefreshStatus === "function") tasks.push(Promise.resolve(phPipeRefreshStatus())); }catch(_e){}
+    try{ if (typeof phHomeStudioDashRefresh === "function") tasks.push(Promise.resolve(phHomeStudioDashRefresh())); }catch(_e){}
+    try{ if (typeof phBatchDetailRefresh === "function") tasks.push(Promise.resolve(phBatchDetailRefresh())); }catch(_e){}
+    try{ if (typeof phSessionLogRefresh === "function") tasks.push(Promise.resolve(phSessionLogRefresh())); }catch(_e){}
+    try{ if (typeof phHomeNextRefresh === "function") tasks.push(Promise.resolve(phHomeNextRefresh())); }catch(_e){}
+    await Promise.allSettled(tasks);
+    const now = new Date();
+    phRecheckStamp(`✅ Recheck: ${now.toLocaleString()}${tag}`);
+  }catch(e){
+    phRecheckStamp("⚠️ Recheck error: " + (e?.message || String(e)));
+  }
+}
+
+
+async function phPipeAtlasAutoImport(){
+  try{
+    phPipeMsg("⏳ Auto-import u Recipe Atlas…");
+    const imp = await phPipeApiPost(`/api/pipeline/atlas_auto_import`, {file:'out/recipes_1000_merged.ndjson', backup:true});
+    try{ localStorage.setItem('paprikasHubRecipesUserV1', imp.value || '[]'); }catch(_e){}
+    try{ await phRecipesBootstrap(true); }catch(_e){}
+    phPipeMsg(`✅ Auto-import OK. before=${imp.before}, after=${imp.after}, replaced=${imp.replaced}, invalid=${imp.invalid}`);
+    try{ setTimeout(()=>phPipelineRecheckAll('Atlas auto-import'), 300); }catch(_e){}
+  }catch(e){
+    phPipeMsg("❌ Auto-import error: " + e.message);
+  }
+}
+
+
+async function phPipeAtlasRollbackLast(){
+  if (!confirm("Rollback last auto-import?\nOvo vraća prethodni DB backup (pre poslednjeg import-a).")) return;
+  try{
+    phPipeMsg("⏳ Rollback last import…");
+    const r = await fetch("/api/pipeline/atlas_rollback_last", {method:"POST", headers:{"Content-Type":"application/json"}, body:"{}"});
+    const j = await r.json();
+    if (!j.ok) throw new Error(j.error || "rollback error");
+    try{ localStorage.setItem('paprikasHubRecipesUserV1', j.value || '[]'); }catch(_e){}
+    try{ await phRecipesBootstrap(true); }catch(_e){}
+    phPipeMsg(`✅ Rollback OK. backup=${j.backup}`);
+    try{ setTimeout(()=>phPipelineRecheckAll('Atlas rollback'), 300); }catch(_e){}
+    try{ switchTab('recipes'); }catch(_e){}
+  }catch(e){
+    phPipeMsg("❌ Rollback error: " + e.message);
+  }
+}
+
+async function phPipeAtlasHistory(){
+  try{
+    const r = await fetch("/api/pipeline/atlas_import_history?limit=12");
+    const j = await r.json();
+    if (!j.ok) throw new Error(j.error || "history error");
+    const items = j.items || [];
+    if (!items.length){
+      alert("Nema import istorije još.");
+      return;
+    }
+    const lines = items.map((it, idx)=>{
+      const t = it.time_utc || '';
+      const file = it.file || '';
+      const backup = it.backup || '';
+      const inc = it.incoming ?? '';
+      const inv = it.invalid ?? '';
+      const rep = it.replaced ?? '';
+      return `${idx+1}. ${t} | file=${file} | backup=${backup} | incoming=${inc} | invalid=${inv} | replaced=${rep}`;
+    }).join("\n");
+    alert("🗂️ Atlas import history:\n\n" + lines);
+  }catch(e){
+    alert("❌ " + e.message);
+  }
 }
 
 </script>

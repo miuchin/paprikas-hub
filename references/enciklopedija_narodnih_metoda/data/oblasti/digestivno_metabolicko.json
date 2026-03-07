@@ -1,0 +1,434 @@
+{
+  "metadata": {
+    "version": "v11",
+    "area_key": "digestivno_metabolicko",
+    "area_title": "Digestivno i metaboličko",
+    "source_book": "Enciklopedija narodnih metoda lečenja",
+    "item_count": 16
+  },
+  "counts": {
+    "recepti_protokoli": 9,
+    "biljke_i_namirnice": 0,
+    "tegobe": 6,
+    "opsti_saveti": 1
+  },
+  "items": [
+    {
+      "id": "gladovanje-i-detoksikacija",
+      "naziv": "Gladovanje i detoksikacija",
+      "tip": "opsti_savet",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        231
+      ],
+      "opis_kratak": "Bubrezi izbacuju iz jetre krajnje produkte hrane i razmene materija u organizmu. Creva izbacuju ne samo otpatke hrane nego i otpatke organizma u obliku iskorišćenih ćelija i tkiva, koje se javljaju kao rezulat naših fizičkih i umnih aktivnosti. Jedna od prvih i brzih metoda čišćenja, posebno za odrasle je sledeća: PAŽNJA: ne primenjivati",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-231",
+      "raspon_strana": "231",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Gladovanje i detoksikacija",
+        "podtip": "opsti_saveti",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.74,
+      "review_note": "naslov više liči na biljku/namirnicu ili pomoćni sastojak; preklasifikovano kao opšti savet / protokol iz dela o detoksikaciji",
+      "normalized_naziv": "Gladovanje",
+      "_category": "opsti_saveti"
+    },
+    {
+      "id": "bolovi-u-zucnoj-kesi-kolike",
+      "naziv": "Bolovi u žučnoj kesi (kolike)",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "DISANJE PO SISTEMU BUTEJKO VEŽBA PRVA",
+      "strane": [
+        97
+      ],
+      "opis_kratak": "Bolovi u žučnoj kesi (kolike) Osobine - Umirujućatačka. Delovanje - laka akupresura",
+      "tagovi": [
+        "disanje"
+      ],
+      "anchor": "index.html#page-97",
+      "raspon_strana": "97",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Bolovi u žučnoj kesi (kolike)",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "crveni-vetar",
+      "naziv": "Crveni vetar",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "PROPOLIS",
+      "strane": [
+        39,
+        41,
+        42
+      ],
+      "opis_kratak": "Tinktura runolista sa medom: Pripremite tinkturu od runolista (priprema se isto kao i od kamilice, odnos 1:10), rastvorite u njoj med (na 1 čašu tinkture 1 sup.kaš.) i koristite za ispiranje, kvašenje i komprese kod gnojnih rana koje dugo ne zarastaju, čireva, opekotina i sl. Pije se po 1/3 čaše 2-3 puta dnevno posle jela kao, protivupalno sredstvo kod čira želuca i duodenuma. Primena meda u kozmetici",
+      "tagovi": [
+        "propolis",
+        "pčelarstvo"
+      ],
+      "anchor": "index.html#page-39",
+      "raspon_strana": "39-42",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Crveni vetar",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "dijabetes",
+      "naziv": "Dijabetes",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "PROPOLIS",
+      "strane": [
+        53
+      ],
+      "opis_kratak": "mumio se meša sa goveđim ili svinjskim salom, sa sokom od peršuna, kima ili sa žumancetom, sa uijem od kokosa ili neke druge lekovite biljke. Krvarenja iz nosa",
+      "tagovi": [
+        "propolis",
+        "pčelarstvo"
+      ],
+      "anchor": "index.html#page-53",
+      "raspon_strana": "53",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Dijabetes",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "hipertonija",
+      "naziv": "Hipertonija",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "PROPOLIS",
+      "strane": [
+        37,
+        56,
+        67,
+        98
+      ],
+      "opis_kratak": "Faktori koji su vezani za smanjenje CO2 u krvi: - Prvi faktor - spazam glatkih mišića Drugi faktor - oštećenje tkiva krvnih sudova povećanje njihove propustljivosti. Zidove krvnih sudova oštećuje nedostatak CO2. Pri hiperventilaciji CO2 dospeva kako u arterijalnu tako i u vensku krv, odakle se i pojavljuje upala ven'a. - Treći faktor. Povećanje holesterola. Sinteza holesterina odvija se samo u jetri i samo 1/5...",
+      "tagovi": [
+        "disanje",
+        "propolis",
+        "pčelarstvo"
+      ],
+      "anchor": "index.html#page-37",
+      "raspon_strana": "37-98",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Hipertonija",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "kupka-tipa-ros-poze",
+      "naziv": "Kupka tipa Roš-Poze",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "LEČENJE VRUĆIM KUPKAMA UZ DODATAK ODVARA LEKOVITIH - BILJAKA",
+      "strane": [
+        165
+      ],
+      "opis_kratak": "kupke oživljavaju i pobuđuju nerve kože i glavnih krvnih sudova. Za punu kadu potreban je 1kg. lavandinog cveta. Kupke sa gorušicom Dodaje se (suva) gorušica samo za delimične kupke za ruke ili noge: uzeti 2-3 pregršti, preliti vrućom vodom - 50°C i dobro promešati da ne ostanu grudvice i dodati u kadu. Gorušičina etarska ulja koja se pri",
+      "tagovi": [
+        "biljke",
+        "kupka"
+      ],
+      "anchor": "index.html#page-165",
+      "raspon_strana": "165",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Kupka tipa Roš-Poze",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "pelen-alkoholna-tinktura",
+      "naziv": "Pelen - alkoholna tinktura",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        271
+      ],
+      "opis_kratak": "Kod gripa se preporučuje piti šipurak u toku nedelju dana postepenuo smanjujućidozu. 3. Pelen, alkoholna tinktura U flašu od četvrt litra sipati pelen i ostaviti da odstoji 21 dan na tamnom mestu, procediti. Piti kod prehlada i promrzlina po 20g. jednom dnevno Piti najduže 2-3 dana. 4. Cvetovilipe-1 deo, plodovišibikovine -1 deo. Dve supe",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-271",
+      "raspon_strana": "271",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Pelen - alkoholna tinktura",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.72,
+      "review_note": "naslov više liči na biljku/namirnicu ili pomoćni sastojak; preklasifikovano kao narodni protokol / preparat",
+      "normalized_naziv": "Pelen - alkoholna tinktura",
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "sok-od-kupusa",
+      "naziv": "Sok od kupusa",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "SOKOVI OD POVRĆA",
+      "strane": [
+        8
+      ],
+      "opis_kratak": "Upotrebom soka od kupusa začuđujuće brzo zarasta čir na duodenumu (dvanaestopalačnom crevu). Jedina neprijatnost je često stvaranje gasova. Sa istim uspehom može se upotrebljavati sok od mrkve koji je znatno ukusniji. Sok od kupusa ima izuzetno dejstvo čišćenja i smanjivanja telesne težine. Stvaranje gasova u crevima objašnjava se time št",
+      "tagovi": [
+        "ishrana",
+        "sok"
+      ],
+      "anchor": "index.html#page-8",
+      "raspon_strana": "8",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Sok od kupusa",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "sok-od-mahuna",
+      "naziv": "Sok od mahuna",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "SOKOVI OD POVRĆA",
+      "strane": [
+        15
+      ],
+      "opis_kratak": "Ovaj sok je posebno koristan dijabetičarima. Dijabetes je bolest izazvana nepravilnom ishranom, i to upravo prekomernom upotrebom koncentrovanog skroba i šećera. Dokazano je da injekcije insulina nisu sredstvo za lečenje ove bolesti. Dijabetes nije nasledna bolest, ona se može izazvati upotrebom velike količine ugljenih hidrata. Utvrđeno",
+      "tagovi": [
+        "ishrana",
+        "sok"
+      ],
+      "anchor": "index.html#page-15",
+      "raspon_strana": "15",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Sok od mahuna",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "covek-i-magnetne-bure",
+      "naziv": "Čovek i magnetne bure",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "DISANJE PO SISTEMU BUTEJKO VEŽBA PRVA",
+      "strane": [
+        88
+      ],
+      "opis_kratak": "Zatim je potrebno nabaviti ili napraviti jednostavnu spravu za rastvaranje morske soli u vodi. Na sl. 9. prikazana je takva sprava. Kućište (kutija) ne sme biti od metala. Kako organizovati kupku Potrebno je imati sledeće: 1.Uređaj za magnetnu obradu vode. 2.Spravu za rastvaranje soli. 3.Crevo otvora 20 mm. 4.Morsku so (prodaje se u apotekama).",
+      "tagovi": [
+        "disanje"
+      ],
+      "anchor": "index.html#page-88",
+      "raspon_strana": "88",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Čovek i magnetne bure",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "alkoholizam",
+      "naziv": "Alkoholizam",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        206
+      ],
+      "opis_kratak": "Gorčica -1 deo, pelen -1 deo, čubrika -1 deo. Preliti 15g. ove mešavine sa 200ml. vrele vode, umotati i ostaviti dva sata, procediti. Piti po 1 supenu kašiku 4 puta dnevno kod alkoholizma. Stenice šumske, zelene (ima ih u malinjaku). Stenice imaju jak, neprijatan miris. Uhvatiti nekoliko stenica i ostaviti neko vreme u alkoholu, a zat",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-206",
+      "raspon_strana": "206",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Alkoholizam",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "tegobe"
+    },
+    {
+      "id": "dijabetes",
+      "naziv": "Dijabetes",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        214,
+        216,
+        218
+      ],
+      "opis_kratak": "Dodajmo da pri lečenju teškog oblika reumatizma svih vrsta posebno zglobova dijeta igra najvažniju ulogu. Ogromnu ulogu imaju i sunčane kirke, kao i ruske banje, obavezno sa paraom i brezovim grančicama. Pariti bolna mesta treba što jače i duže. Dijabetes Postoje dve vrste dijabetesa Dijabetes bez šećera. Ovaj oblik ispoljava se samo i ob",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-214",
+      "raspon_strana": "214-218",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Dijabetes",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "tegobe"
+    },
+    {
+      "id": "gastritis",
+      "naziv": "Gastritis",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        258
+      ],
+      "opis_kratak": "Suvimentolizrnu rastvoriti u loncu sa vrelom vodom. Umotati glavu i disati na nos iznad tog lonca. Procedura traje dotle dok ima pare u loncu. 2. Krompir i kori. Skuvati krompir u kori, vodu prosuti i disati iznad pare od krompira. 3. Propolis, alkoholna tinktura. U lonac vrele vode sipati 0,5 kašičice propolisa. Uviti se i disati izna",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-258",
+      "raspon_strana": "258",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Gastritis",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.82,
+      "review_note": "naslov više liči na biljku/namirnicu ili pomoćni sastojak; zadržano kao digestivna tegoba",
+      "normalized_naziv": "Gastritis",
+      "_category": "tegobe"
+    },
+    {
+      "id": "hepatitis",
+      "naziv": "Hepatitis",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        265
+      ],
+      "opis_kratak": "Narodni saveti i recepti u knjizi vezani za 'Hepatitis'.",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-265",
+      "raspon_strana": "265",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Hepatitis",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.64,
+      "review_note": "ručno normalizovana i vraćena iz v8 review kandidata",
+      "_category": "tegobe"
+    },
+    {
+      "id": "hronicni-pankreatitis",
+      "naziv": "Hronični pankreatitis",
+      "tip": "tegoba",
+      "sekcija_knjige": "Deo drugi - LEČENJE LEKOVITIM BILJKAMA I NARODNA MEDICINA",
+      "strane": [
+        146
+      ],
+      "opis_kratak": "Piti po jednu čašu odvara 2-3 puta dnevno pola sata pre jela kod postojanja kamena u žučnoj kesi. 5. Kinn - 20g., krušina (kora) - 20g., angelika - anđeoski koren (koren) - 20g., Ijuta metvica (list) - 20g., žalfija - 20g. Piti po 1/3-1/2 čaše odvara tri puta dnevo pola sata pre jela kod kamenca u žučnoj kesi. 6. Rusa - 10g., maslačak (koren) - 20g., dvornik - 15g., kukuruzna svila - 15g., kantarion - 20g.,…",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-146",
+      "raspon_strana": "146",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Hronični pankreatitis",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.8,
+      "review_note": "naslov više liči na biljku/namirnicu ili pomoćni sastojak; zadržano kao digestivna tegoba",
+      "normalized_naziv": "Hronični pankreatitis",
+      "_category": "tegobe"
+    },
+    {
+      "id": "radikulitis-i-isijas",
+      "naziv": "Radikulitis i išijas",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        322
+      ],
+      "opis_kratak": "Belabreza -pupoljci, listovi, sok. Alkoholna tinktura. Piti po 15-20 kapi tri puta dngvno sa vodom Odvar: 5g. brezinih pupoljaka na čašu vode. Kuvati 15 minuta na tihoj vatri, uviti i ostaviti jedan sat, procediti. Piti po 1/4 čaŠe 4 puta dnevno sat posle jela. lli: jedna supgna kašika suvih iistova na čašu vrelg vode. Uviti i ostavit",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-322",
+      "raspon_strana": "322",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Radikulitis i išijas",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.86,
+      "review_note": "naslov više liči na biljku/namirnicu ili pomoćni sastojak; normalizovan spojeni naslov",
+      "normalized_naziv": "Radikulitis, Išijas",
+      "_category": "tegobe"
+    }
+  ]
+}

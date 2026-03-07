@@ -1,0 +1,212 @@
+{
+  "metadata": {
+    "version": "v11",
+    "area_key": "urogenitalno_i_bubrezi",
+    "area_title": "Urogenitalno, bubrezi i mokraćni putevi",
+    "source_book": "Enciklopedija narodnih metoda lečenja",
+    "item_count": 7
+  },
+  "counts": {
+    "recepti_protokoli": 2,
+    "biljke_i_namirnice": 0,
+    "tegobe": 5,
+    "opsti_saveti": 0
+  },
+  "items": [
+    {
+      "id": "diuretici",
+      "naziv": "Diuretici",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        313
+      ],
+      "opis_kratak": "kuvati 15 minuta natihoj vatri, ostaviti dva sata, procediti. Piti po 1/4 čaše 3-4 puta dnevno pre jela. e) odvar od korena Se upotrebljava kod upale tokgaspe bešike, a takođe i kao sredstvo za stimulaciju apgtita i kao vgzivno srgdstvo kod želudačno-stomačnih poremećaja. Dve supene kašike isitnjenog korena preliti čašom vrele vode, kuvat",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-313",
+      "raspon_strana": "313",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Diuretici",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.68,
+      "review_note": "OCR šum u naslovu; naslov više liči na biljku/namirnicu ili pomoćni sastojak; normalizovano na opšti naslov skupa diuretičkih recepata",
+      "normalized_naziv": "Diuretici - 1. Zova",
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "magnetne-klipse-nausnice",
+      "naziv": "Magnetne klipse (naušnice)",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "DISANJE PO SISTEMU BUTEJKO VEŽBA PRVA",
+      "strane": [
+        84
+      ],
+      "opis_kratak": "Magnetne klipse (naušnice)* Magnetne klipse (naušnice) se takođe primenjuju kao nemedikamentna metoda lečenja i profilakse putem aurikularne magnetne terapije i akumpresure u ambulantskim i kućnim uslovima.",
+      "tagovi": [
+        "disanje"
+      ],
+      "anchor": "index.html#page-84",
+      "raspon_strana": "84",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Magnetne klipse (naušnice)",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "cistitis",
+      "naziv": "Cistitis",
+      "tip": "tegoba",
+      "sekcija_knjige": "Deo drugi - LEČENJE LEKOVITIM BILJKAMA I NARODNA MEDICINA",
+      "strane": [
+        145,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152
+      ],
+      "opis_kratak": "Supenu kašiku mešavine preliti čašom vrele vode, ostaviti da stoji 30 minuta, piti 3-4 puta dnevno po jednu čašu tinkture pre jela. 4. List crvene borovnice - 20g., list crne borovnice - 20g., orlina - 20g., kora krušine -10g., list breze -10g. Koru krušine isitniti i kuvati 20 minuta, a ostale delove mešavine preliti sa 300ml vrele vode, kuvati tri minuta, zatim pomešati i piti po 1/3 čaše 2-3 puta dnevno pre jela.…",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-145",
+      "raspon_strana": "145-152",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Cistitis",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.86,
+      "review_note": "naslov više liči na biljku/namirnicu ili pomoćni sastojak; zadržano kao jasna urološka tegoba",
+      "normalized_naziv": "Cistitis",
+      "_category": "tegobe"
+    },
+    {
+      "id": "dijareja",
+      "naziv": "Dijareja",
+      "tip": "tegoba",
+      "sekcija_knjige": "Deo drugi - LEČENJE LEKOVITIM BILJKAMA I NARODNA MEDICINA",
+      "strane": [
+        140,
+        141,
+        142,
+        143,
+        144
+      ],
+      "opis_kratak": "Način primene: Dve kašičice za kafu preliti čašom vrele vode, ostaviti 20 minuta, procediti i piti 3-4 puta dnevno. Upale bubrega i mokraćnih kanala 1. Neven (cvetovi) - 20g., kopriva (list) - 10g., zečji trn (koren) - 15g., hajdučica - 20g., divlja mirođija (plodovi) - 10g., konjski rep - 10g., breza (list)-15g.",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-140",
+      "raspon_strana": "140-144",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Dijareja",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.86,
+      "review_note": "naslov više liči na biljku/namirnicu ili pomoćni sastojak; zadržano kao digestivna tegoba",
+      "normalized_naziv": "Dijareja",
+      "_category": "tegobe"
+    },
+    {
+      "id": "enureza",
+      "naziv": "Enureza",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        315,
+        316
+      ],
+      "opis_kratak": "Narodni saveti i recepti u knjizi vezani za 'Enureza'.",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-315",
+      "raspon_strana": "315-316",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Enureza",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.64,
+      "review_note": "ručno normalizovana i vraćena iz v8 review kandidata",
+      "_category": "tegobe"
+    },
+    {
+      "id": "hipotonija",
+      "naziv": "Hipotonija",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        268
+      ],
+      "opis_kratak": "čašom vrele vode, kuvati na tihoj vatri 10 minuta, ostaviti jedan sat, procediti. Piti po 1/4 čaše 4 puta dnevno. 17. Kod hipertonije se koristi i sledeća mešavina: - Plodovi maline - 2 dela, majoran - 2 dela, cvetovi lipe - 2 dela, list podbjela - 2 dela, list živovlaka - 2 dela, koren sladića - 1 deo, plodovi belotma - 1 deo, travnati d",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-268",
+      "raspon_strana": "268",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Hipotonija",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.74,
+      "review_note": "naslov više liči na biljku/namirnicu ili pomoćni sastojak; zadržano kao kardiovaskularna tegoba",
+      "normalized_naziv": "Hipotonija",
+      "_category": "tegobe"
+    },
+    {
+      "id": "upala-jajnika",
+      "naziv": "Upala jajnika",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        257
+      ],
+      "opis_kratak": "Narodni saveti i recepti u knjizi vezani za 'Upala jajnika'.",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-257",
+      "raspon_strana": "257",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Upala jajnika",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.64,
+      "review_note": "ručno normalizovana i vraćena iz v8 review kandidata",
+      "_category": "tegobe"
+    }
+  ]
+}

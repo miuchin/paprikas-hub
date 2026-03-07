@@ -1,0 +1,466 @@
+{
+  "metadata": {
+    "version": "v11",
+    "area_key": "disajni_orl_i_grlo",
+    "area_title": "Disajni, ORL i grlo",
+    "source_book": "Enciklopedija narodnih metoda lečenja",
+    "item_count": 18
+  },
+  "counts": {
+    "recepti_protokoli": 11,
+    "biljke_i_namirnice": 0,
+    "tegobe": 4,
+    "opsti_saveti": 3
+  },
+  "items": [
+    {
+      "id": "kako-izvaditi-insekat-ili-kamencic-iz-uha",
+      "naziv": "Kako izvaditi insekat ili kamenčić iz uha",
+      "tip": "opsti_savet",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        205
+      ],
+      "opis_kratak": "Za kamenčić: ispirati uho slabim mlazom tople vode posle sipanja ulja. Za insekat: napuniti uho uljem kap po kap dok ne ispliva.",
+      "tagovi": [
+        "narodna medicina",
+        "opšti savet"
+      ],
+      "anchor": "index.html#page-205",
+      "raspon_strana": "205",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Kako izvaditi insekat ili kamenčić iz uha",
+        "podtip": "opsti_saveti",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.95,
+      "_category": "opsti_saveti"
+    },
+    {
+      "id": "otreznjenje-mrtvo-pijanog",
+      "naziv": "Otrežnjenje \"mrtvo\" pijanog",
+      "tip": "opsti_savet",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        205
+      ],
+      "opis_kratak": "Navodi se amonijak u vodi ili snažna masaža oba uha kao brz narodni postupak otrežnjenja.",
+      "tagovi": [
+        "narodna medicina",
+        "opšti savet"
+      ],
+      "anchor": "index.html#page-205",
+      "raspon_strana": "205",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Otrežnjenje \"mrtvo\" pijanog",
+        "podtip": "opsti_saveti",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.95,
+      "_category": "opsti_saveti"
+    },
+    {
+      "id": "sredstvo-za-vadjenje-riblje-kosti-iz-grla",
+      "naziv": "Sredstvo za vađenje riblje kosti iz grla",
+      "tip": "opsti_savet",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        205
+      ],
+      "opis_kratak": "Riblju kost iz grla moguće je izvaditi pomoću sveće od voska. Jedan kraj sveće zagreje se na vatri i brzo, da se ne stegne, stavlja se na kost koja štrči. Za pola minuta vosak se ohladi, kost ostaje u njemu pričvršćena i lako se izvlači zajedno sa svećom. Kako izvaditi insekat ili kamenčić iz uha 1. Sipati u uho ulje, zatim relativno slab",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-205",
+      "raspon_strana": "205",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Sredstvo za vađenje riblje kosti iz grla",
+        "podtip": "opsti_saveti",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "opsti_saveti"
+    },
+    {
+      "id": "bolesti-ociju",
+      "naziv": "Bolesti očiju",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "DISANJE PO SISTEMU BUTEJKO VEŽBA PRVA",
+      "strane": [
+        96
+      ],
+      "opis_kratak": "Bolesti očiju (treperenje pred očima, podrhtavanje kapaka, bol u očima) Osobine - Umirujuća tačka.",
+      "tagovi": [
+        "disanje"
+      ],
+      "anchor": "index.html#page-96",
+      "raspon_strana": "96",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Bolesti očiju",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "bolovi-u-predelu-uha",
+      "naziv": "Bolovi u predelu uha",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "MASAŽA PO TAČKAMA",
+      "strane": [
+        112
+      ],
+      "opis_kratak": "Sl. 50. Bolovi u predelu uha",
+      "tagovi": [
+        "masaža"
+      ],
+      "anchor": "index.html#page-112",
+      "raspon_strana": "112",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Bolovi u predelu uha",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "disajni-organi",
+      "naziv": "Disajni organi",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "DISANJE PO SISTEMU BUTEJKO VEŽBA PRVA",
+      "strane": [
+        89
+      ],
+      "opis_kratak": "Disajni organi Magnetne bure nepovoljno deluju na bolesnike koji pate od bolesti disajnih organa. Pod uticajem magnetnih bura menja se bioritam. Stanje nekih bolesnika pogoršava se pre magnetnih bura, a drugih posle.",
+      "tagovi": [
+        "disanje"
+      ],
+      "anchor": "index.html#page-89",
+      "raspon_strana": "89",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Disajni organi",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "kijavica",
+      "naziv": "Kijavica",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "DISANJE PO SISTEMU BUTEJKO VEŽBA PRVA",
+      "strane": [
+        103
+      ],
+      "opis_kratak": "Kijavica Sve tačke su simetrične",
+      "tagovi": [
+        "disanje"
+      ],
+      "anchor": "index.html#page-103",
+      "raspon_strana": "103",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Kijavica",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "kod-gljivicnih-obolenja",
+      "naziv": "Kod gljivičnih obolenja",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "PROPOLIS",
+      "strane": [
+        30
+      ],
+      "opis_kratak": "3. Kod kijavice - unošenjem u nos na 15-20 min. tamponom od vate ili štapićem, ili po 2-4 kapi tečnog preparata u svaku nozdrvu 4 puta dnevno. 4. U ginekologiji: kod upalnih procesa - kolpitisa, endocervitisa, kod ranice grlića materice itd. U vaginu se stavlja tampon sa propolisnom mašću da dobro nalegne na površinu ranice. Tampon se uklanja posle 1012 sati. Lečenje 10-12 dana. 15% mast: 1. Za brzo zarastanje rana,...",
+      "tagovi": [
+        "propolis",
+        "pčelarstvo"
+      ],
+      "anchor": "index.html#page-30",
+      "raspon_strana": "30",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Kod gljivičnih obolenja",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "mucanje",
+      "naziv": "Mucanje",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "PROPOLIS",
+      "strane": [
+        54,
+        55,
+        58
+      ],
+      "opis_kratak": "analogne recepte: od 0,5-0,75g mumioa pomešati sa ružinim uljem ili po želji sa drugim uljem. Smesu piti samu ili pomešanu sa žumancima 3-4 jajeta. Istom smesom prekriti povređeni deo tela. 2. Bolovi u zglobovima -100 gr. meda pomešati sa 0,5g. mumioa. Uveče stavljati kompres a ujutru piti 1 sat pre jela po 0,2g. 10 dana svakodnevno. Pauzirati 5 dana. Za kurs je potrebno 6 d., a za potpuno izlečenje 2-3 kursa.",
+      "tagovi": [
+        "propolis",
+        "pčelarstvo"
+      ],
+      "anchor": "index.html#page-54",
+      "raspon_strana": "54-58",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Mucanje",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "mumio",
+      "naziv": "Mumio",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "PROPOLIS",
+      "strane": [
+        47
+      ],
+      "opis_kratak": "Neželjeni efekti prilikom lečenja medom i drugim produktima pčelarstva - kontraindikacije Postoji ne mali broj slučajeva nepodnošenja meda. Takve pojave se manifestuju najčešće u obliku povišene temperature, alergijskih reakcija (koprivnjača, svraba kože, kijavice, glavobolje, poremećaja u želudačnostomačnom traktu, gušenja). Najčešće se one očituju kod Ljudi sa povišenom osetljivošću prilikom prvog uzimanja meda...",
+      "tagovi": [
+        "propolis",
+        "pčelarstvo"
+      ],
+      "anchor": "index.html#page-47",
+      "raspon_strana": "47",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Mumio",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "netradicionalne-metode-fizioterapije",
+      "naziv": "Netradicionalne metode fizioterapije",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "DISANJE PO SISTEMU BUTEJKO VEŽBA PRVA",
+      "strane": [
+        59
+      ],
+      "opis_kratak": "Netradicionalne metode fizioterapije U bolesti dubokog disanja spadaju: 1.Bronhijalna astma, astmatički bronhitis, emfizem pluća, pneumoskleroza, hipertonija \"malog kruga\" (bolest srca) 2.Hipertonija, stenokardija, poremećaj cirkulacije krvi u mozgu, starački dijabet, hronični nefritis, skleroza krvnih sudova mozga. 3.Ishod nabrojanih bolesti - jeste skleroza pojedinih organa koja se završava moždanim udarom,...",
+      "tagovi": [
+        "disanje"
+      ],
+      "anchor": "index.html#page-59",
+      "raspon_strana": "59",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Netradicionalne metode fizioterapije",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "rinitis",
+      "naziv": "Rinitis",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "MASAŽA PO TAČKAMA",
+      "strane": [
+        110
+      ],
+      "opis_kratak": "Glavobolja 1 Rinitis",
+      "tagovi": [
+        "masaža"
+      ],
+      "anchor": "index.html#page-110",
+      "raspon_strana": "110",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Rinitis",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "sok-od-cikorije-endivije",
+      "naziv": "Sok od cikorije - endivije",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "SOKOVI OD POVRĆA",
+      "strane": [
+        16
+      ],
+      "opis_kratak": "Cikorija ima hranljive supstance koje su konstantno neophodne našem optičkom sistemu. Dodajući ovom soku sok od mrkve, peršuna i celera snabdevamo mišićni sistem očiju, koji daje začuđujuće rezultate u ispravIjanju defekata vida. 250-300 ml smese ovakvog soka svakodnevno često obnavlja vid do normalnog u toku nekoliko nedelja i u mnogim s",
+      "tagovi": [
+        "ishrana",
+        "sok"
+      ],
+      "anchor": "index.html#page-16",
+      "raspon_strana": "16",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Sok od cikorije - endivije",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "zubobolja",
+      "naziv": "Zubobolja",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "MASAŽA PO TAČKAMA",
+      "strane": [
+        114,
+        120
+      ],
+      "opis_kratak": "29. Unutrašnji deo podkolenske jamice. 30. U centru podkolenske jamice. 31. Na lakatnom zglobu. 32. Tri prsta iznad pregiba lakatne kosti i korena šake. 33. U mestu prelaska lisnog mišića u Ahilove žile. Napomena: kod gripa, aneine, glavobolje (ako zahvata čitavu glavu), rinitisa, kod spazmatičnih bolova u predelu stomaka, išijasa (ako je bol prisutan sa obe strane) treba masirati simetrične tačke.",
+      "tagovi": [
+        "masaža"
+      ],
+      "anchor": "index.html#page-114",
+      "raspon_strana": "114-120",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Zubobolja",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "recepti_protokoli"
+    },
+    {
+      "id": "artritis",
+      "naziv": "Artritis",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        242
+      ],
+      "opis_kratak": "Difterija išarlah Ispirati grlo 30% rastvorom limunske kiseline. U toku ispiranja potrebno je zabaciti glavu unazad i izdisati vazduh tako da rastvor krklja u ustima. Ispiranje izvoditi svaki sat u toku dana. Ovaj rastvor izuzetno pomaže kod 'aznih obolenja grla ako su ona u početnoj fazi. U slučaju kada nema ovog rastvora mogu se uze",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-242",
+      "raspon_strana": "242",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Artritis",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "tegobe"
+    },
+    {
+      "id": "bolesti-jetre",
+      "naziv": "Bolesti jetre",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        319,
+        320
+      ],
+      "opis_kratak": "meseca. Apsorbuju se otoci i otklanja bol. Posle procedure obuti vunene čarape ili navući vunene rukavice i leći. 2. Istopiti sveži kravlji, nesoljeni maslac u posudi iznad vatre. Kada maslac počne da ključa skinuti penu, dodati isto toliko medicinskog alkohola i promešati. Zatim zapaliti tu smesu i pustiti alkohol da izgori. Preostala sm",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-319",
+      "raspon_strana": "319-320",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Bolesti jetre",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "tegobe"
+    },
+    {
+      "id": "bronhijalna-astma",
+      "naziv": "Bronhijalna astma",
+      "tip": "tegoba",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        243
+      ],
+      "opis_kratak": "Divlji ruzmarin - 25g. kopriva -15g. Biljke sitno iseckati i pomešati. Preliti ovu mešavinu litrom vrele vode, umotati i ostaviti tri sata. Procgditi i piti po pola čaše 5-6 puta dnevno. Koristi se kod bronhijalne astme, prehlade, reumatizma, kašlja. U narodu se smatra da posle dve nedelje uzimanja ovakvog sastava astma u početnom stad",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-243",
+      "raspon_strana": "243",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Bronhijalna astma",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "_category": "tegobe"
+    },
+    {
+      "id": "bronhijalni-spazam",
+      "naziv": "Bronhijalni spazam",
+      "tip": "tegoba",
+      "sekcija_knjige": "Deo drugi - LEČENJE LEKOVITIM BILJKAMA I NARODNA MEDICINA",
+      "strane": [
+        127
+      ],
+      "opis_kratak": "125 bronhijalm'spazam 1. Podbjel (lišće), - 10g. živovlak (lišće) - 20g. barska metlica (konjski rep) - 30g., jagorčika (jaglika) - cvetovi - 40g. Uzimati topao napitak od tinkture ili odvara po 1/3 i!i 1/4 čaše kod kašlja, upale dušnika, bronhitisa, hroničnog i suvog bronhitisa. 2. Podbjel (lišće) - 20g., živovlak (list) - 30g. sladić (koren) - 30g., daninoć - 20g.",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-127",
+      "raspon_strana": "127",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Bronhijalni spazam",
+        "podtip": "tegobe",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.76,
+      "review_note": "naslov više liči na biljku/namirnicu ili pomoćni sastojak; preklasifikovano kao stvarna tegoba iz poglavlja o lekovitim mešavinama",
+      "normalized_naziv": "Bronhijalni spazam",
+      "_category": "tegobe"
+    }
+  ]
+}

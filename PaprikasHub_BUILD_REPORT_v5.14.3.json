@@ -1,0 +1,12 @@
+{
+  "version": "v5.14.3",
+  "base": "PaprikasHub-v5.14.2-LIBRARY-FIX-FULL.zip",
+  "changes": [
+    "Added data-ph-count badges for library/enc/jna counts",
+    "Added phLibrarySetCount + phLibraryInitCounts helpers",
+    "Updated badges when Enciklopedija and JNA bridges load",
+    "Added a small library collections badge on the home card"
+  ],
+  "date_utc": "2026-03-02T10:24:12Z",
+  "server_port": 8015
+}

@@ -1,0 +1,1314 @@
+{
+  "metadata": {
+    "version": "v11",
+    "export_type": "protocol",
+    "source_group": "recepti_protokoli",
+    "count": 50
+  },
+  "items": [
+    {
+      "id": "akupresura",
+      "naziv": "Akupresura",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "DISANJE PO SISTEMU BUTEJKO VEŽBA PRVA",
+      "strane": [
+        91,
+        92,
+        93
+      ],
+      "opis_kratak": "Ti meridijani imaju određene nazive kao - \"Srčani bolesnik\", \"Trostepeni zagrevač\" ili \"Meridijan-glavni\" i pri tom uvek ukazuju na tri vrste tačaka: \"Harmonizujuće tačke\" - koje se nalaze u početku i na kraju linije (meridi-jana). Delovanjem na njih medotom akupresure zapažaju se harmonizujući odjeci tog delovanja u svim organima koji se odnose na taj meridijan. \"Stimulativna tačka\" - na svakoj liniji (meridijanu)...",
+      "tagovi": [
+        "disanje"
+      ],
+      "anchor": "index.html#page-91",
+      "raspon_strana": "91-93",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Akupresura",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "bol-u-usima",
+      "naziv": "Bol u ušima",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "DISANJE PO SISTEMU BUTEJKO VEŽBA PRVA",
+      "strane": [
+        108
+      ],
+      "opis_kratak": "Bol u ušima Osobine - Harmonizujuća tačka.",
+      "tagovi": [
+        "disanje"
+      ],
+      "anchor": "index.html#page-108",
+      "raspon_strana": "108",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Bol u ušima",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "bolesti-ociju",
+      "naziv": "Bolesti očiju",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "DISANJE PO SISTEMU BUTEJKO VEŽBA PRVA",
+      "strane": [
+        96
+      ],
+      "opis_kratak": "Bolesti očiju (treperenje pred očima, podrhtavanje kapaka, bol u očima) Osobine - Umirujuća tačka.",
+      "tagovi": [
+        "disanje"
+      ],
+      "anchor": "index.html#page-96",
+      "raspon_strana": "96",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Bolesti očiju",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "bolovi-u-predelu-lakatnog-zgloba",
+      "naziv": "Bolovi u predelu lakatnog zgloba",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "MASAŽA PO TAČKAMA",
+      "strane": [
+        117
+      ],
+      "opis_kratak": "Sl. 57. Bolovi u predelu lakatnog zgloba",
+      "tagovi": [
+        "masaža"
+      ],
+      "anchor": "index.html#page-117",
+      "raspon_strana": "117",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Bolovi u predelu lakatnog zgloba",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "bolovi-u-predelu-uha",
+      "naziv": "Bolovi u predelu uha",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "MASAŽA PO TAČKAMA",
+      "strane": [
+        112
+      ],
+      "opis_kratak": "Sl. 50. Bolovi u predelu uha",
+      "tagovi": [
+        "masaža"
+      ],
+      "anchor": "index.html#page-112",
+      "raspon_strana": "112",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Bolovi u predelu uha",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "bolovi-u-predelu-zgloba-kolena",
+      "naziv": "Bolovi u predelu zgloba kolena",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "MASAŽA PO TAČKAMA",
+      "strane": [
+        118
+      ],
+      "opis_kratak": "Sl. 58. Bolovi u predelu zgloba kolena Kretanje prsta može biti horizontalno-kružno u smeru kretanja kazaljke na satu ili vibrirajuće, ali uvek bez zaustavljanja. Pritiskanje se izvodi jastučićem palca i srednjeg prsta. Koriste se dve metode: 1umirujuća - neprekidno delovanje ujednačenim, laganim, kružnim kretanjem uz postepeni porast pritiska i zadržavanje prsta u dubini.",
+      "tagovi": [
+        "masaža"
+      ],
+      "anchor": "index.html#page-118",
+      "raspon_strana": "118",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Bolovi u predelu zgloba kolena",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "bolovi-u-zucnoj-kesi-kolike",
+      "naziv": "Bolovi u žučnoj kesi (kolike)",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "DISANJE PO SISTEMU BUTEJKO VEŽBA PRVA",
+      "strane": [
+        97
+      ],
+      "opis_kratak": "Bolovi u žučnoj kesi (kolike) Osobine - Umirujućatačka. Delovanje - laka akupresura",
+      "tagovi": [
+        "disanje"
+      ],
+      "anchor": "index.html#page-97",
+      "raspon_strana": "97",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Bolovi u žučnoj kesi (kolike)",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "crveni-vetar",
+      "naziv": "Crveni vetar",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "PROPOLIS",
+      "strane": [
+        39,
+        41,
+        42
+      ],
+      "opis_kratak": "Tinktura runolista sa medom: Pripremite tinkturu od runolista (priprema se isto kao i od kamilice, odnos 1:10), rastvorite u njoj med (na 1 čašu tinkture 1 sup.kaš.) i koristite za ispiranje, kvašenje i komprese kod gnojnih rana koje dugo ne zarastaju, čireva, opekotina i sl. Pije se po 1/3 čaše 2-3 puta dnevno posle jela kao, protivupalno sredstvo kod čira želuca i duodenuma. Primena meda u kozmetici",
+      "tagovi": [
+        "propolis",
+        "pčelarstvo"
+      ],
+      "anchor": "index.html#page-39",
+      "raspon_strana": "39-42",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Crveni vetar",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "dijabetes",
+      "naziv": "Dijabetes",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "PROPOLIS",
+      "strane": [
+        53
+      ],
+      "opis_kratak": "mumio se meša sa goveđim ili svinjskim salom, sa sokom od peršuna, kima ili sa žumancetom, sa uijem od kokosa ili neke druge lekovite biljke. Krvarenja iz nosa",
+      "tagovi": [
+        "propolis",
+        "pčelarstvo"
+      ],
+      "anchor": "index.html#page-53",
+      "raspon_strana": "53",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Dijabetes",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "disajni-organi",
+      "naziv": "Disajni organi",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "DISANJE PO SISTEMU BUTEJKO VEŽBA PRVA",
+      "strane": [
+        89
+      ],
+      "opis_kratak": "Disajni organi Magnetne bure nepovoljno deluju na bolesnike koji pate od bolesti disajnih organa. Pod uticajem magnetnih bura menja se bioritam. Stanje nekih bolesnika pogoršava se pre magnetnih bura, a drugih posle.",
+      "tagovi": [
+        "disanje"
+      ],
+      "anchor": "index.html#page-89",
+      "raspon_strana": "89",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Disajni organi",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "diuretici",
+      "naziv": "Diuretici",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        313
+      ],
+      "opis_kratak": "kuvati 15 minuta natihoj vatri, ostaviti dva sata, procediti. Piti po 1/4 čaše 3-4 puta dnevno pre jela. e) odvar od korena Se upotrebljava kod upale tokgaspe bešike, a takođe i kao sredstvo za stimulaciju apgtita i kao vgzivno srgdstvo kod želudačno-stomačnih poremećaja. Dve supene kašike isitnjenog korena preliti čašom vrele vode, kuvat",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-313",
+      "raspon_strana": "313",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Diuretici",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.68,
+      "review_note": "OCR šum u naslovu; naslov više liči na biljku/namirnicu ili pomoćni sastojak; normalizovano na opšti naslov skupa diuretičkih recepata",
+      "normalized_naziv": "Diuretici - 1. Zova",
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "glaukom",
+      "naziv": "Glaukom",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "PROPOLIS",
+      "strane": [
+        57
+      ],
+      "opis_kratak": "Mumio piti 25 dana i posle desetodnevne pauze ponoviti terapiju, a premazivanje izvoditi po 3-4 meseca i nakon toga praviti pauzu od mesec dana. Kod zapuštenih hemoroida izlečenje se postiže nakon 6-8 meseci ili ranije. Paradentoza, desni, zubi, sluzokoža usne šupljine, lokalne upalne reakcije 1. Piti mumio po 0,2gr. 1-2 puta dnevno (obavezno uveče pre spavanja) u toku 25 dana sa mlekom, medom ili sa vodom...",
+      "tagovi": [
+        "propolis",
+        "pčelarstvo"
+      ],
+      "anchor": "index.html#page-57",
+      "raspon_strana": "57",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Glaukom",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "hipertonija",
+      "naziv": "Hipertonija",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "PROPOLIS",
+      "strane": [
+        37,
+        56,
+        67,
+        98
+      ],
+      "opis_kratak": "Faktori koji su vezani za smanjenje CO2 u krvi: - Prvi faktor - spazam glatkih mišića Drugi faktor - oštećenje tkiva krvnih sudova povećanje njihove propustljivosti. Zidove krvnih sudova oštećuje nedostatak CO2. Pri hiperventilaciji CO2 dospeva kako u arterijalnu tako i u vensku krv, odakle se i pojavljuje upala ven'a. - Treći faktor. Povećanje holesterola. Sinteza holesterina odvija se samo u jetri i samo 1/5...",
+      "tagovi": [
+        "disanje",
+        "propolis",
+        "pčelarstvo"
+      ],
+      "anchor": "index.html#page-37",
+      "raspon_strana": "37-98",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Hipertonija",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "kijavica",
+      "naziv": "Kijavica",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "DISANJE PO SISTEMU BUTEJKO VEŽBA PRVA",
+      "strane": [
+        103
+      ],
+      "opis_kratak": "Kijavica Sve tačke su simetrične",
+      "tagovi": [
+        "disanje"
+      ],
+      "anchor": "index.html#page-103",
+      "raspon_strana": "103",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Kijavica",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "kod-gljivicnih-obolenja",
+      "naziv": "Kod gljivičnih obolenja",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "PROPOLIS",
+      "strane": [
+        30
+      ],
+      "opis_kratak": "3. Kod kijavice - unošenjem u nos na 15-20 min. tamponom od vate ili štapićem, ili po 2-4 kapi tečnog preparata u svaku nozdrvu 4 puta dnevno. 4. U ginekologiji: kod upalnih procesa - kolpitisa, endocervitisa, kod ranice grlića materice itd. U vaginu se stavlja tampon sa propolisnom mašću da dobro nalegne na površinu ranice. Tampon se uklanja posle 1012 sati. Lečenje 10-12 dana. 15% mast: 1. Za brzo zarastanje rana,...",
+      "tagovi": [
+        "propolis",
+        "pčelarstvo"
+      ],
+      "anchor": "index.html#page-30",
+      "raspon_strana": "30",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Kod gljivičnih obolenja",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "kod-malokrvnosti-se-koriste-mesavine",
+      "naziv": "Kod malokrvnosti se koriste mešavine",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [],
+      "opis_kratak": "Narodni recept ili protokol opisan u knjizi pod naslovom 'Kod malokrvnosti se koriste mešavine'.",
+      "tagovi": [
+        "narodna medicina",
+        "protokol"
+      ],
+      "anchor": "index.html",
+      "raspon_strana": "",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Kod malokrvnosti se koriste mešavine",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.64,
+      "review_note": "ručno normalizovana i vraćena iz v8 review kandidata",
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "kupka-tipa-ros-poze",
+      "naziv": "Kupka tipa Roš-Poze",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "LEČENJE VRUĆIM KUPKAMA UZ DODATAK ODVARA LEKOVITIH - BILJAKA",
+      "strane": [
+        165
+      ],
+      "opis_kratak": "kupke oživljavaju i pobuđuju nerve kože i glavnih krvnih sudova. Za punu kadu potreban je 1kg. lavandinog cveta. Kupke sa gorušicom Dodaje se (suva) gorušica samo za delimične kupke za ruke ili noge: uzeti 2-3 pregršti, preliti vrućom vodom - 50°C i dobro promešati da ne ostanu grudvice i dodati u kadu. Gorušičina etarska ulja koja se pri",
+      "tagovi": [
+        "biljke",
+        "kupka"
+      ],
+      "anchor": "index.html#page-165",
+      "raspon_strana": "165",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Kupka tipa Roš-Poze",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "magnetna-terapija",
+      "naziv": "Magnetna terapija",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "DISANJE PO SISTEMU BUTEJKO VEŽBA PRVA",
+      "strane": [
+        76
+      ],
+      "opis_kratak": "Objašnjenje: Bolna tačka \"HE-GU\" nalazi se pored radijalnog dela osnovg prvog članka kažiprsta (u jamici između kažiprsta i palca sa spoljne strane šake), bolna tačka \"UZU-SAN-LI\" nalazi se ispod čašicĐ kolena, prema unutra od gotenjače. Drgvna mgdicina Kine, Japana i Indijskih joga tvrdi da u živom organizmu energijateČe, a njeno zadržavanje u nekom kanalu i nedeostatak u drugom dovodi od poremaćaja harmonije u...",
+      "tagovi": [
+        "disanje"
+      ],
+      "anchor": "index.html#page-76",
+      "raspon_strana": "76",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Magnetna terapija",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "magnetne-klipse-nausnice",
+      "naziv": "Magnetne klipse (naušnice)",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "DISANJE PO SISTEMU BUTEJKO VEŽBA PRVA",
+      "strane": [
+        84
+      ],
+      "opis_kratak": "Magnetne klipse (naušnice)* Magnetne klipse (naušnice) se takođe primenjuju kao nemedikamentna metoda lečenja i profilakse putem aurikularne magnetne terapije i akumpresure u ambulantskim i kućnim uslovima.",
+      "tagovi": [
+        "disanje"
+      ],
+      "anchor": "index.html#page-84",
+      "raspon_strana": "84",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Magnetne klipse (naušnice)",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "masaza-po-tackama-kod-ateroskleroze",
+      "naziv": "Masaža po tačkama kod ateroskleroze",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "MASAŽA PO TAČKAMA",
+      "strane": [
+        122
+      ],
+      "opis_kratak": "Sl. 59. Masaža po tačkama kod ateroskleroze",
+      "tagovi": [
+        "masaža"
+      ],
+      "anchor": "index.html#page-122",
+      "raspon_strana": "122",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Masaža po tačkama kod ateroskleroze",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "mesavine-lekovitih-biljaka",
+      "naziv": "Mešavine lekovitih biljaka",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "Deo drugi - LEČENJE LEKOVITIM BILJKAMA I NARODNA MEDICINA",
+      "strane": [
+        126,
+        128
+      ],
+      "opis_kratak": "preporučuje se da se kod ponovljenih terapija promeni sastav mešavine i propisuju lekovite biljke koje imaju analogne terapeutske aktivnosti. Meša vine leko vitih biljaka. 1.Vidi: način pripremanja tinkture. 2.Vidi: način pripremanja odvara. 3.Vidi: način pripremanja smese za inhalaciju. 4.Vidi: način pripremanja rastvora za komprese.",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-126",
+      "raspon_strana": "126-128",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Mešavine lekovitih biljaka",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.72,
+      "review_note": "naslov više liči na biljku/namirnicu ili pomoćni sastojak; preklasifikovano kao grupni protokol / zbirka recepata",
+      "normalized_naziv": "Mešavine lekovitih biljaka",
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "mesavine-protiv-kamena-u-zucnoj-kesi",
+      "naziv": "Mešavine protiv kamena u žučnoj kesi",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        293
+      ],
+      "opis_kratak": "Četiri biljne mešavine protiv kamena u žučnoj kesi, sa rusom, kamilicom, preslicom, čajem za bubrege, dvornikom i drugim biljkama.",
+      "tagovi": [
+        "narodna medicina",
+        "protokol",
+        "zuc"
+      ],
+      "anchor": "index.html#page-293",
+      "raspon_strana": "293",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Mešavine protiv kamena u žučnoj kesi",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.85,
+      "review_note": "ručno sabrano iz OCR naslova sa stranice 293",
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "mesavine-za-izazivanje-lucenja-zuci",
+      "naziv": "Mešavine za izazivanje lučenja žuči",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        279,
+        280
+      ],
+      "opis_kratak": "Skup narodnih mešavina za podsticanje lučenja žuči, sa maslačkom, zečjim trnom, krušinom, ljutom metvicom, nevenom i drugim biljkama.",
+      "tagovi": [
+        "narodna medicina",
+        "protokol",
+        "zuc"
+      ],
+      "anchor": "index.html#page-279",
+      "raspon_strana": "279-280",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Mešavine za izazivanje lučenja žuči",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.86,
+      "review_note": "izvučeno iz generičkih review stavki Mešavina / Mešavina br. 1",
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "mucanje",
+      "naziv": "Mucanje",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "PROPOLIS",
+      "strane": [
+        54,
+        55,
+        58
+      ],
+      "opis_kratak": "analogne recepte: od 0,5-0,75g mumioa pomešati sa ružinim uljem ili po želji sa drugim uljem. Smesu piti samu ili pomešanu sa žumancima 3-4 jajeta. Istom smesom prekriti povređeni deo tela. 2. Bolovi u zglobovima -100 gr. meda pomešati sa 0,5g. mumioa. Uveče stavljati kompres a ujutru piti 1 sat pre jela po 0,2g. 10 dana svakodnevno. Pauzirati 5 dana. Za kurs je potrebno 6 d., a za potpuno izlečenje 2-3 kursa.",
+      "tagovi": [
+        "propolis",
+        "pčelarstvo"
+      ],
+      "anchor": "index.html#page-54",
+      "raspon_strana": "54-58",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Mucanje",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "mumio",
+      "naziv": "Mumio",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "PROPOLIS",
+      "strane": [
+        47
+      ],
+      "opis_kratak": "Neželjeni efekti prilikom lečenja medom i drugim produktima pčelarstva - kontraindikacije Postoji ne mali broj slučajeva nepodnošenja meda. Takve pojave se manifestuju najčešće u obliku povišene temperature, alergijskih reakcija (koprivnjača, svraba kože, kijavice, glavobolje, poremećaja u želudačnostomačnom traktu, gušenja). Najčešće se one očituju kod Ljudi sa povišenom osetljivošću prilikom prvog uzimanja meda...",
+      "tagovi": [
+        "propolis",
+        "pčelarstvo"
+      ],
+      "anchor": "index.html#page-47",
+      "raspon_strana": "47",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Mumio",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "nesvestica",
+      "naziv": "Nesvestica",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "DISANJE PO SISTEMU BUTEJKO VEŽBA PRVA",
+      "strane": [
+        99
+      ],
+      "opis_kratak": "Sl. 20. Nesvestica",
+      "tagovi": [
+        "disanje"
+      ],
+      "anchor": "index.html#page-99",
+      "raspon_strana": "99",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Nesvestica",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "netradicionalne-metode-fizioterapije",
+      "naziv": "Netradicionalne metode fizioterapije",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "DISANJE PO SISTEMU BUTEJKO VEŽBA PRVA",
+      "strane": [
+        59
+      ],
+      "opis_kratak": "Netradicionalne metode fizioterapije U bolesti dubokog disanja spadaju: 1.Bronhijalna astma, astmatički bronhitis, emfizem pluća, pneumoskleroza, hipertonija \"malog kruga\" (bolest srca) 2.Hipertonija, stenokardija, poremećaj cirkulacije krvi u mozgu, starački dijabet, hronični nefritis, skleroza krvnih sudova mozga. 3.Ishod nabrojanih bolesti - jeste skleroza pojedinih organa koja se završava moždanim udarom,...",
+      "tagovi": [
+        "disanje"
+      ],
+      "anchor": "index.html#page-59",
+      "raspon_strana": "59",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Netradicionalne metode fizioterapije",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "pelen-alkoholna-tinktura",
+      "naziv": "Pelen - alkoholna tinktura",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        271
+      ],
+      "opis_kratak": "Kod gripa se preporučuje piti šipurak u toku nedelju dana postepenuo smanjujućidozu. 3. Pelen, alkoholna tinktura U flašu od četvrt litra sipati pelen i ostaviti da odstoji 21 dan na tamnom mestu, procediti. Piti kod prehlada i promrzlina po 20g. jednom dnevno Piti najduže 2-3 dana. 4. Cvetovilipe-1 deo, plodovišibikovine -1 deo. Dve supe",
+      "tagovi": [
+        "narodna medicina",
+        "tegoba"
+      ],
+      "anchor": "index.html#page-271",
+      "raspon_strana": "271",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Pelen - alkoholna tinktura",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.72,
+      "review_note": "naslov više liči na biljku/namirnicu ili pomoćni sastojak; preklasifikovano kao narodni protokol / preparat",
+      "normalized_naziv": "Pelen - alkoholna tinktura",
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "rinitis",
+      "naziv": "Rinitis",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "MASAŽA PO TAČKAMA",
+      "strane": [
+        110
+      ],
+      "opis_kratak": "Glavobolja 1 Rinitis",
+      "tagovi": [
+        "masaža"
+      ],
+      "anchor": "index.html#page-110",
+      "raspon_strana": "110",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Rinitis",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "shema-mazanja-jodom",
+      "naziv": "Shema mazanja jodom",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        218
+      ],
+      "opis_kratak": "Narodni recept ili protokol opisan u knjizi pod naslovom 'Shema mazanja jodom'.",
+      "tagovi": [
+        "narodna medicina",
+        "protokol"
+      ],
+      "anchor": "index.html#page-218",
+      "raspon_strana": "218",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Shema mazanja jodom",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.64,
+      "review_note": "ručno normalizovana i vraćena iz v8 review kandidata",
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "sirup-od-cvekle",
+      "naziv": "Sirup od cvekle",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "KORISNI SAVETI",
+      "strane": [
+        288,
+        289,
+        290
+      ],
+      "opis_kratak": "Narodni recept ili protokol opisan u knjizi pod naslovom 'Sirup od cvekle'.",
+      "tagovi": [
+        "narodna medicina",
+        "protokol"
+      ],
+      "anchor": "index.html#page-288",
+      "raspon_strana": "288-290",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Sirup od cvekle",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 0.64,
+      "review_note": "ručno normalizovana i vraćena iz v8 review kandidata",
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "sok-od-celera",
+      "naziv": "Sok od celera",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "SOKOVI OD POVRĆA",
+      "strane": [
+        14
+      ],
+      "opis_kratak": "Suvo vrelo vreme lakše se podnosi ako se ujutru popije čašica svežeg soka od celera, a isto toliko danju između uzimanja obroka. On normalizuje temperaturu tela i mi se osećamo lepo. Smeša soka od celera sa drugim sokovima izuzetno je korisna i daje fenomenalne rezultate kod avitaminoze i drugih bolesti. Kod poremećaja nerava koji se poja",
+      "tagovi": [
+        "ishrana",
+        "sok"
+      ],
+      "anchor": "index.html#page-14",
+      "raspon_strana": "14",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Sok od celera",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "sok-od-cikorije-endivije",
+      "naziv": "Sok od cikorije - endivije",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "SOKOVI OD POVRĆA",
+      "strane": [
+        16
+      ],
+      "opis_kratak": "Cikorija ima hranljive supstance koje su konstantno neophodne našem optičkom sistemu. Dodajući ovom soku sok od mrkve, peršuna i celera snabdevamo mišićni sistem očiju, koji daje začuđujuće rezultate u ispravIjanju defekata vida. 250-300 ml smese ovakvog soka svakodnevno često obnavlja vid do normalnog u toku nekoliko nedelja i u mnogim s",
+      "tagovi": [
+        "ishrana",
+        "sok"
+      ],
+      "anchor": "index.html#page-16",
+      "raspon_strana": "16",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Sok od cikorije - endivije",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "sok-od-cvekle",
+      "naziv": "Sok od cvekle",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "SOKOVI OD POVRĆA",
+      "strane": [
+        13
+      ],
+      "opis_kratak": "Sok od cvekle je najdragoceniji sok za stvaranje crvenih krvnih zrnaca i za poboljšanje krvi uopšte. Za žene je on izuzetno koristan ako se pije najmanje 0,5l. dnevno pomešan sa sokom od mrkve. Sam sok od cvekle u količini od jedne vinske čaše može izazvati reakciju čišćenja, a takođe i malu nesvesticu ili mučninu. Iskustvo je pokazalo da",
+      "tagovi": [
+        "ishrana",
+        "sok"
+      ],
+      "anchor": "index.html#page-13",
+      "raspon_strana": "13",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Sok od cvekle",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "sok-od-kupusa",
+      "naziv": "Sok od kupusa",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "SOKOVI OD POVRĆA",
+      "strane": [
+        8
+      ],
+      "opis_kratak": "Upotrebom soka od kupusa začuđujuće brzo zarasta čir na duodenumu (dvanaestopalačnom crevu). Jedina neprijatnost je često stvaranje gasova. Sa istim uspehom može se upotrebljavati sok od mrkve koji je znatno ukusniji. Sok od kupusa ima izuzetno dejstvo čišćenja i smanjivanja telesne težine. Stvaranje gasova u crevima objašnjava se time št",
+      "tagovi": [
+        "ishrana",
+        "sok"
+      ],
+      "anchor": "index.html#page-8",
+      "raspon_strana": "8",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Sok od kupusa",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "sok-od-limuna",
+      "naziv": "Sok od limuna",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "SOKOVI OD POVRĆA",
+      "strane": [
+        9
+      ],
+      "opis_kratak": "Limun je veoma bogat mineralnim solima, a posebno vitaminom 'C' i limunskom kiselinom, zato je njegova primena veoma važna za organizam. On ima jako antimikrobno i antiseptičko dejstvo. Tako se, npr. u južnom Egiptu gde su rasprostranjene škorpije, seosko stanovništvo često podvrgava njihovom ujedu, a zatim jednostavno uzimaju limun, seku",
+      "tagovi": [
+        "ishrana",
+        "sok"
+      ],
+      "anchor": "index.html#page-9",
+      "raspon_strana": "9",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Sok od limuna",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "sok-od-mahuna",
+      "naziv": "Sok od mahuna",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "SOKOVI OD POVRĆA",
+      "strane": [
+        15
+      ],
+      "opis_kratak": "Ovaj sok je posebno koristan dijabetičarima. Dijabetes je bolest izazvana nepravilnom ishranom, i to upravo prekomernom upotrebom koncentrovanog skroba i šećera. Dokazano je da injekcije insulina nisu sredstvo za lečenje ove bolesti. Dijabetes nije nasledna bolest, ona se može izazvati upotrebom velike količine ugljenih hidrata. Utvrđeno",
+      "tagovi": [
+        "ishrana",
+        "sok"
+      ],
+      "anchor": "index.html#page-15",
+      "raspon_strana": "15",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Sok od mahuna",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "sok-od-sveze-mrkve",
+      "naziv": "Sok od sveže mrkve",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "SOKOVI OD POVRĆA",
+      "strane": [
+        10
+      ],
+      "opis_kratak": "Zavisno od stanja čoveka sok od sveže mrkve može se piti od 0,5 do 34l dnevno. Ovaj sok pomaže da se sav organizam dovede u normalno stanje. On je najbogatiji izvor vitamina 'A' kojeg organizam brzo apsorbuje. U ovom soku nalaze se u velikoj količini vitamini 'B', 'C', 'D', 'E', 'K'. Sok od mrkve poboljšava apetit, varenje hrane i struk",
+      "tagovi": [
+        "ishrana",
+        "sok"
+      ],
+      "anchor": "index.html#page-10",
+      "raspon_strana": "10",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Sok od sveže mrkve",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "sokovi-od-povrca",
+      "naziv": "Sokovi od povrća",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "SOKOVI OD POVRĆA",
+      "strane": [
+        7,
+        11,
+        12
+      ],
+      "opis_kratak": "Našim noktima i kosi posebno je potreban spoj elemenata koji se nalazi u svežem soku od krastavaca radi sprečavanja pucanja i opadanja kose. Sok je koristan i kao profilaksa prenapregnutih miokarda. On umiruje i jača nervni sistem, sprečava aterosklerozu i poboljšava pamćenje. Uzima se do 100ml čistog soka. Njegovo delovanje se pojačava k",
+      "tagovi": [
+        "ishrana",
+        "sok"
+      ],
+      "anchor": "index.html#page-7",
+      "raspon_strana": "7-12",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Sokovi od povrća",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "spazmaticni-bolovi-u-predelu-stomaka",
+      "naziv": "Spazmatični bolovi u predelu stomaka",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "MASAŽA PO TAČKAMA",
+      "strane": [
+        115
+      ],
+      "opis_kratak": "Sl. 54. Spazmatični bolovi u predelu stomaka",
+      "tagovi": [
+        "masaža"
+      ],
+      "anchor": "index.html#page-115",
+      "raspon_strana": "115",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Spazmatični bolovi u predelu stomaka",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "tinktura-cveta-lipe-sa-medom",
+      "naziv": "Tinktura cveta lipe sa medom",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "PROPOLIS",
+      "strane": [
+        40
+      ],
+      "opis_kratak": "Tinktura cveta lipe sa medom Uzmite 1Ogr. cveta lipe (tri sup.kaš.) i prelijte sa 200ml.vrele vode u emajliranoj posudi, poklopite i stavite 15 minuta na pari, ostavite da se ohladi, a zatim procedite. U dobijenu tinkturu dolijte vrelu vodu da se ukupno dobije 200ml. i u njoj rastopite 1 sup.kaš. meda. Uzimati toplo po 1,5-1 čaše 2-3 puta dnevno kao sredstvo za izazivanje znojenja, a takođe i snižavanje temperature...",
+      "tagovi": [
+        "propolis",
+        "pčelarstvo"
+      ],
+      "anchor": "index.html#page-40",
+      "raspon_strana": "40",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Tinktura cveta lipe sa medom",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "umor",
+      "naziv": "Umor",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "DISANJE PO SISTEMU BUTEJKO VEŽBA PRVA",
+      "strane": [
+        107
+      ],
+      "opis_kratak": "Bolovi u zglobovima Osobine - Harmonizujuća tačka.",
+      "tagovi": [
+        "disanje"
+      ],
+      "anchor": "index.html#page-107",
+      "raspon_strana": "107",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Umor",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "vezba-druga",
+      "naziv": "Vežba druga",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "DISANJE PO SISTEMU BUTEJKO VEŽBA PRVA",
+      "strane": [
+        61
+      ],
+      "opis_kratak": "Puni izdisaj v Dodatni izdisaji",
+      "tagovi": [
+        "disanje"
+      ],
+      "anchor": "index.html#page-61",
+      "raspon_strana": "61",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Vežba druga",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "vezba-peta",
+      "naziv": "Vežba peta",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "DISANJE PO SISTEMU BUTEJKO VEŽBA PRVA",
+      "strane": [
+        65
+      ],
+      "opis_kratak": "U toku života menja se sastav ćelija. Samo se pep/pa ćelija ne menja, fgrment reguliše resorpciju stvorenih ožiljaka na tkivima. Zaštita od gubitka CO2 (nastavak) V-a barijera. Usted pneumosklgroze smanjuje se propustljivost ćelijske membrane što otežava izbacivanje CO2.",
+      "tagovi": [
+        "disanje"
+      ],
+      "anchor": "index.html#page-65",
+      "raspon_strana": "65",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Vežba peta",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "vezba-sedma",
+      "naziv": "Vežba sedma",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "DISANJE PO SISTEMU BUTEJKO VEŽBA PRVA",
+      "strane": [
+        68,
+        71
+      ],
+      "opis_kratak": "70 ■ X faktor - spavanje na leđima pojačava disanje (normalno spavanje je na:: stomaku ili nalevom boku). Disanje smanjuju mentol, validol, menta, bromidi, odoljen (Valeriana offi-cinalis), sedativi. (Srdstvo za iskašljavanje živovlak - bokvica). Kod zdravih Ljudi disanje u snu se smanjuje. Bolest hiperventilacije je polietiološka.",
+      "tagovi": [
+        "disanje"
+      ],
+      "anchor": "index.html#page-68",
+      "raspon_strana": "68-71",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Vežba sedma",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "vezba-treca",
+      "naziv": "Vežba treća",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "DISANJE PO SISTEMU BUTEJKO VEŽBA PRVA",
+      "strane": [
+        62
+      ],
+      "opis_kratak": "razbijanje se može ponoviti. Zbog toga je poželjno ostati na jednom mestu u toku jedne godine (ciklus razbijanja) Posle razbijanja bolesti stanje boles-nika odmah se poboljšava. U toku razbijanja bolesti mogu se davati lekovi, ali polovinu doze. Izbegavati belančevine. Ako je bolesnik prima hormone, onda u toku razbijanja mogu se davati hortizonski hormoni, srčanim bole-snicima slabiji preparati za srce. Kod pojave...",
+      "tagovi": [
+        "disanje"
+      ],
+      "anchor": "index.html#page-62",
+      "raspon_strana": "62",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Vežba treća",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "vezba-cetvrta",
+      "naziv": "Vežba četvrta",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "DISANJE PO SISTEMU BUTEJKO VEŽBA PRVA",
+      "strane": [
+        64
+      ],
+      "opis_kratak": "Evolucija disanja u patogenezi (ploda) Svih devet meseci života u utrobi u krvi ploda kiseonika ima tri puta manje nego u krvi odraslog čoveka. Kažu da je plod modar. Takav normalan sadržaj kiseonika u krvi ploda u potpunosti obezbeđuje razvoj tkiva. Visok sadržaj kiseonika vodi tkiva ka propasti. U arterijskoj krvi odraslog čoveka ima 97% kiseonika, u venoznoj - 70%, u plodu - 30%. Sistem disanja spaja se sistem...",
+      "tagovi": [
+        "disanje"
+      ],
+      "anchor": "index.html#page-64",
+      "raspon_strana": "64",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Vežba četvrta",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "zubobolja",
+      "naziv": "Zubobolja",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "MASAŽA PO TAČKAMA",
+      "strane": [
+        114,
+        120
+      ],
+      "opis_kratak": "29. Unutrašnji deo podkolenske jamice. 30. U centru podkolenske jamice. 31. Na lakatnom zglobu. 32. Tri prsta iznad pregiba lakatne kosti i korena šake. 33. U mestu prelaska lisnog mišića u Ahilove žile. Napomena: kod gripa, aneine, glavobolje (ako zahvata čitavu glavu), rinitisa, kod spazmatičnih bolova u predelu stomaka, išijasa (ako je bol prisutan sa obe strane) treba masirati simetrične tačke.",
+      "tagovi": [
+        "masaža"
+      ],
+      "anchor": "index.html#page-114",
+      "raspon_strana": "114-120",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Zubobolja",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "covek-i-magnetne-bure",
+      "naziv": "Čovek i magnetne bure",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "DISANJE PO SISTEMU BUTEJKO VEŽBA PRVA",
+      "strane": [
+        88
+      ],
+      "opis_kratak": "Zatim je potrebno nabaviti ili napraviti jednostavnu spravu za rastvaranje morske soli u vodi. Na sl. 9. prikazana je takva sprava. Kućište (kutija) ne sme biti od metala. Kako organizovati kupku Potrebno je imati sledeće: 1.Uređaj za magnetnu obradu vode. 2.Spravu za rastvaranje soli. 3.Crevo otvora 20 mm. 4.Morsku so (prodaje se u apotekama).",
+      "tagovi": [
+        "disanje"
+      ],
+      "anchor": "index.html#page-88",
+      "raspon_strana": "88",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Čovek i magnetne bure",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    },
+    {
+      "id": "zedj",
+      "naziv": "Žeđ",
+      "tip": "recepti_protokol",
+      "sekcija_knjige": "DISANJE PO SISTEMU BUTEJKO VEŽBA PRVA",
+      "strane": [
+        101
+      ],
+      "opis_kratak": "Žeđ Osobine - umirujuća tačka (jedina tačka na sluzokoži u organizmu čoveka).",
+      "tagovi": [
+        "disanje"
+      ],
+      "anchor": "index.html#page-101",
+      "raspon_strana": "101",
+      "sinet_predlog": {
+        "oblast": "narodne-metode",
+        "glavni_pojam": "Žeđ",
+        "podtip": "recepti_protokoli",
+        "izvor": "Enciklopedija narodnih metoda lečenja"
+      },
+      "strict_import_ready": true,
+      "quality_score": 1.0,
+      "export_type": "protocol",
+      "source_group": "recepti_protokoli"
+    }
+  ]
+}

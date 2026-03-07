@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "version": "v11",
+    "source": "Enciklopedija narodnih metoda lečenja curated SINET v11",
+    "typed_exports": "data/tipovi/index_tipovi.json"
+  },
+  "areas": [
+    {
+      "key": "disajni_orl_i_grlo",
+      "title": "Disajni, ORL i grlo",
+      "file": "oblasti/disajni_orl_i_grlo.json",
+      "item_count": 18,
+      "recepti_protokoli": 11,
+      "biljke_i_namirnice": 0,
+      "tegobe": 4,
+      "opsti_saveti": 3
+    },
+    {
+      "key": "digestivno_metabolicko",
+      "title": "Digestivno i metaboličko",
+      "file": "oblasti/digestivno_metabolicko.json",
+      "item_count": 16,
+      "recepti_protokoli": 9,
+      "biljke_i_namirnice": 0,
+      "tegobe": 6,
+      "opsti_saveti": 1
+    },
+    {
+      "key": "koza_kosa_i_spoljna_primena",
+      "title": "Koža, kosa i spoljašnja primena",
+      "file": "oblasti/koza_kosa_i_spoljna_primena.json",
+      "item_count": 11,
+      "recepti_protokoli": 3,
+      "biljke_i_namirnice": 0,
+      "tegobe": 8,
+      "opsti_saveti": 0
+    },
+    {
+      "key": "urogenitalno_i_bubrezi",
+      "title": "Urogenitalno, bubrezi i mokraćni putevi",
+      "file": "oblasti/urogenitalno_i_bubrezi.json",
+      "item_count": 7,
+      "recepti_protokoli": 2,
+      "biljke_i_namirnice": 0,
+      "tegobe": 5,
+      "opsti_saveti": 0
+    },
+    {
+      "key": "kardiovaskularno_nervno_i_lokomotorno",
+      "title": "Kardiovaskularno, nervno i lokomotorno",
+      "file": "oblasti/kardiovaskularno_nervno_i_lokomotorno.json",
+      "item_count": 8,
+      "recepti_protokoli": 7,
+      "biljke_i_namirnice": 0,
+      "tegobe": 1,
+      "opsti_saveti": 0
+    },
+    {
+      "key": "opsti_protokoli_i_prevencija",
+      "title": "Opšti protokoli i prevencija",
+      "file": "oblasti/opsti_protokoli_i_prevencija.json",
+      "item_count": 23,
+      "recepti_protokoli": 16,
+      "biljke_i_namirnice": 0,
+      "tegobe": 3,
+      "opsti_saveti": 4
+    },
+    {
+      "key": "biljke_i_namirnice",
+      "title": "Biljke i namirnice",
+      "file": "oblasti/biljke_i_namirnice.json",
+      "item_count": 58,
+      "recepti_protokoli": 0,
+      "biljke_i_namirnice": 58,
+      "tegobe": 0,
+      "opsti_saveti": 0
+    }
+  ]
+}
