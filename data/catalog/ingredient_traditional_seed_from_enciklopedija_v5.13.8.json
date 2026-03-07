@@ -1,0 +1,1133 @@
+{
+  "generated_at": "2026-03-02T07:17:03Z",
+  "source": "Enciklopedija narodnih metoda lečenja",
+  "note": "Seed za budući ingredient atlas / traditional notes sloj u Paprikas Hub-u.",
+  "fields": [
+    "id",
+    "naziv",
+    "varijante",
+    "traditional_use_note",
+    "source_anchor",
+    "source_pages",
+    "source_section",
+    "merge_status"
+  ],
+  "items": [
+    {
+      "id": "aloja-sok-od-aloje",
+      "naziv": "Aloja (sok od aloje)",
+      "varijante": [
+        "Aloja (sok od aloje)"
+      ],
+      "traditional_use_note": "Lekovita biljka ili namirnica iz poglavlja Korisni saveti, sa narodnim načinima primene za 'Aloja (sok od aloje)'.",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-236",
+      "source_pages": [
+        236,
+        237
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "anis",
+      "naziv": "Anis",
+      "varijante": [
+        "Anis"
+      ],
+      "traditional_use_note": "Lekovita biljka ili namirnica iz poglavlja Korisni saveti, sa narodnim načinima primene za 'Anis'.",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-297",
+      "source_pages": [
+        297
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "anis-pimpinela-anisum",
+      "naziv": "Anis (Pimpinela anisum)",
+      "varijante": [
+        "Anis (Pimpinela anisum)"
+      ],
+      "traditional_use_note": "Jednu supenu kašiku smese preliti sa 0,51 vrele vode, kuvati 10 minuta, ostaviti da stoji 3-4 sata u dobro pokrivenoj posudi, procediti i piti po pola čaše tri puta dnevno 8. Šipak (plodovi) - 25g., ribizla (list) 25g., malina (list) - 25g., crvena borovnica (list) -25g. Dve supene kašike mešavine preliti čašom vrele vode, kuvati 10 minuta, ostaviti da stoji 3-4 sata, procediti i piti po 1/3 čaše tri puta dnevno. 9....",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-157",
+      "source_pages": [
+        157
+      ],
+      "source_section": "Deo drugi - LEČENJE LEKOVITIM BILJKAMA I NARODNA MEDICINA",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "beli-glog",
+      "naziv": "Beli glog",
+      "varijante": [
+        "Beli glog"
+      ],
+      "traditional_use_note": "Lekovita biljka ili namirnica iz poglavlja Korisni saveti, sa narodnim načinima primene za 'Beli glog'.",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-252",
+      "source_pages": [
+        252,
+        253
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "borovnica",
+      "naziv": "Borovnica",
+      "varijante": [
+        "Borovnica"
+      ],
+      "traditional_use_note": "Lekovita biljka ili namirnica iz poglavlja Korisni saveti, sa narodnim načinima primene za 'Borovnica'.",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-23",
+      "source_pages": [
+        23,
+        179,
+        301
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "bunika",
+      "naziv": "Bunika",
+      "varijante": [
+        "Bunika"
+      ],
+      "traditional_use_note": "Lazarkinja - je otrovna biljka. Njena primena zahteva opreznost, a predoziranje izaziva povraćanje, glavobolju, nesvesticu, pa čak i smrt. OTROVNE BILJKE Biljni svet područja beZ crnice je izuzetno bogat po svojim oblicima. Na prostranoj teritoriji zajedno sa lekovitim biljkama sretaju se i otrovne koje izazivaju trovanje Ljudi i životinja",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-173",
+      "source_pages": [
+        173
+      ],
+      "source_section": "OTROVNE BILJKE",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "cmiluk",
+      "naziv": "Cmiluk",
+      "varijante": [
+        "Cmiluk"
+      ],
+      "traditional_use_note": "Lekovita biljka ili namirnica iz poglavlja Korisni saveti, sa narodnim načinima primene za 'Cmiluk'.",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-264",
+      "source_pages": [
+        264
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "crni-i-beli-luk",
+      "naziv": "Crni i beli luk",
+      "varijante": [
+        "Crni i beli luk"
+      ],
+      "traditional_use_note": "Lekovita biljka ili namirnica iz poglavlja Korisni saveti, sa narodnim načinima primene za 'Crni i beli luk'.",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-220",
+      "source_pages": [
+        220,
+        221,
+        222,
+        223,
+        224
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "crvena-borovnica",
+      "naziv": "Crvena borovnica",
+      "varijante": [
+        "Crvena borovnica"
+      ],
+      "traditional_use_note": "Lekovita biljka ili namirnica iz poglavlja Korisni saveti, sa narodnim načinima primene za 'Crvena borovnica'.",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html",
+      "source_pages": [],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "crvena-cvekla",
+      "naziv": "Crvena cvekla",
+      "varijante": [
+        "Crvena cvekla"
+      ],
+      "traditional_use_note": "Lekovita biljka ili namirnica iz poglavlja Korisni saveti, sa narodnim načinima primene za 'Crvena cvekla'.",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-274",
+      "source_pages": [
+        274
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "cvetovi-razlicka",
+      "naziv": "Cvetovi različka",
+      "varijante": [
+        "Cvetovi različka"
+      ],
+      "traditional_use_note": "Lekovita biljka ili namirnica iz poglavlja Korisni saveti, sa narodnim načinima primene za 'Cvetovi različka'.",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-307",
+      "source_pages": [
+        307
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "groznicica",
+      "naziv": "Grozničica",
+      "varijante": [
+        "Grozničica"
+      ],
+      "traditional_use_note": "Piti po jednu supenu kašiku tri puta dnevno pre jela. Deci davati po jednu kašičicu za kafu tri puta dnevno pre jela. Uzimati do potpunog ozdravljenja. Koristi se kod aneine, upale grla i bolesti pluća. Mirođija - seme, tinktura Uzeti 50g. semena mirođije, kuvati 15-20 minuta natihoj vatri u 0,51. vina. Dobro umotati i ostaviti jedan sat,",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-198",
+      "source_pages": [
+        198
+      ],
+      "source_section": "OTROVNE BILJKE",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "hajducka-trava",
+      "naziv": "Hajdučka trava",
+      "varijante": [
+        "Hajdučka trava"
+      ],
+      "traditional_use_note": "Lekovita biljka ili namirnica iz poglavlja Korisni saveti, sa narodnim načinima primene za 'Hajdučka trava'.",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-261",
+      "source_pages": [
+        261
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "hmelj",
+      "naziv": "Hmelj",
+      "varijante": [
+        "Hmelj"
+      ],
+      "traditional_use_note": "prvo popiti pola čaše dva sata pre spavanja a zatim ostatak sa talogom. Obavezno piti toplo u toku dve nedelje. Koristi se kod povremene nesanice. S.Hmelj Dve kašičice hmelja na jednu čašu vrele vode. Ostaviti dobro uvijenu posudu da odstoji 4 sata, procediti. Popiti pre spavanja. Jedan deo isitnjenog hmelja na 4 dela 50% alkohola. Tinktu",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-247",
+      "source_pages": [
+        247
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "hrast",
+      "naziv": "Hrast",
+      "varijante": [
+        "Hrast"
+      ],
+      "traditional_use_note": "Lekovita biljka ili namirnica iz poglavlja Korisni saveti, sa narodnim načinima primene za 'Hrast'.",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-281",
+      "source_pages": [
+        281,
+        282,
+        300
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "idjirot",
+      "naziv": "Iđirot",
+      "varijante": [
+        "Iđirot"
+      ],
+      "traditional_use_note": "Lekovita biljka ili namirnica iz poglavlja Korisni saveti, sa narodnim načinima primene za 'Iđirot'.",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-265",
+      "source_pages": [
+        265,
+        266,
+        267,
+        268,
+        280,
+        306
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "kajsije",
+      "naziv": "Kajsije",
+      "varijante": [
+        "Kajsije"
+      ],
+      "traditional_use_note": "cvekle i krastavca u toku dana. Sledećeg dana počeli su napadi užasnog bola po 10-15 minuta svaki. Pred kraj nedelje nastupila je kriza u toku koje se valjao po podu od najjačih bolova. Odjednom bol je uminuo i ubrzo pošto je kamenje izašlo izazvalo je reakciju u obliku prljavštine u mokraći. Te noći on je postao potpuno drugi čovek, oseć",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-17",
+      "source_pages": [
+        17
+      ],
+      "source_section": "VOĆE I JAGODIČASTO VOĆE",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "kamilica",
+      "naziv": "Kamilica",
+      "varijante": [
+        "Kamilica"
+      ],
+      "traditional_use_note": "Lekovita biljka ili namirnica iz poglavlja Korisni saveti, sa narodnim načinima primene za 'Kamilica'.",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-207",
+      "source_pages": [
+        207,
+        258,
+        259,
+        260
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "kantarion",
+      "naziv": "Kantarion",
+      "varijante": [
+        "Kantarion"
+      ],
+      "traditional_use_note": "Lekovita biljka ili namirnica iz poglavlja Korisni saveti, sa narodnim načinima primene za 'Kantarion'.",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-180",
+      "source_pages": [
+        180,
+        199,
+        225,
+        226,
+        227,
+        285,
+        345
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "kleka",
+      "naziv": "Kleka",
+      "varijante": [
+        "Kleka"
+      ],
+      "traditional_use_note": "uta, ostaviti da odstoji 4 sata na toplom mestu. Piti po pola čaše tri puta dnevno 15 minuta pre jela. Ovo je diuretički čaj. b) list koprive, kanatarion, list medveđeg grožđa, list živovlaka, plodovi šipuraka - sve u jednakim količinama. Tri eirepe kašike mešavine preliti sa 0,751. hladne vode, pustiti da proključa, kuvati pet minuta, os",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-308",
+      "source_pages": [
+        308
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "kleka-juniperus-communis",
+      "naziv": "Kleka (Juniperus communis)",
+      "varijante": [
+        "Kleka (Juniperus communis)"
+      ],
+      "traditional_use_note": "Kleka (Juniperus communis) Konjski rep - preslica (Equisetum) Konopljika - povratić (Tanacetum vulgare)",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-159",
+      "source_pages": [
+        159
+      ],
+      "source_section": "Deo drugi - LEČENJE LEKOVITIM BILJKAMA I NARODNA MEDICINA",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "kopriva",
+      "naziv": "Kopriva",
+      "varijante": [
+        "Kopriva"
+      ],
+      "traditional_use_note": "ga oprati, izrendati i iscediti sok. Ovo treba brzo raditi jer izrendani koren brzo oksidiše na vazduhu i tamni. Sok se može konzervirati alkoholom. Pre utrljavanja razblažiti sok dodavanjem iste količine vode. Utrljavati 2-3 puta nedeljno. Bela breza Kod opadanja kose prati odvarom od lista breze. Kopriva Kod pojačane zamašćenosti, perut",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-211",
+      "source_pages": [
+        211,
+        212,
+        213,
+        284,
+        302
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "kruska",
+      "naziv": "Kruška",
+      "varijante": [
+        "Kruška"
+      ],
+      "traditional_use_note": "unekoliko i premašuje pošto ima prijatan ukus: treba samo znati da se sva gorčina nalazi u pregradama između delova koje treba otkloniti. Kod ateroskleroze, hipertonije i zamora uzimati po 0,25 čaše, 20-30 minuta pre jela, a kod nesanice po 0,5 čaše pred spavanje. Sok se uzima i u slučajevima slabog apetita i kod poremećaja procesa var",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-20",
+      "source_pages": [
+        20
+      ],
+      "source_section": "VOĆE I JAGODIČASTO VOĆE",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "kupina",
+      "naziv": "Kupina",
+      "varijante": [
+        "Kupina"
+      ],
+      "traditional_use_note": "Iz belog gloga dobija se dragoceno sredstvo za srce koje poboljšava rad srčanog mišića. Koristan je kod ateroskleroze, hipertonije, aritmije srca i srčane slabosti. U ishrani se koriste plodovi belog gloga. Od sušenih samlevenih plodova pomešanih sa maslacem dobija se koristan i ukusan fil za kolače. Plodovi sa lišćem mogu se koristiti za",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-25",
+      "source_pages": [
+        25
+      ],
+      "source_section": "VOĆE I JAGODIČASTO VOĆE",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "lubenice",
+      "naziv": "Lubenice",
+      "varijante": [
+        "Lubenice"
+      ],
+      "traditional_use_note": "Lubenice Lubenice sadrže vitamine C, PP, Bb B2, karotin, celulozu, pektine, ugljene hidrate, soli kalijuma. One blagotvorno deluju kod bolesti bubrega (i kod kamena), kod bolesti srca i krvnih sudova, uz to i kod povišenog krvnog pritiska, kao i kod atonije crevnog sistema. Lubenice izuzetno utoljuju žeđ prilikom groznice i doprinose i",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-18",
+      "source_pages": [
+        18
+      ],
+      "source_section": "VOĆE I JAGODIČASTO VOĆE",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "luk",
+      "naziv": "Luk",
+      "varijante": [
+        "Luk"
+      ],
+      "traditional_use_note": "Uzeti malo svežeg žumanceta i obilno namazati lice. Kada žumance počne da se suši oprati lice vodom i sapunom. Rezultat je uvek izvanredan. Opadanje kose Kleka (grančice) Grančice kleke pomešati sa istom količinom lista breze. Pregršt mešavine kuvati u 3l. vode 5 minuta, a zatim dobro umotati i ostaviti jedan sat. Ovim odvarom ispirati ko",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-210",
+      "source_pages": [
+        210
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "majoran",
+      "naziv": "Majoran",
+      "varijante": [
+        "Majoran"
+      ],
+      "traditional_use_note": "hemoroida. Kašičicu sitno izrezanog korena preliti čašom hladne prokuvane vode, ostaviti 10 minuta, procediti. Piti po 1/4 čaše 4 puta dnevno pola sata pre jela. Kod bolesti disajnih organa u tinkturu dodati med po ukusu. 11. Majoran a) Tinktura od majorana koristi se kod prehlada, bronhitisa, velikog kašlja, tuberkuloze pluća. Jednu kaši",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-250",
+      "source_pages": [
+        250,
+        251,
+        298
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "majoran-origanum-vulgare",
+      "naziv": "Majoran (Origanum vulgare)",
+      "varijante": [
+        "Majoran (Origanum vulgare)"
+      ],
+      "traditional_use_note": "Lincura - gorčica (Gentiana lutea) Lipa (Tilia cordata i T. platyphyllos) Ljuta metvica (Mentha piperita)",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-160",
+      "source_pages": [
+        160
+      ],
+      "source_section": "Deo drugi - LEČENJE LEKOVITIM BILJKAMA I NARODNA MEDICINA",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "maline",
+      "naziv": "Maline",
+      "varijante": [
+        "Maline"
+      ],
+      "traditional_use_note": "Ogrozd ili \"severno grožđe\" poznat je u Rusiji od XII. veka. Sadrži šešer (do 14%), organske kiseline, pektine, tanin. Lekovitu dragocenost ogrozda povećavaju bakar, gvožđe, fosfor, vitamini grupe V, S, R, i karotin. Ogrozd ima blagotvomo dejstvo na metabolizam, a takođe je dobro diuretičko i laksativno sredstvo, pomaže kod anemije izazva",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-21",
+      "source_pages": [
+        21,
+        24
+      ],
+      "source_section": "VOĆE I JAGODIČASTO VOĆE",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "maslacak",
+      "naziv": "Maslačak",
+      "varijante": [
+        "Maslačak"
+      ],
+      "traditional_use_note": "Lekovita biljka ili namirnica iz poglavlja Korisni saveti, sa narodnim načinima primene za 'Maslačak'.",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-26",
+      "source_pages": [
+        26,
+        209,
+        254,
+        255,
+        256
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "maslinovo-ulje",
+      "naziv": "Maslinovo ulje",
+      "varijante": [
+        "Maslinovo ulje"
+      ],
+      "traditional_use_note": "Samleti pa mašini za meso jednu čašu semena od konoplje, pomešati sa tri čaše svežeg nepasterizovanog mleka, ukuvati do jedne čaše. Vruće procediti i piti našte po jednu čašu u toku pet dana. Posle 10 dana ponoviti terapiju. Ne jesti ništa Ljuto. Mogući su napadi bolova u jetri, ali treba pretrpeti. Posle godinu dana ponoviti terapiju",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-290",
+      "source_pages": [
+        290
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "menta",
+      "naziv": "Menta",
+      "varijante": [
+        "Menta"
+      ],
+      "traditional_use_note": "Lekovita biljka ili namirnica iz poglavlja Korisni saveti, sa narodnim načinima primene za 'Menta'.",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-207",
+      "source_pages": [
+        207,
+        208
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "mocvarna-patuljasta-kupina",
+      "naziv": "Močvarna (patuljasta) kupina",
+      "varijante": [
+        "Močvarna (patuljasta) kupina"
+      ],
+      "traditional_use_note": "mešavine preliti sa 11. vrele vode, ohladiti, procediti i sve popiti. Nastojati da se što duže zadrži mokraća. Kod kamena i mokraćnim kanalima i mokraćnoj bešici: a) plodovi kleke, kim, koren sladića, preslica, list medveđeg grožđa, list ruzmarina, list bršljana - sve u jednakim količinama. Supenu kašiku isitnjene mešavine preliti čašom v",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-310",
+      "source_pages": [
+        310
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "ogrozd",
+      "naziv": "Ogrozd",
+      "varijante": [
+        "Ogrozd"
+      ],
+      "traditional_use_note": "dnevno 25 minuta pre jela kod hroničnog gastritisa sa smanjenom kiselinom. Lečenje traje dugo; posle 8 nedelja lečenja 10 dana napraviti pauzu. c) list koprive, list živovlaka, kantarion, cvet kamilice - sve u istim količinama. 4 supene kašike mešavine preliti sa 1l. vrele vode, ostaviti 2 sata na toplom mestu. Piti po jednu čašu 3 puta d",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-282",
+      "source_pages": [
+        282
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "oman",
+      "naziv": "Oman",
+      "varijante": [
+        "Oman"
+      ],
+      "traditional_use_note": "a) Tinktura: jednu supenu kašiku isitnjenog korena preliti čašom vrele vode, kuvati 15 minuta na pari, ostaviti 10 minuta, procediti. Piti po jednu supenu kašiku 3 puta dnevno. b) Odvar: jednu supenu kašiku isitnjenog korena preliti čašom vrele vode, kuvati 15 minuta na pari, ostaviti 10 minuta, procediti. Piti po jednu supenu kašiku 3 pu",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-270",
+      "source_pages": [
+        270
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "oman-koren",
+      "naziv": "Oman - koren",
+      "varijante": [
+        "Oman - koren"
+      ],
+      "traditional_use_note": "Lekovita biljka ili namirnica iz poglavlja Korisni saveti, sa narodnim načinima primene za 'Oman - koren'.",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-270",
+      "source_pages": [
+        270,
+        296
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "oskorusa",
+      "naziv": "Oskoruša",
+      "varijante": [
+        "Oskoruša"
+      ],
+      "traditional_use_note": "Aloja. Piti sok od aloje po 1 -2 kašičice 2-3 puta dnevno pola sata pre jela. 8. Crna borovnica. U narodnoj medicini se veoma ceni odvar od suvih plodova kao sredstvo protiv dizenterije. 9. Dvornik. Upotrebljava se odvar od dvornika i sama biljka u mešavinama: Jednu supenu kašiku isitnjenog travnatog dela preliti čašom vrele vode, kuva",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-276",
+      "source_pages": [
+        276
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "oskorusa-crvena",
+      "naziv": "Oskoruša (crvena)",
+      "varijante": [
+        "Oskoruša (crvena)"
+      ],
+      "traditional_use_note": "Lekovita biljka ili namirnica iz poglavlja Korisni saveti, sa narodnim načinima primene za 'Oskoruša (crvena)'.",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-21",
+      "source_pages": [
+        21,
+        333
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "pasjakovina",
+      "naziv": "Pasjakovina",
+      "varijante": [
+        "Pasjakovina"
+      ],
+      "traditional_use_note": "prokuvanom vodom u odnosu 1:10 i takođe stavljati kompres. Neven je dobro sredstvo i kod gnojnih upala očiju. 3. Aloja. 1 list aloje srednje veličine (5g.) isitniti i ostaviti 6 sati u čaši prokuvane hladne vode, procediti. Stavljati kompres na obolele oči. Takođe se stavljaju kompresi od soka aloje razblaženog prokuvanom ohlađenom vodom",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-326",
+      "source_pages": [
+        326,
+        328
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "pasji-trn",
+      "naziv": "Pasji trn",
+      "varijante": [
+        "Pasji trn"
+      ],
+      "traditional_use_note": "Lekovita biljka ili namirnica iz poglavlja Korisni saveti, sa narodnim načinima primene za 'Pasji trn'.",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-210",
+      "source_pages": [
+        210,
+        221,
+        283
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "pasjitrn-hipoophae",
+      "naziv": "Pasjitrn (Hipoophae)",
+      "varijante": [
+        "Pasjitrn (Hipoophae)"
+      ],
+      "traditional_use_note": "Mentolovo ulje Mentolovo ulje je apotekarski preparat 2% i 4%. Koristi se kod prehlade po 2-3 kapi u svaku nozdrvu. Uljem se premazuju uglovi nosnih šupljina. Ne koristi se kod dece do tri godine. Kod glavobolje nastale zbog prehlade, migrene i probadanja pretnazati mentolovim uljem čelo, slepoočnice, teme, iza ušiju i pozadi ispod lo",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-200",
+      "source_pages": [
+        200
+      ],
+      "source_section": "OTROVNE BILJKE",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "pelen",
+      "naziv": "Pelen",
+      "varijante": [
+        "Pelen"
+      ],
+      "traditional_use_note": "Živovlak, bokvica Pelen Pirevina - korenje Srdačica, srčnik travnati deo Kamilica-cvetovi Ribizlacma-plodovi Bor - pupoljci, iglice Runolist Majčina dušica Kim - plodovi Medveđe grožđe - list Hajdučica - travnati deo Dan-l-noć Konjski rep, preslica Hren - koren Dvozubica, kozji rogovi Divlja trešnja Rusa Šipak - cvetovi, plodovi Kaćun",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-182",
+      "source_pages": [
+        182,
+        183,
+        186,
+        187
+      ],
+      "source_section": "OTROVNE BILJKE",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "pirika",
+      "naziv": "Pirika",
+      "varijante": [
+        "Pirika"
+      ],
+      "traditional_use_note": "Lekovita biljka ili namirnica iz poglavlja Korisni saveti, sa narodnim načinima primene za 'Pirika'.",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-311",
+      "source_pages": [
+        311,
+        312
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "sipurak-plodovi",
+      "naziv": "Plodovi šipuraka - 1 deo",
+      "varijante": [
+        "Plodovi šipuraka - 1 deo",
+        "Šipurak (plodovi)"
+      ],
+      "traditional_use_note": "Crvena cvekla. Izrenadati na sitnoj trenici cveklu i iscediti čašu soka. U sok dodati jednu supenu kašiku sirćeta (ali ne sirćetnu kiselnu). Ovim rastvorom ispirati grlo 5-6 puta dnevno a može se i progutati po jedan gutljaj. 3. U staklenu flašu od 0,51. narezati list od aloje do polovine i ncsuti šećerom, povezati grlić gazom. Ostavit",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-238",
+      "source_pages": [
+        238,
+        240
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "psenicne-mekinje",
+      "naziv": "Pšenične mekinje",
+      "varijante": [
+        "Pšenične mekinje"
+      ],
+      "traditional_use_note": "Lekovita biljka ili namirnica iz poglavlja Korisni saveti, sa narodnim načinima primene za 'Pšenične mekinje'.",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-287",
+      "source_pages": [
+        287
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "razlicak",
+      "naziv": "Različak",
+      "varijante": [
+        "Različak"
+      ],
+      "traditional_use_note": "Lekovita biljka ili namirnica iz poglavlja Korisni saveti, sa narodnim načinima primene za 'Različak'.",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-269",
+      "source_pages": [
+        269
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "rusa-rusina",
+      "naziv": "Rusa (rusina)",
+      "varijante": [
+        "Rusa (rusina)"
+      ],
+      "traditional_use_note": "Biljka rusa, odnosno rusina, opisana je kroz pripremu soka i narodnu primenu kod kožnih promena, polipa, žuljeva, gnojnih promena i nekih unutrašnjih tegoba.",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-222",
+      "source_pages": [
+        222,
+        223
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "sirce",
+      "naziv": "Sirće",
+      "varijante": [
+        "Sirće"
+      ],
+      "traditional_use_note": "Lekovita biljka ili namirnica iz poglavlja Korisni saveti, sa narodnim načinima primene za 'Sirće'.",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-228",
+      "source_pages": [
+        228
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "svezi-krompir",
+      "naziv": "Sveži krompir",
+      "varijante": [
+        "Sveži krompir"
+      ],
+      "traditional_use_note": "Lekovita biljka ili namirnica iz poglavlja Korisni saveti, sa narodnim načinima primene za 'Sveži krompir'.",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-262",
+      "source_pages": [
+        262,
+        263
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "ulje-od-belog-luka",
+      "naziv": "Ulje od belog luka",
+      "varijante": [
+        "Ulje od belog luka"
+      ],
+      "traditional_use_note": "Glavicu belog luka prosečne veličine očistiti i napraviti od nje kašicu, staviti u staklenu teglu i preliti čašom nerafiniranog suncokretovog ulja, a zatim staviti u hladnjak. Sledećeg dana iscediti kašičicu za kafu limunovog soka i dodati isto toliko ulja od belog luka i promešati. Piti tri puta dnevno pola sata pre jela. Kurs traje 1-3",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-204",
+      "source_pages": [
+        204
+      ],
+      "source_section": "OTROVNE BILJKE",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "visnja",
+      "naziv": "Višnja",
+      "varijante": [
+        "Višnja"
+      ],
+      "traditional_use_note": "Sorte grožđa kao što su Izabela, Muskat, Kabarne, Hamburg imaju izraženo antimikrobno dejstvo. Sok od grožđa ima tonizirajuće delovanje. Koristan je kod iscrpljenosti nervnog sistema i opšte iscrpljenosti. Bogat je glukozom, ima diuretičko svojstvo, kao i svojstvo sredstva za izazivanje znojenja. Smanjuje sadržaj holesterola u krvi. Ovaj",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-19",
+      "source_pages": [
+        19
+      ],
+      "source_section": "VOĆE I JAGODIČASTO VOĆE",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "vranino-oko-ljutic-aconitum-anthora",
+      "naziv": "Vranino oko - Ljutić(Aconitum anthora)",
+      "varijante": [
+        "Vranino oko - Ljutić(Aconitum anthora)"
+      ],
+      "traditional_use_note": "trovanja dešavaju u proleće za vreme proletnjih bujica kada se krupno i sočno korenje lako pronalazi i ispira vodom iz priobalnih obitavališta biljaka. Posle dospevanja delova biljke u organizam čoveka, posebno korenja, ubrzo dolazi do trovanja sa sledećim simptomima: slatkast, zatim gorkast ukus u ustima, bol u stomaku, lučenje pljuvačke",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-174",
+      "source_pages": [
+        174
+      ],
+      "source_section": "OTROVNE BILJKE",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "vratic-vratika",
+      "naziv": "Vratić, vratika",
+      "varijante": [
+        "Vratić, vratika",
+        "Vratić (vratika)"
+      ],
+      "traditional_use_note": "u čaši vrućeg mleka. Piti ujutru i uveče. Koristiti duže vreme.Upotrebljava se kod tuberkuloze i upornog bronhitisa. 2. Smola (crnogorična) - borovi, kedar, jele, bele jele. Očistiti smolu od primesa. Ako je gusta ostaviti u 96% alkoholu. Smola se stavlja u staklenu teglu i preliva alkoholom tako da on prelazi nivo smole za 1cm. Za nekoli",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-325",
+      "source_pages": [
+        325
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "zimzelen",
+      "naziv": "Zimzelen",
+      "varijante": [
+        "Zimzelen"
+      ],
+      "traditional_use_note": "nervnog sistema, jača srčani mišić, jača koronarni krvotok, otklanja tahikardiju i aritmiju, snižava krvni pritisak i ublažava otežano disanje. Ladolež, tinktura 20g. biljke preliti sa 100ml 70% alkohola i ostaviti da odstoji dvg nedelje. Procgditi i piti po 15-30 kapi 2-3 puta dnevno kao diuretičko i laksativno sredstvo. Zimzelen Uzeti 5",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-192",
+      "source_pages": [
+        192,
+        193,
+        194,
+        195,
+        196,
+        197
+      ],
+      "source_section": "OTROVNE BILJKE",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "zova",
+      "naziv": "Zova",
+      "varijante": [
+        "Zova"
+      ],
+      "traditional_use_note": "Lekovita biljka ili namirnica iz poglavlja Korisni saveti, sa narodnim načinima primene za 'Zova'.",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-314",
+      "source_pages": [
+        314
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "cicak",
+      "naziv": "Čičak",
+      "varijante": [
+        "Čičak"
+      ],
+      "traditional_use_note": "Koren čička sadrži polisaharide, insulin koji se pretvara u fruktozu u kiseloj sredini, belančevine, etarska ulja, tanin, vitamin S Čičak deluje kao izazivač znojenja, a takođe i kao diuretik. Ekstrakt iz korena normalizuje sastav krvi, smanjuje u njoj koncentraciju šećera, a njegovi alkaloidi sprečavaju rast malignih tumora. U hrani se k",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-26",
+      "source_pages": [
+        26
+      ],
+      "source_section": "VOĆE I JAGODIČASTO VOĆE",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "sljive",
+      "naziv": "Šljive",
+      "varijante": [
+        "Šljive"
+      ],
+      "traditional_use_note": "Oskoruša je lekovita kod hipertonije, ateroskleroze, poseduje diuretičko delovanje i doprinosi obnavljanju krvi. Sok od oskoruše se u narodnoj medicini koristi kod hemoroida, gastritisa sa smanjenom kiselošću. Fitonicidi oskoruše su pogubni za stafilokoku, salmonelu, plesne gljivice. Iz oskoruše je izdvojena sorbinska kiselina koja ima ba",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-22",
+      "source_pages": [
+        22
+      ],
+      "source_section": "VOĆE I JAGODIČASTO VOĆE",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "sumska-jagoda",
+      "naziv": "Šumska jagoda",
+      "varijante": [
+        "Šumska jagoda"
+      ],
+      "traditional_use_note": "Lekovita biljka ili namirnica iz poglavlja Korisni saveti, sa narodnim načinima primene za 'Šumska jagoda'.",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-286",
+      "source_pages": [
+        286
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    },
+    {
+      "id": "zutikovina",
+      "naziv": "Žutikovina",
+      "varijante": [
+        "Žutikovina"
+      ],
+      "traditional_use_note": "Lekovita biljka ili namirnica iz poglavlja Korisni saveti, sa narodnim načinima primene za 'Žutikovina'.",
+      "source_book": "Enciklopedija narodnih metoda lečenja",
+      "source_anchor": "index.html#page-321",
+      "source_pages": [
+        321,
+        322
+      ],
+      "source_section": "KORISNI SAVETI",
+      "source_group": "biljke_i_namirnice",
+      "fit_for_paprikas": "high",
+      "merge_status": "seed-review",
+      "napomena": "Tradicionalna referenca iz enciklopedije; ne koristiti kao automatski medicinski savet bez revizije."
+    }
+  ]
+}

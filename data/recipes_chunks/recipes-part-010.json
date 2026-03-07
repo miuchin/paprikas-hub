@@ -1,0 +1,3936 @@
+{
+  "part": 10,
+  "count": 67,
+  "recipes": [
+    {
+      "naziv": "Posni kolač sa borovnicama",
+      "kategorija": [
+        "desert",
+        "posno"
+      ],
+      "tags": [
+        "posno",
+        "borovnice",
+        "kolac"
+      ],
+      "porcije": 12,
+      "vreme_min": 55,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "borovnice",
+          "kolicina": "350 g"
+        },
+        {
+          "item": "brašno",
+          "kolicina": "320 g"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "170 g"
+        },
+        {
+          "item": "voda",
+          "kolicina": "250 ml"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "80 ml"
+        },
+        {
+          "item": "prašak za pecivo",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Zagrej rernu 180°C.",
+        "2) Umuti vodu, šećer i ulje 20 sek.",
+        "3) Dodaj brašno, prašak i so 20 sek.",
+        "4) Sipaj u pleh.",
+        "5) Dodaj borovnice po vrhu.",
+        "6) Peci 35 min.",
+        "7) Ohladi 20 min.",
+        "8) Iseci i serviraj."
+      ],
+      "napomene": "Borovnice ravnomerno rasporedi po testu.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "posni-kolac-sa-borovnicama",
+      "user": false
+    },
+    {
+      "naziv": "Pita sa kajsijama i grizom",
+      "kategorija": [
+        "desert",
+        "pite"
+      ],
+      "tags": [
+        "pita",
+        "kajsije",
+        "griz"
+      ],
+      "porcije": 10,
+      "vreme_min": 60,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "kore za pitu",
+          "kolicina": "500 g"
+        },
+        {
+          "item": "kajsije",
+          "kolicina": "1 kg"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "170 g"
+        },
+        {
+          "item": "griz",
+          "kolicina": "80 g"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "80 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Prepolovi kajsije i izvadi koštice.",
+        "2) Pomešaj kajsije, šećer, griz i so.",
+        "3) Zagrej rernu 200°C.",
+        "4) Slaži kore, svaku premaži uljem.",
+        "5) Rasporedi fil u 2–3 sloja.",
+        "6) Završi korama.",
+        "7) Peci 35 min.",
+        "8) Ohladi 15 min i serviraj."
+      ],
+      "napomene": "Griz upija sok kajsija tokom pečenja.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "pita-sa-kajsijama-i-grizom",
+      "user": false
+    },
+    {
+      "naziv": "Mafini sa šljivama",
+      "kategorija": [
+        "desert",
+        "kolači"
+      ],
+      "tags": [
+        "mafini",
+        "sljive",
+        "peceno"
+      ],
+      "porcije": 12,
+      "vreme_min": 40,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "brašno",
+          "kolicina": "320 g"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "180 g"
+        },
+        {
+          "item": "jaja",
+          "kolicina": "2 kom"
+        },
+        {
+          "item": "mleko",
+          "kolicina": "250 ml"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "80 ml"
+        },
+        {
+          "item": "šljive",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "prašak za pecivo",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Zagrej rernu 190°C.",
+        "2) Umuti jaja i šećer 1 min.",
+        "3) Dodaj mleko i ulje 10 sek.",
+        "4) Dodaj brašno, prašak i so 20 sek.",
+        "5) Dodaj sitne komade šljive.",
+        "6) Sipaj u kalupe.",
+        "7) Peci 18 min.",
+        "8) Ohladi 10 min i serviraj."
+      ],
+      "napomene": "Šljive kratko ocedi ako su vrlo sočne.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "mafini-sa-sljivama",
+      "user": false
+    },
+    {
+      "naziv": "Biskvit sa kruškama i jogurtom",
+      "kategorija": [
+        "desert",
+        "kolači"
+      ],
+      "tags": [
+        "biskvit",
+        "kruske",
+        "jogurt"
+      ],
+      "porcije": 12,
+      "vreme_min": 55,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "kruške",
+          "kolicina": "700 g"
+        },
+        {
+          "item": "jaja",
+          "kolicina": "3 kom"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "180 g"
+        },
+        {
+          "item": "jogurt",
+          "kolicina": "250 ml"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "80 ml"
+        },
+        {
+          "item": "brašno",
+          "kolicina": "320 g"
+        },
+        {
+          "item": "prašak za pecivo",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Zagrej rernu 180°C.",
+        "2) Umuti jaja i šećer 2 min.",
+        "3) Dodaj jogurt i ulje 10 sek.",
+        "4) Dodaj brašno, prašak i so 20 sek.",
+        "5) Sipaj u pleh i rasporedi kriške kruške.",
+        "6) Peci 35 min.",
+        "7) Ohladi 20 min.",
+        "8) Iseci i serviraj."
+      ],
+      "napomene": "Jogurt daje mekšu strukturu biskvitu.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "biskvit-sa-kruskama-i-jogurtom",
+      "user": false
+    },
+    {
+      "naziv": "Sutlijaš sa kajsijama",
+      "kategorija": [
+        "desert",
+        "poslastica"
+      ],
+      "tags": [
+        "sutlijas",
+        "kajsije",
+        "pirinac"
+      ],
+      "porcije": 6,
+      "vreme_min": 55,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "pirinač",
+          "kolicina": "160 g"
+        },
+        {
+          "item": "mleko",
+          "kolicina": "1.2 l"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "110 g"
+        },
+        {
+          "item": "kajsije",
+          "kolicina": "280 g"
+        },
+        {
+          "item": "vanilin šećer",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Isperi pirinač.",
+        "2) Skuvaj ga u 300 ml vode 10 min.",
+        "3) Dodaj mleko i so, kuvaj 25 min.",
+        "4) Dodaj šećer i vanilu 5 min.",
+        "5) Dodaj kajsije na sitne komade 3 min.",
+        "6) Sipaj u činije.",
+        "7) Ohladi 30 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Kajsije dodaj na kraju da ostanu mirisne.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "sutlijas-sa-kajsijama",
+      "user": false
+    },
+    {
+      "naziv": "Griz sa breskvama",
+      "kategorija": [
+        "desert",
+        "brzo"
+      ],
+      "tags": [
+        "griz",
+        "breskve",
+        "poslastica"
+      ],
+      "porcije": 4,
+      "vreme_min": 12,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "mleko",
+          "kolicina": "1 l"
+        },
+        {
+          "item": "griz",
+          "kolicina": "120 g"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "90 g"
+        },
+        {
+          "item": "breskve",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Zagrej mleko sa šećerom i solju do ključanja.",
+        "2) Sipaj griz uz mešanje.",
+        "3) Kuvaj 3 min.",
+        "4) Dodaj sitne komade breskve 1 min.",
+        "5) Sipaj u činije.",
+        "6) Ohladi 15 min.",
+        "7) Odstoj 5 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Breskve dodaj kratko da zadrže aromu.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "griz-sa-breskvama",
+      "user": false
+    },
+    {
+      "naziv": "Rolat sa džemom od kupine",
+      "kategorija": [
+        "desert",
+        "kolači"
+      ],
+      "tags": [
+        "rolat",
+        "dzem",
+        "kupina"
+      ],
+      "porcije": 12,
+      "vreme_min": 40,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "jaja",
+          "kolicina": "4 kom"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "140 g"
+        },
+        {
+          "item": "brašno",
+          "kolicina": "140 g"
+        },
+        {
+          "item": "džem od kupine",
+          "kolicina": "220 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Zagrej rernu 200°C.",
+        "2) Umuti jaja i šećer 4 min.",
+        "3) Dodaj brašno i so 15 sek.",
+        "4) Sipaj u pleh obložen papirom.",
+        "5) Peci 10 min.",
+        "6) Urolaj topao biskvit u krpu 5 min.",
+        "7) Odmotaj, namaži džemom i ponovo urolaj.",
+        "8) Ohladi 20 min i seci."
+      ],
+      "napomene": "Topao biskvit se lakše uvija i ne puca.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "rolat-sa-dzemom-od-kupine",
+      "user": false
+    },
+    {
+      "naziv": "Keks kocke sa orasima",
+      "kategorija": [
+        "desert",
+        "brzo"
+      ],
+      "tags": [
+        "keks",
+        "orasi",
+        "bez pecenja"
+      ],
+      "porcije": 16,
+      "vreme_min": 25,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "mleveni keks",
+          "kolicina": "320 g"
+        },
+        {
+          "item": "šećer u prahu",
+          "kolicina": "130 g"
+        },
+        {
+          "item": "puter (mekan)",
+          "kolicina": "120 g"
+        },
+        {
+          "item": "mleko",
+          "kolicina": "180 ml"
+        },
+        {
+          "item": "orasi seckani",
+          "kolicina": "120 g"
+        }
+      ],
+      "koraci": [
+        "1) Pomešaj keks i šećer.",
+        "2) Dodaj puter 30 sek.",
+        "3) Dodaj mleko i orahe, umesi 1 min.",
+        "4) Utisni masu u mali pleh.",
+        "5) Poravnaj površinu.",
+        "6) Rashladi 3 sata.",
+        "7) Iseci na kocke.",
+        "8) Serviraj."
+      ],
+      "napomene": "Ako je masa mekša, dodaj još 20 g keksa.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "keks-kocke-sa-orasima",
+      "user": false
+    },
+    {
+      "naziv": "Kačamak sa fetom",
+      "kategorija": [
+        "doručak",
+        "brzo"
+      ],
+      "tags": [
+        "kacamak",
+        "feta",
+        "dorucak"
+      ],
+      "porcije": 2,
+      "vreme_min": 12,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "palenta (kukuruzna krupica)",
+          "kolicina": "120 g"
+        },
+        {
+          "item": "voda",
+          "kolicina": "600 ml"
+        },
+        {
+          "item": "feta sir",
+          "kolicina": "150 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "8 g"
+        }
+      ],
+      "koraci": [
+        "1) Prokuvaj vodu sa solju.",
+        "2) Sipaj palentu uz mešanje.",
+        "3) Kuvaj 5 min.",
+        "4) Sipaj u činije.",
+        "5) Dodaj fetu preko.",
+        "6) Odstoj 2 min.",
+        "7) Serviraj.",
+        "8) Gotovo."
+      ],
+      "napomene": "Feta se blago omekša na toplom kačamaku.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "kacamak-sa-fetom",
+      "user": false
+    },
+    {
+      "naziv": "Omlet sa kukuruzom",
+      "kategorija": [
+        "doručak",
+        "toplo"
+      ],
+      "tags": [
+        "omlet",
+        "kukuruz",
+        "brzo"
+      ],
+      "porcije": 2,
+      "vreme_min": 12,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "jaja",
+          "kolicina": "4 kom"
+        },
+        {
+          "item": "kukuruz šećerac (oceđen)",
+          "kolicina": "140 g"
+        },
+        {
+          "item": "puter",
+          "kolicina": "25 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "8 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Umuti jaja sa solju i biberom.",
+        "2) Otopi puter u tiganju.",
+        "3) Dodaj kukuruz 1 min.",
+        "4) Sipaj jaja preko.",
+        "5) Peci 2 min.",
+        "6) Preklopi i peci još 1 min.",
+        "7) Odstoj 1 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Kukuruz daje slast i blagu hrskavost omletu.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "omlet-sa-kukuruzom",
+      "user": false
+    },
+    {
+      "naziv": "Proja sa pečenom paprikom",
+      "kategorija": [
+        "peciva",
+        "doručak"
+      ],
+      "tags": [
+        "proja",
+        "pecena paprika",
+        "pecivo"
+      ],
+      "porcije": 10,
+      "vreme_min": 45,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "kukuruzno brašno",
+          "kolicina": "340 g"
+        },
+        {
+          "item": "pšenično brašno",
+          "kolicina": "80 g"
+        },
+        {
+          "item": "jaja",
+          "kolicina": "2 kom"
+        },
+        {
+          "item": "jogurt",
+          "kolicina": "320 ml"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "70 ml"
+        },
+        {
+          "item": "pečena crvena paprika (oljuštena)",
+          "kolicina": "220 g"
+        },
+        {
+          "item": "prašak za pecivo",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "14 g"
+        }
+      ],
+      "koraci": [
+        "1) Zagrej rernu 200°C.",
+        "2) Umuti jaja, jogurt i ulje 20 sek.",
+        "3) Dodaj brašna, prašak i so 20 sek.",
+        "4) Umešaj sitno seckanu pečenu papriku.",
+        "5) Sipaj u pleh.",
+        "6) Peci 30 min.",
+        "7) Ohladi 10 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Papriku dobro ocedi pre dodavanja u smesu.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "proja-sa-pecenom-paprikom",
+      "user": false
+    },
+    {
+      "naziv": "Tost sa kačkavaljem i krastavcem",
+      "kategorija": [
+        "doručak",
+        "brzo"
+      ],
+      "tags": [
+        "tost",
+        "kackavalj",
+        "krastavac"
+      ],
+      "porcije": 2,
+      "vreme_min": 8,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "tost hleb",
+          "kolicina": "4 kriške"
+        },
+        {
+          "item": "kačkavalj",
+          "kolicina": "140 g"
+        },
+        {
+          "item": "krastavac",
+          "kolicina": "180 g"
+        },
+        {
+          "item": "puter",
+          "kolicina": "15 g"
+        }
+      ],
+      "koraci": [
+        "1) Tostiraj hleb 3 min.",
+        "2) Dodaj listiće kačkavalja.",
+        "3) Dodaj tanke kriške krastavca.",
+        "4) Poklopi tostove.",
+        "5) Spolja premaži malo putera.",
+        "6) Zapeći još 2 min.",
+        "7) Preseci na pola.",
+        "8) Serviraj."
+      ],
+      "napomene": "Krastavac dodaj tanko sečen da tost ostane stabilan.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "tost-sa-kackavaljem-i-krastavcem",
+      "user": false
+    },
+    {
+      "naziv": "Ovsena kaša sa breskvom",
+      "kategorija": [
+        "doručak",
+        "zdravo"
+      ],
+      "tags": [
+        "ovsena kasa",
+        "breskva",
+        "dorucak"
+      ],
+      "porcije": 2,
+      "vreme_min": 10,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "ovsene pahuljice",
+          "kolicina": "90 g"
+        },
+        {
+          "item": "mleko",
+          "kolicina": "400 ml"
+        },
+        {
+          "item": "breskva",
+          "kolicina": "220 g"
+        },
+        {
+          "item": "med",
+          "kolicina": "20 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Iseci breskvu na sitne kocke.",
+        "2) Zagrej mleko sa solju do ključanja.",
+        "3) Dodaj ovsene pahuljice 4 min.",
+        "4) Dodaj breskvu 1 min.",
+        "5) Skloni sa vatre.",
+        "6) Dodaj med.",
+        "7) Promešaj 10 sek.",
+        "8) Serviraj."
+      ],
+      "napomene": "Breskvu dodaj pred kraj da ostane mirisna.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "ovsena-kasa-sa-breskvom",
+      "user": false
+    },
+    {
+      "naziv": "Jogurt sa ovsom i borovnicama",
+      "kategorija": [
+        "doručak",
+        "brzo"
+      ],
+      "tags": [
+        "jogurt",
+        "ovas",
+        "borovnice"
+      ],
+      "porcije": 2,
+      "vreme_min": 5,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "jogurt",
+          "kolicina": "500 ml"
+        },
+        {
+          "item": "ovsene pahuljice",
+          "kolicina": "80 g"
+        },
+        {
+          "item": "borovnice",
+          "kolicina": "150 g"
+        },
+        {
+          "item": "med",
+          "kolicina": "20 g"
+        }
+      ],
+      "koraci": [
+        "1) Sipaj jogurt u činije.",
+        "2) Dodaj ovsene pahuljice.",
+        "3) Dodaj borovnice.",
+        "4) Prelij medom.",
+        "5) Odstoj 3 min.",
+        "6) Serviraj.",
+        "7) Gotovo.",
+        "8) Po želji rashladi 10 min."
+      ],
+      "napomene": "Borovnice dodaj neposredno pre serviranja.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "jogurt-sa-ovsom-i-borovnicama",
+      "user": false
+    },
+    {
+      "naziv": "Kaša od prosa sa kruškom",
+      "kategorija": [
+        "doručak",
+        "zdravo"
+      ],
+      "tags": [
+        "proso",
+        "kruska",
+        "kasa"
+      ],
+      "porcije": 2,
+      "vreme_min": 20,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "proso",
+          "kolicina": "100 g"
+        },
+        {
+          "item": "mleko",
+          "kolicina": "450 ml"
+        },
+        {
+          "item": "kruška",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "med",
+          "kolicina": "20 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Isperi proso.",
+        "2) Kuvaj proso u mleku sa solju 15 min.",
+        "3) Dodaj krušku na sitne kocke 3 min.",
+        "4) Skloni sa vatre.",
+        "5) Dodaj med.",
+        "6) Promešaj 10 sek.",
+        "7) Odstoj 2 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Kruška omekša i zasladi kašu bez dodatnog šećera.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "kasa-od-prosa-sa-kruskom",
+      "user": false
+    },
+    {
+      "naziv": "Kompot od kruške i jabuke",
+      "kategorija": [
+        "napitak",
+        "desert"
+      ],
+      "tags": [
+        "kompot",
+        "kruska",
+        "jabuka"
+      ],
+      "porcije": 6,
+      "vreme_min": 25,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "kruške",
+          "kolicina": "700 g"
+        },
+        {
+          "item": "jabuke",
+          "kolicina": "600 g"
+        },
+        {
+          "item": "voda",
+          "kolicina": "1.8 l"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "130 g"
+        }
+      ],
+      "koraci": [
+        "1) Oljušti voće i iseci na kriške.",
+        "2) Prokuvaj vodu sa šećerom 5 min.",
+        "3) Dodaj jabuke 8 min.",
+        "4) Dodaj kruške 6 min.",
+        "5) Skloni sa vatre.",
+        "6) Ohladi 20 min.",
+        "7) Serviraj.",
+        "8) Gotovo."
+      ],
+      "napomene": "Jabuke dodaj ranije jer su čvršće od krušaka.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "kompot-od-kruske-i-jabuke",
+      "user": false
+    },
+    {
+      "naziv": "Sok od kajsije i narandže",
+      "kategorija": [
+        "napitak",
+        "osveženje"
+      ],
+      "tags": [
+        "sok",
+        "kajsija",
+        "narandza"
+      ],
+      "porcije": 4,
+      "vreme_min": 10,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "kajsije",
+          "kolicina": "350 g"
+        },
+        {
+          "item": "narandže",
+          "kolicina": "4 kom"
+        },
+        {
+          "item": "voda",
+          "kolicina": "500 ml"
+        },
+        {
+          "item": "med",
+          "kolicina": "20 g"
+        }
+      ],
+      "koraci": [
+        "1) Izvadi koštice iz kajsija.",
+        "2) Iscedi narandže.",
+        "3) Izblendiraj kajsije sa vodom 20 sek.",
+        "4) Procedi po želji.",
+        "5) Sjedini sa sokom od narandže.",
+        "6) Dodaj med.",
+        "7) Rashladi 20 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Kajsija daje gustoću i blagu slast soku.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "sok-od-kajsije-i-narandze",
+      "user": false
+    },
+    {
+      "naziv": "Jogurt napitak sa breskvom",
+      "kategorija": [
+        "napitak",
+        "doručak"
+      ],
+      "tags": [
+        "jogurt",
+        "breskva",
+        "napitak"
+      ],
+      "porcije": 2,
+      "vreme_min": 5,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "jogurt",
+          "kolicina": "450 ml"
+        },
+        {
+          "item": "breskva",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "med",
+          "kolicina": "20 g"
+        }
+      ],
+      "koraci": [
+        "1) Oljušti breskvu i iseckaj je.",
+        "2) Stavi sve sastojke u blender.",
+        "3) Izmiksaj 20 sek.",
+        "4) Sipaj u čaše.",
+        "5) Serviraj odmah.",
+        "6) Gotovo.",
+        "7) Po želji rashladi 10 min.",
+        "8) Posluži."
+      ],
+      "napomene": "Zrela breskva daje nežan i osvežavajući ukus.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "jogurt-napitak-sa-breskvom",
+      "user": false
+    },
+    {
+      "naziv": "Toplo mleko sa kakaom i medom",
+      "kategorija": [
+        "napitak",
+        "toplo"
+      ],
+      "tags": [
+        "mleko",
+        "kakao",
+        "med"
+      ],
+      "porcije": 2,
+      "vreme_min": 8,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "mleko",
+          "kolicina": "600 ml"
+        },
+        {
+          "item": "kakao",
+          "kolicina": "25 g"
+        },
+        {
+          "item": "med",
+          "kolicina": "25 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Razmuti kakao u 80 ml mleka.",
+        "2) Zagrej ostatak mleka.",
+        "3) Dodaj kakao i so, mešaj 20 sek.",
+        "4) Kuvaj 2 min tiho.",
+        "5) Ohladi 2 min.",
+        "6) Dodaj med.",
+        "7) Promešaj 10 sek.",
+        "8) Serviraj."
+      ],
+      "napomene": "Med dodaj kada napitak više nije prevruć.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "toplo-mleko-sa-kakaom-i-medom",
+      "user": false
+    },
+    {
+      "naziv": "Smoothie od kajsije i borovnice",
+      "kategorija": [
+        "napitak",
+        "doručak"
+      ],
+      "tags": [
+        "smoothie",
+        "kajsija",
+        "borovnica"
+      ],
+      "porcije": 2,
+      "vreme_min": 5,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "kajsije",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "borovnice",
+          "kolicina": "180 g"
+        },
+        {
+          "item": "jogurt",
+          "kolicina": "400 ml"
+        },
+        {
+          "item": "med",
+          "kolicina": "20 g"
+        }
+      ],
+      "koraci": [
+        "1) Izvadi koštice iz kajsija.",
+        "2) Stavi sve sastojke u blender.",
+        "3) Izmiksaj 25 sek.",
+        "4) Sipaj u čaše.",
+        "5) Serviraj odmah.",
+        "6) Gotovo.",
+        "7) Po želji rashladi 10 min.",
+        "8) Posluži."
+      ],
+      "napomene": "Borovnice daju lepu boju i gustinu.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "smoothie-od-kajsije-i-borovnice",
+      "user": false
+    },
+    {
+      "naziv": "Paprikaš od piletine sa cveklom",
+      "kategorija": [
+        "glavno",
+        "živinsko"
+      ],
+      "tags": [
+        "paprikas",
+        "piletina",
+        "cvekla"
+      ],
+      "porcije": 4,
+      "vreme_min": 90,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "pileći file",
+          "kolicina": "900 g"
+        },
+        {
+          "item": "cvekla",
+          "kolicina": "400 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "360 g"
+        },
+        {
+          "item": "slatka mlevena paprika",
+          "kolicina": "2.5 kašike"
+        },
+        {
+          "item": "pasirani paradajz",
+          "kolicina": "260 ml"
+        },
+        {
+          "item": "voda",
+          "kolicina": "1 l"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "25 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "22 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Dinstaj luk 10 min.",
+        "2) Dodaj piletinu i zapeči 8 min.",
+        "3) Skloni sa vatre i dodaj papriku 10 sek.",
+        "4) Dodaj paradajz i vodu, kuvaj 35 min.",
+        "5) Dodaj cveklu na sitne kocke 18 min.",
+        "6) Posoli i pobiberi 2 min.",
+        "7) Odstoj 5 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Cveklu seci sitnije da stigne da omekša.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "paprikas-od-piletine-sa-cveklom",
+      "user": false
+    },
+    {
+      "naziv": "Paprikaš od ćuretine sa karfiolom i prazilukom",
+      "kategorija": [
+        "glavno",
+        "živinsko"
+      ],
+      "tags": [
+        "paprikas",
+        "curetina",
+        "karfiol"
+      ],
+      "porcije": 4,
+      "vreme_min": 85,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "ćureći file",
+          "kolicina": "900 g"
+        },
+        {
+          "item": "karfiol",
+          "kolicina": "650 g"
+        },
+        {
+          "item": "praziluk",
+          "kolicina": "320 g"
+        },
+        {
+          "item": "slatka mlevena paprika",
+          "kolicina": "2.5 kašike"
+        },
+        {
+          "item": "voda",
+          "kolicina": "1 l"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "25 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "22 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Dinstaj praziluk 8 min.",
+        "2) Dodaj ćuretinu i zapeči 8 min.",
+        "3) Skloni sa vatre i dodaj papriku 10 sek.",
+        "4) Nalij vodom i kuvaj 35 min.",
+        "5) Dodaj karfiol 15 min.",
+        "6) Posoli i pobiberi 2 min.",
+        "7) Odstoj 6 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Karfiol dodaj kada je meso skoro gotovo.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "paprikas-od-curetine-sa-karfiolom-i-prazilukom",
+      "user": false
+    },
+    {
+      "naziv": "Paprikaš od svinjetine sa keljom",
+      "kategorija": [
+        "glavno",
+        "porodično"
+      ],
+      "tags": [
+        "paprikas",
+        "svinjetina",
+        "kelj"
+      ],
+      "porcije": 4,
+      "vreme_min": 110,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "svinjska plećka",
+          "kolicina": "1 kg"
+        },
+        {
+          "item": "kelj",
+          "kolicina": "700 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "520 g"
+        },
+        {
+          "item": "slatka mlevena paprika",
+          "kolicina": "2.5 kašike"
+        },
+        {
+          "item": "voda",
+          "kolicina": "1.4 l"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "30 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "24 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Dinstaj luk 18 min.",
+        "2) Dodaj meso i zapeči 12 min.",
+        "3) Skloni sa vatre i dodaj papriku 10 sek.",
+        "4) Nalij vodom i kuvaj 65 min.",
+        "5) Dodaj kelj na trake 15 min.",
+        "6) Posoli i pobiberi 2 min.",
+        "7) Odstoj 8 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Kelj dodaj tek kada je meso omekšalo.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "paprikas-od-svinjetine-sa-keljom",
+      "user": false
+    },
+    {
+      "naziv": "Paprikaš od junetine sa blitvom",
+      "kategorija": [
+        "glavno",
+        "sporo kuvanje"
+      ],
+      "tags": [
+        "paprikas",
+        "junetina",
+        "blitva"
+      ],
+      "porcije": 4,
+      "vreme_min": 165,
+      "tezina": "teško",
+      "sastojci": [
+        {
+          "item": "junetina (plećka)",
+          "kolicina": "1 kg"
+        },
+        {
+          "item": "blitva",
+          "kolicina": "450 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "650 g"
+        },
+        {
+          "item": "šargarepa",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "slatka mlevena paprika",
+          "kolicina": "3 kašike"
+        },
+        {
+          "item": "voda",
+          "kolicina": "1.6 l"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "30 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "26 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Dinstaj luk 25 min.",
+        "2) Dodaj junetinu i zapeči 12 min.",
+        "3) Skloni sa vatre i dodaj papriku 10 sek.",
+        "4) Nalij vodom i kuvaj 125 min.",
+        "5) Dodaj šargarepu 10 min.",
+        "6) Dodaj blitvu 4 min.",
+        "7) Posoli i pobiberi 3 min.",
+        "8) Odstoj 10 min i serviraj."
+      ],
+      "napomene": "Blitvu dodaj sasvim na kraju da ostane nežna.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "paprikas-od-junetine-sa-blitvom",
+      "user": false
+    },
+    {
+      "naziv": "Paprikaš od pasulja sa spanaćem (posno)",
+      "kategorija": [
+        "glavno",
+        "posno"
+      ],
+      "tags": [
+        "paprikas",
+        "pasulj",
+        "spanac"
+      ],
+      "porcije": 4,
+      "vreme_min": 40,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "beli pasulj kuvan",
+          "kolicina": "850 g"
+        },
+        {
+          "item": "spanać svež",
+          "kolicina": "300 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "280 g"
+        },
+        {
+          "item": "pasirani paradajz",
+          "kolicina": "280 ml"
+        },
+        {
+          "item": "slatka mlevena paprika",
+          "kolicina": "2.5 kašike"
+        },
+        {
+          "item": "voda",
+          "kolicina": "900 ml"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "25 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "20 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Dinstaj luk 8 min.",
+        "2) Skloni sa vatre i dodaj papriku 10 sek.",
+        "3) Dodaj paradajz i vodu, kuvaj 10 min.",
+        "4) Dodaj pasulj 10 min.",
+        "5) Dodaj spanać 2 min.",
+        "6) Posoli i pobiberi.",
+        "7) Odstoj 3 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Spanać dodaj pred kraj da ostane zelen.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "paprikas-od-pasulja-sa-spanacem-posno",
+      "user": false
+    },
+    {
+      "naziv": "Paprikaš od leblebija sa prazilukom (posno)",
+      "kategorija": [
+        "glavno",
+        "posno"
+      ],
+      "tags": [
+        "paprikas",
+        "leblebije",
+        "praziluk"
+      ],
+      "porcije": 4,
+      "vreme_min": 42,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "leblebije kuvane (oceđene)",
+          "kolicina": "800 g"
+        },
+        {
+          "item": "praziluk",
+          "kolicina": "420 g"
+        },
+        {
+          "item": "pasirani paradajz",
+          "kolicina": "280 ml"
+        },
+        {
+          "item": "slatka mlevena paprika",
+          "kolicina": "2 kašike"
+        },
+        {
+          "item": "voda",
+          "kolicina": "850 ml"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "25 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "22 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Dinstaj praziluk 8 min.",
+        "2) Skloni sa vatre i dodaj papriku 10 sek.",
+        "3) Dodaj paradajz i vodu, kuvaj 10 min.",
+        "4) Dodaj leblebije 10 min.",
+        "5) Posoli i pobiberi.",
+        "6) Kuvaj još 2 min.",
+        "7) Odstoj 5 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Praziluk daje blaži ukus od crnog luka.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "paprikas-od-leblebija-sa-prazilukom-posno",
+      "user": false
+    },
+    {
+      "naziv": "Paprikaš od soma sa pečurkama",
+      "kategorija": [
+        "glavno",
+        "riblje"
+      ],
+      "tags": [
+        "paprikas",
+        "som",
+        "pecurke"
+      ],
+      "porcije": 4,
+      "vreme_min": 48,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "som (komadi)",
+          "kolicina": "900 g"
+        },
+        {
+          "item": "šampinjoni",
+          "kolicina": "450 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "420 g"
+        },
+        {
+          "item": "slatka mlevena paprika",
+          "kolicina": "3 kašike"
+        },
+        {
+          "item": "pasirani paradajz",
+          "kolicina": "360 ml"
+        },
+        {
+          "item": "voda",
+          "kolicina": "620 ml"
+        },
+        {
+          "item": "sirće alkoholno",
+          "kolicina": "10 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "18 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Kuvaj luk u vodi 18 min.",
+        "2) Dodaj papriku i paradajz, prokuvaj 2 min.",
+        "3) Dodaj pečurke 8 min.",
+        "4) Ubaci ribu.",
+        "5) Kuvaj 10 min bez mešanja.",
+        "6) Posoli i pobiberi.",
+        "7) Dodaj sirće 1 min.",
+        "8) Odstoj 8 min i serviraj."
+      ],
+      "napomene": "Pečurke dodaj pre ribe da puste aromu u sos.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "paprikas-od-soma-sa-pecurkama",
+      "user": false
+    },
+    {
+      "naziv": "Gulaš od teletine sa šargarepom",
+      "kategorija": [
+        "glavno",
+        "sporo kuvanje"
+      ],
+      "tags": [
+        "gulas",
+        "teletina",
+        "sargarepa"
+      ],
+      "porcije": 4,
+      "vreme_min": 125,
+      "tezina": "teško",
+      "sastojci": [
+        {
+          "item": "teletina (plećka)",
+          "kolicina": "900 g"
+        },
+        {
+          "item": "šargarepa",
+          "kolicina": "300 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "520 g"
+        },
+        {
+          "item": "slatka mlevena paprika",
+          "kolicina": "2.5 kašike"
+        },
+        {
+          "item": "pasirani paradajz",
+          "kolicina": "260 ml"
+        },
+        {
+          "item": "voda",
+          "kolicina": "1.3 l"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "30 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "24 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Dinstaj luk 18 min.",
+        "2) Dodaj teletinu i zapeči 12 min.",
+        "3) Skloni sa vatre i dodaj papriku 10 sek.",
+        "4) Dodaj paradajz i vodu, kuvaj 90 min.",
+        "5) Dodaj šargarepu 12 min.",
+        "6) Posoli i pobiberi.",
+        "7) Odstoj 8 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Šargarepu dodaj pri kraju da ostane u komadima.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "gulas-od-teletine-sa-sargarepom",
+      "user": false
+    },
+    {
+      "naziv": "Varivo od boranije i krompira (posno)",
+      "kategorija": [
+        "glavno",
+        "posno"
+      ],
+      "tags": [
+        "varivo",
+        "boranija",
+        "krompir"
+      ],
+      "porcije": 6,
+      "vreme_min": 45,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "boranija zamrznuta",
+          "kolicina": "900 g"
+        },
+        {
+          "item": "krompir",
+          "kolicina": "800 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "240 g"
+        },
+        {
+          "item": "voda",
+          "kolicina": "1.9 l"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "25 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "24 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Dinstaj luk 6 min.",
+        "2) Dodaj krompir 4 min.",
+        "3) Nalij vodom i kuvaj 15 min.",
+        "4) Dodaj boraniju 15 min.",
+        "5) Posoli i pobiberi.",
+        "6) Kuvaj još 3 min.",
+        "7) Odstoj 10 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Krompir će tokom stajanja dodatno zgusnuti varivo.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "varivo-od-boranije-i-krompira-posno",
+      "user": false
+    },
+    {
+      "naziv": "Rižoto sa pečurkama i bundevom",
+      "kategorija": [
+        "glavno",
+        "brzo"
+      ],
+      "tags": [
+        "rizoto",
+        "pecurke",
+        "bundeva"
+      ],
+      "porcije": 4,
+      "vreme_min": 40,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "pirinač (okruglo zrno)",
+          "kolicina": "280 g"
+        },
+        {
+          "item": "šampinjoni",
+          "kolicina": "350 g"
+        },
+        {
+          "item": "bundeva očišćena",
+          "kolicina": "350 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "180 g"
+        },
+        {
+          "item": "puter",
+          "kolicina": "50 g"
+        },
+        {
+          "item": "voda",
+          "kolicina": "1.3 l"
+        },
+        {
+          "item": "so",
+          "kolicina": "18 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Dinstaj luk na 30 g putera 5 min.",
+        "2) Dodaj pečurke 6 min.",
+        "3) Dodaj bundevu 4 min.",
+        "4) Dodaj pirinač 1 min.",
+        "5) Postepeno dolivaj vodu 16 min.",
+        "6) Dodaj preostali puter.",
+        "7) Posoli i pobiberi.",
+        "8) Odstoj 2 min i serviraj."
+      ],
+      "napomene": "Bundeva daje blagu kremastost rižotu.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "rizoto-sa-pecurkama-i-bundevom",
+      "user": false
+    },
+    {
+      "naziv": "Musaka od karfiola i mlevenog mesa",
+      "kategorija": [
+        "glavno",
+        "rerna"
+      ],
+      "tags": [
+        "musaka",
+        "karfiol",
+        "mleveno meso"
+      ],
+      "porcije": 8,
+      "vreme_min": 85,
+      "tezina": "teško",
+      "sastojci": [
+        {
+          "item": "karfiol",
+          "kolicina": "1.4 kg"
+        },
+        {
+          "item": "mlevena junetina",
+          "kolicina": "800 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "220 g"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "30 ml"
+        },
+        {
+          "item": "jaja",
+          "kolicina": "3 kom"
+        },
+        {
+          "item": "mleko",
+          "kolicina": "400 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "26 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "3 g"
+        }
+      ],
+      "koraci": [
+        "1) Dinstaj luk 6 min.",
+        "2) Dodaj meso i prži 10 min.",
+        "3) Posoli i pobiberi meso.",
+        "4) Obari karfiol 5 min.",
+        "5) Ređaj karfiol i meso u slojeve.",
+        "6) Umuti jaja i mleko.",
+        "7) Prelij i peci 35 min na 200°C.",
+        "8) Odstoj 15 min i serviraj."
+      ],
+      "napomene": "Karfiol kratko obari da zadrži oblik tokom pečenja.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "musaka-od-karfiola-i-mlevenog-mesa",
+      "user": false
+    },
+    {
+      "naziv": "Sarma od zelja sa piletinom",
+      "kategorija": [
+        "glavno",
+        "porodično"
+      ],
+      "tags": [
+        "sarma",
+        "zelje",
+        "piletina"
+      ],
+      "porcije": 6,
+      "vreme_min": 120,
+      "tezina": "teško",
+      "sastojci": [
+        {
+          "item": "listovi zelja",
+          "kolicina": "16 kom"
+        },
+        {
+          "item": "pileći file",
+          "kolicina": "650 g"
+        },
+        {
+          "item": "pirinač",
+          "kolicina": "180 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "220 g"
+        },
+        {
+          "item": "pasirani paradajz",
+          "kolicina": "650 ml"
+        },
+        {
+          "item": "voda",
+          "kolicina": "1.1 l"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "35 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "22 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Sitno iseckaj piletinu.",
+        "2) Dinstaj luk 6 min.",
+        "3) Dodaj piletinu i pirinač 3 min.",
+        "4) Posoli i pobiberi.",
+        "5) Napuni listove zelja i uvij sarme.",
+        "6) Složi u šerpu.",
+        "7) Prelij paradajzom i vodom i kuvaj 90 min.",
+        "8) Odstoj 10 min i serviraj."
+      ],
+      "napomene": "Fil treba da ostane polusirov pre dužeg kuvanja.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "sarma-od-zelja-sa-piletinom",
+      "user": false
+    },
+    {
+      "naziv": "Čorba od pasulja i tikve (posno)",
+      "kategorija": [
+        "supa",
+        "čorba"
+      ],
+      "tags": [
+        "corba",
+        "pasulj",
+        "tikva"
+      ],
+      "porcije": 6,
+      "vreme_min": 40,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "beli pasulj kuvan",
+          "kolicina": "800 g"
+        },
+        {
+          "item": "bundeva očišćena",
+          "kolicina": "600 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "200 g"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "20 ml"
+        },
+        {
+          "item": "voda",
+          "kolicina": "2.4 l"
+        },
+        {
+          "item": "so",
+          "kolicina": "24 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Dinstaj luk 6 min.",
+        "2) Dodaj bundevu 4 min.",
+        "3) Nalij vodom i kuvaj 15 min.",
+        "4) Dodaj pasulj 8 min.",
+        "5) Posoli i pobiberi.",
+        "6) Odstoj 10 min.",
+        "7) Serviraj.",
+        "8) Gotovo."
+      ],
+      "napomene": "Bundeva daje blagu slast čorbi.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "corba-od-pasulja-i-tikve-posno",
+      "user": false
+    },
+    {
+      "naziv": "Krem supa od cvekle i krompira",
+      "kategorija": [
+        "supa",
+        "krem"
+      ],
+      "tags": [
+        "supa",
+        "cvekla",
+        "krompir"
+      ],
+      "porcije": 4,
+      "vreme_min": 38,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "cvekla",
+          "kolicina": "600 g"
+        },
+        {
+          "item": "krompir",
+          "kolicina": "500 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "150 g"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "20 ml"
+        },
+        {
+          "item": "voda",
+          "kolicina": "1.5 l"
+        },
+        {
+          "item": "mleko",
+          "kolicina": "180 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "20 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Dinstaj luk 5 min.",
+        "2) Dodaj cveklu i krompir na kocke.",
+        "3) Nalij vodom i kuvaj 25 min.",
+        "4) Izmiksaj do glatkoće.",
+        "5) Dodaj mleko.",
+        "6) Posoli i pobiberi.",
+        "7) Prokuvaj 2 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Krompir ublažava ukus cvekle i daje kremastost.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "krem-supa-od-cvekle-i-krompira",
+      "user": false
+    },
+    {
+      "naziv": "Supa od karfiola i praziluka",
+      "kategorija": [
+        "supa",
+        "čorba"
+      ],
+      "tags": [
+        "supa",
+        "karfiol",
+        "praziluk"
+      ],
+      "porcije": 4,
+      "vreme_min": 30,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "karfiol",
+          "kolicina": "700 g"
+        },
+        {
+          "item": "praziluk",
+          "kolicina": "350 g"
+        },
+        {
+          "item": "krompir",
+          "kolicina": "400 g"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "15 ml"
+        },
+        {
+          "item": "voda",
+          "kolicina": "2 l"
+        },
+        {
+          "item": "so",
+          "kolicina": "22 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Dinstaj praziluk 6 min.",
+        "2) Dodaj krompir i vodu 12 min.",
+        "3) Dodaj karfiol 10 min.",
+        "4) Posoli i pobiberi.",
+        "5) Odstoj 5 min.",
+        "6) Serviraj.",
+        "7) Gotovo.",
+        "8) Po želji delimično izblendaj."
+      ],
+      "napomene": "Praziluk daje blažu osnovu od crnog luka.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "supa-od-karfiola-i-praziluka",
+      "user": false
+    },
+    {
+      "naziv": "Krem supa od graška i krompira",
+      "kategorija": [
+        "supa",
+        "krem"
+      ],
+      "tags": [
+        "supa",
+        "grasak",
+        "krompir"
+      ],
+      "porcije": 4,
+      "vreme_min": 30,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "grašak zamrznut",
+          "kolicina": "750 g"
+        },
+        {
+          "item": "krompir",
+          "kolicina": "500 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "150 g"
+        },
+        {
+          "item": "puter",
+          "kolicina": "35 g"
+        },
+        {
+          "item": "voda",
+          "kolicina": "1.5 l"
+        },
+        {
+          "item": "so",
+          "kolicina": "20 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Dinstaj luk na puteru 5 min.",
+        "2) Dodaj krompir i vodu 15 min.",
+        "3) Dodaj grašak 8 min.",
+        "4) Izmiksaj do glatkoće.",
+        "5) Posoli i pobiberi.",
+        "6) Prokuvaj 2 min.",
+        "7) Odstoj 2 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Krompir pomaže da supa bude glatka i kremasta.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "krem-supa-od-graska-i-krompira",
+      "user": false
+    },
+    {
+      "naziv": "Supa od blitve i krompira",
+      "kategorija": [
+        "supa",
+        "čorba"
+      ],
+      "tags": [
+        "supa",
+        "blitva",
+        "krompir"
+      ],
+      "porcije": 4,
+      "vreme_min": 30,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "blitva",
+          "kolicina": "400 g"
+        },
+        {
+          "item": "krompir",
+          "kolicina": "700 g"
+        },
+        {
+          "item": "crni luk",
+          "kolicina": "150 g"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "15 ml"
+        },
+        {
+          "item": "voda",
+          "kolicina": "2 l"
+        },
+        {
+          "item": "so",
+          "kolicina": "22 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Dinstaj luk 5 min.",
+        "2) Dodaj krompir i vodu 18 min.",
+        "3) Dodaj blitvu 4 min.",
+        "4) Posoli i pobiberi.",
+        "5) Odstoj 5 min.",
+        "6) Serviraj.",
+        "7) Gotovo.",
+        "8) Po želji izgnječi malo krompira."
+      ],
+      "napomene": "Blitvu dodaj kada krompir omekša.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "supa-od-blitve-i-krompira",
+      "user": false
+    },
+    {
+      "naziv": "Prilog: heljda sa celerom",
+      "kategorija": [
+        "prilog",
+        "zdravo"
+      ],
+      "tags": [
+        "heljda",
+        "celer",
+        "prilog"
+      ],
+      "porcije": 4,
+      "vreme_min": 25,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "heljda",
+          "kolicina": "260 g"
+        },
+        {
+          "item": "celer stabljika",
+          "kolicina": "200 g"
+        },
+        {
+          "item": "voda",
+          "kolicina": "650 ml"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "20 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "14 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Isperi heljdu.",
+        "2) Prokuvaj vodu sa solju.",
+        "3) Dodaj heljdu i kuvaj 15 min.",
+        "4) Dodaj sitno seckan celer 5 min.",
+        "5) Ocedi po potrebi.",
+        "6) Dodaj ulje i biber.",
+        "7) Odstoj 5 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Celer dodaje svežinu laganom prilogu od heljde.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "prilog-heljda-sa-celerom",
+      "user": false
+    },
+    {
+      "naziv": "Prilog: pečeni krompir i šargarepa",
+      "kategorija": [
+        "prilog",
+        "rerna"
+      ],
+      "tags": [
+        "krompir",
+        "sargarepa",
+        "peceno"
+      ],
+      "porcije": 4,
+      "vreme_min": 40,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "krompir",
+          "kolicina": "900 g"
+        },
+        {
+          "item": "šargarepa",
+          "kolicina": "500 g"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "35 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "16 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Zagrej rernu 220°C.",
+        "2) Iseci krompir i šargarepu na štapiće.",
+        "3) Prelij uljem, posoli i pobiberi.",
+        "4) Peci 32 min.",
+        "5) Promešaj na pola pečenja.",
+        "6) Odstoj 5 min.",
+        "7) Serviraj.",
+        "8) Gotovo."
+      ],
+      "napomene": "Šargarepa daje slast i boju pečenom krompiru.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "prilog-peceni-krompir-i-sargarepa",
+      "user": false
+    },
+    {
+      "naziv": "Prilog: bulgur sa pečenom bundevom",
+      "kategorija": [
+        "prilog",
+        "brzo"
+      ],
+      "tags": [
+        "bulgur",
+        "bundeva",
+        "prilog"
+      ],
+      "porcije": 4,
+      "vreme_min": 25,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "bulgur",
+          "kolicina": "260 g"
+        },
+        {
+          "item": "bundeva očišćena",
+          "kolicina": "400 g"
+        },
+        {
+          "item": "voda",
+          "kolicina": "520 ml"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "20 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "14 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Ispeci bundevu 16 min na 220°C sa 10 ml ulja i 6 g soli.",
+        "2) Prokuvaj vodu sa preostalom solju.",
+        "3) Dodaj bulgur i kuvaj 10 min.",
+        "4) Ocedi po potrebi.",
+        "5) Dodaj pečenu bundevu, ulje i biber.",
+        "6) Promešaj 10 sek.",
+        "7) Odstoj 4 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Pečena bundeva daje blag, sladak ton bulguru.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "prilog-bulgur-sa-pecenom-bundevom",
+      "user": false
+    },
+    {
+      "naziv": "Prilog: pire od celera i krompira",
+      "kategorija": [
+        "prilog",
+        "klasika"
+      ],
+      "tags": [
+        "pire",
+        "celer",
+        "krompir"
+      ],
+      "porcije": 4,
+      "vreme_min": 28,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "celer koren",
+          "kolicina": "450 g"
+        },
+        {
+          "item": "krompir",
+          "kolicina": "750 g"
+        },
+        {
+          "item": "puter",
+          "kolicina": "50 g"
+        },
+        {
+          "item": "mleko",
+          "kolicina": "180 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "14 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Skuvaj celer i krompir 20 min.",
+        "2) Ocedi i vrati u šerpu 1 min.",
+        "3) Dodaj puter i izgnječi.",
+        "4) Dodaj mleko postepeno.",
+        "5) Posoli i pobiberi.",
+        "6) Kratko umutiti 10 sek.",
+        "7) Odstoj 2 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Celer daje finu aromu klasičnom pireu.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "prilog-pire-od-celera-i-krompira",
+      "user": false
+    },
+    {
+      "naziv": "Prilog: kus-kus sa kukuruzom",
+      "kategorija": [
+        "prilog",
+        "brzo"
+      ],
+      "tags": [
+        "kuskus",
+        "kukuruz",
+        "prilog"
+      ],
+      "porcije": 4,
+      "vreme_min": 15,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "kus-kus",
+          "kolicina": "260 g"
+        },
+        {
+          "item": "kukuruz šećerac (oceđen)",
+          "kolicina": "220 g"
+        },
+        {
+          "item": "voda",
+          "kolicina": "320 ml"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "20 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "14 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Prokuvaj vodu sa solju.",
+        "2) Skloni sa vatre, dodaj kus-kus i poklopi 7 min.",
+        "3) Dodaj kukuruz.",
+        "4) Dodaj ulje i biber.",
+        "5) Rastresi viljuškom.",
+        "6) Odstoj 3 min.",
+        "7) Serviraj.",
+        "8) Gotovo."
+      ],
+      "napomene": "Kus-kus je najbolji kada ostane rastresit.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "prilog-kus-kus-sa-kukuruzom",
+      "user": false
+    },
+    {
+      "naziv": "Prilog: pečeni paškanat i šargarepa",
+      "kategorija": [
+        "prilog",
+        "rerna"
+      ],
+      "tags": [
+        "pastrnjak",
+        "sargarepa",
+        "peceno"
+      ],
+      "porcije": 4,
+      "vreme_min": 35,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "paškanat",
+          "kolicina": "700 g"
+        },
+        {
+          "item": "šargarepa",
+          "kolicina": "500 g"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "35 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "16 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Zagrej rernu 220°C.",
+        "2) Iseci paškanat i šargarepu na štapiće.",
+        "3) Prelij uljem, posoli i pobiberi.",
+        "4) Peci 28 min.",
+        "5) Promešaj na pola pečenja.",
+        "6) Odstoj 5 min.",
+        "7) Serviraj.",
+        "8) Gotovo."
+      ],
+      "napomene": "Paškanat i šargarepa se ravnomerno peku kada su slične debljine.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "prilog-peceni-paskanat-i-sargarepa",
+      "user": false
+    },
+    {
+      "naziv": "Prilog: dinstani kupus sa prazilukom",
+      "kategorija": [
+        "prilog",
+        "tiganj"
+      ],
+      "tags": [
+        "kupus",
+        "praziluk",
+        "prilog"
+      ],
+      "porcije": 4,
+      "vreme_min": 22,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "beli kupus",
+          "kolicina": "900 g"
+        },
+        {
+          "item": "praziluk",
+          "kolicina": "300 g"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "20 ml"
+        },
+        {
+          "item": "voda",
+          "kolicina": "120 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "16 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Iseci kupus na trake.",
+        "2) Iseci praziluk na kolutove.",
+        "3) Dinstaj praziluk na ulju 4 min.",
+        "4) Dodaj kupus i vodu.",
+        "5) Poklopi i dinstaj 10 min.",
+        "6) Posoli i pobiberi.",
+        "7) Odstoj 3 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Praziluk daje blaži i slađi ukus kupusu.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "prilog-dinstani-kupus-sa-prazilukom",
+      "user": false
+    },
+    {
+      "naziv": "Salata od karfiola i jogurta",
+      "kategorija": [
+        "salata",
+        "prilog"
+      ],
+      "tags": [
+        "karfiol",
+        "jogurt",
+        "salata"
+      ],
+      "porcije": 4,
+      "vreme_min": 18,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "karfiol",
+          "kolicina": "700 g"
+        },
+        {
+          "item": "jogurt",
+          "kolicina": "220 ml"
+        },
+        {
+          "item": "beli luk",
+          "kolicina": "6 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "12 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Obari karfiol 5 min i ohladi.",
+        "2) Umuti jogurt, sitno seckan beli luk, so i biber.",
+        "3) Dodaj karfiol.",
+        "4) Promešaj pažljivo 10 sek.",
+        "5) Rashladi 15 min.",
+        "6) Serviraj.",
+        "7) Gotovo.",
+        "8) Po želji dodaj još 20 ml jogurta."
+      ],
+      "napomene": "Karfiol obari kratko da ostane kompaktan.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "salata-od-karfiola-i-jogurta",
+      "user": false
+    },
+    {
+      "naziv": "Salata od pečene bundeve i oraha",
+      "kategorija": [
+        "salata",
+        "zdravo"
+      ],
+      "tags": [
+        "bundeva",
+        "orasi",
+        "salata"
+      ],
+      "porcije": 4,
+      "vreme_min": 30,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "bundeva očišćena",
+          "kolicina": "800 g"
+        },
+        {
+          "item": "orasi seckani",
+          "kolicina": "80 g"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "30 ml"
+        },
+        {
+          "item": "limunov sok",
+          "kolicina": "12 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "14 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Ispeci bundevu 22 min na 220°C sa 20 ml ulja i 8 g soli.",
+        "2) Ohladi 10 min.",
+        "3) Umuti preostalo ulje, limun, preostalu so i biber.",
+        "4) Prelij bundevu.",
+        "5) Dodaj orahe.",
+        "6) Promešaj pažljivo 10 sek.",
+        "7) Odstoj 10 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Orahe dodaj pri kraju da ostanu hrskavi.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "salata-od-pecene-bundeve-i-oraha",
+      "user": false
+    },
+    {
+      "naziv": "Salata od brokolija i fete",
+      "kategorija": [
+        "salata",
+        "zdravo"
+      ],
+      "tags": [
+        "brokoli",
+        "feta",
+        "salata"
+      ],
+      "porcije": 4,
+      "vreme_min": 18,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "brokoli",
+          "kolicina": "700 g"
+        },
+        {
+          "item": "feta sir",
+          "kolicina": "220 g"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "30 ml"
+        },
+        {
+          "item": "limunov sok",
+          "kolicina": "12 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Obari brokoli 3 min i ohladi.",
+        "2) Dodaj fetu na kocke.",
+        "3) Umuti ulje, limun, so i biber.",
+        "4) Prelij salatu.",
+        "5) Promešaj pažljivo 10 sek.",
+        "6) Rashladi 10 min.",
+        "7) Serviraj.",
+        "8) Gotovo."
+      ],
+      "napomene": "So dodaj oprezno zbog slanosti fete.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "salata-od-brokolija-i-fete",
+      "user": false
+    },
+    {
+      "naziv": "Salata od ječma i pečene paprike",
+      "kategorija": [
+        "salata",
+        "zdravo"
+      ],
+      "tags": [
+        "jecam",
+        "pecena paprika",
+        "salata"
+      ],
+      "porcije": 4,
+      "vreme_min": 30,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "ječam",
+          "kolicina": "220 g"
+        },
+        {
+          "item": "pečena crvena paprika (oljuštena)",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "30 ml"
+        },
+        {
+          "item": "limunov sok",
+          "kolicina": "12 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "16 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Kuvaj ječam 25 min u posoljenoj vodi (10 g soli), ocedi i ohladi.",
+        "2) Iseci pečenu papriku na trake.",
+        "3) Umuti ulje, limun, preostalu so i biber.",
+        "4) Sjedini ječam i papriku.",
+        "5) Prelij dresing.",
+        "6) Promešaj 10 sek.",
+        "7) Rashladi 15 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Ječam i pečena paprika daju zasitnu obrok salatu.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "salata-od-jecma-i-pecene-paprike",
+      "user": false
+    },
+    {
+      "naziv": "Salata od celerovog korena i jabuke",
+      "kategorija": [
+        "salata",
+        "zdravo"
+      ],
+      "tags": [
+        "celer",
+        "jabuka",
+        "salata"
+      ],
+      "porcije": 4,
+      "vreme_min": 15,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "celer koren",
+          "kolicina": "500 g"
+        },
+        {
+          "item": "jabuka",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "jogurt",
+          "kolicina": "220 ml"
+        },
+        {
+          "item": "limunov sok",
+          "kolicina": "10 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Narendaj celer i jabuku.",
+        "2) Jabuku prelij limunom.",
+        "3) Umuti jogurt, so i biber.",
+        "4) Sjedini celer i jabuku.",
+        "5) Dodaj jogurt i promešaj 10 sek.",
+        "6) Rashladi 20 min.",
+        "7) Serviraj.",
+        "8) Gotovo."
+      ],
+      "napomene": "Jabuka ublažava jačinu celera i daje svežinu.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "salata-od-celerovog-korena-i-jabuke",
+      "user": false
+    },
+    {
+      "naziv": "Salata od tikvica i kukuruza",
+      "kategorija": [
+        "salata",
+        "prilog"
+      ],
+      "tags": [
+        "tikvice",
+        "kukuruz",
+        "salata"
+      ],
+      "porcije": 4,
+      "vreme_min": 20,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "tikvice",
+          "kolicina": "700 g"
+        },
+        {
+          "item": "kukuruz šećerac (oceđen)",
+          "kolicina": "220 g"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "30 ml"
+        },
+        {
+          "item": "limunov sok",
+          "kolicina": "10 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "14 g"
+        },
+        {
+          "item": "crni biber",
+          "kolicina": "2 g"
+        }
+      ],
+      "koraci": [
+        "1) Ispeci tikvice 15 min na 230°C sa 20 ml ulja i 8 g soli.",
+        "2) Ohladi 10 min.",
+        "3) Ocedi kukuruz.",
+        "4) Umuti preostalo ulje, limun, preostalu so i biber.",
+        "5) Sjedini tikvice i kukuruz.",
+        "6) Prelij dresing.",
+        "7) Odstoj 10 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Tikvice ohladi da kukuruz ostane hrskaviji.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "salata-od-tikvica-i-kukuruza",
+      "user": false
+    },
+    {
+      "naziv": "Kolač sa kruškama i orasima",
+      "kategorija": [
+        "desert",
+        "kolači"
+      ],
+      "tags": [
+        "kolac",
+        "kruske",
+        "orasi"
+      ],
+      "porcije": 12,
+      "vreme_min": 60,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "kruške",
+          "kolicina": "700 g"
+        },
+        {
+          "item": "orasi seckani",
+          "kolicina": "100 g"
+        },
+        {
+          "item": "jaja",
+          "kolicina": "3 kom"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "180 g"
+        },
+        {
+          "item": "brašno",
+          "kolicina": "320 g"
+        },
+        {
+          "item": "mleko",
+          "kolicina": "180 ml"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "80 ml"
+        },
+        {
+          "item": "prašak za pecivo",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Zagrej rernu 180°C.",
+        "2) Umuti jaja i šećer 2 min.",
+        "3) Dodaj mleko i ulje 10 sek.",
+        "4) Dodaj brašno, prašak i so 20 sek.",
+        "5) Sipaj u pleh, dodaj kruške i orahe.",
+        "6) Peci 35 min.",
+        "7) Ohladi 20 min.",
+        "8) Iseci i serviraj."
+      ],
+      "napomene": "Orahe rasporedi ravnomerno po testu.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "kolac-sa-kruskama-i-orasima",
+      "user": false
+    },
+    {
+      "naziv": "Posni kolač sa breskvama",
+      "kategorija": [
+        "desert",
+        "posno"
+      ],
+      "tags": [
+        "posno",
+        "breskve",
+        "kolac"
+      ],
+      "porcije": 12,
+      "vreme_min": 55,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "breskve",
+          "kolicina": "500 g"
+        },
+        {
+          "item": "brašno",
+          "kolicina": "320 g"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "170 g"
+        },
+        {
+          "item": "voda",
+          "kolicina": "250 ml"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "80 ml"
+        },
+        {
+          "item": "prašak za pecivo",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Zagrej rernu 180°C.",
+        "2) Umuti vodu, šećer i ulje 20 sek.",
+        "3) Dodaj brašno, prašak i so 20 sek.",
+        "4) Sipaj u pleh.",
+        "5) Dodaj kriške breskve po vrhu.",
+        "6) Peci 35 min.",
+        "7) Ohladi 20 min.",
+        "8) Iseci i serviraj."
+      ],
+      "napomene": "Breskve kratko ocedi ako su vrlo sočne.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "posni-kolac-sa-breskvama",
+      "user": false
+    },
+    {
+      "naziv": "Pita sa borovnicama i kokosom",
+      "kategorija": [
+        "desert",
+        "pite"
+      ],
+      "tags": [
+        "pita",
+        "borovnice",
+        "kokos"
+      ],
+      "porcije": 10,
+      "vreme_min": 60,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "kore za pitu",
+          "kolicina": "500 g"
+        },
+        {
+          "item": "borovnice",
+          "kolicina": "500 g"
+        },
+        {
+          "item": "kokos brašno",
+          "kolicina": "70 g"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "170 g"
+        },
+        {
+          "item": "griz",
+          "kolicina": "60 g"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "80 ml"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Pomešaj borovnice, kokos, šećer, griz i so.",
+        "2) Zagrej rernu 200°C.",
+        "3) Slaži kore, svaku premaži uljem.",
+        "4) Rasporedi fil u 2–3 sloja.",
+        "5) Završi korama.",
+        "6) Peci 35 min.",
+        "7) Ohladi 15 min.",
+        "8) Iseci i serviraj."
+      ],
+      "napomene": "Kokos i griz zajedno upijaju sok od borovnica.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "pita-sa-borovnicama-i-kokosom",
+      "user": false
+    },
+    {
+      "naziv": "Mafini sa kajsijama",
+      "kategorija": [
+        "desert",
+        "kolači"
+      ],
+      "tags": [
+        "mafini",
+        "kajsije",
+        "peceno"
+      ],
+      "porcije": 12,
+      "vreme_min": 40,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "brašno",
+          "kolicina": "320 g"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "180 g"
+        },
+        {
+          "item": "jaja",
+          "kolicina": "2 kom"
+        },
+        {
+          "item": "mleko",
+          "kolicina": "250 ml"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "80 ml"
+        },
+        {
+          "item": "kajsije",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "prašak za pecivo",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Zagrej rernu 190°C.",
+        "2) Umuti jaja i šećer 1 min.",
+        "3) Dodaj mleko i ulje 10 sek.",
+        "4) Dodaj brašno, prašak i so 20 sek.",
+        "5) Dodaj sitne komade kajsije.",
+        "6) Sipaj u kalupe.",
+        "7) Peci 18 min.",
+        "8) Ohladi 10 min i serviraj."
+      ],
+      "napomene": "Kajsije dodaj pažljivo da mafini ostanu rastresiti.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "mafini-sa-kajsijama",
+      "user": false
+    },
+    {
+      "naziv": "Biskvit sa šljivama i cimetom",
+      "kategorija": [
+        "desert",
+        "kolači"
+      ],
+      "tags": [
+        "biskvit",
+        "sljive",
+        "cimet"
+      ],
+      "porcije": 12,
+      "vreme_min": 55,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "šljive",
+          "kolicina": "700 g"
+        },
+        {
+          "item": "jaja",
+          "kolicina": "3 kom"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "180 g"
+        },
+        {
+          "item": "brašno",
+          "kolicina": "320 g"
+        },
+        {
+          "item": "mleko",
+          "kolicina": "180 ml"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "80 ml"
+        },
+        {
+          "item": "cimet mleveni",
+          "kolicina": "2 g"
+        },
+        {
+          "item": "prašak za pecivo",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Zagrej rernu 180°C.",
+        "2) Umuti jaja i šećer 2 min.",
+        "3) Dodaj mleko i ulje 10 sek.",
+        "4) Dodaj brašno, cimet, prašak i so 20 sek.",
+        "5) Sipaj u pleh i rasporedi šljive.",
+        "6) Peci 35 min.",
+        "7) Ohladi 20 min.",
+        "8) Iseci i serviraj."
+      ],
+      "napomene": "Cimet koristi umereno da ne nadjača voće.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "biskvit-sa-sljivama-i-cimetom",
+      "user": false
+    },
+    {
+      "naziv": "Sutlijaš sa borovnicama i vanilom",
+      "kategorija": [
+        "desert",
+        "poslastica"
+      ],
+      "tags": [
+        "sutlijas",
+        "borovnice",
+        "vanila"
+      ],
+      "porcije": 6,
+      "vreme_min": 55,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "pirinač",
+          "kolicina": "160 g"
+        },
+        {
+          "item": "mleko",
+          "kolicina": "1.2 l"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "110 g"
+        },
+        {
+          "item": "borovnice",
+          "kolicina": "220 g"
+        },
+        {
+          "item": "vanilin šećer",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Isperi pirinač.",
+        "2) Skuvaj ga u 300 ml vode 10 min.",
+        "3) Dodaj mleko i so, kuvaj 25 min.",
+        "4) Dodaj šećer i vanilu 5 min.",
+        "5) Sipaj u činije.",
+        "6) Dodaj borovnice preko.",
+        "7) Ohladi 30 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Borovnice dodaj na kraju da ostanu cele.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "sutlijas-sa-borovnicama-i-vanilom",
+      "user": false
+    },
+    {
+      "naziv": "Griz sa višnjama",
+      "kategorija": [
+        "desert",
+        "brzo"
+      ],
+      "tags": [
+        "griz",
+        "visnje",
+        "poslastica"
+      ],
+      "porcije": 4,
+      "vreme_min": 12,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "mleko",
+          "kolicina": "1 l"
+        },
+        {
+          "item": "griz",
+          "kolicina": "120 g"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "90 g"
+        },
+        {
+          "item": "višnje (bez koštice)",
+          "kolicina": "220 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Zagrej mleko sa šećerom i solju do ključanja.",
+        "2) Sipaj griz uz mešanje.",
+        "3) Kuvaj 3 min.",
+        "4) Dodaj višnje 1 min.",
+        "5) Sipaj u činije.",
+        "6) Ohladi 15 min.",
+        "7) Odstoj 5 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Višnje dodaj kratko da zadrže blagu kiselost.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "griz-sa-visnjama",
+      "user": false
+    },
+    {
+      "naziv": "Rolat sa džemom od kajsije i kokosom",
+      "kategorija": [
+        "desert",
+        "kolači"
+      ],
+      "tags": [
+        "rolat",
+        "dzem",
+        "kokos"
+      ],
+      "porcije": 12,
+      "vreme_min": 40,
+      "tezina": "srednje",
+      "sastojci": [
+        {
+          "item": "jaja",
+          "kolicina": "4 kom"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "140 g"
+        },
+        {
+          "item": "brašno",
+          "kolicina": "140 g"
+        },
+        {
+          "item": "džem od kajsije",
+          "kolicina": "220 g"
+        },
+        {
+          "item": "kokos brašno",
+          "kolicina": "40 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Zagrej rernu 200°C.",
+        "2) Umuti jaja i šećer 4 min.",
+        "3) Dodaj brašno i so 15 sek.",
+        "4) Sipaj u pleh obložen papirom.",
+        "5) Peci 10 min.",
+        "6) Urolaj topao biskvit u krpu 5 min.",
+        "7) Odmotaj, namaži džemom, pospi kokos i ponovo urolaj.",
+        "8) Ohladi 20 min i seci."
+      ],
+      "napomene": "Kokos dodaj tanko da rolat ostane kompaktan.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "rolat-sa-dzemom-od-kajsije-i-kokosom",
+      "user": false
+    },
+    {
+      "naziv": "Kuglice sa keksom i kokosom",
+      "kategorija": [
+        "desert",
+        "brzo"
+      ],
+      "tags": [
+        "kuglice",
+        "keks",
+        "kokos"
+      ],
+      "porcije": 18,
+      "vreme_min": 20,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "mleveni keks",
+          "kolicina": "320 g"
+        },
+        {
+          "item": "šećer u prahu",
+          "kolicina": "120 g"
+        },
+        {
+          "item": "puter (mekan)",
+          "kolicina": "120 g"
+        },
+        {
+          "item": "mleko",
+          "kolicina": "170 ml"
+        },
+        {
+          "item": "kokos brašno",
+          "kolicina": "100 g"
+        }
+      ],
+      "koraci": [
+        "1) Pomešaj keks, šećer i 60 g kokosa.",
+        "2) Dodaj puter 30 sek.",
+        "3) Dodaj mleko i umesi 1 min.",
+        "4) Oblikuj kuglice.",
+        "5) Uvaljaj u preostali kokos.",
+        "6) Rashladi 2 sata.",
+        "7) Serviraj.",
+        "8) Gotovo."
+      ],
+      "napomene": "Ako je masa meka, dodaj još 20 g keksa.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "kuglice-sa-keksom-i-kokosom",
+      "user": false
+    },
+    {
+      "naziv": "Palenta sa jogurtom i pečenom paprikom",
+      "kategorija": [
+        "doručak",
+        "brzo"
+      ],
+      "tags": [
+        "palenta",
+        "jogurt",
+        "pecena paprika"
+      ],
+      "porcije": 2,
+      "vreme_min": 12,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "palenta (kukuruzna krupica)",
+          "kolicina": "120 g"
+        },
+        {
+          "item": "voda",
+          "kolicina": "600 ml"
+        },
+        {
+          "item": "jogurt",
+          "kolicina": "220 ml"
+        },
+        {
+          "item": "pečena crvena paprika (oljuštena)",
+          "kolicina": "160 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "8 g"
+        }
+      ],
+      "koraci": [
+        "1) Prokuvaj vodu sa solju.",
+        "2) Sipaj palentu uz mešanje.",
+        "3) Kuvaj 5 min.",
+        "4) Sipaj u činije.",
+        "5) Dodaj jogurt.",
+        "6) Dodaj pečenu papriku na trake.",
+        "7) Odstoj 2 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Papriku dobro ocedi pre serviranja.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "palenta-sa-jogurtom-i-pecenom-paprikom",
+      "user": false
+    },
+    {
+      "naziv": "Proja sa blitvom",
+      "kategorija": [
+        "peciva",
+        "doručak"
+      ],
+      "tags": [
+        "proja",
+        "blitva",
+        "pecivo"
+      ],
+      "porcije": 10,
+      "vreme_min": 45,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "kukuruzno brašno",
+          "kolicina": "340 g"
+        },
+        {
+          "item": "pšenično brašno",
+          "kolicina": "80 g"
+        },
+        {
+          "item": "jaja",
+          "kolicina": "2 kom"
+        },
+        {
+          "item": "jogurt",
+          "kolicina": "320 ml"
+        },
+        {
+          "item": "ulje",
+          "kolicina": "70 ml"
+        },
+        {
+          "item": "blitva",
+          "kolicina": "220 g"
+        },
+        {
+          "item": "prašak za pecivo",
+          "kolicina": "10 g"
+        },
+        {
+          "item": "so",
+          "kolicina": "14 g"
+        }
+      ],
+      "koraci": [
+        "1) Zagrej rernu 200°C.",
+        "2) Sitno iseckaj i ocedi blitvu.",
+        "3) Umuti jaja, jogurt i ulje 20 sek.",
+        "4) Dodaj brašna, prašak i so 20 sek.",
+        "5) Umešaj blitvu.",
+        "6) Sipaj u pleh.",
+        "7) Peci 30 min.",
+        "8) Ohladi 10 min i serviraj."
+      ],
+      "napomene": "Blitvu dobro ocedi da proja ostane vazdušasta.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "proja-sa-blitvom",
+      "user": false
+    },
+    {
+      "naziv": "Tost sa fetom i pečenom paprikom",
+      "kategorija": [
+        "doručak",
+        "brzo"
+      ],
+      "tags": [
+        "tost",
+        "feta",
+        "pecena paprika"
+      ],
+      "porcije": 2,
+      "vreme_min": 8,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "tost hleb",
+          "kolicina": "4 kriške"
+        },
+        {
+          "item": "feta sir",
+          "kolicina": "140 g"
+        },
+        {
+          "item": "pečena crvena paprika (oljuštena)",
+          "kolicina": "150 g"
+        },
+        {
+          "item": "puter",
+          "kolicina": "15 g"
+        }
+      ],
+      "koraci": [
+        "1) Ocedi pečenu papriku i iseckaj je na trake.",
+        "2) Dodaj fetu i papriku na hleb.",
+        "3) Poklopi tostove.",
+        "4) Spolja premaži tanko puterom.",
+        "5) Zapeći 4 min.",
+        "6) Preseci na pola.",
+        "7) Serviraj.",
+        "8) Gotovo."
+      ],
+      "napomene": "Feta i paprika daju snažan, ali jednostavan ukus.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "tost-sa-fetom-i-pecenom-paprikom",
+      "user": false
+    },
+    {
+      "naziv": "Smoothie od višnje i banane",
+      "kategorija": [
+        "napitak",
+        "doručak"
+      ],
+      "tags": [
+        "smoothie",
+        "visnje",
+        "banana"
+      ],
+      "porcije": 2,
+      "vreme_min": 5,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "višnje (bez koštice)",
+          "kolicina": "220 g"
+        },
+        {
+          "item": "banane",
+          "kolicina": "2 kom"
+        },
+        {
+          "item": "jogurt",
+          "kolicina": "350 ml"
+        },
+        {
+          "item": "med",
+          "kolicina": "15 g"
+        }
+      ],
+      "koraci": [
+        "1) Stavi sve sastojke u blender.",
+        "2) Izmiksaj 25 sek.",
+        "3) Sipaj u čaše.",
+        "4) Serviraj odmah.",
+        "5) Gotovo.",
+        "6) Po želji rashladi 10 min.",
+        "7) Promešaj i posluži.",
+        "8) Kraj."
+      ],
+      "napomene": "Banana ublažava kiselost višanja.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "smoothie-od-visnje-i-banane",
+      "user": false
+    },
+    {
+      "naziv": "Kompot od breskve i kruške",
+      "kategorija": [
+        "napitak",
+        "desert"
+      ],
+      "tags": [
+        "kompot",
+        "breskva",
+        "kruska"
+      ],
+      "porcije": 6,
+      "vreme_min": 22,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "breskve",
+          "kolicina": "700 g"
+        },
+        {
+          "item": "kruške",
+          "kolicina": "500 g"
+        },
+        {
+          "item": "voda",
+          "kolicina": "1.8 l"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "130 g"
+        }
+      ],
+      "koraci": [
+        "1) Oljušti voće i iseci na kriške.",
+        "2) Prokuvaj vodu sa šećerom 5 min.",
+        "3) Dodaj kruške 8 min.",
+        "4) Dodaj breskve 4 min.",
+        "5) Skloni sa vatre.",
+        "6) Ohladi 20 min.",
+        "7) Serviraj.",
+        "8) Gotovo."
+      ],
+      "napomene": "Kruške dodaj ranije jer su čvršće.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "kompot-od-breskve-i-kruske",
+      "user": false
+    },
+    {
+      "naziv": "Sok od limuna i breskve",
+      "kategorija": [
+        "napitak",
+        "osveženje"
+      ],
+      "tags": [
+        "sok",
+        "limun",
+        "breskva"
+      ],
+      "porcije": 4,
+      "vreme_min": 10,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "limun",
+          "kolicina": "3 kom"
+        },
+        {
+          "item": "breskve",
+          "kolicina": "350 g"
+        },
+        {
+          "item": "voda",
+          "kolicina": "700 ml"
+        },
+        {
+          "item": "med",
+          "kolicina": "20 g"
+        }
+      ],
+      "koraci": [
+        "1) Iscedi limun.",
+        "2) Oljušti breskve i izblendiraj sa vodom 20 sek.",
+        "3) Sjedini sa limunovim sokom.",
+        "4) Dodaj med.",
+        "5) Promešaj 10 sek.",
+        "6) Procedi po želji.",
+        "7) Rashladi 20 min.",
+        "8) Serviraj."
+      ],
+      "napomene": "Breskva omekšava oštrinu limuna.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "sok-od-limuna-i-breskve",
+      "user": false
+    },
+    {
+      "naziv": "Jogurt napitak sa kajsijom",
+      "kategorija": [
+        "napitak",
+        "doručak"
+      ],
+      "tags": [
+        "jogurt",
+        "kajsija",
+        "napitak"
+      ],
+      "porcije": 2,
+      "vreme_min": 5,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "jogurt",
+          "kolicina": "450 ml"
+        },
+        {
+          "item": "kajsije",
+          "kolicina": "250 g"
+        },
+        {
+          "item": "med",
+          "kolicina": "20 g"
+        }
+      ],
+      "koraci": [
+        "1) Izvadi koštice iz kajsija.",
+        "2) Stavi sve sastojke u blender.",
+        "3) Izmiksaj 20 sek.",
+        "4) Sipaj u čaše.",
+        "5) Serviraj odmah.",
+        "6) Gotovo.",
+        "7) Po želji rashladi 10 min.",
+        "8) Posluži."
+      ],
+      "napomene": "Kajsija daje gust i osvežavajući napitak.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "jogurt-napitak-sa-kajsijom",
+      "user": false
+    },
+    {
+      "naziv": "Topli napitak od mleka i cimeta",
+      "kategorija": [
+        "napitak",
+        "toplo"
+      ],
+      "tags": [
+        "mleko",
+        "cimet",
+        "toplo"
+      ],
+      "porcije": 2,
+      "vreme_min": 6,
+      "tezina": "lako",
+      "sastojci": [
+        {
+          "item": "mleko",
+          "kolicina": "600 ml"
+        },
+        {
+          "item": "šećer",
+          "kolicina": "20 g"
+        },
+        {
+          "item": "cimet mleveni",
+          "kolicina": "1 g"
+        }
+      ],
+      "koraci": [
+        "1) Zagrej mleko do vrućeg.",
+        "2) Dodaj šećer i cimet.",
+        "3) Mešaj 20 sek.",
+        "4) Kuvaj 1 min tiho.",
+        "5) Sipaj u šolje.",
+        "6) Ohladi 1 min.",
+        "7) Serviraj.",
+        "8) Gotovo."
+      ],
+      "napomene": "Cimet dodaj umereno radi blagog ukusa.",
+      "izvor": {
+        "naziv": "AI generisano",
+        "napomena": "Paprikas Hub batch"
+      },
+      "id": "topli-napitak-od-mleka-i-cimeta",
+      "user": false
+    }
+  ]
+}

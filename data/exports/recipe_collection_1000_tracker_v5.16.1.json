@@ -1,0 +1,73 @@
+{
+  "version": "v5.16.1",
+  "goal_total_new_recipes": 1000,
+  "session_limit": 100,
+  "planned_sessions": [
+    {
+      "session": 1,
+      "target_count": 100,
+      "status": "pending",
+      "file": "batch-001.ndjson"
+    },
+    {
+      "session": 2,
+      "target_count": 100,
+      "status": "pending",
+      "file": "batch-002.ndjson"
+    },
+    {
+      "session": 3,
+      "target_count": 100,
+      "status": "pending",
+      "file": "batch-003.ndjson"
+    },
+    {
+      "session": 4,
+      "target_count": 100,
+      "status": "pending",
+      "file": "batch-004.ndjson"
+    },
+    {
+      "session": 5,
+      "target_count": 100,
+      "status": "pending",
+      "file": "batch-005.ndjson"
+    },
+    {
+      "session": 6,
+      "target_count": 100,
+      "status": "pending",
+      "file": "batch-006.ndjson"
+    },
+    {
+      "session": 7,
+      "target_count": 100,
+      "status": "pending",
+      "file": "batch-007.ndjson"
+    },
+    {
+      "session": 8,
+      "target_count": 100,
+      "status": "pending",
+      "file": "batch-008.ndjson"
+    },
+    {
+      "session": 9,
+      "target_count": 100,
+      "status": "pending",
+      "file": "batch-009.ndjson"
+    },
+    {
+      "session": 10,
+      "target_count": 100,
+      "status": "pending",
+      "file": "batch-010.ndjson"
+    }
+  ],
+  "inventory_source": "data/exports/recipe_inventory_titles_prompt_ready_v5.16.1.txt",
+  "notes": [
+    "Use the inventory titles file to avoid collecting recipes that already exist in Recipe Atlas.",
+    "Save each session as its own NDJSON batch file.",
+    "Validate and dedup all batches before Atlas import."
+  ]
+}

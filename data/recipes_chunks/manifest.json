@@ -1,7 +1,7 @@
 {
   "version": "recipes-chunks-v1",
-  "generated_utc": "2026-02-28T09:26:20Z",
-  "count": 1706,
+  "generated_utc": "2026-03-01T15:07:49Z",
+  "count": 1773,
   "part_size": 200,
   "parts": [
     {
@@ -39,14 +39,26 @@
     {
       "file": "recipes-part-009.json",
       "count": 106
+    },
+    {
+      "file": "recipes-part-010.json",
+      "count": 67
     }
   ],
   "source_counts": {
     "base_files": 909,
-    "user_db": 835
+    "user_db": 864
   },
   "dedup_report": {
-    "total_in": 1744,
-    "total_out": 1706
+    "total_in": 1773,
+    "total_out": 1773
+  },
+  "hotfix": {
+    "notes": [
+      "Repaired stale manifest that omitted recipes-part-010.json",
+      "Normalized recipes-part-010.json to chunk object shape"
+    ],
+    "previous_manifest_count": 1706,
+    "new_manifest_count": 1773
   }
 }

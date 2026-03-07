@@ -1,0 +1,970 @@
+{
+  "schema": "paprikas-hub-jna-clean-pack-v1",
+  "version": "v5.15.0",
+  "created_utc": "2026-03-02T15:38:22Z",
+  "source_review_export": "data/catalog/bridges/jna_ocr_review_export_v5.13.9.json",
+  "limit": 31,
+  "recipes": [
+    {
+      "id": "jna-001-caj-pravi",
+      "naziv": "ČAJ PRAVI",
+      "kategorija": [
+        "napici"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 13.\nKategorija (OCR guess): napici.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): Oval normativ obezbeđuje 3-4 dl čaja. muna. Čaj delti vruć (najkasnije 10 minuta posle pripreme) Cedilke Ili platnene kesice Ili iter.kesice sa čajem staviti u U Šolj, kutlačom od 34 di. sud sa ključalom vodom. isključiti toplotu, poklopit ostaviti da odstoji do S minuta Zatim, izvadi cediie i kesico sa čajem, Napomena mun možemo neć na kako deki uz ovaku pora po u dodati šećer | promešati. Pred podelu dodati oceđeni sok iz\nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    },
+    {
+      "id": "jna-002-caj-narodni",
+      "naziv": "ČAJ NARODNI",
+      "kategorija": [
+        "napici"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 14.\nKategorija (OCR guess): napici.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): Ovaj normativ obezbeđuje 3-4 di čaja. Napomena: imun možemo iseći na kriške i delti uz svaku porciju po jednu Codico Hi platnene kosice sa probranim čajem stavi u gud keu a Bla HALI sa hladnom vodom, poklopiti zagrevati. Kada provrikuvati na sa uotrečkava lovni al u Ber.kosma ba ga pro) stavu slaboj vatri do 10 minuta. Isključti toplotu | izvaditi cedijko li neda Keča rodom do odsto do S minuta, pa produžni tehnološki prooos kesice sa čajem. Dodati šećer promešati. Pred podelu dodati \"**“e oceđe\nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    },
+    {
+      "id": "jna-003-caj-sipkov",
+      "naziv": "ČAJ ŠIPKOV",
+      "kategorija": [
+        "napici"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 15.\nKategorija (OCR guess): napici.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): Ovaj normativ obezbođuje 3-4 dl čaja. slaboj vatri do 10 minuta. isključiti toplou | izvaditi cedijke i kesice sa čajem. Dodati šećer i promešati.\nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    },
+    {
+      "id": "jna-004-caj-lipov",
+      "naziv": "čaj Lipov",
+      "kategorija": [
+        "napici"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 16.\nKategorija (OCR guess): napici.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): Ovaj normativ obezbeđuje 3-4 dl čaja. Čaj delti vruć (najkasnije 10 minuta posle pripreme) u šo, Cedike li platnene kesice sa čajem staviti u sud sa ključalom kutlačom od 3 i 4 dl. vodom i kuvati oko 5 minuta. isključiti toplotu. pokloplti i ostaviti da odstoji 5-10 minuta. Zatim izvaditi cediike ili kesice sa čjem, dodati šećer promešati. Pred poda dodati oceđenI Naomana ma nošeno ai na kra dolu vau pru po jebu iz muna. krška\nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    },
+    {
+      "id": "jna-005-caj-od-kamilice",
+      "naziv": "ČAJ OD KAMILICE",
+      "kategorija": [
+        "napici"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 17.\nKategorija (OCR guess): napici.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): Ovaj normativ obezbeđuje 3-4 dl čaja. Čaj deliti vruć (najkasnije 10 minuta posle pripreme) u šdlje, Cedilike li platnene kesice ili fiker.kesice sa čajem staviti u kutlačom od 3 ii 4 di. sud sa ključalom vodom. isključiti toplotu, poklopitii ostaviti da. odstoji 5-10 minuta Zalm izvaditi cedljke li kesice sa čajem, Npomena: nun možomo ići na rio | dob uz aku pora po edna dodati šećer i promešati. Pred podolu dodati oceđeni sok iz i-\nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    },
+    {
+      "id": "jna-006-caj-serbet",
+      "naziv": "ČAJ - ŠERBET",
+      "kategorija": [
+        "napici"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 18.\nKategorija (OCR guess): napici.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): Ovaj normativ obezbeđuje 3-4 di čaja. Ća lu vodu. Zatim dodati ostatak šećera, promešati | iskljućiu U sud za pripremu napitaka naliti 3-4 dl vode po osobi i zagre- toplotu. Jati da proključa. (Čaj deliti vruć (najkasnije 10 minuta posle pripreme) u šolje, U pogodnu posudu staviti 1/4 od pripadajuće količine šećera kutlačom od 3 4 di. zogrevati na sleboj vatri uz stalno mešanje dok šećer potpuno karameliše. Karamelisani šećer preliti ključalom vodom u kočini koja je potrebna da se karamelisani Š\nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    },
+    {
+      "id": "jna-007-crna-kafa",
+      "naziv": "CRNA KAFA",
+      "kategorija": [
+        "napici"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 19.\nKategorija (OCR guess): napici.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): (Ovaj normativ obezbeđuje 0,6 dl kafe. Napomena: kala se može pripremiti tako da se u džezvu ih posudu za katu Mo aćrkal ul za PejeKućlm vodom slovi d provi ve U džezvu li posudu za kafu naliti 0,8 dl vode po osobli zagrejati da provri. Dodati šećer | kada ponovo provri skinuti sa vatre. de račm doe oke pa odliti 1/10 vode. Zatim dodati kafu, promešati i vratiti na Mr oj a vatru da provri. Voditi računa da kafa ne iskipi. pm Provrelu kafu pret sa ranije odlivenom vodom i sipati u $0lice. vodeći \nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    },
+    {
+      "id": "jna-008-crna-kafa-surogat",
+      "naziv": "CRNA KAFA - SUROGAT",
+      "kategorija": [
+        "napici"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 20.\nKategorija (OCR guess): napici.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): Ovaj normativ obezbeđuje 3 ili 4 dl kafe. hladnom vodom i ostaviti da se taloži do 15 minuta. Zatim kafu U hladnu vodu staviti kafu surogat, dobro Izmešati ostaviti da OCeditL dodati šećer i pomešat. Kafu deliti vruću (najkasnije 10 minuta posle pripreme) u šolje, provri. Potom kuvati oš 3-5 minuta isključiti toplotu, poprskati Kaladelti vruću losi\nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    },
+    {
+      "id": "jna-009-bela-kafa",
+      "naziv": "BELA KAFA",
+      "kategorija": [
+        "napici"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 21.\nKategorija (OCR guess): napici.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): Ovaj normativ obezbeđuje 3-4 di bele kafe. Napomena: ako se za bolu faku umesto svežeg mleka upotrebljava mleko u U sud za pripremanje napitaka nakti mleko i ostaviti da provri. prašu, postapa se ne slodaći nać jeko ui prahu zatem ga razmaku Hadnoj vod u odnosu £:1 110 na U drugi sud za pripremu napitaka nat! 1 dl vode po osobi od« meko pan poso nga in proma 2 mah u hladnu vodu staviti kafu surogat, dobro izmešati i os- priša o po M NAI puta ER Oogloru porrakiki < aa o oD a ni ram Hladnom vodom!\nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    },
+    {
+      "id": "jna-010-bela-kafa-sa-dvopekom",
+      "naziv": "BELA KAFA SA DVOPEKOM",
+      "kategorija": [
+        "napici"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 22.\nKategorija (OCR guess): napici.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): Ovaj normativ obezbeđuje 5 di bele kafe sa dvopekom. pripremljenu kafu, sačekati da sva zajedno proključa, isključiti Bela kafa se priprema u svemu kao što je to navedeno u re- toplotu 1 ostaviti da odstoji u poklopljenom sudu 10 minuta. cepturi be. 9, Dok se priprema bela kafa, pripadajuću količinu Belu kotu sa dvopekom delti vruću (najkasnije 10 minuta podvopeka izlomli u sline komade. izlomljeni dvopek dodati usle pripreme) kutlačom od 5 dL.\nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    },
+    {
+      "id": "jna-011-karamel-kafa",
+      "naziv": "KARAMEL - KAFA",
+      "kategorija": [
+        "napici"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 23.\nKategorija (OCR guess): napici.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): Ovaj normativ obezbeđuje 3 di karametkafe, čini koja je potreba da se karamelisani šećer rastopi. Kada se U sud za pripremu napitaka naliti mleko | ostaviti da provri. karamel otopili prokljuća, dodati ga u već pripremljeno ključalo U pogodnu posudu staviti 1/4 od pripadajuće količine šećera mleko. Zatim dodati ostatak šećera, promešati pa isključi Izagrevati na slaboj vatri uz stalno mešanje dok šećer potpuno toplotu. Karamel-kafu delti vruću (najkasnije 10 minuta pošle Karameliše. Karamelisani\nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    },
+    {
+      "id": "jna-012-cokoladno-mleko",
+      "naziv": "ČOKOLADNO MLEKO",
+      "kategorija": [
+        "napici"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 24.\nKategorija (OCR guess): napici.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): Ovaj normativ obezbeđuje 2,5 dl čokoladnog mleka. izmešati sa mlekom, zašećeriti, pa dobijenu masu skuvati. Posudu sa izlomljenom čokoladom staviti na vodu koja vrti uz Cokoladno mleko deliti toplo ih ohlađeno u šolje, kutlaćom od povremeno mešanje čokoladu rastopiti. Rastopljenu čokoladu 2.5 dl\nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    },
+    {
+      "id": "jna-013-kakao-sa-mlekom",
+      "naziv": "KAKAO SA MLEKOM",
+      "kategorija": [
+        "napici"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 25.\nKategorija (OCR guess): napici.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): Ovaj normativ obezbeđuje 3 dl kakaca. (Kakao deliti vruć (najkasnije 10 minuta posle pripreme) u šolje, Mleko naliti u sud | ostaviti da provrt. kutlačom od 3 dl. U međuvremenu razmutiti kakao-prah u hladnoj vodi u odnosu a Vam Pada niko povi dodi raznućon kao: | Manna s OKE prah i šećer, dobro promešati, prokuvati pa isključiti toplotu. kgo-<nstant razmutiti u kljućalom mleku i dešti u šote kutlaćom od 3 dl.\nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    },
+    {
+      "id": "jna-015-kiselo-mleko-jogurt",
+      "naziv": "KISELO MLEKO | JOGURT",
+      "kategorija": [
+        "napici"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 27.\nKategorija (OCR guess): napici.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): Ovaj normativ obezbeđuje oko 2.5 dl kiselog mleka il jogurta. da temperatura prostorije ne sme biti niža od 20 C. Kiselo mje: Mleko kuvati nešto duže od uobičajenog postupka (oko 10 mi- ko ili jogurt svesti na temperaturu 14-18: C, pa delti u šolje nuta) uz povremeno mešanje da se na površini ne uhvati skra- kutlačom od 25 di ma. Zatim mleko ohladiti na oko 36'C, dodati maju, dobro iz- Jogurt pre podele dobro izmešati. . mešati. pokloplti i ostaviti da fermentira oko G časova, s tim\nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    },
+    {
+      "id": "jna-016-limunada",
+      "naziv": "LIMUNADA",
+      "kategorija": [
+        "napici"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 28.\nKategorija (OCR guess): napici.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): Ovaj normativ obezbeđuje oko 2 dl limunade. osobi, dodati šećer i mešati dok se šećer rastopi. Zatim dodati U sud za pripremu limunade naliti oko 1,8 dl hladne vode po oceđeni sok iz limuna, promešati | delti u čaše od 2 dl supe i čorbe ULOŠCI, SUPE I ČORBE Ulošci se stavljaju u supu - čorbu da bi ove bile hranijivije 1 ukusnije. Ulošci mogu 2) gotovi: slina testenina (ideline,tarana, zvezdice, grkljančići, pužići rezanci sl), Pirinać, griz, povrće | sl: b) posebno Izrađeni: razna testa (noklice\nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    },
+    {
+      "id": "jna-017-knedle-od-griza-psenicnog",
+      "naziv": "KNEDLE OD GRIZA PŠENIČNOG",
+      "kategorija": [
+        "testa_i_slano_slatko"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 31.\nKategorija (OCR guess): testa_i_slano_slatko.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): U pogodnoj posudi ulupati penasto pripadajuću količinu svinje načena masa. Zatim masu staviti u hladnjak, ili na ladno mes. ske masti ili margarina. Zatim dodeti žumanca i sve zajedno to, da odleži 30-60 minuta. muti dok se ne dobije ujednačena masa. U ovu masu dodati Masu polako premesiti, a zatim kašikom formirati knedle 1 prosejani pšenični griz, sitno sekani peršunov ist, so po uku- stavljati ihu supu koja polagano vri. Kuvanje knediitraje 10 mi Suna kraju čvrstu penu od belanaca, prethodno \nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    },
+    {
+      "id": "jna-019-knedle-od-instant-kukuruznog-brasna",
+      "naziv": "KNEDLE OD INSTANT KUKURUZNOG BRAŠNA",
+      "kategorija": [
+        "testa_i_slano_slatko"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 33.\nKategorija (OCR guess): testa_i_slano_slatko.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): U pogodnoj posudi ulupati čvrstu penu od belanaca, zatim po- Testo ostaviti da stoji 3-5 minuta a zatim kašikom formirat soliti po ukusu, dodati žumanca pa polako umešati brašno ku knedle i stavljati ih u supu koja polagano vri. Kuvanje knedl kuruzno instant i seckani peršunov list, da se dobije ujednače« traje 3-5 minuta od stavljanja zadnje knedle. isključiti toplotu no mekša testo. | ostaviti da stoji u poklopljenom sudu oko 10 minuta pre pod-\nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    },
+    {
+      "id": "jna-020-knedle-od-krompira",
+      "naziv": "KNEDLE OD KROMPIRA",
+      "kategorija": [
+        "testa_i_slano_slatko"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 34.\nKategorija (OCR guess): testa_i_slano_slatko.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): Krompir skuvan u ljusci, oljuštitipropasirati li samleti na mažem dužine oko 3 sm, koje rukom formirati u knedle i odmah šini za mlevenje mesa. Dodati prosejano brašno, jaja, 801 sitno ih stavljati u ključalu supu. Knedle se kuvaju 10-15 minuta od seckani peršunov list. Sve zajedno zamesiti tako da se dobije stavljanja zadnje knedie, posle čega se isključi toplota, poklopi ujednačeno testo, Testo odmah po zamesivanju uvaljati u valj« 1 sačeka da odstoji 10-15 minuta. kaste oblike prečnika najviš\nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    },
+    {
+      "id": "jna-021-knedle-od-dzigerice-jetre",
+      "naziv": "KNEDLE OD DŽIGERICE (JETRE)",
+      "kategorija": [
+        "testa_i_slano_slatko"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 35.\nKategorija (OCR guess): testa_i_slano_slatko.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): ili margarina. Zatim dodati Žumanca i sve zajedno mutiti dok se njak da odleži 30-60 minuta. dobije ujednačena masa. U ovu masu dodati samlevenu jetru Posle toga masu polako premesit, formirati knedle kašikom i ( slezinu, prosejani pšenični griz ih prezlu, prosejano brašno, stavljati ih u supu koja polgano vri. Knedio se kuvaju 10 m kitno seckani bek luk: peršunov ist, so po ukusu i na kraju čv nuta od stavljanja zadnje knedle isključiti toplotu 1 ostaviti da fstu ponu od belanaca. Sve zajedno p\nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    },
+    {
+      "id": "jna-022-noklice-kapanci",
+      "naziv": "NOKLICE - KAPANCI",
+      "kategorija": [
+        "ostalo"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 36.\nKategorija (OCR guess): ostalo.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): U pogodnom sudu cela jaja umutiti penasto. Dodati vodu i 80 Namopana:ako prpremjena masu protkujemo kroz cediu (deve) vrsti 1 sve dobro promešati. Zatim dodati prosejano brašno pa sve doboku masnoću prženo da blago porumeni dobe s tv. sprži gradak dobro umutiti, da ne bude grudvica. (Vode se dodaje 0,07 di po ade na a kje osobi) Porkdoan nas valid depri bua dodaj Nad sudom u kome vr supa postavili veću cedilku (deva) io dkzaču sili te postao doing kroz ovu čistom rukom protisnuti pripremljenu ma\nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    },
+    {
+      "id": "jna-023-suseni-hleb",
+      "naziv": "SUŠENI HLEB",
+      "kategorija": [
+        "ostalo"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 37.\nKategorija (OCR guess): ostalo.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): Ovaj normativ obezbeđuje 15-20 g sušenog hleba. uta sa vatre, ili da se pri deobi čorbe dodaje kao uložak u svaHlob sa korom iseći na ujednačene kockice. Zatim ga staviti kl tanjr posebno. nicama, vodeći računa da hleb ne izgori. Osušeni hleb se ia 7 ba Bbćno upotrebava Kao uložak za čorbe, Dodae se Čotama poPomeavanaNa Upavideva značaka jura na dva načina 110: da se cela količina doda u čorbu koja je ski: vedno\nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    },
+    {
+      "id": "jna-026-supa-od-koncentrata",
+      "naziv": "SUPA OD KONCENTRATA",
+      "kategorija": [
+        "supe_i_corbe"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 41.\nKategorija (OCR guess): supe_i_corbe.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): Ovaj normativ obezbeđuje oko 2,5 dl supe. Napasnana: postoj koncentrat za supu kojma je dodat Uožak (najčešće st pan one i promošaida se ragtvor. Pa TaTanaj Ova sa mraza vana ja več voda Dodati uložak, ponovo promešat!i uvati dok se uložak skuva. Baan doo ego la Podna Ua ate Be aaE da ronin opasnost\nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    },
+    {
+      "id": "jna-027-supa-od-govedeg-repa-koncentrat",
+      "naziv": "SUPA OD GOVEĐEG REPA (KONCENTRAT)",
+      "kategorija": [
+        "supe_i_corbe"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 42.\nKategorija (OCR guess): supe_i_corbe.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): Ovaj normativ obezbeđuje oko 2.5 dl supe. \"vodeći računa da ne iskipi. Kuvati na laganoj vatri 8-10 minuta U mlaku vodu staviti koncentrat i mešati dok provri uz povremeno mešanje. A mr Deli se kutlačom od 25 dl. .\nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    },
+    {
+      "id": "jna-028-proletnja-supa-koncentrat",
+      "naziv": "PROLETNJA SUPA (KONCENTRAT)",
+      "kategorija": [
+        "supe_i_corbe"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 43.\nKategorija (OCR guess): supe_i_corbe.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): Oval normativ obezbeđuje oko 2.5 di supe. mešati dok supa provri, Kuvati na laganoj vatri oko 10 minuta U ključalu vodu staviti koncentrat itesteninu! povremeno pro- UZ povremeno mešanje. Dell se kutlačom od 2,5 dl\nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    },
+    {
+      "id": "jna-029-francuska-supa-koncentrat",
+      "naziv": "FRANCUSKA SUPA (KONCENTRAT)",
+      "kategorija": [
+        "supe_i_corbe"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 44.\nKategorija (OCR guess): supe_i_corbe.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): Ovaj normativ obezbeđuje oko 2,5 di supe. Kuvati na laganoj vatri 20 minuta uz povremeno mešanje. U Ključalu vodu staviti koncentrat za francusku supu sa tes- Dell se kutlačom od 2.5 dl. teninom i mešati dok supa provri, vodeći računa da ne iskipi.\nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    },
+    {
+      "id": "jna-030-becka-supa-sa-jetrenim-okruglicama-koncentrat",
+      "naziv": "BEČKA SUPA SA JETRENIM OKRUGLICAMA (KONCENTRAT)",
+      "kategorija": [
+        "supe_i_corbe"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 45.\nKategorija (OCR guess): supe_i_corbe.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): Oval normativ obezbeđuje oko 2:5 dl supa. da ne iskipl. Kuvati ne laganoj vatri 15 minuta uz povremeno U ključalu vodu staviti koncentrat za bečku supu sa testeni- — mešanje. nom jetrene okruglice imešati dok supa provri. vodeći računa Deli se kutlačom od 2:5 dl.\nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    },
+    {
+      "id": "jna-031-minestrone-supa-koncentrat",
+      "naziv": "MINESTRONE SUPA (KONCENTRAT)",
+      "kategorija": [
+        "supe_i_corbe"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 46.\nKategorija (OCR guess): supe_i_corbe.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): Ovaj normativ obezbeđuje oko 2,5 dl supe. provi, vodeći računa da ne iskipi. Kuvati na laganoj vatri 15 minuta uz povremeno mešanje.. U mlaku vodu staviti koncentrat | testeninu | mešati dok supa Dano\nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    },
+    {
+      "id": "jna-032-praska-supa-od-krompira-koncentrat",
+      "naziv": "PRAŠKA SUPA OD KROMPIRA (KONCENTRAT)",
+      "kategorija": [
+        "supe_i_corbe"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 47.\nKategorija (OCR guess): supe_i_corbe.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): Ovaj normativ obezbeđuje oko 2.5 dl supe. vodeći računa da ne iskipi. Kuvati na laganoj vatri 10 minuta vodu staviti 1 mešati uz povremeno mešanje. U misku vodu staviti koncentrat | mešati dok supa. provri, ta povremana mešanii:\nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    },
+    {
+      "id": "jna-033-paradajz-corba",
+      "naziv": "PARADAJZ-ČORBA",
+      "kategorija": [
+        "supe_i_corbe"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 48.\nKategorija (OCR guess): supe_i_corbe.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): Ovaj normativ obezbeđuje oko 3 dl čorbe. minuta, pa isključiti toplotu. Dodati slino seckani peršunov i U vrelu masnoću dodati crni kik, mrkvu. peršunovi celerov ko- Celerov kist, samleveni biber, po potrebi dosoltu | poboljšati ren, sve isečeno na kolutove Il irendisano | ropržti da sve ukus sa šećerom porumeni Zaim dodat pop u rav, pod gem Corba se deli kutlačom od 3 dl Vođom fondom od kostiju toliko da ogrizne | kuvati dok Po- napomana:akose upotrebljava sve parada sći a na kike stava amo aa \nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    },
+    {
+      "id": "jna-034-corba-od-krompira",
+      "naziv": "ČORBA OD KROMPIRA",
+      "kategorija": [
+        "supe_i_corbe"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 50.\nKategorija (OCR guess): supe_i_corbe.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): Ovaj normativ obezbeđuje oko 3 dl čorbe. | sačekati da prokuva. Čim čorba prokuva, dodati zapršku uz U vrelu masnoću, dodati sitno seckani crni luk i malo ga pro- stalno mešanje čorbe da se zaprška ne zgrudva. Posle zaprpržiti. Zatim u proprženi luk dodati mrkvu, peršunov i golarov žavanja dodati koncentrat za supu i dodatak jelima i ostaviti da koren, sve sečeno na kockice, i pržiti da blago porumeni. kuva 20-30 minuta, vodeći računa o tome da se krompir ne. dati i papriku u prahu pa podliti to\nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    },
+    {
+      "id": "jna-035-corba-od-graska",
+      "naziv": "ČORBA OD GRAŠKA",
+      "kategorija": [
+        "supe_i_corbe"
+      ],
+      "tags": [
+        "jna",
+        "ocr",
+        "top_clean",
+        "review_to_atlas"
+      ],
+      "porcije": 0,
+      "vreme_min": 0,
+      "tezina": "lako",
+      "sastojci": [],
+      "koraci": [],
+      "napomene": "JNA OCR izvor: str. 52.\nKategorija (OCR guess): supe_i_corbe.\n⚠️ Ovo je 'clean stub' (bez auto-parsiranja tabela/gramaža iz OCR-a). Dopluni sastojke i korake ručno.\nOCR preview (kontrolno): Ovaj normativ obezbeđuje oko 3 dl čorbe. da se dobije količina od 3 dl po osobi, posoliti sačekati da proU deo vrele masnoće dodati sitno seckani luk | malo ga pro- kuva. Kada čorba prokuva, dodati zapršku uz stalno mešanje pržiti. Zatim u proprženi luk dodati suvu slaninu sečenu na koc- čorbe da se zaprška ne zgrudva. Posle zapržavanja čorbu ku: Rice 1 zajedno pržiti da blago porumeni. Posle toga dodati mr. vatijoš 20-30 minuta, isključiti toplotu pa dodati sitno seckani kvu sečenu na kockice i\nIssues: ocr_tables_not_reliable, manual_normalization_needed_before_recipe_atlas",
+      "izvor": {
+        "naziv": "Kuvar JNA (OCR bundle)",
+        "napomena": "Top Clean import pack v5.15.0",
+        "url": ""
+      },
+      "user": true,
+      "source_refs": {
+        "txt": "references/jna_kuvar_ocr/kuvar_jna_ocr.txt",
+        "md": "references/jna_kuvar_ocr/kuvar_jna_ocr.md",
+        "docx": "references/jna_kuvar_ocr/kuvar_jna_ocr.docx"
+      },
+      "updated_utc": "2026-03-02T15:38:22Z"
+    }
+  ]
+}

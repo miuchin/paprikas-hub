@@ -1,0 +1,20 @@
+{
+  "schema": "paprikas-hub-jna-clean-pack-v1",
+  "version": "v5.15.0",
+  "created_utc": "2026-03-02T15:38:22Z",
+  "count": 31,
+  "first_ids": [
+    "jna-001-caj-pravi",
+    "jna-002-caj-narodni",
+    "jna-003-caj-sipkov",
+    "jna-004-caj-lipov",
+    "jna-005-caj-od-kamilice",
+    "jna-006-caj-serbet",
+    "jna-007-crna-kafa",
+    "jna-008-crna-kafa-surogat",
+    "jna-009-bela-kafa",
+    "jna-010-bela-kafa-sa-dvopekom"
+  ],
+  "out_json": "data/catalog/imports/jna_top_clean_import_v5.15.0.json",
+  "out_ndjson": "data/catalog/imports/jna_top_clean_import_v5.15.0.ndjson"
+}

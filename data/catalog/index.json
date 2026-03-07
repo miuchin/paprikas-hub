@@ -1,6 +1,6 @@
 {
   "schema": "paprikas-hub-catalog-index-v1",
-  "version": "v4.8",
+  "version": "v5.13.8",
   "modules": [
     {
       "id": "bljutavo_rescue",
@@ -43,6 +43,12 @@
       "file": "data/catalog/modules/stains_odors_rescue_v48.json",
       "type": "knowledge-tab",
       "status": "active-v48"
+    },
+    {
+      "id": "enciklopedija_traditional_reference",
+      "file": "data/catalog/bridges/enciklopedija_narodnih_metoda_bridge_v5.13.8.json",
+      "type": "reference-bridge",
+      "status": "active-v5.13.8"
     }
   ]
 }
