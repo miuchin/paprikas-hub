@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Paprikaš Hub — Korisničko uputstvo v5.17.5</title>
+<style>
+  :root {
+    --bg:#f7f5ef; --paper:#ffffff; --ink:#1f2937; --muted:#667085; --line:#e5dccb;
+    --accent:#d97706; --soft:#fff7ed; --good:#ecfdf3; --warn:#fff7ed;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color:var(--ink); background:var(--bg); line-height:1.6; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 20px; }
+  .hero { background: linear-gradient(135deg,#fff,#fff7ed); border:1px solid var(--line); border-radius:24px; padding:22px; box-shadow:0 18px 48px rgba(0,0,0,.05); }
+  h1,h2,h3 { line-height:1.2; }
+  h1 { margin:0 0 8px; font-size:2rem; }
+  h2 { margin-top:28px; font-size:1.5rem; }
+  h3 { margin-top:18px; font-size:1.15rem; }
+  .sub { color:var(--muted); }
+  .pill { display:inline-block; padding:4px 10px; border-radius:999px; background:var(--soft); border:1px solid var(--line); font-weight:700; font-size:.9rem; }
+  .grid { display:grid; grid-template-columns: repeat(auto-fit,minmax(280px,1fr)); gap:16px; }
+  .card { background:var(--paper); border:1px solid var(--line); border-radius:18px; padding:18px; margin-top:16px; }
+  .note,.good,.warn { padding:12px 14px; border-radius:14px; border:1px solid var(--line); margin-top:12px; }
+  .note { background:#f8fafc; }
+  .good { background:var(--good); }
+  .warn { background:var(--warn); }
+  table { width:100%; border-collapse: collapse; font-size:.95rem; }
+  th,td { border:1px solid var(--line); padding:10px; vertical-align:top; text-align:left; }
+  th { background:#fff8eb; }
+  .toc a { text-decoration:none; color:#9a3412; }
+  .toc li { margin:6px 0; }
+  code { background:#f4f4f5; padding:2px 6px; border-radius:6px; }
+  @media print {
+    body { background:white; }
+    .hero, .card { box-shadow:none; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <div class="pill">Paprikaš Hub v5.17.5</div>
+    <h1>📖 Korisničko uputstvo (detaljno)</h1>
+    <p class="sub">Kompletan vodič za korišćenje aplikacije, sa posebnim fokusom na <strong>Recipe Atlas</strong>, <strong>Content Studio</strong>, import / export tokove, pomoćne module i troubleshooting.</p>
+    <div class="good"><strong>Novo:</strong> od ove verzije Content Studio je izdvojen kao poseban ekran na Početnoj, a Help / FAQ je izdvojen u poseban dokument.</div>
+  </div>
+
+  <div class="card toc">
+    <h2>Sadržaj</h2>
+    <ol>
+      <li><a href="#start">Brzi start</a></li>
+      <li><a href="#home">Početna i glavni ulazi</a></li>
+      <li><a href="#atlas">Recipe Atlas i rad sa receptima</a></li>
+      <li><a href="#studio">Content Studio (10×100)</a></li>
+      <li><a href="#storage">Gde se šta čuva</a></li>
+      <li><a href="#troubleshooting">Troubleshooting</a></li>
+      <li><a href="#faq">Help / FAQ</a></li>
+    </ol>
+  </div>
+
+  <div class="card" id="start">
+    <h2>1) Brzi start</h2>
+    <ol>
+      <li>Pokreni server: <code>python3 server/paprikas_server.py --host 127.0.0.1 --port 8015</code></li>
+      <li>Otvori <code>http://127.0.0.1:8015/</code></li>
+      <li>Za spasavanje jela koristi Početna → Rescue / Atlas.</li>
+      <li>Za dopunu baze recepata koristi Početna → <strong>🧰 Content Studio</strong>.</li>
+      <li>Za reference koristi Biblioteka i Trikovi & kuća.</li>
+    </ol>
+  </div>
+
+  <div class="card" id="home">
+    <h2>2) Početna i glavni ulazi</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>🏠 Početna</h3>
+        <p>Početna je komandni centar. Cilj je da korisnik ne skroluje kroz dugačke tabove nego da iz Početne odmah uđe u potrebnu radnu stanicu.</p>
+      </div>
+      <div class="card">
+        <h3>📖 Recipe Atlas</h3>
+        <p>Baza recepata, ručni unos, import/export, pregled i štampa recepata.</p>
+      </div>
+      <div class="card">
+        <h3>🧰 Content Studio</h3>
+        <p>Serijski unos novih recepata: prompt → batch → extract titles → auto-fix → merge → export.</p>
+      </div>
+      <div class="card">
+        <h3>📚 Biblioteka / Trikovi</h3>
+        <p>Reference, enciklopedija, kuhinjski i kućni trikovi, fleke i mirisi.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" id="atlas">
+    <h2>3) Recipe Atlas i rad sa receptima</h2>
+    <ul>
+      <li><strong>Recipe Atlas</strong> je ciljna baza recepata.</li>
+      <li><strong>Manual add</strong> koristi se za jedan recept ili ručne ispravke.</li>
+      <li><strong>Import</strong> prima finalni NDJSON koji dolazi iz Content Studio merge izlaza.</li>
+      <li><strong>Inventory export</strong> služi za dedup pri narednim promptovima.</li>
+    </ul>
+  </div>
+
+  <div class="card" id="studio">
+    <h2>4) Content Studio (10×100)</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Redosled rada</h3>
+        <ol>
+          <li>Izaberi batch.</li>
+          <li>Build prompt (auto).</li>
+          <li>Open helper → Copy.</li>
+          <li>Nalepi prompt u ChatGPT.</li>
+          <li>Dobijeni NDJSON nalepi nazad u Studio ili uploaduj.</li>
+          <li>Extract titles.</li>
+          <li>Posle svih batch-eva: Merge titles → Auto-fix + Merge.</li>
+        </ol>
+      </div>
+      <div class="card">
+        <h3>Rezultati</h3>
+        <ul>
+          <li><code>recipes_1000_merged.ndjson</code></li>
+          <li><code>recipes_1000_merged_report.json</code></li>
+          <li><code>invalid_lines</code> i <code>duplicates</code> fajlovi</li>
+          <li><code>reports_bundle.zip</code></li>
+        </ul>
+      </div>
+    </div>
+    <div class="note"><strong>Soft accept prazna kolicina</strong> je koristan kad AI ostavi sastojak bez količine. Recept prolazi, ali zadržava se pregled kroz report.</div>
+  </div>
+
+  <div class="card" id="storage">
+    <h2>5) Gde se šta čuva</h2>
+    <table>
+      <thead><tr><th>Putanja</th><th>Svrha</th></tr></thead>
+      <tbody>
+        <tr><td><code>data/db/app_state.json</code></td><td>Glavna lokalna baza stanja.</td></tr>
+        <tr><td><code>data/pipeline/batches/</code></td><td>Batch NDJSON fajlovi iz Content Studio-a.</td></tr>
+        <tr><td><code>data/pipeline/titles/</code></td><td>Extract naslova i all-previous lista.</td></tr>
+        <tr><td><code>data/pipeline/out/</code></td><td>Finalni merged NDJSON i report fajlovi.</td></tr>
+        <tr><td><code>docs/</code></td><td>Uputstva, help, recap i hotfix dokumenti.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card" id="troubleshooting">
+    <h2>6) Troubleshooting</h2>
+    <ul>
+      <li><strong>Server ne kreće:</strong> proveri terminal traceback; koristi isti Python i isti folder projekta.</li>
+      <li><strong>UI izgleda staro:</strong> uradi <code>Ctrl+Shift+R</code>.</li>
+      <li><strong>Batch ne prolazi:</strong> proveri NDJSON format i uključi Auto-fix.</li>
+      <li><strong>Previše duplikata:</strong> koristi inventory export + all-previous titles.</li>
+    </ul>
+  </div>
+
+  <div class="card" id="faq">
+    <h2>7) Help / FAQ</h2>
+    <p>Za bržu pomoć koristi i poseban dokument <strong>HELP_BRZI_VODIC.html</strong>.</p>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+TI SI "Home tricks generator" za Paprikas Hub.
+
+Generisi ukupno 500 kratkih i upotrebljivih kucnih trikova na srpskom jeziku (latinica), bez duplikata.
+Vrati najvise 100 u jednoj sesiji, pa cekaj CONTINUE.
+
+FORMAT IZLAZA: NDJSON, bez dodatnog teksta.
+
+SHEMA:
+{
+  "title": "...",
+  "group": "higijena|mirisi|kamenac|organizacija|pranje|kuhinja|kupatilo",
+  "problem": "...",
+  "solution": "...",
+  "steps": ["...","..."],
+  "warning": "...",
+  "tags": ["...","..."]
+}

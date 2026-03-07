@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Paprikaš Hub — Help / FAQ v5.17.5</title>
+<style>
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial; margin:0; background:#faf7f0; color:#1f2937;}
+.wrap{max-width:920px; margin:0 auto; padding:20px;}
+.card{background:#fff; border:1px solid #eadfcd; border-radius:18px; padding:18px; margin:14px 0;}
+h1,h2{line-height:1.2} summary{font-weight:700; cursor:pointer}
+.note{background:#f8fafc; border:1px solid #e5e7eb; border-radius:14px; padding:12px;}
+code{background:#f4f4f5; padding:2px 6px; border-radius:6px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="card">
+    <h1>❓ Help / FAQ — brzi vodič</h1>
+    <p>Najkraći dokument za svakodnevni rad u Paprikaš Hub-u.</p>
+    <div class="note"><strong>Pravilo:</strong> za rešavanje jela koristi Rescue/Atlas, za dopunu baze koristi Content Studio.</div>
+  </div>
+
+  <div class="card">
+    <h2>Brzi start</h2>
+    <ol>
+      <li>Pokreni server: <code>python3 server/paprikas_server.py --host 127.0.0.1 --port 8015</code></li>
+      <li>Otvori <code>http://127.0.0.1:8015/</code></li>
+      <li>Na Početnoj izaberi modul koji ti treba.</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2>Najčešća pitanja</h2>
+    <details open><summary>Gde je sada Content Studio?</summary><div>Na Početnoj kao posebna opcija i kao poseban tab, više nije zakopan na dnu Recipe Atlas-a.</div></details>
+    <details><summary>Kako dodajem 1000 novih recepata?</summary><div>Idi u Content Studio, radi batch 001–010, pa na kraju Auto-fix + Merge i importuj merged NDJSON u Recipe Atlas.</div></details>
+    <details><summary>Šta ako batch ne prođe?</summary><div>Proveri NDJSON format, uključi Auto-fix i pogledaj <code>invalid_lines</code> report.</div></details>
+    <details><summary>Šta ako imam duplikate?</summary><div>Koristi inventory titles i extract titles iz prethodnih batch-eva. Prompt mora da zna šta već postoji.</div></details>
+    <details><summary>Kako da otvorim detaljno uputstvo?</summary><div>Iz menija <strong>Uputstvo & podešavanja</strong> ili direktno fajl <code>docs/KORISNICKO_UPUTSTVO_DETALJNO.html</code>.</div></details>
+  </div>
+</div>
+</body>
+</html>

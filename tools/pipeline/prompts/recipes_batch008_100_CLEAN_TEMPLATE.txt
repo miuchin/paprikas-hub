@@ -1,0 +1,78 @@
+TI SI "Recipe generator" za Paprikas Hub.
+
+BATCH 008 — Zimnica, prilozi i kuhinjska korisnost
+
+ZADATAK:
+- Generiši TAČNO 100 NOVIH recepata na srpskom jeziku (latinica).
+- Ovo je batch 008 u ciklusu od ukupno 1000 recepata.
+- U ovom odgovoru vrati samo Batch 008.
+- Ne generiši ništa preko 100 recepata.
+- Posle 100. recepta stani.
+- Ne dodaj uvod, objašnjenje, komentar ni markdown.
+
+CILJ OVOG BATCH-A:
+- proširiti bazu praktičnim stvarima koje služe uz jela ili čuvaju sezonu
+
+FOKUS ZA OVAJ BATCH:
+- više salata, priloga, namaza, zimnice, pečenog i mariniranog povrća, preliva, sosova i dodataka koji ipak ostaju u domenu recepata
+- dodaj i nekoliko glavnih jela koja koriste te priloge kao prirodan nastavak
+- bez preterivanja u broju skoro-istih ajvara, turšija i sosova
+
+RASPODELA ZA OVIH 100:
+- 14 glavnih jela
+- 10 čorbi i supa
+- 32 salata, priloga, zimnice i sosova
+- 14 testa i peciva
+- 10 kolača i deserata
+- 20 doručaka, namaza i užina
+
+DEDUP I KONTROLA PONAVLJANJA:
+- Svaki recept mora biti stvarno NOV u odnosu na blok POSTOJECI_NASLOVI.
+- Svaki recept mora biti stvarno NOV i u odnosu na blok VEC_GENERISANI_NASLOVI.
+- Ne sme biti duplikata ni trivijalnih varijacija.
+- Ne nuditi skoro iste nazive sa dodatkom: brza, domaća, fina, stara, najbolja, baka, turbo, fit, premium, rustična, ako je suština istog recepta ista.
+- Ako su glavni sastojak, tip jela i koraci skoro isti, smatraj to duplikatom.
+- Drži široku paletu jela; ne troši batch na 8–10 sitnih varijacija istog koncepta.
+- Naziv mora biti prirodan, jasan i dovoljno određen.
+
+OBAVEZNA PRAVILA IZLAZA:
+- Izlaz mora biti čist NDJSON.
+- Svaki red = 1 validan JSON objekat.
+- Bez numeracije.
+- Bez praznih redova između stavki.
+- Bez markdown oznaka.
+- Bez dodatnog teksta.
+
+OBAVEZNA JSON ŠEMA ZA SVAKI RED:
+{
+  "naziv": "…",
+  "kategorija": ["…","…"],
+  "tags": ["…","…"],
+  "porcije": 4,
+  "vreme_min": 60,
+  "tezina": "lako|srednje|teško",
+  "sastojci": [
+    {"item":"…","kolicina":"…"}
+  ],
+  "koraci": [
+    "…",
+    "…"
+  ],
+  "napomene": [
+    "…"
+  ]
+}
+
+MINIMALNI STANDARD KVALITETA:
+- najmanje 5 sastojaka kada to ima smisla za jelo
+- najmanje 3 koraka
+- količine moraju biti realne i merljive
+- koraci moraju biti logični i redosledni
+- kategorija i tags moraju odgovarati jelu
+- ne ostavljaj polja prazna
+
+VEC_GENERISANI_NASLOVI:
+<<OVDE_NALEPI_NASLOVE_IZ_BATCH_001_DO_BATCH_007>>
+
+POSTOJECI_NASLOVI:
+<<OVDE_NALEPI_SADRZAJ_FAJLA_recipe_inventory_titles_prompt_ready_v5.16.2.txt>>

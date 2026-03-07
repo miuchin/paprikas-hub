@@ -1,0 +1,1850 @@
+TI SI "Recipe generator" za Paprikas Hub.
+
+BATCH 010 — Porodični sto i završni balans
+
+ZADATAK:
+- Generiši TAČNO 100 NOVIH recepata na srpskom jeziku (latinica).
+- Ovo je batch 010 u ciklusu od ukupno 1000 recepata.
+- U ovom odgovoru vrati samo Batch 010.
+- Ne generiši ništa preko 100 recepata.
+- Posle 100. recepta stani.
+- Ne dodaj uvod, objašnjenje, komentar ni markdown.
+
+CILJ OVOG BATCH-A:
+- zatvoriti ciklus od 1000 recepata uravnoteženim završnim batch-em bez rupa u bazi
+
+FOKUS ZA OVAJ BATCH:
+- kombinuj porodične ručkove, vikend jela, praznične ideje, sezonske favorite i preostale korisne praznine
+- posebno vodi računa da ovaj završni batch ne bude previše sličan prethodnim batch-evima
+- dodaj sadržaj koji deluje kao prirodan završni balans cele kolekcije
+
+RASPODELA ZA OVIH 100:
+- 24 glavna jela
+- 16 čorbi, supa i paprikaša
+- 16 salata i priloga
+- 16 testa i peciva
+- 12 kolača i deserata
+- 16 doručaka, namaza i užina
+
+DEDUP I KONTROLA PONAVLJANJA:
+- Svaki recept mora biti stvarno NOV u odnosu na blok POSTOJECI_NASLOVI.
+- Svaki recept mora biti stvarno NOV i u odnosu na blok VEC_GENERISANI_NASLOVI.
+- Ne sme biti duplikata ni trivijalnih varijacija.
+- Ne nuditi skoro iste nazive sa dodatkom: brza, domaća, fina, stara, najbolja, baka, turbo, fit, premium, rustična, ako je suština istog recepta ista.
+- Ako su glavni sastojak, tip jela i koraci skoro isti, smatraj to duplikatom.
+- Drži široku paletu jela; ne troši batch na 8–10 sitnih varijacija istog koncepta.
+- Naziv mora biti prirodan, jasan i dovoljno određen.
+
+OBAVEZNA PRAVILA IZLAZA:
+- Izlaz mora biti čist NDJSON.
+- Svaki red = 1 validan JSON objekat.
+- Bez numeracije.
+- Bez praznih redova između stavki.
+- Bez markdown oznaka.
+- Bez dodatnog teksta.
+
+OBAVEZNA JSON ŠEMA ZA SVAKI RED:
+{
+  "naziv": "…",
+  "kategorija": ["…","…"],
+  "tags": ["…","…"],
+  "porcije": 4,
+  "vreme_min": 60,
+  "tezina": "lako|srednje|teško",
+  "sastojci": [
+    {"item":"…","kolicina":"…"}
+  ],
+  "koraci": [
+    "…",
+    "…"
+  ],
+  "napomene": [
+    "…"
+  ]
+}
+
+MINIMALNI STANDARD KVALITETA:
+- najmanje 5 sastojaka kada to ima smisla za jelo
+- najmanje 3 koraka
+- količine moraju biti realne i merljive
+- koraci moraju biti logični i redosledni
+- kategorija i tags moraju odgovarati jelu
+- ne ostavljaj polja prazna
+
+VEC_GENERISANI_NASLOVI:
+<<OVDE_NALEPI_NASLOVE_IZ_BATCH_001_DO_BATCH_009>>
+
+POSTOJECI_NASLOVI:
+Ajvar domaći (pečeni)
+Ajvar sa pečenim belim lukom
+Avokado salata sa sojinim komadićima
+Bajadere
+Baklava
+Baklava sa orasima
+Baklava sa orasima (kore)
+Balkanska minestrone čorba
+Banana-čokolada mafini
+Banana hleb
+bananama i jabukama Kolač sa
+Bareni brokoli sa limun-dresingom
+Bečki uvojci
+Beli sos od jogurta i belog luka
+Biskvit sa breskvama
+Biskvit sa kajsijama
+Biskvit sa kruškama
+Bistra pileća supa sa đumbirom
+Bistra povrtna supa sa knedlama od griza
+Bistra riblja supa sa povrćem
+Bistra supa od povrća
+Blitva sa krompirom
+Boranija sa ćuretinom
+Boranija sa mesom i povrćem
+Brijam – grčki prilog od povrća
+Brodet sa palentom
+Brokoli sa šampinjonima
+Brusketi sa ajvarom i sirom
+Brza bajadera
+Brza focaccia sa ruzmarinom
+Brza krempita u plehu
+Brza turšija od šargarepe i kupusa
+Brzi paprikaš od sardina
+Brzi sendvič sa pečenom paprikom i sirom
+Bujon od kostiju (goveđi)
+Bulgur sa pečenom paprikom
+Bulgur salata sa peršunom (tabule)
+Burito sa tunjevinom
+Čaj od kamilice sa medom
+Čaj od đumbira i limuna
+Čaj od zove sa limunom
+Caprese salata
+Ćevapi u rerni
+Chia puding sa borovnicama
+Čobanac u šerpi
+Čokoladna salama (bez pečenja)
+Čokoladna torta sa lešnicima
+Čokoladna torta sa paradajz sokom
+Čokoladne kocke
+Čokoladne kocke sa višnjama i ovsenim pahuljicama
+Čokoladne kuglice sa orasima (bez pečenja)
+Čokoladni kolač sa bademom
+Čokoladni mafini sa borovnicama
+Čokoladni mafini sa jogurtom
+Čokoladni mus
+Čokoladni puding (domaći)
+Čorba od bamije
+Čorba od boba (fava) i praziluka
+Čorba od boba i krompira
+Čorba od boba i paradajza
+Čorba od boranije i krompira
+Čorba od boranije i paradajza
+Čorba od boranije i pasulja (posno)
+Čorba od brokolija
+Čorba od brokolija i graška
+Čorba od brokolija i ječma
+Čorba od brokolija i krompira
+Čorba od brokolija i kukuruza
+Čorba od brokolija i spanaća
+Čorba od brokolija sa taranom
+Čorba od bundeve
+Čorba od bundeve i crvenog sočiva
+Čorba od bundeve i pomorandže
+Čorba od bundeve i sočiva
+Čorba od crvene paprike i krompira
+Čorba od crvenog pasulja
+Čorba od crvenog sočiva i paradajza
+Čorba od cvekle i ječma
+Čorba od cvekle i krompira
+Čorba od graška
+Čorba od graška i kukuruza
+Čorba od graška i praziluka
+Čorba od graška sa nanom
+Čorba od graška sa pavlakom
+Čorba od ječma i pečuraka
+Čorba od karfiola i kukuruza
+Čorba od karfiola i leblebija
+Čorba od karfiola i pirinča
+Čorba od karfiola i praziluka
+Čorba od karfiola sa krem sirom i peršunom
+Čorba od kelerabe
+Čorba od kelja i krompira
+Čorba od kelja i sočiva
+Čorba od kiselog kupusa i krompira
+Čorba od koprive
+Čorba od koprive i krompira
+Čorba od koprive sa jajetom
+Čorba od krompira i graška sa biberom
+Čorba od krompira i kukuruza sa pavlakom
+Čorba od kukuruza i krompira
+Čorba od kukuruza i paprike
+Čorba od kukuruza i praziluka
+Čorba od kupusa i ječma
+Čorba od kupusa i krompira
+Čorba od kupusa i paradajza
+Čorba od kupusa i pirinča
+Čorba od leblebija i celera stabljike
+Čorba od leblebija i paradajza
+Čorba od leće i šargarepe
+Čorba od paradajza i pečene paprike
+Čorba od paradajza i pirinča
+Čorba od paradajza i tarane
+Čorba od pasulja i ječma (posno)
+Čorba od pasulja i kupusa (posno)
+Čorba od pasulja i povrća
+Čorba od pasulja i tikvica (posno)
+Čorba od pečene bundeve i celera
+Čorba od pečene paprike i krompira
+Čorba od pečene paprike i pasulja
+Čorba od pečenih paprika i krompira
+Čorba od pečenog paradajza
+Čorba od pečenog patlidžana
+Čorba od pečuraka i ječma
+Čorba od pečuraka i ječma (gusta)
+Čorba od pečuraka i krompira
+Čorba od pečuraka sa mladim sirom i peršunom
+Čorba od povrća
+Čorba od praziluka
+Čorba od praziluka i celera
+Čorba od praziluka i krompira
+Čorba od praziluka i krompira sa kukuruznim grizom
+Čorba od prosa i povrća
+Čorba od šampinjona i tarane
+Čorba od šargarepe i crvene leće
+Čorba od šargarepe i đumbira
+Čorba od slanutka i šargarepe
+Čorba od sočiva
+Čorba od sočiva i paradajza
+Čorba od sočiva i spanaća
+Čorba od sočiva i tikvica
+Čorba od sočiva sa limunom
+Čorba od soje zrna
+Čorba od spanaća i krompira
+Čorba od spanaća i pirinča
+Čorba od tikve i prosa
+Čorba od tikve i sočiva
+Čorba od tikve i đumbira
+Čorba od tikvica i bulgura
+Čorba od tikvica i graška
+Čorba od tikvica i krompira
+Čorba od tikvica i nane
+Čorba od tikvica i pirinča
+Čorba od vrganja
+Čorbast pasulj sa dimljenim mesom
+Čorbast pasulj sa kiselim kupusom
+Crni i crveni rižoto
+Ćufte od ćuretine u rerni
+Ćufte pečene u rerni
+Ćufte u paradajz sosu
+Ćufte u paradajz sosu sa krompir pireom
+Ćufte u paradajz sosu sa pirinčem
+Ćufte u sosu od paradajza i tikvica
+Ćufte u sosu od pečene paprike
+Ćuftice od oslića sa tartar sosom
+Ćuftice od tunjevine
+Ćureće ćufte u sosu od pavlake
+Ćureći paprikaš sa pavlakom
+Ćureći paprikaš sa pečurkama i majčinom dušicom
+Ćuretina sa plavim sirom i žalfijom
+Ćuretina u sosu od pečuraka
+Ćuretina u sosu od senfa i paprike
+Desert: biskvit kocke sa limunom
+Desert: biskvit rolat sa džemom
+Desert: breskve u rerni sa medom
+Desert: brz keks kolač sa pudingom
+Desert: brz kolač sa čokoladom (jedan pleh)
+Desert: brz kolač sa jogurtom i limunom
+Desert: brza pita sa jabukama (kore)
+Desert: brzi kolač sa višnjama
+Desert: čokoladni mus (jednostavan)
+Desert: griz halva (osnovna)
+Desert: griz kolač sa kokosom i čokoladom
+Desert: griz-kolač sa kokosom (pečen)
+Desert: griz na mleku sa kokosom i limunom
+Desert: griz na vodi sa kakaom (posno)
+Desert: knedle od griza sa kakaom
+Desert: knedle od griza sa vanilom
+Desert: kokos kocke (posne)
+Desert: kokos kuglice sa keksom
+Desert: kokos kuglice sa keksom (bez pečenja)
+Desert: kolač od čokolade i višanja
+Desert: kompot od aronije
+Desert: krem od griza i vanile
+Desert: mafini sa borovnicama
+Desert: palačinke sa džemom
+Desert: pečene jabuke punjene orasima
+Desert: plazma kuglice sa čokoladom (bez pečenja)
+Desert: posne palačinke na vodi
+Desert: posni griz na vodi sa vanilom
+Desert: posni kolač od narandže
+Desert: posni kolač sa bananom i kakaom
+Desert: posni kolač sa kokosom i kakaom
+Desert: puding od griza sa čokoladom
+Desert: puding od pirinča sa kakaom
+Desert: puding od vanile sa keksom
+Desert: rolat sa čokoladnim kremom
+Desert: rolat sa džemom (biskvit)
+Desert: rolnice od oblandi sa orasima
+Desert: štrudla sa makom (kvasno)
+Desert: sutlijaš sa cimetom i suvim grožđem
+Desert: sutlijaš sa karamel šećerom
+Desert: sutlijaš sa kokosom
+Desert: sutlijaš sa kompotom od šljiva
+Desert: sutlijaš sa lešnikom
+Desert: sutlijaš sa limunom i makom
+Desert: voćna salata (jabuka-kruška-banana)
+Dinstana govedina sa suvim kajsijama
+Dinstana heljda sa lukom (prilog)
+Dinstani batat na puteru
+Dinstani kiseli kupus (prilog)
+Dinstani kupus sa kimenom (prilog)
+Dinstani kupus sa šargarepom
+Dinstani praziluk sa šargarepom
+Domaća limunada sa medom
+Domaća pileća supa sa rezancima
+Domaća tarana (suva)
+Domaća testenina na trake (prilog)
+Domaće lepinje
+Domaće njoke (osnovne)
+Domaće noklice (prilog)
+Domaće prezle
+Domaći bešamel sos
+Domaći kakao napitak sa medom
+Domaći keks sa čokoladnim komadićima
+Domaći kompot sirup (osnova)
+Domaći marinirani luk (prilog)
+Domaći puding od čokolade
+Domaći puding od vanile
+Domaći rezanci (testo)
+Domaći sirup od maline
+Domaći sok od nane i limuna
+Domaći sok od narandže i jabuke
+Domaći sok od paradajza (kuvani)
+Domaći tartar sos
+Doručak: banane u tiganju sa medom
+Doručak: brz puding od chia semenki
+Doručak: grčki jogurt sa medom i orasima
+Doručak: griz na mleku sa bananom
+Doručak: griz na mleku sa narom i vanilom
+Doručak: jaja na oko sa pečenim krompirom
+Doručak: jaja na oko sa spanaćem
+Doručak: jogurt sa orasima i medom
+Doručak: kajgana sa kukuruzom i sirom
+Doručak: kajgana sa pečurkama
+Doručak: kaša od heljde sa medom
+Doručak: omlet sa ajvarom
+Doručak: omlet sa blitvom
+Doručak: omlet sa pečenom paprikom i sirom
+Doručak: ovsena kaša sa kakaom
+Doručak: ovsena kaša sa suvim grožđem
+Doručak: ovseni omlet iz rerne
+Doručak: palačinke od heljdinog brašna
+Doručak: palenta sa jogurtom i sirom
+Doručak: pita sa sirom u tiganju (brza)
+Doručak: proja sa sirom
+Doručak: šejk od kakaa i ovsa
+Doručak: sendvič sa ćurećom šunkom i sirom
+Doručak: sendvič sa humusom i krastavcem
+Doručak: sendvič sa humusom i pečenom paprikom
+Doručak: sendvič sa jajetom i avokadom
+Doručak: sendvič sa sardinom i paradajzom
+Doručak: sendvič sa sirom i pečenom paprikom
+Doručak: sendvič sa skutom i medom
+Doručak: slana ovsena kaša sa sirom
+Doručak: slani tost sa kajganom i sirom
+Doručak: tost sa humusom i paradajzom
+Doručak: tost sa namazom od ajvara i tunjevine
+Doručak: tost sa pestom i paradajzom
+Doručak: tost sa ricottom i medom
+Doručak: uštipci sa jogurtom (bez sira)
+Dunavski riblji paprikaš
+Džem od jagoda
+Džem od kajsija
+Džem od malina
+Džem od šljiva
+Džem šnite
+Fileti oslića u belom sosu
+Francuska pita sa paprikom
+Francuska salata
+Frape od dinje i sira
+Frape od malina i kivija
+Fritata sa brokolijem
+Fritata sa krompirom i lukom
+Gaspačo (španska hladna čorba od povrća)
+Gibanica sa korama od ovsenog brašna
+Gibanica sa sirom
+Gibanica sa sirom (kore)
+Glavno: musaka od krompira (osnovna)
+Glavno: paprikaš od govedine i boba
+Glavno: paprikaš od piletine sa kelerabom i kukuruzom
+Glavno: paprikaš od piletine sa suvim šljivama
+Glavno: paprikaš od povrća sa prokeljom (posno)
+Glavno: paprikaš od svinjetine sa prokeljom
+Glavno: paprikaš od svinjske plećke i kupusa
+Glavno: paprikaš od tofu-a sa bundeve i pečurkama
+Glavno: pečene punjene tikvice (mleveno meso)
+Glavno: pilav sa ćuretinom i kukuruzom
+Glavno: posni paprikaš od leće i šampinjona
+Glavno: posni đuveč sa pasuljem
+Glavno: povrtni kari sa leblebijama (blagi)
+Glavno: testenina sa sosom od pečenih paprika
+Glavno: đuveč sa povrćem (posno)
+Goveđa supa sa rezancima
+Granola sa mlekom i suvim voćem
+Grašak sa junetinom
+Grašak sa piletinom (klasično)
+Gratinirana blitva
+Grčka musaka
+Grčka salata sa sirom od soje (tofu)
+Grilovano povrće sa tofu sirom
+Griz kolač sa kokosom
+Griz kolač sa limunom
+Griz na mleku sa kakaom i lešnikom
+Griz na mleku sa vanilom
+Griz sa borovnicama i vanilom
+Griz sa kakaom i kokosom
+Griz sa kompotom od trešnje
+Griz sa kruškom i cimetom
+Griz sa malinama
+Gulaš čorba od junetine
+Gulaš čorba sa paprikom
+Gulaš od ćuretine sa pečurkama
+Gulaš od junetine sa šampinjonima
+Gulaš od pečuraka
+Gusti frape od jagoda i borovnica
+Gvakamole sa tortilja čipsom
+Heljdine palačinke (slane)
+Hladan napitak limun-đumbir
+Hladna salata od testenine sa povrćem
+Hladno predjelo sa jogurtom
+Hleb iz tiganja (brz)
+Hleb sa semenkama (kvasni)
+Hobotnica sa povrćem
+Humus sa ajvarom
+i crnim maslinama Taljatele sa povrćem
+i ovsenim korama Pita sa sirom
+i patlidžanom Lazanje sa blitvom
+Indijaneri
+Italijanski omlet sa brokolijem
+Jabuke pečene sa medom i orasima
+Jabuke u šlafroku
+Jagnjeći paprikaš od vrata sa belim vinom
+Jagnjeći paprikaš sa šargarepom
+Jaja na oko sa ajvarom i sirom
+Jaja na oko sa dinstanim spanaćem
+Ječam sa brokolijem
+Jogurt hleb (brzi)
+Jogurt napitak sa bananom i ovsom
+Jogurt napitak sa borovnicama
+Jogurt napitak sa malinama
+Jogurt sa granolom i bananom
+Jogurt sa granolom i borovnicama
+Jogurt sa orasima i suvim šljivama
+Jogurt sa ovsom i medom
+Juneća supa sa sojinim rezancima
+Juneći gulaš
+Juneći paprikaš sa crnim vinom
+Juneći paprikaš sa pivom i senfom
+Junetina sa knedlama od hleba
+K Kohod d griza griza
+K Kolač č sa a višnjama ili kajsijama ili kajsijama
+Kačamak sa ajvarom
+Kačamak sa jogurtom i sirom
+Kačamak sa pečurkama i sirom
+Kačamak sa sirom
+Kačamak sa slaninom
+Kafa torta
+Kaiserschmarrn (carski drobljenac)
+Kajgana sa ajvarom i sirom
+Kajgana sa fetom i spanaćem
+Kajgana sa pečurkama
+Kajgana sa spanaćem
+Kajgana sa suvim mesom i paprikom
+Kakao sa kokosom
+Kakao sa vanilom
+Karađorđeva šnicla (osnovna verzija)
+Karamel puding (flan)
+Karamel puding (krem karamel)
+Kaša od griza sa jabukom
+Kaša od ječma sa mlekom i medom
+Kaša od prosa na mleku sa suvim grožđem
+Kaša od prosa sa bananom
+Kaša od prosa sa jabukom
+Kaša od prosa sa mlekom i suvim grožđem
+Keks kocke sa vanilom (bez pečenja)
+Keks kuglice sa kokosom (bez pečenja)
+Keks od ovsa i meda
+Keks rolnice sa kokosom (bez pečenja)
+Keks salama
+Keks salama sa orasima
+Keks torta sa bananom (bez pečenja)
+Keks torta sa jogurtom
+Keksi sa čokoladnim kapljicama
+Keksići uz čaj
+Kelj (ili sladak kupus) sa mesom
+Kifle sa susamom (osnovne)
+Kiflice sa džemom (kvasno)
+Kiflice sa džemom (meke)
+Kiš loren sa prazilukom i piletinom
+Kiš loren sa šunkom i pečurkama
+Kiš sa blitvom
+Kiš sa jabukama
+Kiš sa spanaćem
+Kisela kupus salata sa kimom
+Kiseli krastavci brzi
+Klasični pileći paprikaš
+Knedle sa kajsijama
+Knedle sa šljivama
+Kocke sa višnjama
+Koh od griza
+Koh od griza (klasični)
+Koh od mlevenog mesa i Basmati pirinča
+Kokos kocke
+Kolač čokolada-višnje u plehu
+Kolač: kakao kocke sa džemom
+Kolač od griza i kokosa
+Kolač od griza i oraha (sirup)
+Kolač od griza sa džemom od šljiva
+Kolač od griza sa kokosom (pečen)
+Kolač od jabuka i griza (bez miksera)
+Kolač od kestena i čokolade
+Kolač od maka i limuna
+Kolač od maka i višanja
+Kolač od narandže
+Kolač od šargarepe i oraha
+Kolač sa borovnicama i jogurtom
+Kolač sa breskvama i sirom
+Kolač sa crvenim voćem
+Kolač sa grizom i borovnicama
+Kolač sa i cimetom jabukama
+Kolač sa jabukom i makom
+Kolač sa kokosom i višnjama
+Kolač sa kruškama i makom
+Kolač sa makom i jabukama
+Kolač sa makom i limunom
+Kolač sa sirom i borovnicama
+Kolač sa sirom i malinama
+Kolač sa šljivama i orasima
+Kolač sa sokom od pomorandže
+Kolač sa višnjama i jogurtom
+Kolač: vanila kocke sa kokosom
+Komisbrot
+Kompot od borovnica
+Kompot od breskve
+Kompot od breskve i jabuke
+Kompot od breskve i vanile
+Kompot od breskvi
+Kompot od dunja
+Kompot od dunje
+Kompot od grožđa
+Kompot od jabuka i cimeta
+Kompot od jabuka sa cimetom
+Kompot od jabuke i aronije
+Kompot od jabuke i šljive
+Kompot od jagoda
+Kompot od kajsija
+Kompot od kajsije i jabuke
+Kompot od kajsije i vanile
+Kompot od krušaka i đumbira
+Kompot od kruške i cimeta
+Kompot od malina
+Kompot od narandže i cimeta
+Kompot od ribizli
+Kompot od šljiva
+Kompot od šljiva i cimeta
+Kompot od trešanja
+Kompot od višanja
+Kotonjada italijanska pasta od dunja
+kozica, pirinča i manga Salata od
+Krem čorba od blitve i krompira
+Krem čorba od brokolija
+Krem čorba od brokolija i batata
+Krem čorba od brokolija i sira
+Krem čorba od celera
+Krem čorba od celera i jabuke
+Krem čorba od cvekle
+Krem čorba od graška i brokolija
+Krem čorba od graška sa mentom
+Krem čorba od karfiola
+Krem čorba od karfiola i brokolija
+Krem čorba od karfiola i praziluka
+Krem čorba od karfiola i sira
+Krem čorba od kestenja
+Krem čorba od kukuruza
+Krem čorba od paškanata i krompira
+Krem čorba od pastrnjaka i praziluka
+Krem čorba od pasulja
+Krem čorba od pečene bundeve i jabuke
+Krem čorba od pečene šargarepe i celera
+Krem čorba od pečenih paprika i krompira
+Krem čorba od pečenih šampinjona
+Krem čorba od pečenog celera
+Krem čorba od pečuraka sa pavlakom
+Krem čorba od šampinjona
+Krem čorba od šargarepe i narandže
+Krem čorba od tikve i šargarepe
+Krem od banane i jogurta
+Krem supa od batata i kokosovog mleka
+Krem supa od blitve i krompira
+Krem supa od bundeve i celera
+Krem supa od graška i praziluka
+Krem supa od graška i tikvica
+Krem supa od karfiola i paškanata
+Krem supa od krompira i pečene paprike
+Krem supa od pečene paprike
+Krem supa od pečene šargarepe i cvekle
+Krem supa od pečenog karfiola
+Krem supa od pečenog paradajza
+Krem supa od pečenog praziluka
+Krem supa od praziluka i krompira sa pavlakom
+Krem supa od tikve i šargarepe
+Krofne punjene džemom
+Kroketi od krompira, blitve i brokolija
+Krompir čorba sa mirođijom
+Krompir čorba sa prazilukom
+Krompir paprikaš (posno)
+Krompir salata
+Krompir salata sa jajima
+Krompir salata sa senf dresingom
+Krompiruša (kore)
+Kuglof sa limunom
+Kuglof sa orasima
+Kukuruzna kaša sa sirom (doručak)
+Kukuruzne pogačice (brze)
+Kupus čorba sa mlevenom paprikom
+Kupus salata sa kukuruzom i paprikom
+Kupus salata sa šargarepom i jogurtom
+Kus-kus sa graškom i šargarepom
+Kus-kus sa pečurkama i lukom
+Kus-kus sa suvim paradajzom (prilog)
+Kuvana jela Prolećne torteline
+Langoš
+Lazanja
+Lazanje sa spanaćem i sirom
+Ledene jagode
+Ledenekocke
+Ledeni čaj od breskve (domaći)
+Ledeni voćni jogurt
+Lenja pita sa jabukama
+Lignje sa krompirom
+Limunada sa jabukom i medom
+Limunada sa medom
+Lovački paprikaš sa kobasicom
+Mafini sa borovnicama i limunom
+Mafini sa tikvicama
+Mafini sa višnjom i vanilom
+Makarone sa brokolijem i sirom iz rerne
+Makarone sa pavlakom i pečurkama
+Makovnjača (rola)
+Marinirane pečurke salata
+Medenjaci
+Medenjaci (osnovni)
+Minestrone čorba sa povrćem i testeninom
+Minestrone čorba (srpska verzija)
+Mini pica mafini
+Mini pice sa ajvarom i sirom
+Mirisni kolač od jabuka
+Mladi krompir sa sočivom
+Mus od limuna
+Mus od sira i badema
+Musaka od
+Musaka od krompira
+Musaka od krompira i mlevenog mesa
+Musaka od tikvica
+Musaka od tikvica i mlevenog mesa
+Musaka sa testeninom
+Na pakovanjima testenine, među
+Namaz od ajvara i sira
+Namaz od avokada i limuna
+Namaz od jaja i senfa
+Namaz od leblebija
+Namaz od pečenih paprika i lešnika
+Napitak: čaj od limuna i đumbira
+Napitak: čaj od đumbira i limuna
+Napitak: domaći čaj od nane sa limunom
+Napitak: domaći jogurt-šejk sa bananom
+Napitak: domaći kompot od kivija
+Napitak: domaći kompot od pomorandže i limuna
+Napitak: domaći ledeni čaj od limuna
+Napitak: domaći ledeni kakao
+Napitak: domaći sirup od maline (razblaživi)
+Napitak: domaći smoothie borovnica-jogurt
+Napitak: domaći sok od cvekle i jabuke
+Napitak: domaći sok od jabuke (kuvani)
+Napitak: domaći sok od narandže i šargarepe
+Napitak: jogurt sa krastavcem (ayran)
+Napitak: kompot od jabuke i cimeta
+Napitak: kompot od jabuke i kruške
+Napitak: kompot od kajsija
+Napitak: kompot od krušaka
+Napitak: kompot od malina
+Napitak: kompot voda sa limunom
+Napitak: ledeni čaj od hibiskusa
+Napitak: limunada sa nanom
+Napitak: smoothie kruška-đumbir
+Napitak: smoothie pomorandža-jogurt
+Njoke od krompira (prilog)
+Omlet pita iz rerne sa sirom
+Omlet sa paprikom i sirom
+Omlet sa pečenom paprikom i sirom
+Omlet sa pečurkama i sirom
+Omlet sa sirom i povrćem
+Omlet sa spanaćem i sirom
+Omlet sa šunkom i kačkavaljem
+Omlet sa tikvicama
+Orahnjača (rola)
+Orasnice
+Orasnice (meke)
+Oslić iz rerne sa povrćem
+Ovsena kaša na vodi sa jabukom i cimetom
+Ovsena kaša sa jabukom i cimetom
+Ovsena kaša sa jabukom i orasima
+Ovsena kaša sa kruškom
+Ovsena kaša sa kruškom i cimetom
+Ovsena kaša sa malinama
+Ovsena kaša sa suvim grožđem
+Ovseni pankejk sa bananom
+P Palačinke sa džemom i čokoladom sa džemom i čokoladom
+Paelja – španski rižoto
+Palačinke od heljde
+Palačinke od kukuruznog brašna
+Palačinke od ovsenog brašna
+Palačinke sa džemom od kajsije
+Palačinke sa džemom od šljiva
+Palačinke sa orasima i medom
+Palačinke sa pekmezom
+Palačinke sa piletinom i povrćem
+Palenta pečena na ploške
+Palenta sa fetom i pečenom paprikom
+Palenta sa jogurtom i medom
+Palenta sa jogurtom i sirom
+Palenta sa mlekom i vanilom
+Palenta sa pečurkama
+Palenta sa sirom (prilog)
+Panakota sa kokosom i kivijem
+Panakota sa malinama
+Paprikaš od bakalara sa maslinama
+Paprikaš od batata i crvenog sočiva
+Paprikaš od batata i karfiola sa kokosovim mlekom
+Paprikaš od batata i pečene paprike
+Paprikaš od belog pasulja i praziluka
+Paprikaš od belog pasulja sa celerom i šargarepom
+Paprikaš od blitve i belog pasulja
+Paprikaš od blitve i krompira
+Paprikaš od boba sa mirođijom
+Paprikaš od boranije i krompira (posno)
+Paprikaš od boranije sa ćuretinom
+Paprikaš od boranije sa paradajzom
+Paprikaš od brokolija i tofu-a
+Paprikaš od bukovača i šitake pečuraka
+Paprikaš od bundeve i krompira sa kimom
+Paprikaš od bundeve i leblebija sa kokosovim mlekom
+Paprikaš od crnog pasulja i batata
+Paprikaš od crvene leće sa pečenom paprikom
+Paprikaš od crvene leće sa tikvicama (posno)
+Paprikaš od crvenog pasulja sa kukuruzom i paprikom (posno)
+Paprikaš od crvenog pasulja (varivo)
+Paprikaš od ćurećih krilaca sa krompirom
+Paprikaš od ćurećih vratova
+Paprikaš od ćurećih želudaca
+Paprikaš od ćuretine i bundeve
+Paprikaš od ćuretine sa blitvom
+Paprikaš od ćuretine sa boranijom i paradajzom
+Paprikaš od ćuretine sa brokolijem
+Paprikaš od ćuretine sa brokolijem i susamom
+Paprikaš od ćuretine sa graškom
+Paprikaš od ćuretine sa karfiolom i pečenom paprikom
+Paprikaš od ćuretine sa kelerabom
+Paprikaš od ćuretine sa kikirikijem
+Paprikaš od ćuretine sa kukuruzom i karfiolom
+Paprikaš od ćuretine sa kukuruzom i paprikom
+Paprikaš od ćuretine sa leblebijama i šargarepom
+Paprikaš od ćuretine sa paškanatom
+Paprikaš od ćuretine sa patlidžanom i ajvarom
+Paprikaš od ćuretine sa pečenim tikvicama
+Paprikaš od ćuretine sa pečenom paprikom i pavlakom
+Paprikaš od ćuretine sa pečurkama i kimom
+Paprikaš od ćuretine sa pečurkama i prazilukom
+Paprikaš od ćuretine sa prazilukom
+Paprikaš od ćuretine sa prokeljom
+Paprikaš od ćuretine sa prokeljom i krompirom
+Paprikaš od ćuretine sa šampinjonima i pavlakom
+Paprikaš od ćuretine sa spanaćem i limunom
+Paprikaš od ćuretine sa suvim paradajzom
+Paprikaš od ćuretine sa tikvicom i kukuruzom
+Paprikaš od ćuretine sa tikvom i leblebijama
+Paprikaš od cvekle i belog pasulja
+Paprikaš od dagnji sa paradajzom i lukom
+Paprikaš od dagnji u paradajz sosu
+Paprikaš od dimljene ćuretine i boranije
+Paprikaš od dimljene kobasice i pasulja
+Paprikaš od dimljenog tofu-a i spanaća
+Paprikaš od dimljenog vrata i graška
+Paprikaš od goveđe jetre
+Paprikaš od goveđe plećke sa pastarnakom
+Paprikaš od goveđeg jezika
+Paprikaš od goveđeg repa
+Paprikaš od goveđih obraza
+Paprikaš od govedine sa bukovačama
+Paprikaš od govedine sa crnim vinom
+Paprikaš od govedine sa crvenim vinom
+Paprikaš od govedine sa cveklom
+Paprikaš od govedine sa kestenom
+Paprikaš od govedine sa suvim kajsijama
+Paprikaš od govedine sa suvim paradajzom
+Paprikaš od govedine sa suvim šljivama
+Paprikaš od graška i krompira (posno)
+Paprikaš od graška sa kobasicom
+Paprikaš od jagnjećih rebara i šargarepe
+Paprikaš od jagnjetine sa krompirom
+Paprikaš od jarećih rebaraca
+Paprikaš od junetine i belog pasulja
+Paprikaš od junetine i boranije
+Paprikaš od junetine i šampinjona sa pavlakom
+Paprikaš od junetine sa bundevom i paškanatom
+Paprikaš od junetine sa bundevom i timijanom
+Paprikaš od junetine sa celerom i jabukom
+Paprikaš od junetine sa celerom stabljikom
+Paprikaš od junetine sa cveklom
+Paprikaš od junetine sa graškom i prazilukom
+Paprikaš od junetine sa ječmom i korenastim povrćem
+Paprikaš od junetine sa karfiolom
+Paprikaš od junetine sa kelerabom i šampinjonima
+Paprikaš od junetine sa kelerabom i šargarepom
+Paprikaš od junetine sa korenom celera
+Paprikaš od junetine sa paškanatom
+Paprikaš od junetine sa paškanatom i prokeljom
+Paprikaš od junetine sa pečenim belim lukom
+Paprikaš od junetine sa pečurkama i pavlakom
+Paprikaš od junetine sa prazilukom i kelerabom
+Paprikaš od junetine sa suvim paradajzom
+Paprikaš od junetine sa suvim smokvama
+Paprikaš od junetine sa suvim vrganjima i šargarepom
+Paprikaš od junetine sa tikvicom i prazilukom
+Paprikaš od karabataka sa mirođijom i kiselom pavlakom
+Paprikaš od karfiola i krompira
+Paprikaš od karfiola i leblebija
+Paprikaš od karfiola i paškanata (posno)
+Paprikaš od karfiola sa pečurakama
+Paprikaš od kelja sa belim pasuljem
+Paprikaš od kozica sa paradajzom i belim lukom
+Paprikaš od kozica sa tikvicom
+Paprikaš od kozica u paradajz sosu
+Paprikaš od krompira i pečuraka sa pavlakom
+Paprikaš od krompira sa dimljenom paprikom
+Paprikaš od kupusa i junetine
+Paprikaš od kupusa i kobasice
+Paprikaš od kupusa i krompira (posno)
+Paprikaš od kupusa i leblebija (posno)
+Paprikaš od kupusa i pečuraka (posno)
+Paprikaš od leblebija
+Paprikaš od leblebija i karfiola sa susamom
+Paprikaš od leblebija sa brokolijem i susamom
+Paprikaš od leblebija sa karfiolom i mirođijom (posno)
+Paprikaš od leblebija sa karfiolom (posno)
+Paprikaš od leblebija sa karijem i paradajzom (posno)
+Paprikaš od leblebija sa karijem (posno)
+Paprikaš od leblebija sa keljom i paradajzom (posno)
+Paprikaš od leblebija sa patlidžanom i tahinijem
+Paprikaš od leblebija sa pečenim patlidžanom (posno)
+Paprikaš od leblebija sa pečenom paprikom i bukovačama
+Paprikaš od leblebija sa prazilukom i tikvom (posno)
+Paprikaš od leblebija sa spanaćem i kokosovim mlekom (posno)
+Paprikaš od leće sa dimljenom paprikom
+Paprikaš od lignji sa graškom
+Paprikaš od lignji sa krompirom
+Paprikaš od lignji sa paradajzom
+Paprikaš od lignji sa spanaćem i limunom
+Paprikaš od lososa sa brokolijem
+Paprikaš od lososa sa mirođijom
+Paprikaš od lososa sa spanaćem i limunom
+Paprikaš od oslića sa brokolijem i kukuruzom
+Paprikaš od oslića sa celerom i šargarepom
+Paprikaš od oslića sa graškom
+Paprikaš od oslića sa kukuruzom
+Paprikaš od oslića sa kukuruzom i paradajzom
+Paprikaš od oslića sa pečenim paprikama i maslinama
+Paprikaš od oslića sa pečenom paprikom i krompirom
+Paprikaš od oslića sa prazilukom
+Paprikaš od oslića sa spanaćem i belim lukom
+Paprikaš od oslića sa tikvicama
+Paprikaš od ovčetine sa krompirom
+Paprikaš od pastrmke sa kukuruzom i limunom
+Paprikaš od pastrmke sa paradajzom
+Paprikaš od pastrmke sa pečenom paprikom
+Paprikaš od pastrmke sa prazilukom i maslinama
+Paprikaš od pastrmke sa spanaćem
+Paprikaš od pasulja i batata sa kukuruzom
+Paprikaš od pasulja i kelja (posno)
+Paprikaš od pasulja i pečene paprike (posno)
+Paprikaš od pasulja i pečene paprike sa griz knedlama (posno)
+Paprikaš od pasulja i pečuraka sa lovorom
+Paprikaš od pasulja i praziluka sa dimljenom paprikom
+Paprikaš od pasulja i šargarepe (posno)
+Paprikaš od pasulja i suve kobasice
+Paprikaš od pasulja i tikvica sa ajvarom (posno)
+Paprikaš od pasulja sa bamiom (posno)
+Paprikaš od pasulja sa pečenom paprikom (posno)
+Paprikaš od pasulja sa pečurkama i dimljenom paprikom (posno)
+Paprikaš od pasulja sa prazilukom (posno)
+Paprikaš od pasulja sa spanaćem i belim lukom (posno)
+Paprikaš od pasulja sa tikvicama i celerom (posno)
+Paprikaš od patke sa dunjom
+Paprikaš od patke sa kesten-pireom
+Paprikaš od patke sa narandžom
+Paprikaš od patke sa šljivama i lovorom
+Paprikaš od patke sa suvim šljivama
+Paprikaš od patlidžana i boranije
+Paprikaš od patlidžana i boranije (posno)
+Paprikaš od patlidžana i crnog pasulja
+Paprikaš od patlidžana i leblebija
+Paprikaš od patlidžana i tikvica sa lećom
+Paprikaš od patlidžana sa pečurkama (posno)
+Paprikaš od pečuraka i leće
+Paprikaš od pečuraka i prosa
+Paprikaš od pečuraka (vegetarijanski)
+Paprikaš od pilećih džigerica
+Paprikaš od pilećih krilaca ljuti
+Paprikaš od pilećih krilaca sa leblebijama
+Paprikaš od pilećih šnicli sa senfom
+Paprikaš od pilećih srca
+Paprikaš od piletine i kiselog kupusa
+Paprikaš od piletine sa artičokama
+Paprikaš od piletine sa bamiom
+Paprikaš od piletine sa belim pasuljem
+Paprikaš od piletine sa bobom i šargarepom
+Paprikaš od piletine sa celerom i graškom
+Paprikaš od piletine sa celerom stabljikom i kukuruzom
+Paprikaš od piletine sa crnim pasuljem
+Paprikaš od piletine sa crvenim sočivom
+Paprikaš od piletine sa grahom i kukuruzom
+Paprikaš od piletine sa graškom i knedlama od griza
+Paprikaš od piletine sa ječmom
+Paprikaš od piletine sa karfiolom i pavlakom
+Paprikaš od piletine sa kelerabom i graškom
+Paprikaš od piletine sa keljom
+Paprikaš od piletine sa kiselim kupusom
+Paprikaš od piletine sa kiselom pavlakom i mirođijom
+Paprikaš od piletine sa korenom peršuna
+Paprikaš od piletine sa krompirom i boranijom
+Paprikaš od piletine sa krompirom i šargarepom
+Paprikaš od piletine sa kukuruznim knedlama
+Paprikaš od piletine sa narom
+Paprikaš od piletine sa paprikom baburom i kukuruzom
+Paprikaš od piletine sa pastrnjakom i graškom
+Paprikaš od piletine sa patlidžanom
+Paprikaš od piletine sa pečurkama i blitvom
+Paprikaš od piletine sa prazilukom i šampinjonima
+Paprikaš od piletine sa prazilukom i šargarepom
+Paprikaš od piletine sa šargarepom i celerom
+Paprikaš od piletine sa spanaćem i belim lukom
+Paprikaš od piletine sa suvim kajsijama
+Paprikaš od piletine sa suvim šljivama i šargarepom
+Paprikaš od piletine sa suvim vrganjima i pavlakom
+Paprikaš od piletine sa tikvom muškatnom
+Paprikaš od plodova mora
+Paprikaš od prokelja i krompira
+Paprikaš od prokelja sa slaninom
+Paprikaš od šampinjona i krompira
+Paprikaš od šampinjona, leblebija i spanaća
+Paprikaš od šarana sa krompirom i lovorom
+Paprikaš od šarana sa paradajzom
+Paprikaš od šarana sa pečenom paprikom
+Paprikaš od šarana sa pečurkama
+Paprikaš od sardinela sa paradajzom
+Paprikaš od sejtana sa baburama
+Paprikaš od sejtana sa pečurkama
+Paprikaš od šitake pečuraka i graška
+Paprikaš od skuše sa krompirom
+Paprikaš od skuše sa paradajzom
+Paprikaš od smuđa sa prazilukom
+Paprikaš od sočiva i tikve (posno)
+Paprikaš od sočiva (posno)
+Paprikaš od sočiva sa dimljenom paprikom i kimom
+Paprikaš od soma sa boranijom
+Paprikaš od soma sa karfiolom
+Paprikaš od soma sa krompirom
+Paprikaš od soma sa pečenom paprikom
+Paprikaš od soma sa prazilukom
+Paprikaš od somovine sa tikvicama
+Paprikaš od spanaća i krompira sa jajetom
+Paprikaš od spanaća i leblebija
+Paprikaš od spanaća i mladog sira
+Paprikaš od spanaća i sočiva (posno)
+Paprikaš od sušenih rebara i krompira
+Paprikaš od svežih kobasica i krompira
+Paprikaš od svežih kobasica i prokelja
+Paprikaš od svinjetine sa ananasom
+Paprikaš od svinjetine sa boranijom
+Paprikaš od svinjetine sa boranijom i celerom
+Paprikaš od svinjetine sa borovnicama i crnim lukom
+Paprikaš od svinjetine sa brokolijem
+Paprikaš od svinjetine sa bundevom i prazilukom
+Paprikaš od svinjetine sa celerom i peršunom
+Paprikaš od svinjetine sa celerom korenom i krompirom
+Paprikaš od svinjetine sa dinstanim kupusom
+Paprikaš od svinjetine sa jabukama
+Paprikaš od svinjetine sa jabukom i cimetom
+Paprikaš od svinjetine sa kelerabom
+Paprikaš od svinjetine sa kestenjem
+Paprikaš od svinjetine sa kiselim kupusom
+Paprikaš od svinjetine sa leblebijama i spanaćem
+Paprikaš od svinjetine sa paprikom i šampinjonima
+Paprikaš od svinjetine sa pečenom paprikom i krompirom
+Paprikaš od svinjetine sa prokeljom i šargarepom
+Paprikaš od svinjetine sa šampinjonima i pavlakom
+Paprikaš od svinjetine sa šargarepom i graškom
+Paprikaš od svinjetine sa spanaćem i pavlakom
+Paprikaš od svinjetine sa suvim paradajzom i maslinama
+Paprikaš od svinjetine sa suvim šljivama
+Paprikaš od svinjetine sa suvim vrganjima
+Paprikaš od svinjetine sa tikvicama
+Paprikaš od svinjetine sa tikvom i crnim pasuljem
+Paprikaš od svinjske kolenice
+Paprikaš od svinjskih nogica
+Paprikaš od svinjskih obraza sa šargarepom
+Paprikaš od svinjskih rebara sa graškom
+Paprikaš od svinjskih rebara sa kiselim krastavcima
+Paprikaš od svinjskih šnicli sa baburom
+Paprikaš od svinjskog buta sa senfom i medom
+Paprikaš od svinjskog filea sa kiselim krastavcima
+Paprikaš od svinjskog srca
+Paprikaš od svinjskog vrata sa pečenom paprikom
+Paprikaš od teleće džigerice sa lukom
+Paprikaš od teletine sa bobom i šargarepom
+Paprikaš od teletine sa brokolijem i šargarepom
+Paprikaš od teletine sa graškom i mirođijom
+Paprikaš od teletine sa karfiolom i šargarepom
+Paprikaš od teletine sa kupusom
+Paprikaš od teletine sa lisičarkama
+Paprikaš od teletine sa pečurkama i belim lukom
+Paprikaš od teletine sa šargarepom i limunom
+Paprikaš od teletine sa šargarepom i tikvicom
+Paprikaš od tikve i belog pasulja (posno)
+Paprikaš od tikve i crvene leće
+Paprikaš od tikvica i graška sa koprom
+Paprikaš od tikvica i kukuruza (posno)
+Paprikaš od tikvica i pasulja
+Paprikaš od tikvica sa paradajzom
+Paprikaš od tofu-a sa boranijom
+Paprikaš od tofu-a sa graškom i mirođijom
+Paprikaš od tofu-a sa karfiolom i kukuruzom
+Paprikaš od tofu-a sa pečenim paprikama
+Paprikaš od tofua i pečene paprike
+Paprikaš od tofua sa šampinjonima (posno)
+Paprikaš od zeca sa šargarepom
+Paprikaš od zečetine sa belim vinom
+Paprikaš od zečetine sa korenastim povrćem
+Paprikaš sa ćuftama i pirinčem
+Paprike punjene rukolom i maslinama
+Paradajz čorba
+Paradajz čorba — brza
+Paradajz čorba sa kukuruzom
+Paradajz čorba sa leblebijama
+Paradajz čorba sa paprikom
+Paradajz-krastavac salata
+Paradajz salata sa lukom i peršunom
+Paradajz supa sa knedlama od griza
+Paradajz supa sa pirinčem
+Parfe od lešnika
+Parmiđana sa patlidžanom
+Pašteta od šampinjona
+Pašteta od tunjevine za tost
+Pastrmka pečena sa limunom i peršunom
+Pastrmka u tiganju sa bademima
+Pasulj čorba sa dimljenom paprikom
+Pasulj čorbast sa dimljenom slaninom
+Pasulj sa blitvom
+Pasulj sa suvim vratom (varivo)
+Pasulj sa testeninom
+Patlidžan punjen sirom (rerna)
+Patlidžan sa pesto sosom
+patlidžana i spanaća Prilog od
+patlidžana Pikantni namaz od
+Pečena bundeva sa dimljenom paprikom (prilog)
+Pečena cvekla u rerni
+Pečena jaja u rerni sa povrćem
+Pečena piletina sa krompirom i belim lukom
+Pečene jabuke sa orasima i medom
+Pečene kruške sa orasima
+Pečene tikvice sa sirom
+Pečeni batat sa biberom
+Pečeni karabataci sa krompirom
+Pečeni krompir sa dimljenom paprikom (prilog)
+Pečeni krompir sa ruzmarinom
+Pečeni patlidžan sa belim lukom
+Pečeni prokelj sa šargarepom
+Pečeni sutlijaš
+Pecivo: brze pogačice sa maslinama
+Pecivo: brzi hleb u tiganju
+Pecivo: mini pice sa ajvarom
+Pecivo: mini projice sa ajvarom
+Pecivo: pita sa brokolijem i sirom (kore)
+Pecivo: pogačice sa sirom i susamom
+Pecivo: projice sa spanaćem i kukuruzom
+Pecivo: rolnice sa šunkom i sirom
+Pecivo: slani mafini sa tunjevinom
+Pecivo: štapići sa sirom
+Pekmez od šljiva (bez dodatne vode)
+Pica sa povrćem
+Pica sa šunkom i šampinjonima
+Pilav od pirinča sa povrćem (prilog)
+Pilav sa piletinom i brokolijem
+Pilav sa piletinom i šargarepom
+Pilav sa piletinom (jednostavan)
+Pilav sa teletinom i šargarepom
+Pileća bela čorba
+Pileća džigerica sa lukom (dinstano)
+Pileća pasta sa bosiljkom i šampinjonima
+Pileća pašteta sa pomorandžom
+Pileća sa integralnim supa rezancima
+Pileća salata sa kikirikijem
+Pileća supa sa taranom i šargarepom
+Pileći paprikaš
+Pileći paprikaš — klasični
+Pileći paprikaš sa leblebijama
+Piletina pečena u ajvar marinadi
+Piletina sa pirinčem i pečurkama (jedan tiganj)
+Piletina u sosu od pavlake i senfa
+Pinđur domaći
+Pire krompir sa belim lukom (prilog)
+Pire od bundeve i krompira
+Pire od bundeve (prilog)
+Pire od celera
+Pire od celera (prilog)
+Pire od graška i mente (prilog)
+Pire od graška (prilog)
+Pire od karfiola
+Pire od karfiola i krompira
+Pire od karfiola (prilog)
+Pire od krompira klasični
+Pire od krompira sa belim lukom
+Pire od paškanata
+Pire od prosa
+Pire od šargarepe (prilog)
+Pire od tikvica (prilog)
+Pirinač sa celerom i kukuruzom
+Pirinač sa limunom i peršunom
+Pirinač sa prazilukom
+Piroške sa sirom (rerna)
+Pita od jabuka
+Pita od jabuka (kore)
+Pita od karola
+Pita od patlidžana
+Pita sa borovnicama
+Pita sa bundevom (bundevara)
+Pita sa bundevom i orasima (kore)
+Pita sa bundevom (kore)
+Pita sa jabukama
+Pita sa jabukama i cimetom
+Pita sa krompirom
+Pita sa kruškama
+Pita sa makom (kore)
+Pita sa mesom
+Pita sa orasima (kore)
+Pita sa prazilukom (kore)
+Pita sa šampinjonima od domaćeg lisnatog testa
+Pita sa sirom (gibanica stil)
+Pita sa sirom i jogurtom (brza)
+Pita sa sirom i spanaćem (spirala)
+Pita sa spanaćem ili blitvom
+Pita sa višnjama
+Pita sa višnjama i grizom (kore)
+Pita sa višnjama i kokosom
+Pita sa višnjama (kore)
+Pita sa višnjama od kora od pšeničnog brašna od ovsenih kora i
+Pita zeljanica (spanać i sir)
+Pljeskavice u sosu od pečene paprike
+Pljeskavice u tiganju
+Podvarak sa suvim mesom
+Pogača sa jogurtom (bez kvasca)
+Pogača sa maslinama
+Pogača sa sirom (rerna)
+Pogačice sa ajvarom i sirom
+Pogačice sa čvarcima i paprikom
+Pogačice sa jogurtom (brze)
+Pogačice sa jogurtom i susamom
+Pogačice sa sirom (brze)
+Pogačice sa sirom i jogurtom
+Pogačice sa spanaćem i sirom
+Pohovane tikvice sa belim lukom
+Pohovani karfiol
+Pohovani pileći file sa susamom
+Polpete od graška i ovsenih pahuljica
+Popara sa sirom
+Posna kisela čorba od kiselog kupusa
+Posna sarma od zelja sa pirinčem
+Posne kokos kuglice
+Posne punjene paprike sa prosom
+Posni griz sa kompotom od kajsije
+Posni gulaš od pečuraka i krompira
+Posni kolač sa bundevom i orasima
+Posni kolač sa bundevom i rogačem
+Posni kolač sa jabukom i cimetom
+Posni kolač sa kakao glazurom (na vodi)
+Posni kolač sa kokosom i limunom
+Posni kolač sa pekmezom (jedan pleh)
+Posni kolač sa rogačem i jabukom
+Posni kolač sa šargarepom i kokosom
+Posni kolač sa višnjama na vodi
+Posni namaz od belog pasulja
+Posni paprikaš od tetovca sa dimljenom paprikom
+Posni pasulj čorba sa dimljenom paprikom
+Posni pilav sa povrćem
+Posni sladoled sa bananama i šlagom
+Potaž od belog pasulja
+Potaž od bundeve sa dimljenom paprikom
+Potaž od graška i nane
+Potaž od pečuraka i karfiola
+Potaž od tikvica sa belim lukom
+Povrtna supa sa heljdinim rezancima
+Povrtni bujon (osnova)
+Povrtni paprikaš sa knedlama
+Povrtni paprikaš sa krompirom i šargarepom
+Praziluk u belom sosu
+Prebranac
+Prebranac iz rerne
+Prebranac (posni)
+Prebranac posni (rerna)
+Prebranac sa kobasicom
+Prebranac sa kobasicom (rerna)
+Preliv od meda i senfa
+Prevrnuti kolač sa jabukama
+Prilog: bareni krompir sa peršunom
+Prilog: bareni prokelj sa puterom
+Prilog: bulgur sa pečenom paprikom
+Prilog: bulgur sa pečurkama
+Prilog: bulgur sa pečurkama i prazilukom
+Prilog: bulgur sa šargarepom i graškom
+Prilog: bulgur sa suvim paradajzom
+Prilog: dinstana blitva sa belim lukom
+Prilog: dinstana boranija sa belim lukom i paradajzom
+Prilog: dinstana boranija sa paradajzom
+Prilog: dinstana šargarepa i grašak
+Prilog: dinstana šargarepa sa puterom
+Prilog: dinstana šargarepa sa puterom i limunom
+Prilog: dinstani grašak sa puterom
+Prilog: dinstani kelj sa krompirom
+Prilog: dinstani praziluk
+Prilog: dinstani praziluk sa puterom
+Prilog: dinstani šampinjoni na puteru
+Prilog: dinstani šampinjoni sa belim lukom
+Prilog: dinstani spanać sa belim lukom
+Prilog: heljda sa kukuruzom i graškom
+Prilog: heljda sa pečurkama
+Prilog: ječam sa pečenom paprikom
+Prilog: karfiol na tiganju sa puterom
+Prilog: krompir salata sa pavlakom
+Prilog: krompir u rerni sa ajvarom
+Prilog: kus-kus sa bundevom
+Prilog: kus-kus sa leblebijama i limunom
+Prilog: kus-kus sa limetom i kukuruzom
+Prilog: kus-kus sa limunom i graškom
+Prilog: kus-kus sa limunom i mirođijom
+Prilog: kus-kus sa pečurkama
+Prilog: kus-kus sa suvim grožđem
+Prilog: marinirane pečene paprike sa belim lukom
+Prilog od povrća sa bundevom
+Prilog: palenta sa spanaćem
+Prilog: pečena bundeva sa cimetom i solju
+Prilog: pečena bundeva sa susamom
+Prilog: pečena bundeva sa timijanom
+Prilog: pečena cvekla na kocke
+Prilog: pečena cvekla sa balzamiko sirćetom
+Prilog: pečena keleraba sa paprikom
+Prilog: pečena šargarepa sa medom
+Prilog: pečene paprike punjene sirom (hladno)
+Prilog: pečene tikvice sa kačkavaljem
+Prilog: pečeni batat sa kimom i paprikom
+Prilog: pečeni brokoli sa limunom
+Prilog: pečeni celer i krompir sa susamom
+Prilog: pečeni celer koren na kocke
+Prilog: pečeni karabatak od karfiola
+Prilog: pečeni karfiol sa paprikom u prahu
+Prilog: pečeni karfiol sa parmezanom
+Prilog: pečeni komadi karfiola i brokolija
+Prilog: pečeni komorač i šargarepa
+Prilog: pečeni koren peršuna i krompir
+Prilog: pečeni krompir sa belim lukom i peršunom
+Prilog: pečeni krompir sa ruzmarinom
+Prilog: pečeni krompir sa senfom
+Prilog: pečeni paškanat i cvekla
+Prilog: pečeni paškanat sa belim lukom u prahu
+Prilog: pečeni paškanat sa medom
+Prilog: pečeni patlidžan sa limunom i biberom
+Prilog: pečeni patlidžan sa paradajz sosom
+Prilog: pečeni prokelj i batat
+Prilog: pečeni prokelj sa balzamiko sirćetom
+Prilog: pire od batata
+Prilog: pire od batata i putera
+Prilog: pire od batata i šargarepe
+Prilog: pire od celera
+Prilog: pire od celera i paškanata
+Prilog: pire od graška
+Prilog: pire od graška i putera
+Prilog: pire od karfiola
+Prilog: pire od krompira i celera
+Prilog: pirinač sa ajvarom
+Prilog: pirinač sa brokolijem
+Prilog: pirinač sa limunom
+Prilog: pirinač sa pečenom šargarepom
+Prilog: pirinač sa povrćem (brzi)
+Prilog: prokelj iz rerne sa limunom
+Prilog: proso sa pečenom bundevom
+Prilog: prženi krompir na kocke
+Prilog: salata od krastavca sa pavlakom
+Prilog: testenina sa maslacem i sirom
+Prilog: tikvice sa paradajzom iz rerne
+Prilog: zapečena boranija sa belim lukom
+Prilog: zapečena palenta sa kačkavaljem
+Prilog: zapečena palenta sa sirom
+Prilog: zapečene tikvice sa sirom
+Prilog: zapečeni batat sa sirom
+Prilog: zapečeni batat sa susamom
+Prilog: zapečeni karfiol sa jogurtom i sirom
+Prilog: zapečeni krompir sa paprikom i belim lukom
+Prilog: zapečeni kukuruzni hleb (proja bez jaja)
+Prilog: zapečeni šampinjoni sa susamom
+Proja sa čvarcima
+Proja sa fetom i prazilukom
+Proja sa kukuruzom
+Proja sa kukuruzom i pečenom paprikom
+Proja sa pečurkama i sirom
+Proja sa sirom i paprikom
+Proja sa spanaćem
+Proja sa spanaćem i sirom
+Proja sa tikvicama i sirom
+Projice sa feta sirom i maslinama
+Prokelj sa finim prelivom
+Prokelj sa povrćem Koren peršuna sadrži eterična ulja apiol
+Prokelj sa prelivom od sira
+Prolećna zelena salata
+Prženice (pohovani hleb)
+Puding od čokolade sa bananom
+Puding od vanile sa jabukom i cimetom
+Puding od vanile sa višnjama
+Punjena paprika
+Punjene paprike (meso i pirinač)
+Punjene paprike u paradajz sosu
+Punjene paprike u sosu od paradajza
+Punjene tikvice
+Punjene tikvice posne (pirinač i povrće)
+Punjene tikvice sa leblebijama (posno)
+Punjene tikvice sa mesom
+Punjene tikvice sa mlevenim mesom i pirinčem
+Punjeni patlidžan pirinčem i povrćem (posno)
+Punjeni patlidžan sa piletinom i sirom
+Punjeni šampinjoni
+Puslica torta
+Rafaelo kuglice posne
+Ragu od pečuraka i sočiva (posno)
+Ragu od sočiva i šargarepe (posno)
+Ravanija
+Rezanci sa orasima
+Riblja čorba
+Riblja čorba od lignji
+Riblja čorba od pastrmke
+Riblja čorba od šarana sa povrćem
+Riblja čorba od soma sa paprikom
+Riblja čorba od štuke
+Riblja čorba sa povrćem
+Riblja krem čorba sa krompirom
+Riblja pašteta
+Riblja pašteta od tunjevine
+Riblji file u rerni sa paprikom i lukom
+Riblji paprikaš od smuđa sa belim vinom
+Riblji paprikaš sa somom i domaćim rezancima
+Riblji paprikaš sa suvim šljivama
+Riblji paprikaš sa tunom (stejk)
+Riblji štapići domaći
+Riblju orbu od rene ribe
+Rizi-bizi
+Riži-bizi (pirinač sa graškom)
+Rižoto sa bundevom i prazilukom
+Rižoto sa dagnjama
+Rižoto sa gamborima
+Rižoto sa pečurkama
+Rižoto sa pečurkama i spanaćem
+Rižoto sa pečurkama (jednostavno)
+Rižoto sa piletinom i limunom
+Rolat od keksa sa kokosom (bez pečenja)
+Rolat od keksa sa vanila kremom (bez pečenja)
+Rolat od kokosa
+Rolat sa breskvama i džemom
+Rolat sa džemom i borovnicama
+Rolat sa džemom od kajsije
+Rolat sa džemom od maline
+Rolat sa džemom od šljiva
+Rolat sa jabukama i cimetom
+Rolnice sa povrćem
+Rum kuglice od keksa i lešnika
+Rum kuglice sa keksom
+Ruska salata
+Ruska salata (klasična)
+sa ovsenim korama Bundevara
+sa semenkama Domaći težine 1.1 kg hleb
+Šakšuka sa paprikom
+Salata od
+Salata od belog pasulja
+Salata od blitve i krompira
+Salata od blitve sa belim lukom
+Salata od boranije i šargarepe
+Salata od boranije sa belim lukom i mirođijom
+Salata od brokolija i feta sira
+Salata od brokolija i kikirikija
+Salata od brokolija i kukuruza
+Salata od brokolija i pasulja
+Salata od brokolija i pavlake sa belim lukom
+Salata od brokolija i sira
+Salata od brokolija i susama
+Salata od brokolija i testenine sa jogurtom
+Salata od brokolija sa susamom i limunom
+Salata od bundeve i oraha
+Salata od celera i jabuke
+Salata od celera i jabuke sa jogurtom
+Salata od celera stabljike i jabuke
+Salata od crvene leće i pečene paprike
+Salata od crvenog pasulja
+Salata od cvekle i feta sira
+Salata od cvekle i jabuke sa jogurtom
+Salata od cvekle i leblebija sa sirćetom
+Salata od cvekle i narandže
+Salata od cvekle i oraha
+Salata od cvekle i oraha sa jogurtom
+Salata od cvekle i pasulja sa sirćetom
+Salata od cvekle sa renom
+Salata od graška i šargarepe sa senfom
+Salata od graška i šunke
+Salata od grilovane paprike i kukuruza
+Salata od hobotnice
+Salata od ječma i kukuruza
+Salata od ječma i pečene šargarepe
+Salata od ječma sa povrćem
+Salata od karfiola i kiselih krastavaca
+Salata od karfiola i limuna
+Salata od karfiola sa jogurtom
+Salata od kelerabe i šargarepe
+Salata od kinoe i krastavca sa limetom
+Salata od kinoe i narandže
+Salata od kinoe i pečene bundeve
+Salata od kinoe i pečene cvekle
+Salata od kinoe i povrća
+Salata od kinoe i šargarepe
+Salata od kinoe i tunjevine
+Salata od krastavca i kukuruza sa limunom
+Salata od krastavca i paradajza sa fetom
+Salata od krastavca i paradajza sa jogurtom
+Salata od krastavca i pavlake
+Salata od krastavca sa koprom
+Salata od krastavca sa pavlakom
+Salata od krastavca sa sirćetom i mirođijom
+Salata od krompira i boranije
+Salata od krompira i celera sa jogurtom
+Salata od krompira i kiselih krastavaca
+Salata od krompira i mladog luka
+Salata od krompira i pečene paprike
+Salata od krompira i tunjevine
+Salata od kukuruza i pasulja
+Salata od kukuruza, krastavca i jogurta
+Salata od kupusa i cvekle
+Salata od kupusa i jabuke
+Salata od kupusa i jabuke sa sirćetom
+Salata od kupusa i šargarepe
+Salata od kupusa i šargarepe sa jogurtom
+Salata od kupusa i šargarepe sa susamom
+Salata od kupusa i tunjevine
+Salata od kupusa i turšije
+Salata od kupusa sa paprikom i sirćetom
+Salata od kuvane leće i cvekle
+Salata od kuvanog krompira i celera stabljike
+Salata od leblebija i paprike
+Salata od leblebija i pečene bundeve
+Salata od leblebija i pečene paprike
+Salata od leblebija i pečenih tikvica
+Salata od makarona i tunjevine
+Salata od mladog sira i paradajza
+Salata od oslića sa žitom i bobom
+Salata od paradajza i avokada
+Salata od paradajza i crnog luka
+Salata od paradajza i feta sira
+Salata od paradajza i leblebija
+Salata od paradajza i pečene paprike
+Salata od pasulja i crnog luka
+Salata od pasulja i crnog luka (klasika)
+Salata od pasulja i paradajza
+Salata od pasulja i pečene paprike sa belim lukom
+Salata od pasulja i sušenog paradajza
+Salata od pasulja i tunjevine sa limunom
+Salata od pasulja sa crvenim lukom
+Salata od pečene bundeve i feta sira sa medom
+Salata od pečene bundeve i fete
+Salata od pečene bundeve i leblebija
+Salata od pečene bundeve i rukole
+Salata od pečene cvekle i feta sira
+Salata od pečene cvekle i fete
+Salata od pečene cvekle i jogurta
+Salata od pečene paprike i kukuruza
+Salata od pečene paprike i pasulja sa susamom
+Salata od pečene šargarepe i fete
+Salata od pečene šargarepe i jogurta
+Salata od pečenih paprika i pasulja sa belim lukom
+Salata od pečenih paprika i patlidžana
+Salata od pečenih paprika i tunjevine
+Salata od pečenih paprika sa belim lukom
+Salata od pečenih šampinjona
+Salata od pečenih šampinjona i rukole
+Salata od pečenih šargarepa i jogurta
+Salata od pečenih tikvica
+Salata od pečenih tikvica i feta sira
+Salata od pečenih tikvica i fete
+Salata od pečenog batata
+Salata od pečenog batata i crnog pasulja
+Salata od pečenog batata i jogurta
+Salata od pečenog brokolija i fete
+Salata od pečenog brokolija i kukuruza
+Salata od pečenog celera i limuna
+Salata od pečenog celera i oraha
+Salata od pečenog karfiola
+Salata od pečenog karfiola i jogurta
+Salata od pečenog karfiola i kukuruza
+Salata od pečenog karfiola i tahinija
+Salata od pečenog krompira i crnog luka
+Salata od pečenog krompira i senfa
+Salata od pečenog patlidžana
+Salata od pečenog patlidžana i leblebija
+Salata od pečenog patlidžana i paradajza
+Salata od pečenog patlidžana i pečene paprike
+Salata od pirinča sa kukuruzom i graškom
+Salata od pirinča sa povrćem
+Salata od prokelja i jabuke
+Salata od prosa i krastavca
+Salata od rendane šargarepe i jabuke
+Salata od rotkvica sa pavlakom
+Salata od šampinjona
+Salata od šampinjona i krompira sa sirćetom
+Salata od šampinjona sa paradajzom
+Salata od šargarepe i cvekle sa jogurtom
+Salata od šargarepe i jabuke sa limunom
+Salata od šargarepe i jabuke sa orasima
+Salata od šargarepe, jabuke i oraha
+Salata od sočiva
+Salata od sočiva i cvekle sa senfom
+Salata od sočiva i pečene paprike
+Salata od spanaća i tunjevine sa limunom
+Salata od svežeg spanaća i jabuke
+Salata od svežeg spanaća i kukuruza
+Salata od testenine, brokolija i fete
+Salata od testenine, tunjevine i kukuruza
+Salata od tikvica i feta sira na grilu
+Salata od tikvica i fete
+Salata od tikvica i jogurta
+Salata od tikvica i jogurta sa belim lukom
+Salata od tunjevine i pasulja
+Salata od tunjevine, kukuruza i jogurta
+Salata od zelene leće i crvenog luka
+Salata sa gamborima
+Salata sa lignjama
+Salata sa oslićem i rukolom
+Salata urnebes
+Salataod sočiva
+Salsa
+Šampita
+Šaran paprikaš zapečen u rerni
+Šarena musaka od pirinča
+Šarena testenina sa prelivom od avokada
+šargarepa sa karijem Dinstana
+Sarma (klasična)
+Sarma od kiselog kupusa
+Sarma od vinove loze
+Sarma sa mlevenim mesom i pirinčem
+Sarma u kiselom kupusu (osnovna)
+Sarmice od vinove loze
+Sarmice od zelja
+Sataraš
+Sataraš (bez jaja)
+Sataraš posni bez jaja
+Sataraš sa jajima
+Sataraš sa piletinom
+Sendvič namaz od piletine
+Sendvič namaz od tunjevine i kukuruza
+Sendvič sa fetom i paradajzom
+Sendvič sa humusom i krastavcem
+Sendvič sa humusom i pečenom paprikom
+Sendvič sa pečenom piletinom i ajvarom
+Sendvič sa pečenom piletinom i jogurt sosom
+Sendvič sa piletinom i jogurt sosom
+Sendvič sa sirom i krastavcem
+Sendvič sa tunjevinom i kukuruzom
+Sendvič sa tunjevinom i kuvanim jajetom
+Sirup od zove (domaći)
+Šitake pečurke sa povrćem i susamom
+Sladak kupus sa mlevenim mesom
+Sladoled sa čokoladom, bananama i sa šumskim voćem
+Sladoled u tri boje
+Slane kiflice sa ajvarom
+Slane kiflice sa susamom
+Slane palačinke sa spanaćem
+Slani mafini sa sirom i paprikom
+Slani tost sa pečurkama
+Slatka palenta na mleku
+Slatka pita sa sirom i grizom (kore)
+Slatka sirnica sa grožđicama
+Slatke palačinke sa bananom i kakaom
+Slatko od dunja
+Slatko od šljiva (brzo)
+Slatko od višanja
+Slavski kolač
+Složenac od karfiola i piletine
+Smoothie ananas-kokos
+Smoothie banana-ovsene pahuljice
+Smoothie breskva-jogurt
+Smoothie jagoda-banana
+Smoothie kruška-jabuka-jogurt
+Smoothie mango-jogurt
+Smoothie od breskve i banane
+Smoothie od jabuke i borovnice
+Smoothie od kajsije i jogurta
+Smoothie od kruške i borovnice
+Smoothie od kruške i kajsije
+Smoothie od lubenice i jogurta
+Smoothie od maline i jogurta
+Smoothie ovsene pahuljice-kakao-banana
+Smoothie višnja-banana
+Šne-nokle
+Šnenokle
+Šnenokle (krem od mleka i belanaca)
+Šnenokle (osnovne)
+Sočivo sa spanaćem
+Sočivo u sosu od paradajza i šampinjona sa palentom
+Sojini odresci sa sosom od pečuraka
+Sok od breskve i jabuke
+Sok od kruške i limuna
+Sok od limuna i nane
+Sok od šargarepe i pomorandže (blender)
+Šopska salata
+Sorbet od bresaka
+Sorbet od jagoda
+Sos od bukovača i vrganja sa šarenom testeninom
+Sos od pečene paprike i pavlake
+Sos od višanja za meso i ribu
+Špageti sa blitvom
+Špageti sa pesto sosom
+Špageti sa povrćem
+Špageti sa tunjevinom
+Špagetibolonjeze
+Spanać sa belim lukom i biljnom pavlakom
+Španska pita
+Španska tortilja
+Srneći paprikaš sa suvim brusnicama
+Štrudla sa jabukama i orasima
+Štrudla sa makom i limunom
+Štrudla sa sirom i suvim grožđem
+Štrudla sa suvim šljivama
+Štrudla sa višnjama (kore)
+Štrudla sa višnjama (kvasno)
+Sue od kelja i kačkavalja
+Supa od boba i povrća
+Supa od brokolija i krompira
+Supa od bundeve i jabuke
+Supa od bundeve i karija
+Supa od ječma i povrća
+Supa od karfiola i kukuruza
+Supa od karfiola sa rezancima
+Supa od kukuruza i piletine
+Supa od kukuruza i šargarepe
+Supa od paradajza i bosiljka
+Supa od paradajza i pečene bundeve
+Supa od paradajza i pečene paprike
+Supa od paradajza i rezanaca
+Supa od paradajza i sočiva
+Supa od paradajza sa pirinčem
+Supa od paškanata i šargarepe
+Supa od pečene bundeve i jabuke
+Supa od pečene paprike i leblebija
+Supa od pečene šargarepe
+Supa od pečenog karfiola
+Supa od pečenog paradajza
+Supa od pečuraka i pirinča
+Supa od pečuraka i prosa
+Supa od praziluka i krompira
+Supa od rezanaca i piletine
+Supa od rezanaca i povrća
+Supa od šargarepe i prosa
+Supa od sočiva i rezanaca
+Supa od spanaća i pirinča
+Supa od tikve i praziluka
+Supa od tikvice i pečuraka
+Susam kuglice sa medom
+Sutlijaš sa borovnicama
+Sutlijaš sa cimetom
+Sutlijaš sa čokoladom
+Sutlijaš sa jabukom i cimetom
+Sutlijaš sa jagodama i vanilom
+Sutlijaš sa kokosom
+Sutlijaš sa kruškom
+Sutlijaš sa malinama
+Sutlijaš sa narandžom
+Sutlijaš sa suvim kajsijama
+Švarcvald torta
+Svinjska rebra u pivu sa krompirom
+Svinjski gulaš (jednostavan)
+Svinjski gulaš sa krompirom i paprikom
+Svinjski gulaš sa paprikom i rezancima
+Svinjski paprikaš sa krompirom
+Svinjski perkelt sa testeninom
+Tahini čorba
+Tarana supa sa povrćem
+Tarator (hladna supa od krastavca)
+Tavče gravče
+Teleća čorba sa knedlama od griza
+Teleći paprikaš sa krompirom i lovorom
+Teleći paprikaš sa limunovom korom
+Teleći paprikaš sa noklicama
+Teletina sa graškom (varivo)
+Testenina sa povrćem i piletinom
+Tikvice punjene krompirom
+Tikvice sa paradajzom
+Tikvice u bešamel sosu
+Tikvice u testu sa peršunom i origanom
+Tiramisu
+Tofu sa povrćem i šampinjonima sa bukovačama
+Topli kakao napitak
+Topli kakao sa cimetom
+Topli kakao sa cimetom i vanilom
+Topli napitak od jabuke i cimeta
+Topli napitak od mleka i vanile
+Toplo mleko sa medom i cimetom
+Torta Kapreze
+Torta od banana i jagoda
+Torta sa jogurtom i čokoladom
+Torta sa pudingom i malinama
+Tost sa ajvarom i fetom
+Tost sa ajvarom i kačkavaljem
+Tost sa ajvarom i pečenim jajetom
+Tost sa avokadom i jajetom
+Tost sa puterom i medom
+Tost sa puterom od kikirikija i bananom
+Tost sa sirom i paradajzom
+Tost sendvič sa sirom i pečurkama
+Tostirani hleb sa namazom od pasulja
+Trešnje u želeu
+Trileće
+Tufahije
+Tufahije (jabuke punjene orasima)
+tunjevinom i avokadom Tost sa
+Turšija salata od kiselih paprika
+Urmašice
+Urnebes salata (sir i paprika)
+Uštipci od heljdinog brašna
+Uštipci od kukuruza i jogurta
+Uštipci od kukuruznog brašna
+Uštipci od tikvica
+Uštipci sa jogurtom
+Uštipci sa sirom
+Đuveč od povrća sa sojinim mlekom
+Đuveč sa junećim mesom
+Đuveč sa patlidžanom i pirinčem
+Đuveč sa pečurkama (prilog)
+Đuveč sa piletinom
+Đuveč sa piletinom i povrćem
+Đuveč sa povrćem
+Đuveč sa povrćem i pirinčem
+Vanila mafini sa komadićima jabuke
+Vanilice
+Vanilice (keksi)
+Vanilice sa džemom od kajsije
+Varivo od boranije sa ćuretinom
+Varivo od graška i krompira (posno)
+Varivo od graška sa piletinom
+Varivo od sočiva i blitve (posno)
+Vinagret sos za salate i jela od povrća
+Voćna salata
+Voćni biskviti sa džemom
+Voćni jogurt sa bananom i borovnicama
+Voćni kolač sa grizom
+Voćni kolač sa šljivama
+Voda sa krastavcem i limunom
+Zapečena testenina sa tunjevinom i kukuruzom
+Zapečene makarone sa sirom
+Zapečene palačinke sa povrćem
+Zapečene tikvice sa sirom i jajima
+Zapečene tikvice sa sirom (rerna)
+Zapečeni brokoli sa kačkavaljem
+Zapečeni karfiol sa kačkavaljem
+Zapečeni karfiol sa sirom
+Zapečeni krompir sa pavlakom i sirom
+Zapečeni krompir sa ruzmarinom
+Zapečeni pasulj sa belim lukom (prilog)
+Zapečeni praziluk
+Zelena salata sa jogurt dresingom
+Zelena salata sa semenkama bundeve
+Zeleni rolat sa sirom
+Zeljanica (kore, spanać i sir)
+Zeljanica sa spanaćem (kore)
+Zemičke sa susamom
+Žito sa šlagom
+Posni kolač sa borovnicama
+Pita sa kajsijama i grizom
+Mafini sa šljivama
+Biskvit sa kruškama i jogurtom
+Sutlijaš sa kajsijama
+Griz sa breskvama
+Rolat sa džemom od kupine
+Keks kocke sa orasima
+Kačamak sa fetom
+Omlet sa kukuruzom
+Proja sa pečenom paprikom
+Tost sa kačkavaljem i krastavcem
+Ovsena kaša sa breskvom
+Jogurt sa ovsom i borovnicama
+Kaša od prosa sa kruškom
+Kompot od kruške i jabuke
+Sok od kajsije i narandže
+Jogurt napitak sa breskvom
+Toplo mleko sa kakaom i medom
+Smoothie od kajsije i borovnice
+Paprikaš od piletine sa cveklom
+Paprikaš od ćuretine sa karfiolom i prazilukom
+Paprikaš od svinjetine sa keljom
+Paprikaš od junetine sa blitvom
+Paprikaš od pasulja sa spanaćem (posno)
+Paprikaš od leblebija sa prazilukom (posno)
+Paprikaš od soma sa pečurkama
+Gulaš od teletine sa šargarepom
+Varivo od boranije i krompira (posno)
+Rižoto sa pečurkama i bundevom
+Musaka od karfiola i mlevenog mesa
+Sarma od zelja sa piletinom
+Čorba od pasulja i tikve (posno)
+Krem supa od cvekle i krompira
+Supa od karfiola i praziluka
+Krem supa od graška i krompira
+Supa od blitve i krompira
+Prilog: heljda sa celerom
+Prilog: pečeni krompir i šargarepa
+Prilog: bulgur sa pečenom bundevom
+Prilog: pire od celera i krompira
+Prilog: kus-kus sa kukuruzom
+Prilog: pečeni paškanat i šargarepa
+Prilog: dinstani kupus sa prazilukom
+Salata od karfiola i jogurta
+Salata od pečene bundeve i oraha
+Salata od brokolija i fete
+Salata od ječma i pečene paprike
+Salata od celerovog korena i jabuke
+Salata od tikvica i kukuruza
+Kolač sa kruškama i orasima
+Posni kolač sa breskvama
+Pita sa borovnicama i kokosom
+Mafini sa kajsijama
+Biskvit sa šljivama i cimetom
+Sutlijaš sa borovnicama i vanilom
+Griz sa višnjama
+Rolat sa džemom od kajsije i kokosom
+Kuglice sa keksom i kokosom
+Palenta sa jogurtom i pečenom paprikom
+Proja sa blitvom
+Tost sa fetom i pečenom paprikom
+Smoothie od višnje i banane
+Kompot od breskve i kruške
+Sok od limuna i breskve
+Jogurt napitak sa kajsijom
+Topli napitak od mleka i cimeta

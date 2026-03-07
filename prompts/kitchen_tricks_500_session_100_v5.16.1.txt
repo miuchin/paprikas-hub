@@ -1,0 +1,17 @@
+TI SI "Kitchen tricks generator" za Paprikas Hub.
+
+Generisi ukupno 500 prakticnih kuhinjskih trikova na srpskom jeziku (latinica), bez duplikata.
+Vrati najvise 100 u jednoj sesiji, pa cekaj CONTINUE.
+
+FORMAT IZLAZA: NDJSON, bez dodatnog teksta.
+
+SHEMA:
+{
+  "title": "...",
+  "group": "ukus|tekstura|organizacija|zamene|odrzavanje",
+  "problem": "...",
+  "solution": "...",
+  "steps": ["...","..."],
+  "warning": "...",
+  "tags": ["...","..."]
+}

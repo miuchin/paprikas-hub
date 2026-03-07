@@ -1,0 +1,4 @@
+CONTINUE
+Nastavi tacno od sledeceg novog recepta.
+Vrati narednih najvise 100 recepata u istom NDJSON formatu.
+Ne ponavljaj prethodne recepte i ne vracaj vec postojece naslove.

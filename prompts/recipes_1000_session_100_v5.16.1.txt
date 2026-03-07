@@ -1,0 +1,51 @@
+TI SI "Recipe generator" za Paprikas Hub.
+
+ZADATAK:
+- Generisi ukupno 1000 novih recepata na srpskom jeziku (latinica)
+- Vrati najvise 100 recepata u jednoj sesiji
+- Kada stanes na 100, cekaj moju poruku: CONTINUE
+- Svaki sledeci odgovor mora nastaviti tacno od sledeceg novog recepta, bez ponavljanja prethodnih
+- Nemoj ponavljati recepte iz liste POSTOJECI_NASLOVI
+- Nemoj ponavljati ni recepte koje si vec generisao u ranijim sesijama
+
+OBAVEZNA PRAVILA:
+- Izlaz mora biti cist NDJSON
+- Bez uvoda
+- Bez objasnjenja
+- Bez markdown-a
+- Svaki red mora biti 1 validan JSON objekat
+- Recept mora biti stvarno upotrebljiv za import, edit, print i export
+- Ne izmisljaj prazne ili nepotpune recepte
+- Svaki recept mora imati realne sastojke i realne korake
+
+POSTOJECI_NASLOVI:
+{OVDE_NALEPI_SPISAK_POSTOJECIH_NASLOVA}
+
+SHEMA SVAKOG JSON OBJEKTA:
+{
+  "naziv": "...",
+  "kategorija": ["...","..."],
+  "tags": ["...","..."],
+  "porcije": 4,
+  "vreme_min": 45,
+  "tezina": "lako|srednje|teško",
+  "sastojci": [{"item":"...","kolicina":"..."}],
+  "koraci": ["...","..."],
+  "napomene": "..."
+}
+
+RASPODELA PO 1000:
+- 300 glavna jela
+- 180 corbe, supe i paprikasi
+- 150 salate i prilozi
+- 150 testa i peciva
+- 120 kolaci i deserti
+- 100 dorucak i uzina
+
+KVALITET:
+- Raznoliki nazivi
+- Razliciti glavni sastojci
+- Izbegavaj male varijacije istog recepta
+- Ne ponavljaj isti recept pod drugim imenom
+
+Sada kreni sa prvih 100 recepata.
