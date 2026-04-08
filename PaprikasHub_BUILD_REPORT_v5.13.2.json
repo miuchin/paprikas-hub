@@ -1,0 +1,23 @@
+{
+  "version": "v5.13.2",
+  "focus": [
+    "runtime patch",
+    "python 3.13 server compatibility",
+    "recipe cache refresh UX",
+    "optional remote catalog source"
+  ],
+  "port_default": 8015,
+  "recipe_manifest_count": 1706,
+  "recipe_manifest_version": "recipes-chunks-v1",
+  "files_touched": [
+    "index.html",
+    "server/paprikas_server.py",
+    "README.md",
+    "docs/RUNTIME_PATCH_v5.13.2.md"
+  ],
+  "notes": [
+    "uploadovani build i dalje nosi 1706 recepata u lokalnom manifestu",
+    "za noviji katalog koristi remote catalog base URL ili zameni chunk fajlove",
+    "server import_pdf radi bez cgi modula"
+  ]
+}

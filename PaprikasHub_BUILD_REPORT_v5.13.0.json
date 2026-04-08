@@ -1,0 +1,34 @@
+{
+  "version": "v5.13.0",
+  "generated_utc": "2026-03-01T09:00:00Z",
+  "base_package": "paprikas-hub.zip (original GitHub build)",
+  "starting_manifest_count": 1706,
+  "batches_26_29": {
+    "raw_total": 252,
+    "unique_added": 161,
+    "duplicates": 91,
+    "per_file": {
+      "recepti-80-26.json": 80,
+      "recepti-80-27.json": 62,
+      "recepti-80-28.json": 57,
+      "recepti-80-29.json": 53
+    }
+  },
+  "final_catalog_count": 1867,
+  "runtime": {
+    "primary_loader": "data/recipes_chunks/manifest.json",
+    "chunk_count": 10,
+    "chunk_size": 200
+  },
+  "bridge_v1_prep": {
+    "files": [
+      "data/bridge/bridge_config.json",
+      "data/bridge/health_tag_rules.json",
+      "data/bridge/shared_context_example.json",
+      "data/catalog/ingredient_alias_map.json",
+      "js/paprikas-bridge-adapter.js"
+    ],
+    "scope": "small adapter layer; no major refactor"
+  },
+  "books_status_doc": "docs/BOOKS_STATUS_AND_INGEST_PLAN_v5.13.0.md"
+}

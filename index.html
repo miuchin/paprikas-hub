@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Ctext y=%2250%22 font-size=%2248%22%3E%F0%9F%8D%B2%3C/text%3E%3C/svg%3E" />
-  <title>Paprikaš Hub v5.18.9 SINET Light — Kitchen Rescue</title>
+  <title>Paprikaš Hub v5.18.10 SINET Light — Kitchen Rescue</title>
   <style>
     :root{
       /* SINET palette (Audio Lekar) */
@@ -1214,6 +1214,18 @@ try{
 <button class="launcher-card" onclick="phOpenCategory('recipes')">
   <span class="ic">📖</span>
   <span class="tx"><b>Recepti</b><i>Recipe Atlas + import/export <span id="phRecipeCountBadge" class="ph-badge">…</span></i></span>
+</button>
+<button class="launcher-card" onclick="phOpenStandalonePage('pages/kucne-zalihe.html')">
+  <span class="ic">🥫</span>
+  <span class="tx"><b>Kućne zalihe</b><i>lokacije • stanje • ulaz/izlaz <span class="ph-badge">KZ-MVP</span></i></span>
+</button>
+<button class="launcher-card" onclick="phOpenStandalonePage('pages/iz-frizidera.html')">
+  <span class="ic">🧊</span>
+  <span class="tx"><b>Iz frižidera</b><i>potroši prvo • predlozi • dopuna <span class="ph-badge">KZ-MVP</span></i></span>
+</button>
+<button class="launcher-card" onclick="phOpenStandalonePage('pages/nabavka.html')">
+  <span class="ic">🛒</span>
+  <span class="tx"><b>Nabavka</b><i>račun / ručni unos • ulaz robe <span class="ph-badge">KZ-MVP</span></i></span>
 </button>
 <button class="launcher-card" onclick="phOpenCategory('studio')">
   <span class="ic">🧰</span>
@@ -5668,14 +5680,66 @@ try{
     }
 
 
-    function phIsForcedStatic(){
+    function phApiModeForced(){
       try{
         const u = new URL(location.href);
-        return u.searchParams.get("static") === "1" || window.PH_FORCE_STATIC === true;
+        return u.searchParams.get("api") === "1" || u.searchParams.get("force_api") === "1" || window.PH_FORCE_API === true;
       }catch(e){
         return false;
       }
     }
+
+    function phIsForcedStatic(){
+      try{
+        const u = new URL(location.href);
+        if (u.searchParams.get("static") === "1" || window.PH_FORCE_STATIC === true) return true;
+        if (phApiModeForced()) return false;
+
+        const host = String(location.hostname || "").toLowerCase();
+        const port = String(location.port || "");
+        const isLocal = host === "127.0.0.1" || host === "localhost";
+
+        // Netlify/GitHub/static arbitrary preview ports should default to STATIC mode.
+        // FULL local server normally radi na 8015, alternativno 8016.
+        if (!isLocal) return true;
+        if (port === "8015" || port === "8016") return false;
+        return true;
+      }catch(e){
+        return false;
+      }
+    }
+
+    const __phNativeFetch = window.fetch.bind(window);
+    function phShouldStubSameOriginApi(input){
+      try{
+        const raw = (typeof input === "string") ? input : (input && input.url ? input.url : "");
+        const u = new URL(raw, location.href);
+        return u.origin === location.origin && u.pathname.startsWith("/api/") && phIsForcedStatic();
+      }catch(e){
+        return false;
+      }
+    }
+    function phStaticApiResponse(input){
+      let path = "/api/";
+      try{
+        const raw = (typeof input === "string") ? input : (input && input.url ? input.url : path);
+        path = new URL(raw, location.href).pathname;
+      }catch(e){ /* ignore */ }
+      const body = JSON.stringify({ ok:false, static:true, error:`STATIC mode — API nije aktivan za ${path}` });
+      return new Response(body, {
+        status: 503,
+        headers: {
+          "Content-Type": "application/json; charset=utf-8",
+          "X-Paprikas-Static": "1"
+        }
+      });
+    }
+    window.fetch = function(input, init){
+      if (phShouldStubSameOriginApi(input)){
+        return Promise.resolve(phStaticApiResponse(input));
+      }
+      return __phNativeFetch(input, init);
+    };
 
     async function phFetchApi(path, options = {}){
       const candidates = PH_SERVER_SYNC.base ? [PH_SERVER_SYNC.base] : phApiBases();
@@ -5816,6 +5880,13 @@ try{
       return PH_SERVER_SYNC.ready;
     }
 
+    function phPipelineApiAvailable(){
+      try{
+        return !!(PH_SERVER_SYNC && PH_SERVER_SYNC.ready && PH_SERVER_SYNC.enabled);
+      }catch(_e){
+        return false;
+      }
+    }
 
     function switchTab(tabId){
       if (!tabIds.includes(tabId)) {
@@ -8985,6 +9056,13 @@ const PH_MENU_DEF = [
       {action:"openEncOverview", icon:"🗂️", label:"Pregled poglavlja", note:"brzi ulaz u strukturu"},
     ]
   },
+  { id:"household", icon:"🥫", title:"Kućne zalihe / Iz frižidera / Nabavka", desc:"lokalna baza • stanje • plan • ulaz robe",
+    items:[
+      {action:"openKucneZalihe", icon:"🥫", label:"Kućne zalihe", note:"lokacije + stanje + ulaz/izlaz"},
+      {action:"openIzFrizidera", icon:"🧊", label:"Iz frižidera", note:"potroši prvo + predlog plana"},
+      {action:"openNabavka", icon:"🛒", label:"Nabavka", note:"račun / ručni unos + upis u zalihu"},
+    ]
+  },
 
   { id:"help", icon:"📖", title:"Uputstvo & podešavanja", desc:"manual + help + troubleshooting",
     items:[
@@ -9259,9 +9337,18 @@ function phMenuDoAction(action){
   if (action === "openNutri"){ try{ window.open("extras/nutri/index.html","_blank"); }catch(_e){} phCloseMenu(); return; }
   if (action === "openEncBook"){ try{ phEncOpenBook(); }catch(_e){} phCloseMenu(); return; }
   if (action === "openEncOverview"){ try{ phEncOpenOverview(); }catch(_e){} phCloseMenu(); return; }
+  if (action === "openKucneZalihe"){ try{ phOpenStandalonePage("pages/kucne-zalihe.html"); }catch(_e){} phCloseMenu(); return; }
+  if (action === "openIzFrizidera"){ try{ phOpenStandalonePage("pages/iz-frizidera.html"); }catch(_e){} phCloseMenu(); return; }
+  if (action === "openNabavka"){ try{ phOpenStandalonePage("pages/nabavka.html"); }catch(_e){} phCloseMenu(); return; }
   phCloseMenu();
 }
 
+function phOpenStandalonePage(path){
+  try{
+    if (!path) return;
+    window.location.href = path;
+  }catch(_e){}
+}
 
 function phGoHome(){
   try{ switchTab('home'); }catch(_e){}
@@ -11728,7 +11815,7 @@ async function phRecipesExportQC(){
    Content Studio — Pipeline
    ========================= */
 const PH_PIPE = {
-  v: "v5.18.9",
+  v: "v5.18.10",
   lsKey: "paprikasPipelineStepsV1",
   promptsBase: "tools/pipeline/prompts/",
 };
@@ -11747,6 +11834,7 @@ function phPipeInit(){
     }
   }
   phPipeRenderSteps();
+  if (!phPipelineApiAvailable()) return;
   phPipeRefreshStatus();
 }
 
@@ -11808,13 +11896,19 @@ function phPipeRenderSteps(status){
 }
 
 async function phPipeApiGet(url){
-  const r = await fetch(url, {method:"GET"});
+  if (!phPipelineApiAvailable()) throw new Error("STATIC mode — pipeline API nije aktivan.");
+  const r = await phFetchApi(url, {method:"GET"});
+  const ct = String(r.headers.get("content-type") || "").toLowerCase();
+  if (!ct.includes("application/json")) throw new Error("Pipeline API nije vratio JSON.");
   const j = await r.json();
   if (!j.ok) throw new Error(j.error || "API error");
   return j;
 }
 async function phPipeApiPost(url, body){
-  const r = await fetch(url, {method:"POST", headers: {"Content-Type":"application/json"}, body: JSON.stringify(body||{})});
+  if (!phPipelineApiAvailable()) throw new Error("STATIC mode — pipeline API nije aktivan.");
+  const r = await phFetchApi(url, {method:"POST", headers: {"Content-Type":"application/json"}, body: JSON.stringify(body||{})});
+  const ct = String(r.headers.get("content-type") || "").toLowerCase();
+  if (!ct.includes("application/json")) throw new Error("Pipeline API nije vratio JSON.");
   const j = await r.json();
   if (!j.ok) throw new Error(j.error || "API error");
   return j;
@@ -11834,6 +11928,7 @@ async function phPipeRefreshStatus(){
     if (merged) merged.textContent = (j.merged_written ?? "—");
     phPipeRenderSteps(j);
   }catch(e){
+    if (!phPipelineApiAvailable()) return;
     console.warn("Pipeline status error", e);
   }
 }
@@ -12355,9 +12450,17 @@ function phRenderRecentTabs(){
 async function phHomeNextRefresh(){
   const note = document.getElementById("phNextStepNote");
   const btn = document.getElementById("phNextStepBtn");
+  if (!phPipelineApiAvailable()){
+    if (note) note.textContent = "⚠️ STATIC mod — preporuka koraka za pipeline je ugašena dok server/API nisu aktivni.";
+    if (btn){
+      btn.textContent = "🧰 Otvori Content Studio";
+      btn.onclick = ()=> switchTab("studio");
+    }
+    return;
+  }
   if (note) note.textContent = "⏳ Učitavam preporuku…";
   try{
-    const r = await fetch("/api/pipeline/status");
+    const r = await phFetchApi("/api/pipeline/status");
     const j = await r.json();
     if (!j.ok) throw new Error(j.error||"status error");
     const files = j.files || {};
@@ -12412,7 +12515,6 @@ async function phHomeNextRefresh(){
     }
   }catch(e){
     if (note) note.textContent = "❌ Ne mogu da učitam status. Proveri da li server radi (8015).";
-    console.warn(e);
     if (btn){
       btn.textContent = "🧰 Otvori Content Studio";
       btn.onclick = ()=> switchTab("studio");
@@ -12562,11 +12664,23 @@ function phBatchDetailRenderLog(elId, items){
   });
 }
 async function phBatchDetailRefresh(batch){
+  if (!phPipelineApiAvailable()){
+    phBatchDetailFillHomeSelect();
+    ["phHomeBatchDetailStats","phStudioBatchDetailStats"].forEach(id=>{
+      const box = document.getElementById(id);
+      if (box) box.textContent = "⚠️ STATIC mod — batch detail traži aktivan lokalni API server.";
+    });
+    ["phHomeBatchDetailLog","phStudioBatchDetailLog"].forEach(id=>{
+      const box = document.getElementById(id);
+      if (box) box.innerHTML = '<div class="muted">⚠️ STATIC mod — nema batch detail loga bez API servera.</div>';
+    });
+    return;
+  }
   try{
     phBatchDetailFillHomeSelect();
     const b = String(batch || phBatchDetailCurrentBatch()).padStart(3,"0");
     phBatchDetailSyncSelectors(b);
-    const r = await fetch(`/api/pipeline/batch_detail?batch=${b}`);
+    const r = await phFetchApi(`/api/pipeline/batch_detail?batch=${b}`);
     const j = await r.json();
     if (!j.ok) throw new Error(j.error || "detail error");
     phBatchDetailRenderStats("phHomeBatchDetailStats", j);
@@ -12582,7 +12696,6 @@ async function phBatchDetailRefresh(batch){
       const box = document.getElementById(id);
       if (box) box.innerHTML = '<div class="muted">❌ Ne mogu da učitam batch detail log.</div>';
     });
-    console.warn(e);
   }
 }
 function phBatchDetailOpen(){
@@ -12592,7 +12705,7 @@ function phBatchDetailOpen(){
 async function phBatchDetailPrefillNote(){
   try{
     const b = phBatchDetailCurrentBatch();
-    const r = await fetch(`/api/pipeline/batch_detail?batch=${b}`);
+    const r = await phFetchApi(`/api/pipeline/batch_detail?batch=${b}`);
     const j = await r.json();
     if (!j.ok) throw new Error(j.error || "detail error");
     const ta = document.getElementById("phSessionLogNote");
@@ -12608,7 +12721,7 @@ async function phBatchDetailPrefillNote(){
    Session log
    ========================= */
 async function phSessionLogFetch(){
-  const r = await fetch("/api/pipeline/log");
+  const r = await phFetchApi("/api/pipeline/log");
   const j = await r.json();
   if (!j.ok) throw new Error(j.error || "log error");
   return j;
@@ -12634,6 +12747,14 @@ function phSessionLogRenderInto(elId, items){
   });
 }
 async function phSessionLogRefresh(){
+  if (!phPipelineApiAvailable()){
+    const ids = ["phHomeSessionLogList","phStudioSessionLogList"];
+    ids.forEach(id=>{
+      const box = document.getElementById(id);
+      if (box) box.innerHTML = '<div class="muted">⚠️ STATIC mod — session log traži aktivan lokalni API server.</div>';
+    });
+    return;
+  }
   try{
     const j = await phSessionLogFetch();
     phSessionLogRenderInto("phHomeSessionLogList", j.items || []);
@@ -12644,6 +12765,7 @@ async function phSessionLogRefresh(){
       const box = document.getElementById(id);
       if (box) box.innerHTML = '<div class="muted">❌ Ne mogu da učitam session log.</div>';
     });
+    if (!phPipelineApiAvailable()) return;
     console.warn(e);
   }
 }
@@ -12699,9 +12821,14 @@ async function phHomeStudioDashRefresh(){
   const grid = document.getElementById("phHomeBatchGrid");
   const msg = document.getElementById("phHomeStudioDashMsg");
   if (!grid) return;
+  if (!phPipelineApiAvailable()){
+    grid.innerHTML = "";
+    if (msg) msg.textContent = "⚠️ STATIC mod — dashboard batch status je utišan dok server/API nisu aktivni.";
+    return;
+  }
   try{
     if (msg) msg.textContent = "⏳ Učitavam status…";
-    const r = await fetch("/api/pipeline/status");
+    const r = await phFetchApi("/api/pipeline/status");
     const j = await r.json();
     if (!j.ok) throw new Error(j.error || "status error");
     const files = j.files || {};
@@ -12726,6 +12853,7 @@ async function phHomeStudioDashRefresh(){
     if (msg) msg.textContent = `✅ Status: ${done} završeno, ${partial} u toku, ${empty} prazno.`;
   }catch(e){
     if (msg) msg.textContent = "❌ Ne mogu da učitam status. Proveri da li server radi (8015).";
+    if (!phPipelineApiAvailable()) return;
     console.warn(e);
   }
 }
@@ -12783,11 +12911,16 @@ async function phHomeStudioDashRefresh(){
   const grid = document.getElementById("phHomeBatchGrid");
   const msg = document.getElementById("phHomeStudioDashMsg");
   if (!grid) return;
+  if (!phPipelineApiAvailable()){
+    grid.innerHTML = "";
+    if (msg) msg.textContent = "⚠️ STATIC mod — dashboard batch status je utišan dok server/API nisu aktivni.";
+    return;
+  }
   try{
     if (msg) msg.textContent = "⏳ Učitavam status…";
     const [rs, rh] = await Promise.all([
-      fetch("/api/pipeline/status"),
-      fetch("/api/pipeline/health_summary?soft_kolicina=1")
+      phFetchApi("/api/pipeline/status"),
+      phFetchApi("/api/pipeline/health_summary?soft_kolicina=1")
     ]);
     const js = await rs.json();
     const jh = await rh.json();
@@ -12822,8 +12955,7 @@ async function phHomeStudioDashRefresh(){
     }
     if (msg) msg.textContent = `✅ Status: ${done} završeno, ${partial} u toku, ${empty} prazno.`;
   }catch(e){
-    if (msg) msg.textContent = "❌ Ne mogu da učitam status. Proveri da li server radi (8015).";
-    console.warn(e);
+    if (msg) msg.textContent = "❌ Ne mogu da učitam status. Proveri da li FULL server radi (8015/8016) ili otvori static sa ?static=1.";
   }
 }
 

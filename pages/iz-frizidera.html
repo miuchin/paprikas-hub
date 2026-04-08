@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paprikaš Hub — Iz frižidera / KZ-MVP v0.1.10</title>
+  <link rel="stylesheet" href="../assets/kucne-zalihe.css?v=0.1.10" />
+</head>
+<body>
+  <main class="kzh-app">
+    <section class="kzh-topbar">
+      <div class="kzh-title-row">
+        <div>
+          <div class="kzh-title">🧊 Paprikaš Hub — Iz frižidera</div>
+          <div class="kzh-sub">Predlog iz lokalnih zaliha • Verzija <span data-kzh-version>KZ-MVP v0.1.10</span></div>
+        </div>
+        <div class="kzh-inline">
+          <button class="kzh-btn kzh-hamburger" data-kzh-menu-toggle>☰ MENI</button>
+        </div>
+      </div>
+      <div class="kzh-actions">
+        <a class="kzh-btn" href="../index.html">POČETNA</a>
+        <button class="kzh-btn" onclick="history.back()">NAZAD</button>
+        <a class="kzh-btn good" href="./nabavka.html">NABAVKA</a>
+        <a class="kzh-btn primary" href="./kucne-zalihe.html">KUĆNE ZALIHE</a>
+      </div>
+      <div class="kzh-drawer" data-kzh-drawer>
+        <nav class="kzh-drawer-nav">
+          <a class="kzh-btn" href="#generator">Generator</a>
+          <a class="kzh-btn" href="#prioriteti">Prioriteti</a>
+          <a class="kzh-btn" href="#predlozi">Predlozi</a>
+          <a class="kzh-btn" href="#dopuna">Dopuna</a>
+          <a class="kzh-btn" href="./nabavka.html">Nabavka</a>
+        </nav>
+      </div>
+    </section>
+
+    <section id="generator" class="kzh-panel">
+      <h2 class="kzh-section-title">Generator “potroši šta imaš”</h2>
+      <div class="kzh-form-grid three">
+        <div>
+          <label for="planDays">Horizont plana</label>
+          <select id="planDays">
+            <option value="1">1 obrok / 1 dan</option>
+            <option value="2">2 dana</option>
+            <option value="3">3 dana</option>
+            <option value="7">7 dana</option>
+            <option value="14">14 dana</option>
+            <option value="21">21 dan</option>
+          </select>
+        </div>
+        <div class="kzh-inline" style="align-items:flex-end">
+          <button class="kzh-btn primary" id="generateBtn">Generiši predlog</button>
+        </div>
+        <div class="kzh-inline" style="align-items:flex-end">
+          <button class="kzh-btn good" id="saveBtn">Sačuvaj predlog</button>
+        </div>
+      </div>
+      <p class="kzh-footer-note">MVP generator prvo gleda ostatke, otvorena pakovanja i hitne stavke, pa tek onda pravi logične kombinacije za obrok ili nekoliko dana. Novi tok NABAVKA koristi isti lokalni store sloj, pa dopuna odmah ulazi u Kućne zalihe bez SQL baze.</p>
+    </section>
+
+    <section id="prioriteti" class="kzh-panel">
+      <h2 class="kzh-section-title">Prioritetna lista</h2>
+      <div id="priorityList" class="kzh-list"></div>
+    </section>
+
+    <section id="predlozi" class="kzh-panel">
+      <h2 class="kzh-section-title">Predlozi obroka / plana</h2>
+      <div id="suggestionsList" class="kzh-list"></div>
+    </section>
+
+    <section id="dopuna" class="kzh-panel">
+      <h2 class="kzh-section-title">Šta verovatno treba dopuniti</h2>
+      <div id="shoppingHints" class="kzh-list"></div>
+    </section>
+  </main>
+
+  <script src="../assets/kucne-zalihe.js?v=0.1.10"></script>
+  <script>
+    let lastPlan = null;
+
+    function renderPriority(items){
+      const el = document.getElementById('priorityList');
+      if(!items.length){
+        el.innerHTML = '<div class="kzh-empty">Nema aktivnih zaliha. Prvo unesi stanje u Kućne zalihe.</div>';
+        return;
+      }
+      el.innerHTML = items.map(x => `
+        <article class="kzh-card">
+          <h3>${x.food_name_snapshot}</h3>
+          <p>${PHKZ.renderPriorityChip(x.priority_level)} <span class="kzh-chip">${x.quantity_current} ${x.unit}</span> <span class="kzh-chip">${x.location_name_snapshot || 'bez lokacije'}</span></p>
+          <p class="kzh-mini">Status: ${x.status} • Rok: ${PHKZ.formatDate(x.expiry_date)} • BB: ${PHKZ.formatDate(x.best_before_date)}</p>
+        </article>
+      `).join('');
+    }
+
+    function renderSuggestions(items){
+      const el = document.getElementById('suggestionsList');
+      if(!items.length){
+        el.innerHTML = '<div class="kzh-empty">Još nema predloga.</div>';
+        return;
+      }
+      el.innerHTML = items.map(x => `
+        <article class="kzh-card">
+          <h3>${x.title}</h3>
+          <p><strong>Zašto:</strong> ${x.reason}</p>
+          <p><strong>Stavke:</strong> ${x.items.join(', ') || '—'}</p>
+          <p><strong>Predlog akcije:</strong> ${x.action}</p>
+        </article>
+      `).join('');
+    }
+
+    function renderHints(items){
+      const el = document.getElementById('shoppingHints');
+      if(!items.length){
+        el.innerHTML = '<div class="kzh-empty">Za izabrani horizont nema kritične dopune. Prvo potroši postojeće stanje.</div>';
+        return;
+      }
+      el.innerHTML = items.map(x => `<article class="kzh-card"><p>${x}</p></article>`).join('');
+    }
+
+    async function generate(){
+      const days = Number(document.getElementById('planDays').value || 1);
+      lastPlan = await PHKZ.generateFridgePlan(days);
+      renderPriority(lastPlan.priority_items || []);
+      renderSuggestions(lastPlan.suggestions || []);
+      renderHints(lastPlan.shopping_hints || []);
+    }
+
+    document.getElementById('generateBtn').addEventListener('click', generate);
+    document.getElementById('saveBtn').addEventListener('click', async () => {
+      if(!lastPlan){
+        await generate();
+      }
+      const saved = await PHKZ.savePlan({
+        title: 'Iz frižidera — ' + new Date().toLocaleString('sr-RS'),
+        days_count: Number(document.getElementById('planDays').value || 1),
+        generated_from_mode: 'stock_entries',
+        ...lastPlan
+      });
+      alert('Predlog je sačuvan lokalno: ' + saved.title);
+    });
+
+    (async function(){
+      await PHKZ.initCommon();
+      await generate();
+    })();
+  </script>
+</body>
+</html>

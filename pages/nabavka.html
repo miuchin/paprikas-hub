@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paprikaš Hub — Nabavka / KZ-MVP v0.1.10</title>
+  <link rel="stylesheet" href="../assets/kucne-zalihe.css?v=0.1.10" />
+  <style>
+    .kzh-quick-form{display:grid;gap:10px;grid-template-columns:1fr}
+    @media(min-width:860px){.kzh-quick-form{grid-template-columns:2fr 1fr 1fr 1fr}}
+    .kzh-soft-box{padding:12px;border:1px solid var(--line);border-radius:14px;background:#fafcff}
+    .kzh-draft-row{display:grid;gap:8px;grid-template-columns:1fr;align-items:center}
+    @media(min-width:860px){.kzh-draft-row{grid-template-columns:2.2fr .8fr .7fr 1.2fr .9fr auto}}
+    .kzh-draft-row strong{color:var(--dark)}
+    .kzh-help-line{margin:6px 0 0;color:var(--muted);font-size:.92rem}
+    .kzh-big-count{font-size:1.8rem;font-weight:900;color:var(--dark)}
+    .kzh-ok-line{padding:10px 12px;border-radius:12px;background:#edfdf4;border:1px solid #b8ebc9;font-weight:800}
+    .kzh-warn-line{padding:10px 12px;border-radius:12px;background:#fff8e8;border:1px solid #f8d58b;font-weight:800}
+    .kzh-actions-stack{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+    details.kzh-details{border:1px dashed var(--line);border-radius:14px;padding:10px 12px;background:#fff}
+    details.kzh-details summary{cursor:pointer;font-weight:900;color:var(--primary)}
+  </style>
+</head>
+<body>
+  <main class="kzh-app">
+    <section class="kzh-topbar">
+      <div class="kzh-title-row">
+        <div>
+          <div class="kzh-title">🛒 Paprikaš Hub — Nabavka / ulaz robe</div>
+          <div class="kzh-sub">Jednostavan unos: odaberi namirnicu iz Nutri baze → količina → dodaj u listu → završi unos • Verzija <span data-kzh-version>KZ-MVP v0.1.10</span></div>
+        </div>
+        <div class="kzh-inline">
+          <button class="kzh-btn kzh-hamburger" data-kzh-menu-toggle>☰ MENI</button>
+        </div>
+      </div>
+      <div class="kzh-actions">
+        <a class="kzh-btn" href="../index.html">POČETNA</a>
+        <button class="kzh-btn" onclick="history.back()">NAZAD</button>
+        <a class="kzh-btn" href="./kucne-zalihe.html">KUĆNE ZALIHE</a>
+        <a class="kzh-btn primary" href="./iz-frizidera.html">IZ FRIŽIDERA</a>
+        <a class="kzh-btn" href="../docs/KUCNE_ZALIHE_NABAVKA_FLOW_v1.9.md">NABAVKA FLOW</a>
+      </div>
+      <div class="kzh-drawer" data-kzh-drawer>
+        <nav class="kzh-drawer-nav">
+          <a class="kzh-btn" href="#osnova">Osnovno</a>
+          <a class="kzh-btn" href="#stavka">Dodaj stavku</a>
+          <a class="kzh-btn" href="#lista">Lista za upis</a>
+          <a class="kzh-btn" href="#istorija">Istorija nabavki</a>
+        </nav>
+      </div>
+    </section>
+
+    <section class="kzh-panel">
+      <h2 class="kzh-section-title">MVP tok</h2>
+      <div class="kzh-grid kzh-three" id="purchaseSummary"></div>
+      <p class="kzh-footer-note">Nabavka je poseban modul pored NutriTable: Nutri baza ostaje katalog, a Nabavka pravi lokalni ulaz u <span class="kzh-chip">purchase_logs</span>, <span class="kzh-chip">purchase_log_items</span>, <span class="kzh-chip">stock_entries</span> i <span class="kzh-chip">inventory_movements</span>.</p>
+    </section>
+
+    <section id="osnova" class="kzh-panel">
+      <h2 class="kzh-section-title">1. Osnovni podaci nabavke</h2>
+      <div class="kzh-form-grid three">
+        <div>
+          <label for="purchaseDate">Datum nabavke</label>
+          <input id="purchaseDate" type="date" required />
+        </div>
+        <div>
+          <label for="storeName">Prodavnica / izvor</label>
+          <input id="storeName" placeholder="npr. pijaca, market, lokalna radnja" />
+        </div>
+        <div>
+          <label for="defaultLocation">Podrazumevana lokacija</label>
+          <select id="defaultLocation"></select>
+        </div>
+      </div>
+      <details class="kzh-details" style="margin-top:10px;">
+        <summary>Napredna polja (opciono)</summary>
+        <div class="kzh-form-grid three" style="margin-top:10px;">
+          <div>
+            <label for="documentType">Tip dokumenta</label>
+            <select id="documentType">
+              <option value="manual">Ručni unos</option>
+              <option value="receipt">Račun</option>
+              <option value="invoice">Faktura</option>
+            </select>
+          </div>
+          <div>
+            <label for="documentRef">Broj / referenca</label>
+            <input id="documentRef" placeholder="opciono" />
+          </div>
+          <div>
+            <label for="totalAmount">Ukupno računa</label>
+            <input id="totalAmount" type="number" min="0" step="0.01" placeholder="opciono" />
+          </div>
+          <div>
+            <label for="currency">Valuta</label>
+            <select id="currency">
+              <option value="RSD">RSD</option>
+              <option value="EUR">EUR</option>
+            </select>
+          </div>
+          <div style="grid-column:1/-1">
+            <label for="purchaseNotes">Napomena</label>
+            <textarea id="purchaseNotes" placeholder="npr. pijaca, domaće, za zamrzavanje, posebna akcija..."></textarea>
+          </div>
+        </div>
+      </details>
+      <p class="kzh-help-line">Cena je opciona. Za MVP je bitno da su <strong>namirnica</strong> i <strong>količina</strong> jasni.</p>
+    </section>
+
+    <section id="stavka" class="kzh-panel">
+      <h2 class="kzh-section-title">2. Dodaj stavku u nabavku</h2>
+      <div class="kzh-soft-box">
+        <div class="kzh-quick-form">
+          <div>
+            <label for="quickFoodName">Namirnica iz Nutri baze</label>
+            <input id="quickFoodName" list="purchaseFoodSuggestions" placeholder="Počni da kucaš naziv namirnice" autocomplete="off" />
+            <input id="quickFoodId" type="hidden" />
+          </div>
+          <div>
+            <label for="quickQty">Količina</label>
+            <input id="quickQty" type="number" min="0" step="0.01" value="1" />
+          </div>
+          <div>
+            <label for="quickUnit">Jedinica</label>
+            <select id="quickUnit"></select>
+          </div>
+          <div>
+            <label for="quickPrice">Cena</label>
+            <input id="quickPrice" type="number" min="0" step="0.01" placeholder="opciono" />
+          </div>
+        </div>
+        <div class="kzh-form-grid two" style="margin-top:10px;">
+          <div>
+            <label for="quickLocation">Lokacija</label>
+            <select id="quickLocation"></select>
+          </div>
+          <div>
+            <label for="quickStatus">Stanje</label>
+            <select id="quickStatus">
+              <option value="sealed">Zatvoreno</option>
+              <option value="opened">Otvoreno</option>
+              <option value="frozen">Zamrznuto</option>
+              <option value="leftover">Ostatak jela</option>
+            </select>
+          </div>
+        </div>
+        <details class="kzh-details" style="margin-top:10px;">
+          <summary>Više opcija za stavku (batch, rok, napomena)</summary>
+          <div class="kzh-form-grid three" style="margin-top:10px;">
+            <div>
+              <label for="quickBatch">Batch / oznaka</label>
+              <input id="quickBatch" placeholder="opciono" />
+            </div>
+            <div>
+              <label for="quickBB">Najbolje upotrebiti do</label>
+              <input id="quickBB" type="date" />
+            </div>
+            <div>
+              <label for="quickExp">Rok upotrebe</label>
+              <input id="quickExp" type="date" />
+            </div>
+            <div style="grid-column:1/-1">
+              <label for="quickNotes">Napomena za stavku</label>
+              <input id="quickNotes" placeholder="opciono" />
+            </div>
+          </div>
+        </details>
+        <div class="kzh-actions-stack">
+          <button class="kzh-btn good" id="addItemBtn" type="button">+ Dodaj stavku u listu</button>
+          <button class="kzh-btn" id="resetCurrentBtn" type="button">Očisti polja stavke</button>
+        </div>
+      </div>
+      <div class="kzh-preview-box" id="currentPreview" style="margin-top:10px;">
+        <div class="kzh-empty">Izaberi namirnicu iz Nutri baze. Sistem će automatski povući jedinicu i pokušati da predloži lokaciju.</div>
+      </div>
+    </section>
+
+    <section id="lista" class="kzh-panel">
+      <div class="kzh-inline">
+        <h2 class="kzh-section-title">3. Lista stavki za upis</h2>
+        <div class="kzh-right kzh-big-count" id="draftCount">0</div>
+      </div>
+      <div id="draftList" class="kzh-list"></div>
+      <div class="kzh-actions-stack">
+        <button class="kzh-btn bad" id="clearDraftBtn" type="button">Obriši sve iz liste</button>
+        <button class="kzh-btn primary" id="savePurchaseBtn" type="button">Završi unos i upiši u Kućne zalihe</button>
+      </div>
+      <p class="kzh-help-line">Prvo dodaješ stavke u listu, a tek na kraju ide jedno snimanje cele nabavke.</p>
+    </section>
+
+    <section class="kzh-panel">
+      <h2 class="kzh-section-title">4. Rezultat poslednjeg upisa</h2>
+      <div id="lastResult" class="kzh-empty">Još nema potvrđene nabavke u ovoj sesiji.</div>
+    </section>
+
+    <section id="istorija" class="kzh-panel">
+      <h2 class="kzh-section-title">Poslednje nabavke</h2>
+      <div id="purchaseLogList" class="kzh-list"></div>
+    </section>
+  </main>
+
+  <datalist id="purchaseFoodSuggestions"></datalist>
+
+  <script src="../assets/kucne-zalihe.js?v=0.1.10"></script>
+  <script>
+    let foodLookup = [];
+    let units = [];
+    let locations = [];
+    let draftItems = [];
+    let editingIndex = -1;
+
+    function today(){ return new Date().toISOString().slice(0,10); }
+
+    function selectionFor(value){
+      return foodLookup.find(x => x.selection_label === value || x.id === value || x.name === value) || null;
+    }
+
+    function setSelectOptions(select, items, labelKey, valueKey){
+      select.innerHTML = items.map(x => `<option value="${x[valueKey]}">${x[labelKey]}</option>`).join('');
+    }
+
+    function defaultLocationId(){
+      return document.getElementById('defaultLocation').value || (locations[0] ? locations[0].id : '');
+    }
+
+    function syncQuickLocationFromDefault(){
+      const loc = document.getElementById('quickLocation');
+      if(!loc.value) loc.value = defaultLocationId();
+    }
+
+    function resetCurrentItem(){
+      editingIndex = -1;
+      document.getElementById('quickFoodName').value = '';
+      document.getElementById('quickFoodId').value = '';
+      document.getElementById('quickQty').value = '1';
+      document.getElementById('quickPrice').value = '';
+      document.getElementById('quickStatus').value = 'sealed';
+      document.getElementById('quickBatch').value = '';
+      document.getElementById('quickBB').value = '';
+      document.getElementById('quickExp').value = '';
+      document.getElementById('quickNotes').value = '';
+      syncQuickLocationFromDefault();
+      document.getElementById('currentPreview').innerHTML = '<div class="kzh-empty">Izaberi namirnicu iz Nutri baze. Sistem će automatski povući jedinicu i pokušati da predloži lokaciju.</div>';
+      const firstUnit = units[0] ? units[0].id : '';
+      document.getElementById('quickUnit').value = firstUnit;
+      document.getElementById('addItemBtn').textContent = '+ Dodaj stavku u listu';
+    }
+
+    function applyFoodSelection(item){
+      const preview = document.getElementById('currentPreview');
+      if(!item){
+        document.getElementById('quickFoodId').value = '';
+        preview.innerHTML = '<div class="kzh-empty">Namirnica nije prepoznata. Izaberi je iz ponuđene Nutri liste.</div>';
+        return;
+      }
+      document.getElementById('quickFoodId').value = item.id;
+      if(item.default_unit) document.getElementById('quickUnit').value = item.default_unit;
+      if(item.storage_hint){
+        const loc = locations.find(x => (x.location_type || '').toLowerCase() === String(item.storage_hint || '').toLowerCase()) ||
+                    locations.find(x => String(x.name || '').toLowerCase().includes(String(item.storage_hint || '').toLowerCase()));
+        if(loc) document.getElementById('quickLocation').value = loc.id;
+      }
+      preview.innerHTML = PHKZ.renderNutriPreview(item);
+    }
+
+    function buildDraftItem(){
+      const foodName = document.getElementById('quickFoodName').value.trim();
+      const foodId = document.getElementById('quickFoodId').value;
+      const qty = Number(document.getElementById('quickQty').value || 0);
+      const unit = document.getElementById('quickUnit').value;
+      const locationId = document.getElementById('quickLocation').value || defaultLocationId();
+      const price = document.getElementById('quickPrice').value;
+      const status = document.getElementById('quickStatus').value;
+      const batch = document.getElementById('quickBatch').value.trim();
+      const bb = document.getElementById('quickBB').value;
+      const exp = document.getElementById('quickExp').value;
+      const notes = document.getElementById('quickNotes').value.trim();
+      const selected = selectionFor(foodName) || selectionFor(foodId);
+      if(!selected || !foodId) throw new Error('Prvo izaberi namirnicu iz Nutri baze.');
+      if(!(qty > 0)) throw new Error('Količina mora biti veća od 0.');
+      return {
+        food_item_id: selected.id,
+        food_name: selected.name,
+        raw_label: selected.name,
+        quantity: qty,
+        unit: unit || selected.default_unit || 'g',
+        price: price === '' ? null : Number(price),
+        assigned_location_id: locationId || null,
+        status,
+        batch_label: batch,
+        best_before_date: bb || null,
+        expiry_date: exp || null,
+        notes
+      };
+    }
+
+    function renderDraftList(){
+      const wrap = document.getElementById('draftList');
+      document.getElementById('draftCount').textContent = String(draftItems.length);
+      if(!draftItems.length){
+        wrap.innerHTML = '<div class="kzh-empty">Lista je prazna. Dodaj prvu stavku iz Nutri baze.</div>';
+        return;
+      }
+      wrap.innerHTML = draftItems.map((item, idx) => {
+        const loc = locations.find(x => x.id === item.assigned_location_id);
+        return `
+          <article class="kzh-card">
+            <div class="kzh-draft-row">
+              <div>
+                <strong>${item.food_name}</strong>
+                <div class="kzh-mini">${loc ? loc.name : 'Bez lokacije'}${item.notes ? ' • ' + item.notes : ''}</div>
+              </div>
+              <div><strong>${item.quantity}</strong></div>
+              <div>${item.unit}</div>
+              <div>${item.price === null || item.price === undefined ? '—' : item.price + ' ' + (document.getElementById('currency').value || 'RSD')}</div>
+              <div>${PHKZ.renderStatusChip(item.status)}</div>
+              <div class="kzh-inline" style="justify-content:flex-end;">
+                <button class="kzh-btn" type="button" onclick="editDraftItem(${idx})">Izmeni</button>
+                <button class="kzh-btn bad" type="button" onclick="removeDraftItem(${idx})">Obriši</button>
+              </div>
+            </div>
+          </article>
+        `;
+      }).join('');
+    }
+
+    window.editDraftItem = function(idx){
+      const item = draftItems[idx];
+      if(!item) return;
+      editingIndex = idx;
+      document.getElementById('quickFoodName').value = item.food_name;
+      document.getElementById('quickFoodId').value = item.food_item_id;
+      document.getElementById('quickQty').value = item.quantity;
+      document.getElementById('quickUnit').value = item.unit;
+      document.getElementById('quickLocation').value = item.assigned_location_id || defaultLocationId();
+      document.getElementById('quickPrice').value = item.price ?? '';
+      document.getElementById('quickStatus').value = item.status || 'sealed';
+      document.getElementById('quickBatch').value = item.batch_label || '';
+      document.getElementById('quickBB').value = item.best_before_date || '';
+      document.getElementById('quickExp').value = item.expiry_date || '';
+      document.getElementById('quickNotes').value = item.notes || '';
+      const selected = selectionFor(item.food_item_id) || selectionFor(item.food_name);
+      applyFoodSelection(selected);
+      document.getElementById('addItemBtn').textContent = 'Sačuvaj izmenu stavke';
+      window.scrollTo({top: document.getElementById('stavka').offsetTop - 10, behavior:'smooth'});
+    };
+
+    window.removeDraftItem = function(idx){
+      draftItems.splice(idx, 1);
+      if(editingIndex === idx) resetCurrentItem();
+      if(editingIndex > idx) editingIndex -= 1;
+      renderDraftList();
+    };
+
+    async function renderSummary(){
+      const summary = await PHKZ.getSummary();
+      const logs = await PHKZ.listPurchaseLogs(200);
+      document.getElementById('purchaseSummary').innerHTML = `
+        <div class="kzh-stat"><div class="kzh-mini">Aktivne zalihe</div><div class="num">${summary.activeStock}</div></div>
+        <div class="kzh-stat"><div class="kzh-mini">Nabavke ukupno</div><div class="num">${logs.length}</div></div>
+        <div class="kzh-stat"><div class="kzh-mini">Lokacije</div><div class="num">${summary.locations}</div></div>
+      `;
+    }
+
+    async function renderPurchaseLogs(){
+      const logs = await PHKZ.listPurchaseLogs(20);
+      const el = document.getElementById('purchaseLogList');
+      if(!logs.length){
+        el.innerHTML = '<div class="kzh-empty">Još nema sačuvanih nabavki. Prva potvrđena nabavka će se pojaviti ovde.</div>';
+        return;
+      }
+      el.innerHTML = logs.map(log => `
+        <article class="kzh-card">
+          <h3>${log.store_name || 'Nabavka'} <span class="kzh-chip">${PHKZ.formatDate(log.purchase_date)}</span></h3>
+          <p><strong>Dokument:</strong> ${log.document_type || '—'} ${log.document_ref || ''}</p>
+          <p><strong>Stavki:</strong> ${log.items_count} • <strong>Ukupno:</strong> ${log.computed_total ?? '—'} ${log.currency || ''}</p>
+          <p><strong>Primeri:</strong> ${(log.item_labels || []).join(', ') || '—'}</p>
+          ${log.notes ? `<p class="kzh-mini">${log.notes}</p>` : ''}
+        </article>
+      `).join('');
+    }
+
+    async function savePurchase(){
+      if(!draftItems.length){
+        alert('Lista je prazna. Dodaj bar jednu stavku.');
+        return;
+      }
+      const payload = {
+        purchase_date: document.getElementById('purchaseDate').value || today(),
+        store_name: (document.getElementById('storeName').value || '').trim() || 'Lokalna nabavka',
+        document_type: document.getElementById('documentType').value || 'manual',
+        document_ref: document.getElementById('documentRef').value.trim(),
+        total_amount: document.getElementById('totalAmount').value,
+        currency: document.getElementById('currency').value || 'RSD',
+        input_method: 'manual_simple_mvp',
+        notes: document.getElementById('purchaseNotes').value.trim(),
+        items: draftItems
+      };
+      const result = await PHKZ.addPurchaseBatch(payload);
+      document.getElementById('lastResult').innerHTML = `
+        <div class="kzh-ok-line">Sačuvana nabavka: <strong>${result.log.store_name}</strong> (${PHKZ.formatDate(result.log.purchase_date)})</div>
+        <p>Upisano stavki u zalihe: <strong>${result.entries.length}</strong></p>
+        <p>Stavke: ${(result.entries.slice(0,10).map(x => `${x.food_name_snapshot} (${x.quantity_current} ${x.unit})`).join(', ')) || '—'}</p>
+        <div class="kzh-actions-stack">
+          <a class="kzh-btn" href="./kucne-zalihe.html">Otvori Kućne zalihe</a>
+          <a class="kzh-btn primary" href="./iz-frizidera.html">Otvori Iz frižidera</a>
+        </div>
+      `;
+      draftItems = [];
+      renderDraftList();
+      resetCurrentItem();
+      await renderSummary();
+      await renderPurchaseLogs();
+      alert('Nabavka je sačuvana lokalno i upisana u Kućne zalihe.');
+    }
+
+    function addCurrentItem(){
+      try{
+        const item = buildDraftItem();
+        if(editingIndex >= 0) draftItems[editingIndex] = item;
+        else draftItems.push(item);
+        renderDraftList();
+        resetCurrentItem();
+      }catch(err){
+        alert(err.message || String(err));
+      }
+    }
+
+    (async function(){
+      await PHKZ.initCommon();
+      document.getElementById('purchaseDate').value = today();
+      document.getElementById('storeName').value = 'Lokalna nabavka';
+      [locations, units, foodLookup] = await Promise.all([
+        PHKZ.listLocations(),
+        PHKZ.listUnits(),
+        PHKZ.listFoodSuggestions(5000)
+      ]);
+      document.getElementById('purchaseFoodSuggestions').innerHTML = foodLookup.map(x => `<option value="${x.selection_label}"></option>`).join('');
+      setSelectOptions(document.getElementById('quickUnit'), units, 'code', 'id');
+      setSelectOptions(document.getElementById('quickLocation'), locations, 'name', 'id');
+      setSelectOptions(document.getElementById('defaultLocation'), locations, 'name', 'id');
+      if(locations[0]){
+        document.getElementById('defaultLocation').value = locations[0].id;
+        document.getElementById('quickLocation').value = locations[0].id;
+      }
+      document.getElementById('defaultLocation').addEventListener('change', () => {
+        if(!draftItems.length) syncQuickLocationFromDefault();
+      });
+      document.getElementById('quickFoodName').addEventListener('change', () => applyFoodSelection(selectionFor(document.getElementById('quickFoodName').value)));
+      document.getElementById('addItemBtn').addEventListener('click', addCurrentItem);
+      document.getElementById('resetCurrentBtn').addEventListener('click', resetCurrentItem);
+      document.getElementById('clearDraftBtn').addEventListener('click', () => {
+        draftItems = [];
+        renderDraftList();
+        resetCurrentItem();
+      });
+      document.getElementById('savePurchaseBtn').addEventListener('click', savePurchase);
+      renderDraftList();
+      resetCurrentItem();
+      await renderSummary();
+      await renderPurchaseLogs();
+    })();
+  </script>
+</body>
+</html>

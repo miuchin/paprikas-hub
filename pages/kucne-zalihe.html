@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paprikaš Hub — Kućne zalihe / KZ-MVP v0.1.10</title>
+  <link rel="stylesheet" href="../assets/kucne-zalihe.css?v=0.1.10" />
+</head>
+<body>
+  <main class="kzh-app">
+    <section class="kzh-topbar">
+      <div class="kzh-title-row">
+        <div>
+          <div class="kzh-title">🥘 Paprikaš Hub — Kućne zalihe</div>
+          <div class="kzh-sub">Stabilna baza ostaje netaknuta • Modul radi odvojeno • Verzija <span data-kzh-version>KZ-MVP v0.1.10</span></div>
+        </div>
+        <div class="kzh-inline">
+          <button class="kzh-btn kzh-hamburger" data-kzh-menu-toggle>☰ MENI</button>
+        </div>
+      </div>
+      <div class="kzh-actions">
+        <a class="kzh-btn" href="../index.html">POČETNA</a>
+        <button class="kzh-btn" onclick="history.back()">NAZAD</button>
+        <a class="kzh-btn good" href="./nabavka.html">NABAVKA</a>
+        <a class="kzh-btn primary" href="./iz-frizidera.html">IZ FRIŽIDERA</a>
+        <a class="kzh-btn" href="../docs/KUCNE_ZALIHE_FILE_STORE_PLAN_v1.9.md">FILE/STORE PLAN</a>
+        <a class="kzh-btn" href="../docs/KUCNE_ZALIHE_NABAVKA_FLOW_v1.9.md">NABAVKA FLOW</a>
+      </div>
+      <div class="kzh-drawer" data-kzh-drawer>
+        <nav class="kzh-drawer-nav">
+          <a class="kzh-btn" href="#dashboard">Dashboard</a>
+          <a class="kzh-btn" href="#lokacije">Lokacije</a>
+          <a class="kzh-btn" href="#unos">Unos zaliha</a>
+          <a class="kzh-btn" href="#stanje">Stanje</a>
+          <a class="kzh-btn" href="#istorija">Istorija</a>
+          <a class="kzh-btn" href="./nabavka.html">Nabavka</a>
+          <a class="kzh-btn" href="#backup">Backup</a>
+        </nav>
+      </div>
+    </section>
+
+    <section id="dashboard" class="kzh-panel">
+      <h2 class="kzh-section-title">Brzi pregled stanja</h2>
+      <div class="kzh-grid kzh-three" id="summaryGrid"></div>
+      <p class="kzh-footer-note">Logika prioriteta: ostaci i otvorena pakovanja imaju prednost, zatim FEFO za kvarljivo i FIFO za stabilne proizvode.</p>
+    </section>
+
+    <div class="kzh-grid kzh-two">
+      <section id="lokacije" class="kzh-panel">
+        <h2 class="kzh-section-title">Lokacije u kući</h2>
+        <form id="locationForm" class="kzh-form-grid two">
+          <div>
+            <label for="locName">Naziv lokacije</label>
+            <input id="locName" required placeholder="npr. Frižider / vrata" />
+          </div>
+          <div>
+            <label for="locType">Tip lokacije</label>
+            <select id="locType">
+              <option value="storage">Skladište</option>
+              <option value="pantry">Špajz</option>
+              <option value="fridge">Frižider</option>
+              <option value="freezer">Zamrzivač</option>
+              <option value="counter">Sto / radna površina</option>
+              <option value="daily">Dnevna upotreba</option>
+            </select>
+          </div>
+          <div>
+            <label for="locTemp">Temperaturna zona</label>
+            <select id="locTemp">
+              <option value="ambient">Sobna</option>
+              <option value="cold">Hladno</option>
+              <option value="frozen">Zamrznuto</option>
+            </select>
+          </div>
+          <div>
+            <label for="locNotes">Napomena</label>
+            <input id="locNotes" placeholder="opciono" />
+          </div>
+          <div class="kzh-inline">
+            <button class="kzh-btn primary" type="submit">Dodaj lokaciju</button>
+          </div>
+        </form>
+        <hr class="kzh-hr" />
+        <div id="locationsList" class="kzh-list"></div>
+      </section>
+
+      <section id="unos" class="kzh-panel">
+        <h2 class="kzh-section-title">Ručni unos zaliha</h2>
+        <form id="stockForm" class="kzh-form-grid two">
+          <div>
+            <label for="foodName">Naziv namirnice (obavezno iz NutriTable liste)</label>
+            <input id="foodName" list="foodSuggestions" required placeholder="Počni da kucaš naziv iz NutriTable kataloga" autocomplete="off" />
+            <input id="foodItemId" type="hidden" />
+            <datalist id="foodSuggestions"></datalist>
+            <p class="kzh-mini">Biraj iz NutriTable liste. Ručni slobodan unos je isključen za ovaj modul.</p>
+          </div>
+          <div>
+            <label for="categoryId">Kategorija</label>
+            <select id="categoryId"></select>
+          </div>
+          <div>
+            <label for="quantityCurrent">Količina</label>
+            <input id="quantityCurrent" type="number" min="0" step="0.01" required value="1" />
+          </div>
+          <div>
+            <label for="unit">Jedinica</label>
+            <select id="unit"></select>
+          </div>
+          <div>
+            <label for="locationId">Lokacija</label>
+            <select id="locationId"></select>
+          </div>
+          <div>
+            <label for="status">Status</label>
+            <select id="status">
+              <option value="sealed">Zatvoreno</option>
+              <option value="opened">Otvoreno</option>
+              <option value="leftover">Ostatak jela</option>
+              <option value="frozen">Zamrznuto</option>
+            </select>
+          </div>
+          <div>
+            <label for="purchaseDate">Datum nabavke</label>
+            <input id="purchaseDate" type="date" />
+          </div>
+          <div>
+            <label for="entryDate">Datum unosa</label>
+            <input id="entryDate" type="date" />
+          </div>
+          <div>
+            <label for="openedDate">Datum otvaranja</label>
+            <input id="openedDate" type="date" />
+          </div>
+          <div>
+            <label for="bestBeforeDate">Najbolje upotrebiti do</label>
+            <input id="bestBeforeDate" type="date" />
+          </div>
+          <div>
+            <label for="expiryDate">Rok upotrebe</label>
+            <input id="expiryDate" type="date" />
+          </div>
+          <div>
+            <label for="batchLabel">Batch / etiketa</label>
+            <input id="batchLabel" placeholder="opciono" />
+          </div>
+          <div style="grid-column:1/-1">
+            <label>Nutri preview (read-only)</label>
+            <div id="nutriPreview" class="kzh-box kzh-preview-box"></div>
+          </div>
+          <div style="grid-column:1/-1">
+            <label for="entryNotes">Napomena</label>
+            <textarea id="entryNotes" placeholder="npr. otvoreno pakovanje, skuvano juče, ostalo pola..."></textarea>
+          </div>
+          <div class="kzh-inline" style="grid-column:1/-1">
+            <button class="kzh-btn primary" type="submit">Upiši u zalihu</button>
+          </div>
+        </form>
+      </section>
+    </div>
+
+    <section id="stanje" class="kzh-panel">
+      <div class="kzh-inline">
+        <h2 class="kzh-section-title">Aktivne kućne zalihe</h2>
+        <span class="kzh-right kzh-mini">Brzi terminalni izlaz: Potrošeno / Baci</span>
+      </div>
+      <div class="kzh-table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Prioritet</th>
+              <th>Namirnica</th>
+              <th>Količina</th>
+              <th>Lokacija</th>
+              <th>Status</th>
+              <th>Datumi</th>
+              <th>Akcije</th>
+            </tr>
+          </thead>
+          <tbody id="stockTableBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="istorija" class="kzh-panel">
+      <h2 class="kzh-section-title">Istorija promena</h2>
+      <div class="kzh-table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Vreme</th>
+              <th>Tip</th>
+              <th>Entry</th>
+              <th>Količina</th>
+              <th>Razlog</th>
+              <th>Napomena</th>
+            </tr>
+          </thead>
+          <tbody id="movementTableBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="backup" class="kzh-panel">
+      <h2 class="kzh-section-title">Backup lokalne baze</h2>
+      <div class="kzh-actions">
+        <button class="kzh-btn good" id="exportBtn">Izvoz lokalne baze</button>
+        <label class="kzh-btn warn" for="importInput">Uvoz JSON backupa</label>
+        <input id="importInput" type="file" accept="application/json" hidden />
+      </div>
+      <p class="kzh-footer-note">MVP čuva korisničke podatke lokalno u browseru. Zato se preporučuje redovan export JSON backupa.</p>
+    </section>
+  </main>
+
+  <script src="../assets/kucne-zalihe.js?v=0.1.10"></script>
+  <script>
+    let foodLookup = [];
+
+    async function refillLookups(){
+      const [locations, categories, units, foods] = await Promise.all([
+        PHKZ.listLocations(), PHKZ.listCategories(), PHKZ.listUnits(), PHKZ.listFoodSuggestions(5000)
+      ]);
+
+      foodLookup = foods;
+
+      const locationSel = document.getElementById('locationId');
+      locationSel.innerHTML = locations.map(x => `<option value="${x.id}">${x.name}</option>`).join('');
+
+      const catSel = document.getElementById('categoryId');
+      catSel.innerHTML = categories.map(x => `<option value="${x.id}">${x.name}</option>`).join('');
+
+      const unitSel = document.getElementById('unit');
+      unitSel.innerHTML = units.map(x => `<option value="${x.id}">${x.code}</option>`).join('');
+
+      const list = document.getElementById('foodSuggestions');
+      list.innerHTML = foods.map(x => `<option value="${x.selection_label}"></option>`).join('');
+    }
+
+    async function applyFoodSelection(selectionValue){
+      const hidden = document.getElementById('foodItemId');
+      const preview = document.getElementById('nutriPreview');
+      const categorySel = document.getElementById('categoryId');
+      const unitSel = document.getElementById('unit');
+      const item = foodLookup.find(x => x.selection_label === selectionValue || x.id === selectionValue || x.name === selectionValue) || null;
+      if(!item){
+        hidden.value = '';
+        preview.innerHTML = PHKZ.renderNutriPreview(null);
+        return null;
+      }
+      hidden.value = item.id;
+      if(item.category_id) categorySel.value = item.category_id;
+      if(item.default_unit) unitSel.value = item.default_unit;
+      preview.innerHTML = PHKZ.renderNutriPreview(item);
+      return item;
+    }
+
+    async function renderSummary(){
+      const s = await PHKZ.getSummary();
+      const el = document.getElementById('summaryGrid');
+      el.innerHTML = `
+        <div class="kzh-stat"><div class="kzh-mini">Aktivne stavke</div><div class="num">${s.activeStock}</div></div>
+        <div class="kzh-stat"><div class="kzh-mini">Hitne / visoke</div><div class="num">${s.urgent}</div></div>
+        <div class="kzh-stat"><div class="kzh-mini">Isteklo</div><div class="num">${s.expired}</div></div>
+        <div class="kzh-stat"><div class="kzh-mini">Ostaci jela</div><div class="num">${s.leftovers}</div></div>
+        <div class="kzh-stat"><div class="kzh-mini">Lokacije</div><div class="num">${s.locations}</div></div>
+        <div class="kzh-stat"><div class="kzh-mini">Pokreti</div><div class="num">${s.movements}</div></div>
+        <div class="kzh-stat"><div class="kzh-mini">Nutri katalog</div><div class="num">${s.nutriCatalog}</div></div>
+      `;
+    }
+
+    async function renderLocations(){
+      const items = await PHKZ.listLocations();
+      const el = document.getElementById('locationsList');
+      if(!items.length){
+        el.innerHTML = '<div class="kzh-empty">Nema aktivnih lokacija.</div>';
+        return;
+      }
+      el.innerHTML = items.map(x => `
+        <article class="kzh-card">
+          <h3>${x.name}</h3>
+          <p><span class="kzh-chip">${x.location_type}</span> <span class="kzh-chip">${x.temperature_zone}</span></p>
+          ${x.notes ? `<p class="kzh-mini">${x.notes}</p>` : ''}
+        </article>
+      `).join('');
+    }
+
+    async function renderStock(){
+      const items = await PHKZ.listActiveStock();
+      const el = document.getElementById('stockTableBody');
+      if(!items.length){
+        el.innerHTML = '<tr><td colspan="7"><div class="kzh-empty">Još nema unetih zaliha.</div></td></tr>';
+        return;
+      }
+      el.innerHTML = items.map(x => `
+        <tr>
+          <td>${PHKZ.renderPriorityChip(x.priority_level)}</td>
+          <td><strong>${x.food_name_snapshot}</strong><div class="kzh-mini">${x.batch_label || 'bez batch oznake'}</div><div class="kzh-mini">${x.nutri_group || '—'} • ${x.source_catalog || 'lokalno'}</div></td>
+          <td>${x.quantity_current} ${x.unit}</td>
+          <td>${x.location_name_snapshot || '—'}</td>
+          <td>${PHKZ.renderStatusChip(x.status)}</td>
+          <td>
+            <div>Nabavka: ${PHKZ.formatDate(x.purchase_date)}</div>
+            <div>Unos: ${PHKZ.formatDate(x.entry_date)}</div>
+            <div>BB: ${PHKZ.formatDate(x.best_before_date)}</div>
+            <div>Rok: ${PHKZ.formatDate(x.expiry_date)}</div>
+          </td>
+          <td>
+            <div class="kzh-inline">
+              <button class="kzh-btn good" onclick="consumeEntry('${x.id}')">Potrošeno</button>
+              <button class="kzh-btn bad" onclick="wasteEntry('${x.id}')">Baci</button>
+            </div>
+          </td>
+        </tr>
+      `).join('');
+    }
+
+    async function renderMovements(){
+      const items = await PHKZ.listMovements(200);
+      const el = document.getElementById('movementTableBody');
+      if(!items.length){
+        el.innerHTML = '<tr><td colspan="6"><div class="kzh-empty">Istorija je prazna.</div></td></tr>';
+        return;
+      }
+      el.innerHTML = items.map(x => `
+        <tr>
+          <td>${PHKZ.formatDate(x.movement_date)}</td>
+          <td>${PHKZ.movementTypeLabel(x.movement_type)}</td>
+          <td>${x.entry_id}</td>
+          <td>${x.quantity_delta} ${x.unit || ''}</td>
+          <td>${x.reason || '—'}</td>
+          <td>${x.notes || '—'}</td>
+        </tr>
+      `).join('');
+    }
+
+    async function refreshAll(){
+      await refillLookups();
+      await renderSummary();
+      await renderLocations();
+      await renderStock();
+      await renderMovements();
+    }
+
+    async function consumeEntry(id){
+      if(!confirm('Označi ovu stavku kao potrošenu i prebaci je u istoriju?')) return;
+      await PHKZ.updateEntryTerminal(id, 'consume');
+      await refreshAll();
+    }
+    async function wasteEntry(id){
+      if(!confirm('Označi ovu stavku kao bačenu / otpisanu?')) return;
+      await PHKZ.updateEntryTerminal(id, 'waste');
+      await refreshAll();
+    }
+    window.consumeEntry = consumeEntry;
+    window.wasteEntry = wasteEntry;
+
+    document.getElementById('locationForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      await PHKZ.addLocation({
+        name: document.getElementById('locName').value,
+        location_type: document.getElementById('locType').value,
+        temperature_zone: document.getElementById('locTemp').value,
+        notes: document.getElementById('locNotes').value
+      });
+      e.target.reset();
+      await refreshAll();
+    });
+
+    document.getElementById('stockForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const selected = await applyFoodSelection(document.getElementById('foodName').value);
+      if(!selected){
+        alert('Naziv namirnice mora da bude izabran iz NutriTable liste.');
+        document.getElementById('foodName').focus();
+        return;
+      }
+      await PHKZ.addStockEntry({
+        food_item_id: document.getElementById('foodItemId').value,
+        food_name: document.getElementById('foodName').value,
+        category_id: document.getElementById('categoryId').value,
+        quantity_current: document.getElementById('quantityCurrent').value,
+        unit: document.getElementById('unit').value,
+        location_id: document.getElementById('locationId').value,
+        status: document.getElementById('status').value,
+        purchase_date: document.getElementById('purchaseDate').value,
+        entry_date: document.getElementById('entryDate').value,
+        opened_date: document.getElementById('openedDate').value,
+        best_before_date: document.getElementById('bestBeforeDate').value,
+        expiry_date: document.getElementById('expiryDate').value,
+        batch_label: document.getElementById('batchLabel').value,
+        notes: document.getElementById('entryNotes').value,
+        source_type: 'manual'
+      });
+      e.target.reset();
+      document.getElementById('foodItemId').value = '';
+      document.getElementById('quantityCurrent').value = '1';
+      document.getElementById('status').value = 'sealed';
+      document.getElementById('entryDate').value = new Date().toISOString().slice(0,10);
+      document.getElementById('locationId').selectedIndex = 0;
+      document.getElementById('nutriPreview').innerHTML = PHKZ.renderNutriPreview(null);
+      await refreshAll();
+    });
+
+    document.getElementById('exportBtn').addEventListener('click', async () => {
+      const payload = await PHKZ.exportAll();
+      PHKZ.downloadJson(payload, 'paprikasHub-kucne-zalihe-backup-' + new Date().toISOString().slice(0,19).replace(/[:T]/g,'-') + '.json');
+    });
+
+    document.getElementById('importInput').addEventListener('change', async (e) => {
+      const file = e.target.files && e.target.files[0];
+      if(!file) return;
+      const text = await file.text();
+      const payload = JSON.parse(text);
+      await PHKZ.importAll(payload, 'replace');
+      await refreshAll();
+      e.target.value = '';
+      alert('Import završen.');
+    });
+
+    document.getElementById('foodName').addEventListener('change', async (e) => {
+      await applyFoodSelection(e.target.value);
+    });
+    document.getElementById('foodName').addEventListener('blur', async (e) => {
+      if(e.target.value) await applyFoodSelection(e.target.value);
+    });
+
+    (async function(){
+      await PHKZ.initCommon();
+      const today = new Date().toISOString().slice(0,10);
+      document.getElementById('entryDate').value = today;
+      document.getElementById('nutriPreview').innerHTML = PHKZ.renderNutriPreview(null);
+      await refreshAll();
+    })();
+  </script>
+</body>
+</html>

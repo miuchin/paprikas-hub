@@ -1,0 +1,9 @@
+{
+  "project_name": "Paprikas-hub",
+  "project_root": "/home/miuchins/Desktop/SINET/paprikas-ARCHIVE/paprikas-Hub",
+  "app_entry": "index.html",
+  "server_port": 8004,
+  "bridge_port": 8005,
+  "runtime_mode": "explicit",
+  "updated_utc": "2026-04-03T11:18:35.432415Z"
+}

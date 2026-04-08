@@ -1,0 +1,2 @@
+[SINET bridge] http://127.0.0.1:8003/api/health
+127.0.0.1 - - [28/Mar/2026 20:41:13] "POST /api/start_server HTTP/1.1" 200 -
