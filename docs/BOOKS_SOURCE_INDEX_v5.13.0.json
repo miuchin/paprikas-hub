@@ -1,0 +1,66 @@
+[
+  {
+    "file": "arobna-kuhinja-100-recepata-5_compress.pdf",
+    "title": "Čarobna kuhinja #5",
+    "pages": 90,
+    "extractable_text_first3_chars": 4344,
+    "pipeline": "layout-specific recipe parser",
+    "kind": "text-pdf"
+  },
+  {
+    "file": "kuhinja-naih-predaka-srednjovekovni-recepti-srbije_compress.pdf",
+    "title": "Srednjovekovni recepti Srbije",
+    "pages": 32,
+    "extractable_text_first3_chars": 2331,
+    "pipeline": "heritage pack / curated import",
+    "kind": "text-pdf"
+  },
+  {
+    "file": "jelovnik-pcos-insulinska-haimoto_compress.pdf",
+    "title": "PCOS + insulinska + Hashimoto jelovnik",
+    "pages": 17,
+    "extractable_text_first3_chars": 6426,
+    "pipeline": "bridge scoring presets / profile guidance",
+    "kind": "text-pdf"
+  },
+  {
+    "file": "glikemijski-indeks-tabela_compress.pdf",
+    "title": "GI tabela",
+    "pages": 4,
+    "extractable_text_first3_chars": 5236,
+    "pipeline": "nutrition atlas GI/GO layer",
+    "kind": "text-pdf"
+  },
+  {
+    "file": "kalorijska-tabela_compress.pdf",
+    "title": "Kalorijska tabela",
+    "pages": 6,
+    "extractable_text_first3_chars": 5102,
+    "pipeline": "nutrition atlas kcal/macro review layer",
+    "kind": "text-pdf"
+  },
+  {
+    "file": "nutritivne-tablice_compress.pdf",
+    "title": "Nutritivne tablice",
+    "pages": 39,
+    "extractable_text_first3_chars": 1703,
+    "pipeline": "nutrition atlas main coverage",
+    "kind": "text-pdf"
+  },
+  {
+    "file": "normativ-za-kuvare_compress.pdf",
+    "title": "Normativ za kuvare",
+    "pages": 48,
+    "extractable_text_first3_chars": 1543,
+    "pipeline": "quantity/norm parser",
+    "kind": "text-pdf"
+  },
+  {
+    "file": "kuvar_jna.pdf",
+    "title": "JNA kuvar",
+    "pages": 556,
+    "extractable_text_first3_chars": 0,
+    "pipeline": "ocr-first segmented cookbook pipeline",
+    "kind": "scan-heavy"
+  }
+]
