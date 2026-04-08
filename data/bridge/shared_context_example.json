@@ -1,0 +1,17 @@
+{
+  "active_profile": "pcos_ir_hashimoto",
+  "display_name": "Bridge primer",
+  "health_tags": [
+    "pcos_ir_hashimoto",
+    "low_gi"
+  ],
+  "symptoms": [
+    "insulinska-rezistencija",
+    "hashimoto"
+  ],
+  "preferences": [
+    "more_vegetables",
+    "less_sugar"
+  ],
+  "notes": "Primer Shared Context objekta za Bridge v1 test u Paprikas Hub-u."
+}

@@ -1,0 +1,100 @@
+[
+  {
+    "id": "vegetables",
+    "name": "Povrće",
+    "parent_id": null,
+    "sort_order": 10,
+    "color_tag": "green"
+  },
+  {
+    "id": "fruits",
+    "name": "Voće",
+    "parent_id": null,
+    "sort_order": 20,
+    "color_tag": "amber"
+  },
+  {
+    "id": "dairy",
+    "name": "Mlečno",
+    "parent_id": null,
+    "sort_order": 30,
+    "color_tag": "blue"
+  },
+  {
+    "id": "meat",
+    "name": "Meso",
+    "parent_id": null,
+    "sort_order": 40,
+    "color_tag": "red"
+  },
+  {
+    "id": "fish",
+    "name": "Riba",
+    "parent_id": null,
+    "sort_order": 50,
+    "color_tag": "cyan"
+  },
+  {
+    "id": "eggs",
+    "name": "Jaja",
+    "parent_id": null,
+    "sort_order": 60,
+    "color_tag": "yellow"
+  },
+  {
+    "id": "grains",
+    "name": "Žitarice i brašno",
+    "parent_id": null,
+    "sort_order": 70,
+    "color_tag": "gold"
+  },
+  {
+    "id": "pasta_rice",
+    "name": "Testenina i pirinač",
+    "parent_id": null,
+    "sort_order": 80,
+    "color_tag": "orange"
+  },
+  {
+    "id": "legumes",
+    "name": "Mahunarke",
+    "parent_id": null,
+    "sort_order": 90,
+    "color_tag": "brown"
+  },
+  {
+    "id": "bread_bakery",
+    "name": "Hleb i pekarski proizvodi",
+    "parent_id": null,
+    "sort_order": 100,
+    "color_tag": "beige"
+  },
+  {
+    "id": "spices",
+    "name": "Začini i dodaci",
+    "parent_id": null,
+    "sort_order": 110,
+    "color_tag": "purple"
+  },
+  {
+    "id": "cooked",
+    "name": "Gotova jela i ostaci",
+    "parent_id": null,
+    "sort_order": 120,
+    "color_tag": "rose"
+  },
+  {
+    "id": "frozen",
+    "name": "Zamrznuto",
+    "parent_id": null,
+    "sort_order": 130,
+    "color_tag": "slate"
+  },
+  {
+    "id": "other",
+    "name": "Ostalo",
+    "parent_id": null,
+    "sort_order": 999,
+    "color_tag": "gray"
+  }
+]

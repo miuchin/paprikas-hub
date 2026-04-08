@@ -1,0 +1,19 @@
+{
+  "module": "kucne-zalihe",
+  "module_version": "0.1.1",
+  "seed_version": "1.0.0",
+  "root": "paprikas-Hub/",
+  "description": "Početne seed matrice za Kućne zalihe / Iz frižidera modul.",
+  "files": [
+    "food_categories.seed.json",
+    "units.seed.json",
+    "default_locations.seed.json",
+    "food_items.seed.json",
+    "household_settings.seed.json"
+  ],
+  "notes": [
+    "Seed matrice se učitavaju samo ako je lokalni store prazan.",
+    "Korisnički podaci ostaju lokalni u IndexedDB sloju.",
+    "Kasnije se može dodati read-only bridge prema postojećem katalogu projekta."
+  ]
+}

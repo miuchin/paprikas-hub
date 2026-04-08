@@ -1,0 +1,123 @@
+[
+  {
+    "id": "loc-terrace-drawer-1",
+    "code": "terasa-fioka-1",
+    "name": "Terasa / fioka 1",
+    "parent_id": null,
+    "location_type": "storage",
+    "temperature_zone": "ambient",
+    "sort_order": 10,
+    "is_active": true,
+    "notes": "Podrazumevana početna lokacija"
+  },
+  {
+    "id": "loc-terrace-drawer-2",
+    "code": "terasa-fioka-2",
+    "name": "Terasa / fioka 2",
+    "parent_id": null,
+    "location_type": "storage",
+    "temperature_zone": "ambient",
+    "sort_order": 20,
+    "is_active": true,
+    "notes": "Podrazumevana početna lokacija"
+  },
+  {
+    "id": "loc-pantry-box",
+    "code": "spajz-kutija",
+    "name": "Špajz / kutija",
+    "parent_id": null,
+    "location_type": "pantry",
+    "temperature_zone": "ambient",
+    "sort_order": 30,
+    "is_active": true,
+    "notes": "Suvi proizvodi"
+  },
+  {
+    "id": "loc-pantry-shelf",
+    "code": "spajz-police",
+    "name": "Špajz / police",
+    "parent_id": null,
+    "location_type": "pantry",
+    "temperature_zone": "ambient",
+    "sort_order": 40,
+    "is_active": true,
+    "notes": "Police"
+  },
+  {
+    "id": "loc-fridge-top",
+    "code": "frizider-gornji-deo",
+    "name": "Frižider / gornji deo",
+    "parent_id": null,
+    "location_type": "fridge",
+    "temperature_zone": "cold",
+    "sort_order": 50,
+    "is_active": true,
+    "notes": ""
+  },
+  {
+    "id": "loc-fridge-drawer-veg",
+    "code": "frizider-fioka-povrce",
+    "name": "Frižider / fioka povrće",
+    "parent_id": null,
+    "location_type": "fridge",
+    "temperature_zone": "cold",
+    "sort_order": 60,
+    "is_active": true,
+    "notes": ""
+  },
+  {
+    "id": "loc-freezer-1",
+    "code": "zamrzivac-fioka-1",
+    "name": "Zamrzivač / fioka 1",
+    "parent_id": null,
+    "location_type": "freezer",
+    "temperature_zone": "frozen",
+    "sort_order": 70,
+    "is_active": true,
+    "notes": ""
+  },
+  {
+    "id": "loc-freezer-2",
+    "code": "zamrzivac-fioka-2",
+    "name": "Zamrzivač / fioka 2",
+    "parent_id": null,
+    "location_type": "freezer",
+    "temperature_zone": "frozen",
+    "sort_order": 80,
+    "is_active": true,
+    "notes": ""
+  },
+  {
+    "id": "loc-freezer-3",
+    "code": "zamrzivac-fioka-3",
+    "name": "Zamrzivač / fioka 3",
+    "parent_id": null,
+    "location_type": "freezer",
+    "temperature_zone": "frozen",
+    "sort_order": 90,
+    "is_active": true,
+    "notes": ""
+  },
+  {
+    "id": "loc-fruit-basket",
+    "code": "sto-korpa-voce",
+    "name": "Sto / korpa sa voćem",
+    "parent_id": null,
+    "location_type": "counter",
+    "temperature_zone": "ambient",
+    "sort_order": 100,
+    "is_active": true,
+    "notes": ""
+  },
+  {
+    "id": "loc-kitchen-daily",
+    "code": "kuhinja-dnevna-upotreba",
+    "name": "Kuhinja / dnevna upotreba",
+    "parent_id": null,
+    "location_type": "daily",
+    "temperature_zone": "ambient",
+    "sort_order": 110,
+    "is_active": true,
+    "notes": ""
+  }
+]

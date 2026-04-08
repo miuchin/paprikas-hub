@@ -1,0 +1,65 @@
+[
+  {
+    "id": "g",
+    "code": "g",
+    "name": "gram",
+    "kind": "weight",
+    "precision_digits": 0
+  },
+  {
+    "id": "kg",
+    "code": "kg",
+    "name": "kilogram",
+    "kind": "weight",
+    "precision_digits": 2
+  },
+  {
+    "id": "ml",
+    "code": "ml",
+    "name": "mililitar",
+    "kind": "volume",
+    "precision_digits": 0
+  },
+  {
+    "id": "l",
+    "code": "l",
+    "name": "litar",
+    "kind": "volume",
+    "precision_digits": 2
+  },
+  {
+    "id": "pcs",
+    "code": "kom",
+    "name": "komad",
+    "kind": "count",
+    "precision_digits": 0
+  },
+  {
+    "id": "pack",
+    "code": "pak",
+    "name": "pakovanje",
+    "kind": "count",
+    "precision_digits": 0
+  },
+  {
+    "id": "jar",
+    "code": "tegla",
+    "name": "tegla",
+    "kind": "count",
+    "precision_digits": 0
+  },
+  {
+    "id": "bottle",
+    "code": "flaša",
+    "name": "flaša",
+    "kind": "count",
+    "precision_digits": 0
+  },
+  {
+    "id": "portion",
+    "code": "por",
+    "name": "porcija",
+    "kind": "count",
+    "precision_digits": 0
+  }
+]

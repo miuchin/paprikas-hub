@@ -1,0 +1,30 @@
+{
+  "id": "household-default",
+  "default_fifo_mode": true,
+  "default_fefo_mode": true,
+  "use_leftovers_first": true,
+  "shopping_rounding_rules": {
+    "count_rounding": "whole",
+    "weight_rounding": "0.1",
+    "volume_rounding": "0.1"
+  },
+  "default_household_locations": [
+    "loc-terrace-drawer-1",
+    "loc-terrace-drawer-2",
+    "loc-pantry-box",
+    "loc-pantry-shelf",
+    "loc-fridge-top",
+    "loc-fridge-drawer-veg",
+    "loc-freezer-1",
+    "loc-freezer-2",
+    "loc-freezer-3",
+    "loc-fruit-basket",
+    "loc-kitchen-daily"
+  ],
+  "ui_preferences": {
+    "compact_tables": false,
+    "show_debug": false,
+    "start_page": "kucne-zalihe"
+  },
+  "updated_at": "2026-03-27T00:00:00Z"
+}

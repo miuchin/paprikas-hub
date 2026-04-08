@@ -1,0 +1,78 @@
+{
+  "neutral": {
+    "prefer": [],
+    "caution": [],
+    "avoid": []
+  },
+  "pcos_ir_hashimoto": {
+    "label": "PCOS / insulinska / Hashimoto",
+    "prefer": [
+      "food.jaja",
+      "food.riba",
+      "food.piletina",
+      "food.curetina",
+      "food.povrce-zeleno",
+      "food.brokoli",
+      "food.karfiol",
+      "food.tikvice",
+      "food.spanac",
+      "food.maslinovo-ulje",
+      "food.mahunarke"
+    ],
+    "caution": [
+      "food.brasno-belo",
+      "food.pirinač-beli",
+      "food.krompir",
+      "food.kukuruz",
+      "food.sir-mladji"
+    ],
+    "avoid": [
+      "food.secer",
+      "food.beli-hleb",
+      "food.slatkis",
+      "food.sok-zasladjen"
+    ]
+  },
+  "low_gi": {
+    "label": "Niži GI fokus",
+    "prefer": [
+      "food.mahunarke",
+      "food.povrce-zeleno",
+      "food.brokoli",
+      "food.karfiol",
+      "food.zob",
+      "food.heljda"
+    ],
+    "caution": [
+      "food.pirinač-beli",
+      "food.krompir",
+      "food.kukuruz"
+    ],
+    "avoid": [
+      "food.secer",
+      "food.beli-hleb",
+      "food.slatkis"
+    ]
+  },
+  "posno": {
+    "label": "Posno / biljni fokus",
+    "prefer": [
+      "food.mahunarke",
+      "food.povrce-zeleno",
+      "food.pirinac",
+      "food.pecurke"
+    ],
+    "caution": [
+      "food.sir-mladji",
+      "food.mleko",
+      "food.jaja"
+    ],
+    "avoid": [
+      "food.svinjetina",
+      "food.junetina",
+      "food.piletina",
+      "food.curetina",
+      "food.riba"
+    ]
+  }
+}

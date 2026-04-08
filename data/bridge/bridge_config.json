@@ -1,0 +1,17 @@
+{
+  "bridge_enabled": true,
+  "bridge_mode": "ranked-recommendations",
+  "shared_context_sources": [
+    "window.SINET_SHARED_CONTEXT",
+    "localStorage.PaprikasHubSharedContextV1",
+    "data/bridge/shared_context_example.json"
+  ],
+  "default_profile": "neutral",
+  "ui": {
+    "show_profile_bar": true,
+    "show_health_chips": true,
+    "show_score_badge": true,
+    "show_why_panel": true,
+    "show_better_only_toggle": true
+  }
+}
